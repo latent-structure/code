@@ -1,0 +1,38 @@
+human:
+  sensory_behavioral:
+    name: THINGS behavioral similarity
+    type: human_behavioral
+    matrix_path: THINGS-behavior/osfstorage/data/spose_similarity.mat
+    ordering_path: THINGS-behavior/osfstorage/variables/unique_id.txt
+    required_for_core: true
+  lancaster_sensorimotor:
+    name: Lancaster Sensorimotor Norms
+    type: human_lexical
+    matrix_path: Lancaster_sensorimotor.csv
+    ordering_path: ""
+    required_for_core: false
+  abstract_simlex:
+    name: SimLex-999
+    type: human_lexical
+    matrix_path: data/anchors/simlex999/SimLex-999.txt
+    ordering_path: ""
+    required_for_core: false
+
+pure_vision:
+  dinov2:
+    name: DINOv2
+    type: pure_vision
+    model_id: facebook/dinov2-large
+    required_for_core: true
+
+vision_language:
+  siglip2:
+    name: SigLIP2
+    type: vision_language
+    model_id: google/siglip2-so400m-patch16-384
+    required_for_core: true
+  clip:
+    name: CLIP ViT-L/14
+    type: vision_language
+    model_id: openai/clip-vit-large-patch14
+    required_for_core: false

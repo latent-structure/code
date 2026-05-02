@@ -1,0 +1,1269 @@
+model,condition,layer,domain,anchor_name,anchor_type,rsa_score,bootstrap_id,ci_low,ci_high
+Qwen/Qwen3.5-9B,T_neutral,0,sensory,THINGS behavioral similarity,human_behavioral,0.19868450249575473,aggregate,0.12039214733745368,0.2749902717112645
+Qwen/Qwen3.5-9B,T_neutral,0,sensory,DINOv2,pure_vision,0.1745436087541351,aggregate,0.09419641915769743,0.2479901124274407
+Qwen/Qwen3.5-9B,T_neutral,0,sensory,CLIP ViT-L/14,vision_language,0.06036642549800445,aggregate,-0.01166301595887926,0.1398004368826166
+Qwen/Qwen3.5-9B,T_neutral,0,sensory,SigLIP2,vision_language,0.14225386593807648,aggregate,0.07274003132979628,0.211634914013365
+Qwen/Qwen3.5-9B,T_neutral,1,sensory,THINGS behavioral similarity,human_behavioral,0.1951296857159715,aggregate,0.12342404068963257,0.2625948188434047
+Qwen/Qwen3.5-9B,T_neutral,1,sensory,DINOv2,pure_vision,0.16799536700852494,aggregate,0.09612184748148653,0.24300433090757526
+Qwen/Qwen3.5-9B,T_neutral,1,sensory,CLIP ViT-L/14,vision_language,0.0884387562019141,aggregate,0.016254758518124583,0.1621083511616338
+Qwen/Qwen3.5-9B,T_neutral,1,sensory,SigLIP2,vision_language,0.06598303308829626,aggregate,-0.010051779327841449,0.13810578900730913
+Qwen/Qwen3.5-9B,T_neutral,2,sensory,THINGS behavioral similarity,human_behavioral,0.17135141025301207,aggregate,0.09426312456635422,0.2448699531859291
+Qwen/Qwen3.5-9B,T_neutral,2,sensory,DINOv2,pure_vision,0.16144301506143613,aggregate,0.08757539292822226,0.23434385985171402
+Qwen/Qwen3.5-9B,T_neutral,2,sensory,CLIP ViT-L/14,vision_language,0.02502242304873884,aggregate,-0.05027130425449678,0.10558673002307464
+Qwen/Qwen3.5-9B,T_neutral,2,sensory,SigLIP2,vision_language,0.12690502657607922,aggregate,0.057176952925391475,0.1973717075604561
+Qwen/Qwen3.5-9B,T_neutral,3,sensory,THINGS behavioral similarity,human_behavioral,0.14400775633317256,aggregate,0.06307297110876788,0.21777666255017963
+Qwen/Qwen3.5-9B,T_neutral,3,sensory,DINOv2,pure_vision,0.21251012698381122,aggregate,0.1431540145943924,0.28324098332110287
+Qwen/Qwen3.5-9B,T_neutral,3,sensory,CLIP ViT-L/14,vision_language,0.11185516119726648,aggregate,0.04156271614457085,0.18601202153713806
+Qwen/Qwen3.5-9B,T_neutral,3,sensory,SigLIP2,vision_language,0.2015639005770585,aggregate,0.13176225311571035,0.27024588818987844
+Qwen/Qwen3.5-9B,T_neutral,4,sensory,THINGS behavioral similarity,human_behavioral,0.17207651000754445,aggregate,0.09819437100578823,0.2470766964567388
+Qwen/Qwen3.5-9B,T_neutral,4,sensory,DINOv2,pure_vision,0.1929996222759381,aggregate,0.11489803550338924,0.27324187454481874
+Qwen/Qwen3.5-9B,T_neutral,4,sensory,CLIP ViT-L/14,vision_language,0.053240303240303245,aggregate,-0.014819148641245065,0.13153039131307212
+Qwen/Qwen3.5-9B,T_neutral,4,sensory,SigLIP2,vision_language,0.20499584973269186,aggregate,0.13259839758397693,0.27414928238336644
+Qwen/Qwen3.5-9B,T_neutral,5,sensory,THINGS behavioral similarity,human_behavioral,0.19635723694746812,aggregate,0.11894672071620091,0.27408091948904606
+Qwen/Qwen3.5-9B,T_neutral,5,sensory,DINOv2,pure_vision,0.21147870818923453,aggregate,0.1374573974845184,0.27860327337979124
+Qwen/Qwen3.5-9B,T_neutral,5,sensory,CLIP ViT-L/14,vision_language,0.03214854530644005,aggregate,-0.03925827126736345,0.1096953415143953
+Qwen/Qwen3.5-9B,T_neutral,5,sensory,SigLIP2,vision_language,0.20286742161742163,aggregate,0.13629399618659876,0.27491871777397187
+Qwen/Qwen3.5-9B,T_neutral,6,sensory,THINGS behavioral similarity,human_behavioral,0.22762276654804073,aggregate,0.15671150706175613,0.29619717298927756
+Qwen/Qwen3.5-9B,T_neutral,6,sensory,DINOv2,pure_vision,0.23492329742329746,aggregate,0.1634936444808646,0.3083040707994744
+Qwen/Qwen3.5-9B,T_neutral,6,sensory,CLIP ViT-L/14,vision_language,0.11807227267753585,aggregate,0.043118803680594155,0.18866298489463734
+Qwen/Qwen3.5-9B,T_neutral,6,sensory,SigLIP2,vision_language,0.21032322348111823,aggregate,0.13743829388587508,0.28013411668699956
+Qwen/Qwen3.5-9B,T_neutral,7,sensory,THINGS behavioral similarity,human_behavioral,0.2484297578908168,aggregate,0.1820383371413907,0.3171165841671568
+Qwen/Qwen3.5-9B,T_neutral,7,sensory,DINOv2,pure_vision,0.23081475384106967,aggregate,0.15916097946122676,0.3016747360084745
+Qwen/Qwen3.5-9B,T_neutral,7,sensory,CLIP ViT-L/14,vision_language,0.09815585966901758,aggregate,0.0269860168830513,0.17315385079057677
+Qwen/Qwen3.5-9B,T_neutral,7,sensory,SigLIP2,vision_language,0.21214045062729275,aggregate,0.13930690582059302,0.2795939099498121
+Qwen/Qwen3.5-9B,T_neutral,8,sensory,THINGS behavioral similarity,human_behavioral,0.2527617922394218,aggregate,0.1806550747273156,0.32541375691300195
+Qwen/Qwen3.5-9B,T_neutral,8,sensory,DINOv2,pure_vision,0.23307111629480054,aggregate,0.15843430565197597,0.30204268527957434
+Qwen/Qwen3.5-9B,T_neutral,8,sensory,CLIP ViT-L/14,vision_language,0.11563699557120612,aggregate,0.03907974060025377,0.18805021150671164
+Qwen/Qwen3.5-9B,T_neutral,8,sensory,SigLIP2,vision_language,0.22966576256049942,aggregate,0.1600717724491538,0.301212072401291
+Qwen/Qwen3.5-9B,T_neutral,9,sensory,THINGS behavioral similarity,human_behavioral,0.25473540409230455,aggregate,0.1812931091890164,0.3233176853075629
+Qwen/Qwen3.5-9B,T_neutral,9,sensory,DINOv2,pure_vision,0.2311798709825026,aggregate,0.16036907013610344,0.30150463681885437
+Qwen/Qwen3.5-9B,T_neutral,9,sensory,CLIP ViT-L/14,vision_language,0.12635277437909018,aggregate,0.05128852322893961,0.19841559016343446
+Qwen/Qwen3.5-9B,T_neutral,9,sensory,SigLIP2,vision_language,0.23439587913272128,aggregate,0.16589218241999498,0.30124766502407646
+Qwen/Qwen3.5-9B,T_neutral,10,sensory,THINGS behavioral similarity,human_behavioral,0.26442822076058087,aggregate,0.1928227876258825,0.33169922742546637
+Qwen/Qwen3.5-9B,T_neutral,10,sensory,DINOv2,pure_vision,0.23797900771584984,aggregate,0.17127525964448023,0.3054646678307067
+Qwen/Qwen3.5-9B,T_neutral,10,sensory,CLIP ViT-L/14,vision_language,0.12579945145734622,aggregate,0.0513404839705956,0.1956850344424628
+Qwen/Qwen3.5-9B,T_neutral,10,sensory,SigLIP2,vision_language,0.24306874964769704,aggregate,0.17263293849772082,0.3088141144518659
+Qwen/Qwen3.5-9B,T_neutral,11,sensory,THINGS behavioral similarity,human_behavioral,0.2604975707634904,aggregate,0.18956074840176942,0.32860429736444013
+Qwen/Qwen3.5-9B,T_neutral,11,sensory,DINOv2,pure_vision,0.2311573166836325,aggregate,0.15508438903004904,0.29894842855288956
+Qwen/Qwen3.5-9B,T_neutral,11,sensory,CLIP ViT-L/14,vision_language,0.0947962707831129,aggregate,0.020743158554240745,0.16826995936470174
+Qwen/Qwen3.5-9B,T_neutral,11,sensory,SigLIP2,vision_language,0.23666685179843078,aggregate,0.1669127090061803,0.30353701052742366
+Qwen/Qwen3.5-9B,T_neutral,12,sensory,THINGS behavioral similarity,human_behavioral,0.2527154833475357,aggregate,0.17471241242355967,0.3193648878819858
+Qwen/Qwen3.5-9B,T_neutral,12,sensory,DINOv2,pure_vision,0.22431010095483783,aggregate,0.1453467785036042,0.296893788614407
+Qwen/Qwen3.5-9B,T_neutral,12,sensory,CLIP ViT-L/14,vision_language,0.09841428426954744,aggregate,0.027070096502301234,0.1766854611575452
+Qwen/Qwen3.5-9B,T_neutral,12,sensory,SigLIP2,vision_language,0.22808371492582022,aggregate,0.15467438242390788,0.2925230808825667
+Qwen/Qwen3.5-9B,T_neutral,13,sensory,THINGS behavioral similarity,human_behavioral,0.24800538158069915,aggregate,0.17571676222329757,0.3229634471846803
+Qwen/Qwen3.5-9B,T_neutral,13,sensory,DINOv2,pure_vision,0.2199208893287841,aggregate,0.1396263954240182,0.29399013238307214
+Qwen/Qwen3.5-9B,T_neutral,13,sensory,CLIP ViT-L/14,vision_language,0.10798538923538925,aggregate,0.037763994664357245,0.17726273868364864
+Qwen/Qwen3.5-9B,T_neutral,13,sensory,SigLIP2,vision_language,0.2265518877360983,aggregate,0.1558485358630864,0.2945116279132712
+Qwen/Qwen3.5-9B,T_neutral,14,sensory,THINGS behavioral similarity,human_behavioral,0.2532727336798985,aggregate,0.17907976529528663,0.326720876133803
+Qwen/Qwen3.5-9B,T_neutral,14,sensory,DINOv2,pure_vision,0.2191572553414659,aggregate,0.14360375665474978,0.2895242914056513
+Qwen/Qwen3.5-9B,T_neutral,14,sensory,CLIP ViT-L/14,vision_language,0.10930859779543992,aggregate,0.039892331399422984,0.17984964267468567
+Qwen/Qwen3.5-9B,T_neutral,14,sensory,SigLIP2,vision_language,0.2203225492699177,aggregate,0.15092636315855748,0.2822612067561134
+Qwen/Qwen3.5-9B,T_neutral,15,sensory,THINGS behavioral similarity,human_behavioral,0.2527851497945398,aggregate,0.17419080449565785,0.32136639881755613
+Qwen/Qwen3.5-9B,T_neutral,15,sensory,DINOv2,pure_vision,0.21875645888803785,aggregate,0.1491691284811086,0.29106799283727536
+Qwen/Qwen3.5-9B,T_neutral,15,sensory,CLIP ViT-L/14,vision_language,0.11348632401263982,aggregate,0.028791483260930516,0.19478852513824996
+Qwen/Qwen3.5-9B,T_neutral,15,sensory,SigLIP2,vision_language,0.2258162307504413,aggregate,0.1570842700101605,0.29406197396124106
+Qwen/Qwen3.5-9B,T_neutral,16,sensory,THINGS behavioral similarity,human_behavioral,0.25604326469157207,aggregate,0.17852781605960388,0.32498493255950617
+Qwen/Qwen3.5-9B,T_neutral,16,sensory,DINOv2,pure_vision,0.22320673636463112,aggregate,0.14908109126617763,0.2929069373965447
+Qwen/Qwen3.5-9B,T_neutral,16,sensory,CLIP ViT-L/14,vision_language,0.11745021613442667,aggregate,0.0393411930105006,0.18844491174808128
+Qwen/Qwen3.5-9B,T_neutral,16,sensory,SigLIP2,vision_language,0.22445679024626397,aggregate,0.15567156122599973,0.29338004974577836
+Qwen/Qwen3.5-9B,T_neutral,17,sensory,THINGS behavioral similarity,human_behavioral,0.26390306167785843,aggregate,0.18936218926475018,0.33121328571409775
+Qwen/Qwen3.5-9B,T_neutral,17,sensory,DINOv2,pure_vision,0.23248822755401705,aggregate,0.16278637635058585,0.3040190034102155
+Qwen/Qwen3.5-9B,T_neutral,17,sensory,CLIP ViT-L/14,vision_language,0.12579237085816034,aggregate,0.05384973596273458,0.19913427824169685
+Qwen/Qwen3.5-9B,T_neutral,17,sensory,SigLIP2,vision_language,0.22684951467846207,aggregate,0.157946407771699,0.29788392774586764
+Qwen/Qwen3.5-9B,T_neutral,18,sensory,THINGS behavioral similarity,human_behavioral,0.2650345828914439,aggregate,0.1894710266244011,0.331470525881559
+Qwen/Qwen3.5-9B,T_neutral,18,sensory,DINOv2,pure_vision,0.23120591377170327,aggregate,0.1609987611153967,0.3046054801797377
+Qwen/Qwen3.5-9B,T_neutral,18,sensory,CLIP ViT-L/14,vision_language,0.12294448478659006,aggregate,0.04657292483938498,0.19877064065104166
+Qwen/Qwen3.5-9B,T_neutral,18,sensory,SigLIP2,vision_language,0.22766716845664217,aggregate,0.15836768215811597,0.2985748633654556
+Qwen/Qwen3.5-9B,T_neutral,19,sensory,THINGS behavioral similarity,human_behavioral,0.28447387767201543,aggregate,0.20951873370538077,0.3540399258280552
+Qwen/Qwen3.5-9B,T_neutral,19,sensory,DINOv2,pure_vision,0.24167932885038151,aggregate,0.16755657162154194,0.31252618379339875
+Qwen/Qwen3.5-9B,T_neutral,19,sensory,CLIP ViT-L/14,vision_language,0.11740151542783123,aggregate,0.038517525991043806,0.19196123131939674
+Qwen/Qwen3.5-9B,T_neutral,19,sensory,SigLIP2,vision_language,0.24012795229900497,aggregate,0.16913876432613434,0.31007503636100775
+Qwen/Qwen3.5-9B,T_neutral,20,sensory,THINGS behavioral similarity,human_behavioral,0.3191034639152685,aggregate,0.2472880718549806,0.38951775140537814
+Qwen/Qwen3.5-9B,T_neutral,20,sensory,DINOv2,pure_vision,0.2692565011643959,aggregate,0.19820771710857554,0.3379030169998932
+Qwen/Qwen3.5-9B,T_neutral,20,sensory,CLIP ViT-L/14,vision_language,0.10748584432794961,aggregate,0.031174350007499803,0.18892574391157663
+Qwen/Qwen3.5-9B,T_neutral,20,sensory,SigLIP2,vision_language,0.25916108646371805,aggregate,0.1911659863945324,0.32151377306701795
+Qwen/Qwen3.5-9B,T_neutral,21,sensory,THINGS behavioral similarity,human_behavioral,0.2934244927932294,aggregate,0.22122713476315578,0.3589388859664743
+Qwen/Qwen3.5-9B,T_neutral,21,sensory,DINOv2,pure_vision,0.2641102180575865,aggregate,0.18998711778918384,0.3324869359749509
+Qwen/Qwen3.5-9B,T_neutral,21,sensory,CLIP ViT-L/14,vision_language,0.12863065494644443,aggregate,0.050312897069661196,0.20151776478289601
+Qwen/Qwen3.5-9B,T_neutral,21,sensory,SigLIP2,vision_language,0.2811392663366348,aggregate,0.20968088651919278,0.34195959348287924
+Qwen/Qwen3.5-9B,T_neutral,22,sensory,THINGS behavioral similarity,human_behavioral,0.23532824118320841,aggregate,0.16543435299777234,0.30076168757305904
+Qwen/Qwen3.5-9B,T_neutral,22,sensory,DINOv2,pure_vision,0.18604902979902982,aggregate,0.11947264642491545,0.259766573331144
+Qwen/Qwen3.5-9B,T_neutral,22,sensory,CLIP ViT-L/14,vision_language,0.10086800547326864,aggregate,0.028844379497514096,0.1775938538836321
+Qwen/Qwen3.5-9B,T_neutral,22,sensory,SigLIP2,vision_language,0.18344640877535617,aggregate,0.111560475589857,0.2572599168214055
+Qwen/Qwen3.5-9B,T_neutral,23,sensory,THINGS behavioral similarity,human_behavioral,0.24536886200265035,aggregate,0.1750616648825436,0.3182679502644523
+Qwen/Qwen3.5-9B,T_neutral,23,sensory,DINOv2,pure_vision,0.21691139289823502,aggregate,0.14546253081235455,0.28362011298457784
+Qwen/Qwen3.5-9B,T_neutral,23,sensory,CLIP ViT-L/14,vision_language,0.13709497591076542,aggregate,0.06937968925583765,0.20888637013975925
+Qwen/Qwen3.5-9B,T_neutral,23,sensory,SigLIP2,vision_language,0.1832392408050303,aggregate,0.10921489538459442,0.25588985131862907
+Qwen/Qwen3.5-9B,T_neutral,24,sensory,THINGS behavioral similarity,human_behavioral,0.23973985370655454,aggregate,0.16859951475265114,0.30884163972707473
+Qwen/Qwen3.5-9B,T_neutral,24,sensory,DINOv2,pure_vision,0.21898127654706606,aggregate,0.1429116737395814,0.2931959705846879
+Qwen/Qwen3.5-9B,T_neutral,24,sensory,CLIP ViT-L/14,vision_language,0.14330894429578642,aggregate,0.06887981712186753,0.2176493822469694
+Qwen/Qwen3.5-9B,T_neutral,24,sensory,SigLIP2,vision_language,0.22072179144547568,aggregate,0.1488347269519209,0.29086085465806377
+Qwen/Qwen3.5-9B,T_neutral,25,sensory,THINGS behavioral similarity,human_behavioral,0.25877585490936705,aggregate,0.18935588537352088,0.33024550612238707
+Qwen/Qwen3.5-9B,T_neutral,25,sensory,DINOv2,pure_vision,0.23092604013656648,aggregate,0.16336902964101666,0.30262851515161954
+Qwen/Qwen3.5-9B,T_neutral,25,sensory,CLIP ViT-L/14,vision_language,0.14948122349438142,aggregate,0.07551204181890608,0.22465448419447576
+Qwen/Qwen3.5-9B,T_neutral,25,sensory,SigLIP2,vision_language,0.21417517305675204,aggregate,0.13819391169558373,0.2825724240013706
+Qwen/Qwen3.5-9B,T_neutral,26,sensory,THINGS behavioral similarity,human_behavioral,0.26576463850984483,aggregate,0.1934677741916422,0.3362294754234194
+Qwen/Qwen3.5-9B,T_neutral,26,sensory,DINOv2,pure_vision,0.22899348557243296,aggregate,0.15715930353089433,0.30214644250246914
+Qwen/Qwen3.5-9B,T_neutral,26,sensory,CLIP ViT-L/14,vision_language,0.13949056712214608,aggregate,0.059735629558052186,0.2139790781328342
+Qwen/Qwen3.5-9B,T_neutral,26,sensory,SigLIP2,vision_language,0.21413866479655957,aggregate,0.1417311491997062,0.28555106395877317
+Qwen/Qwen3.5-9B,T_neutral,27,sensory,THINGS behavioral similarity,human_behavioral,0.27093998215279674,aggregate,0.20003083896333035,0.33876382098783003
+Qwen/Qwen3.5-9B,T_neutral,27,sensory,DINOv2,pure_vision,0.2177507029480714,aggregate,0.14623951250376171,0.2900164324765463
+Qwen/Qwen3.5-9B,T_neutral,27,sensory,CLIP ViT-L/14,vision_language,0.09756506138085087,aggregate,0.019672822895604278,0.17244499746318354
+Qwen/Qwen3.5-9B,T_neutral,27,sensory,SigLIP2,vision_language,0.2087901874086085,aggregate,0.1320247600353362,0.279866628721706
+Qwen/Qwen3.5-9B,T_neutral,28,sensory,THINGS behavioral similarity,human_behavioral,0.26157681167544655,aggregate,0.1916720417629899,0.33349039672149056
+Qwen/Qwen3.5-9B,T_neutral,28,sensory,DINOv2,pure_vision,0.20832241884873468,aggregate,0.13497772035203848,0.2804957312174746
+Qwen/Qwen3.5-9B,T_neutral,28,sensory,CLIP ViT-L/14,vision_language,0.11764940547835286,aggregate,0.045241105297522566,0.19215124610971163
+Qwen/Qwen3.5-9B,T_neutral,28,sensory,SigLIP2,vision_language,0.22815952914637128,aggregate,0.15934710904610516,0.29375359563785164
+Qwen/Qwen3.5-9B,T_neutral,29,sensory,THINGS behavioral similarity,human_behavioral,0.27401741112780326,aggregate,0.20022939744552765,0.3440648743087228
+Qwen/Qwen3.5-9B,T_neutral,29,sensory,DINOv2,pure_vision,0.233017925452136,aggregate,0.16007234587184427,0.300812395246843
+Qwen/Qwen3.5-9B,T_neutral,29,sensory,CLIP ViT-L/14,vision_language,0.11339054595633545,aggregate,0.042613589491179965,0.18443400369086996
+Qwen/Qwen3.5-9B,T_neutral,29,sensory,SigLIP2,vision_language,0.2264560751402857,aggregate,0.15487068236255064,0.2924142969010161
+Qwen/Qwen3.5-9B,T_neutral,30,sensory,THINGS behavioral similarity,human_behavioral,0.29127080434584574,aggregate,0.21947352315569665,0.3643609850776134
+Qwen/Qwen3.5-9B,T_neutral,30,sensory,DINOv2,pure_vision,0.2516603141603142,aggregate,0.17725058892318948,0.3180051370681833
+Qwen/Qwen3.5-9B,T_neutral,30,sensory,CLIP ViT-L/14,vision_language,0.1311476525292315,aggregate,0.054741616289333266,0.20258836377564
+Qwen/Qwen3.5-9B,T_neutral,30,sensory,SigLIP2,vision_language,0.21653795173532017,aggregate,0.14411918809945862,0.28446545051054056
+Qwen/Qwen3.5-9B,T_neutral,31,sensory,THINGS behavioral similarity,human_behavioral,0.30893691540736434,aggregate,0.24256775550451418,0.37449001925238384
+Qwen/Qwen3.5-9B,T_neutral,31,sensory,DINOv2,pure_vision,0.268296682770367,aggregate,0.19364589645441124,0.33739858976818937
+Qwen/Qwen3.5-9B,T_neutral,31,sensory,CLIP ViT-L/14,vision_language,0.14279534180849973,aggregate,0.06900343815552404,0.21114870713378522
+Qwen/Qwen3.5-9B,T_neutral,31,sensory,SigLIP2,vision_language,0.2173971565418934,aggregate,0.1491757759291607,0.28869766052619644
+Qwen/Qwen3.5-9B,T_neutral,32,sensory,THINGS behavioral similarity,human_behavioral,0.3286669812827786,aggregate,0.25393961844960644,0.3963765305652185
+Qwen/Qwen3.5-9B,T_neutral,32,sensory,DINOv2,pure_vision,0.3073390030626873,aggregate,0.23567927328959878,0.3767277876104449
+Qwen/Qwen3.5-9B,T_neutral,32,sensory,CLIP ViT-L/14,vision_language,0.17288640314956108,aggregate,0.09937010719771136,0.2462790856962766
+Qwen/Qwen3.5-9B,T_neutral,32,sensory,SigLIP2,vision_language,0.24413864545443495,aggregate,0.16984098941990924,0.3087513388889283
+Qwen/Qwen3.5-9B,T_prompt_primary,0,sensory,THINGS behavioral similarity,human_behavioral,0.20643608291363358,aggregate,0.13234920717900617,0.28764268271738336
+Qwen/Qwen3.5-9B,T_prompt_primary,0,sensory,DINOv2,pure_vision,0.18095652470652474,aggregate,0.10335687931448706,0.25554795774150824
+Qwen/Qwen3.5-9B,T_prompt_primary,0,sensory,CLIP ViT-L/14,vision_language,0.06554255073991917,aggregate,-0.003867921929581288,0.13448410797375338
+Qwen/Qwen3.5-9B,T_prompt_primary,0,sensory,SigLIP2,vision_language,0.1680062469536154,aggregate,0.09688058621825887,0.2417944386408088
+Qwen/Qwen3.5-9B,T_prompt_primary,1,sensory,THINGS behavioral similarity,human_behavioral,0.20847684265975117,aggregate,0.13394685742110207,0.2793324720516135
+Qwen/Qwen3.5-9B,T_prompt_primary,1,sensory,DINOv2,pure_vision,0.19168532490900914,aggregate,0.11894744430568135,0.2637867712594348
+Qwen/Qwen3.5-9B,T_prompt_primary,1,sensory,CLIP ViT-L/14,vision_language,0.08992198630356527,aggregate,0.015149242792387854,0.1587389740984913
+Qwen/Qwen3.5-9B,T_prompt_primary,1,sensory,SigLIP2,vision_language,0.08595122081964188,aggregate,0.010112334839524782,0.15852308048111868
+Qwen/Qwen3.5-9B,T_prompt_primary,2,sensory,THINGS behavioral similarity,human_behavioral,0.2340269613212089,aggregate,0.1612702606131068,0.3038378671414072
+Qwen/Qwen3.5-9B,T_prompt_primary,2,sensory,DINOv2,pure_vision,0.2161878938194728,aggregate,0.13923270481423156,0.28520988392789726
+Qwen/Qwen3.5-9B,T_prompt_primary,2,sensory,CLIP ViT-L/14,vision_language,0.03803912027596239,aggregate,-0.03908022814650594,0.11989798579130678
+Qwen/Qwen3.5-9B,T_prompt_primary,2,sensory,SigLIP2,vision_language,0.14059078861710442,aggregate,0.07244710907390199,0.21237372634323623
+Qwen/Qwen3.5-9B,T_prompt_primary,3,sensory,THINGS behavioral similarity,human_behavioral,0.2436365032277602,aggregate,0.16838493977552185,0.31227356953455565
+Qwen/Qwen3.5-9B,T_prompt_primary,3,sensory,DINOv2,pure_vision,0.3095265628160365,aggregate,0.23892761416826983,0.37282520395678526
+Qwen/Qwen3.5-9B,T_prompt_primary,3,sensory,CLIP ViT-L/14,vision_language,0.13793487313224156,aggregate,0.06241139475727126,0.21258204751247453
+Qwen/Qwen3.5-9B,T_prompt_primary,3,sensory,SigLIP2,vision_language,0.2041314985393933,aggregate,0.12932612904081,0.2719253496822402
+Qwen/Qwen3.5-9B,T_prompt_primary,4,sensory,THINGS behavioral similarity,human_behavioral,0.28464193020336,aggregate,0.2101407717414649,0.3574036323737095
+Qwen/Qwen3.5-9B,T_prompt_primary,4,sensory,DINOv2,pure_vision,0.28921767737557214,aggregate,0.21296865843869137,0.3578630538700756
+Qwen/Qwen3.5-9B,T_prompt_primary,4,sensory,CLIP ViT-L/14,vision_language,0.08026674309569047,aggregate,0.009241446596742172,0.1540600248833265
+Qwen/Qwen3.5-9B,T_prompt_primary,4,sensory,SigLIP2,vision_language,0.21449231482126221,aggregate,0.14553544964154919,0.28655430981521374
+Qwen/Qwen3.5-9B,T_prompt_primary,5,sensory,THINGS behavioral similarity,human_behavioral,0.3233309782824499,aggregate,0.25341270272638616,0.38894059783668444
+Qwen/Qwen3.5-9B,T_prompt_primary,5,sensory,DINOv2,pure_vision,0.3173177087650772,aggregate,0.24424451064843203,0.3899028117288513
+Qwen/Qwen3.5-9B,T_prompt_primary,5,sensory,CLIP ViT-L/14,vision_language,0.053188010424852536,aggregate,-0.026205648844483426,0.12599265797173445
+Qwen/Qwen3.5-9B,T_prompt_primary,5,sensory,SigLIP2,vision_language,0.23785235133919347,aggregate,0.1730420619873152,0.304070566615539
+Qwen/Qwen3.5-9B,T_prompt_primary,6,sensory,THINGS behavioral similarity,human_behavioral,0.36526835139633995,aggregate,0.30135180944716533,0.42997295825158866
+Qwen/Qwen3.5-9B,T_prompt_primary,6,sensory,DINOv2,pure_vision,0.34189726623937156,aggregate,0.2754582829936932,0.4123221650497178
+Qwen/Qwen3.5-9B,T_prompt_primary,6,sensory,CLIP ViT-L/14,vision_language,0.08545081242449665,aggregate,0.011762433304378454,0.16034723982580867
+Qwen/Qwen3.5-9B,T_prompt_primary,6,sensory,SigLIP2,vision_language,0.2952344942476522,aggregate,0.23095796572571006,0.35866906936764603
+Qwen/Qwen3.5-9B,T_prompt_primary,7,sensory,THINGS behavioral similarity,human_behavioral,0.4251753619227776,aggregate,0.3671304365495157,0.48176894736575426
+Qwen/Qwen3.5-9B,T_prompt_primary,7,sensory,DINOv2,pure_vision,0.34640657173551914,aggregate,0.27655276449863325,0.4134425146168905
+Qwen/Qwen3.5-9B,T_prompt_primary,7,sensory,CLIP ViT-L/14,vision_language,0.06283451513714672,aggregate,-0.010867437357032519,0.13440479897234625
+Qwen/Qwen3.5-9B,T_prompt_primary,7,sensory,SigLIP2,vision_language,0.3384761279498122,aggregate,0.27018572047583705,0.40766215149483365
+Qwen/Qwen3.5-9B,T_prompt_primary,8,sensory,THINGS behavioral similarity,human_behavioral,0.45540645649538564,aggregate,0.3910229752561901,0.516534739393892
+Qwen/Qwen3.5-9B,T_prompt_primary,8,sensory,DINOv2,pure_vision,0.3602304918094392,aggregate,0.295199168915448,0.425964553512164
+Qwen/Qwen3.5-9B,T_prompt_primary,8,sensory,CLIP ViT-L/14,vision_language,0.12848697059223377,aggregate,0.052267585155646855,0.20494739662135467
+Qwen/Qwen3.5-9B,T_prompt_primary,8,sensory,SigLIP2,vision_language,0.38309360842255585,aggregate,0.31797616563284253,0.44376495973229746
+Qwen/Qwen3.5-9B,T_prompt_primary,9,sensory,THINGS behavioral similarity,human_behavioral,0.46504622104716786,aggregate,0.4035489371972334,0.5263163048628682
+Qwen/Qwen3.5-9B,T_prompt_primary,9,sensory,DINOv2,pure_vision,0.37199426837584737,aggregate,0.3061574926358356,0.4397090358458763
+Qwen/Qwen3.5-9B,T_prompt_primary,9,sensory,CLIP ViT-L/14,vision_language,0.16162610899453006,aggregate,0.0788202569863531,0.2372244122757915
+Qwen/Qwen3.5-9B,T_prompt_primary,9,sensory,SigLIP2,vision_language,0.3824906522274944,aggregate,0.31855456748212513,0.4407768397216357
+Qwen/Qwen3.5-9B,T_prompt_primary,10,sensory,THINGS behavioral similarity,human_behavioral,0.47543200559850124,aggregate,0.41244490017023766,0.5306857440047771
+Qwen/Qwen3.5-9B,T_prompt_primary,10,sensory,DINOv2,pure_vision,0.3915055329529014,aggregate,0.3224166701600593,0.4578628284967189
+Qwen/Qwen3.5-9B,T_prompt_primary,10,sensory,CLIP ViT-L/14,vision_language,0.1831060219218114,aggregate,0.10666864470688622,0.26024040068248006
+Qwen/Qwen3.5-9B,T_prompt_primary,10,sensory,SigLIP2,vision_language,0.3796188993557415,aggregate,0.3106186534682662,0.4426993096691056
+Qwen/Qwen3.5-9B,T_prompt_primary,11,sensory,THINGS behavioral similarity,human_behavioral,0.47517503187036836,aggregate,0.41485602344023204,0.5307881217886429
+Qwen/Qwen3.5-9B,T_prompt_primary,11,sensory,DINOv2,pure_vision,0.3999810792573951,aggregate,0.3237366716271407,0.4653593229899322
+Qwen/Qwen3.5-9B,T_prompt_primary,11,sensory,CLIP ViT-L/14,vision_language,0.17156274557590348,aggregate,0.09264698538452383,0.24296870427613257
+Qwen/Qwen3.5-9B,T_prompt_primary,11,sensory,SigLIP2,vision_language,0.38502381430013016,aggregate,0.31288712547475966,0.4442197323019345
+Qwen/Qwen3.5-9B,T_prompt_primary,12,sensory,THINGS behavioral similarity,human_behavioral,0.4663051323352751,aggregate,0.39959724575532946,0.5241215340361044
+Qwen/Qwen3.5-9B,T_prompt_primary,12,sensory,DINOv2,pure_vision,0.39540604507709776,aggregate,0.3275708933633082,0.46041617715359806
+Qwen/Qwen3.5-9B,T_prompt_primary,12,sensory,CLIP ViT-L/14,vision_language,0.19215046846625797,aggregate,0.11949301554167979,0.25970903638303255
+Qwen/Qwen3.5-9B,T_prompt_primary,12,sensory,SigLIP2,vision_language,0.39614474153947843,aggregate,0.33082466867861887,0.46122535396741937
+Qwen/Qwen3.5-9B,T_prompt_primary,13,sensory,THINGS behavioral similarity,human_behavioral,0.44462696511935046,aggregate,0.3799712189322347,0.5085776328043751
+Qwen/Qwen3.5-9B,T_prompt_primary,13,sensory,DINOv2,pure_vision,0.39112273158325794,aggregate,0.32467530489585233,0.4571566317178844
+Qwen/Qwen3.5-9B,T_prompt_primary,13,sensory,CLIP ViT-L/14,vision_language,0.19420031920031922,aggregate,0.12264390886905757,0.263899147680047
+Qwen/Qwen3.5-9B,T_prompt_primary,13,sensory,SigLIP2,vision_language,0.3834052238657502,aggregate,0.32038462001596957,0.44332947936709044
+Qwen/Qwen3.5-9B,T_prompt_primary,14,sensory,THINGS behavioral similarity,human_behavioral,0.43848864025617745,aggregate,0.37251224145440304,0.4990494466706655
+Qwen/Qwen3.5-9B,T_prompt_primary,14,sensory,DINOv2,pure_vision,0.3902461879435564,aggregate,0.3221955707275046,0.4565121295979913
+Qwen/Qwen3.5-9B,T_prompt_primary,14,sensory,CLIP ViT-L/14,vision_language,0.19203192887403417,aggregate,0.12202711972893054,0.2630318990656875
+Qwen/Qwen3.5-9B,T_prompt_primary,14,sensory,SigLIP2,vision_language,0.3747863040626199,aggregate,0.309602515733454,0.4425755497146431
+Qwen/Qwen3.5-9B,T_prompt_primary,15,sensory,THINGS behavioral similarity,human_behavioral,0.44127123595284246,aggregate,0.3865097359247229,0.4999493535068378
+Qwen/Qwen3.5-9B,T_prompt_primary,15,sensory,DINOv2,pure_vision,0.3956828101564944,aggregate,0.3279023832111668,0.4629114249483723
+Qwen/Qwen3.5-9B,T_prompt_primary,15,sensory,CLIP ViT-L/14,vision_language,0.18449406113879802,aggregate,0.11207347748087405,0.2530918299315192
+Qwen/Qwen3.5-9B,T_prompt_primary,15,sensory,SigLIP2,vision_language,0.3540300974511501,aggregate,0.2881027392668107,0.41558943785897356
+Qwen/Qwen3.5-9B,T_prompt_primary,16,sensory,THINGS behavioral similarity,human_behavioral,0.4400686671498633,aggregate,0.3760805657998354,0.4966843888640925
+Qwen/Qwen3.5-9B,T_prompt_primary,16,sensory,DINOv2,pure_vision,0.3964673750857962,aggregate,0.325709078787566,0.45962541107892224
+Qwen/Qwen3.5-9B,T_prompt_primary,16,sensory,CLIP ViT-L/14,vision_language,0.18902851139693247,aggregate,0.12173866864163124,0.2638856864785514
+Qwen/Qwen3.5-9B,T_prompt_primary,16,sensory,SigLIP2,vision_language,0.34607602864181813,aggregate,0.2748102869698016,0.4100997491817753
+Qwen/Qwen3.5-9B,T_prompt_primary,17,sensory,THINGS behavioral similarity,human_behavioral,0.43175159016711917,aggregate,0.36755391912264723,0.49281248901123004
+Qwen/Qwen3.5-9B,T_prompt_primary,17,sensory,DINOv2,pure_vision,0.397318946661052,aggregate,0.33383392019882235,0.45744269528377224
+Qwen/Qwen3.5-9B,T_prompt_primary,17,sensory,CLIP ViT-L/14,vision_language,0.19561581732634367,aggregate,0.12884530712891618,0.2687426517205745
+Qwen/Qwen3.5-9B,T_prompt_primary,17,sensory,SigLIP2,vision_language,0.34471872958715066,aggregate,0.27486926598633304,0.40605158764745397
+Qwen/Qwen3.5-9B,T_prompt_primary,18,sensory,THINGS behavioral similarity,human_behavioral,0.41866750022672056,aggregate,0.354375541253684,0.4795027795287844
+Qwen/Qwen3.5-9B,T_prompt_primary,18,sensory,DINOv2,pure_vision,0.3906791406791407,aggregate,0.31967138384519356,0.4542206856560281
+Qwen/Qwen3.5-9B,T_prompt_primary,18,sensory,CLIP ViT-L/14,vision_language,0.19830558152926578,aggregate,0.1235859856102964,0.2642922211973788
+Qwen/Qwen3.5-9B,T_prompt_primary,18,sensory,SigLIP2,vision_language,0.352285955904377,aggregate,0.2850399740639431,0.41734484049931264
+Qwen/Qwen3.5-9B,T_prompt_primary,19,sensory,THINGS behavioral similarity,human_behavioral,0.41267833874162285,aggregate,0.3528547092397872,0.4744112519706821
+Qwen/Qwen3.5-9B,T_prompt_primary,19,sensory,DINOv2,pure_vision,0.3853914182861552,aggregate,0.3142892192856435,0.4466075252100062
+Qwen/Qwen3.5-9B,T_prompt_primary,19,sensory,CLIP ViT-L/14,vision_language,0.16907092729461154,aggregate,0.09721590800566825,0.24076704677885502
+Qwen/Qwen3.5-9B,T_prompt_primary,19,sensory,SigLIP2,vision_language,0.34850408699092916,aggregate,0.2832559583292063,0.4173397457966039
+Qwen/Qwen3.5-9B,T_prompt_primary,20,sensory,THINGS behavioral similarity,human_behavioral,0.4645688332423911,aggregate,0.4057131015372039,0.5215368999890483
+Qwen/Qwen3.5-9B,T_prompt_primary,20,sensory,DINOv2,pure_vision,0.411220822405033,aggregate,0.3419717362926606,0.4755174384691939
+Qwen/Qwen3.5-9B,T_prompt_primary,20,sensory,CLIP ViT-L/14,vision_language,0.18935228474702162,aggregate,0.1177808783082489,0.25776726078573925
+Qwen/Qwen3.5-9B,T_prompt_primary,20,sensory,SigLIP2,vision_language,0.3724907738065633,aggregate,0.3062181241983701,0.4368587931581103
+Qwen/Qwen3.5-9B,T_prompt_primary,21,sensory,THINGS behavioral similarity,human_behavioral,0.4463465686380544,aggregate,0.38368296897304494,0.5053435951604547
+Qwen/Qwen3.5-9B,T_prompt_primary,21,sensory,DINOv2,pure_vision,0.4089792774003301,aggregate,0.34328858410305363,0.4766448194296357
+Qwen/Qwen3.5-9B,T_prompt_primary,21,sensory,CLIP ViT-L/14,vision_language,0.20122627688417163,aggregate,0.1320948643917356,0.26635755935006306
+Qwen/Qwen3.5-9B,T_prompt_primary,21,sensory,SigLIP2,vision_language,0.38686946746157275,aggregate,0.32001430761960914,0.4484894019048248
+Qwen/Qwen3.5-9B,T_prompt_primary,22,sensory,THINGS behavioral similarity,human_behavioral,0.42351006979745237,aggregate,0.36162618268157093,0.4831443011423922
+Qwen/Qwen3.5-9B,T_prompt_primary,22,sensory,DINOv2,pure_vision,0.38076599096335945,aggregate,0.3113580943424212,0.448753370164466
+Qwen/Qwen3.5-9B,T_prompt_primary,22,sensory,CLIP ViT-L/14,vision_language,0.16817417804259913,aggregate,0.09791514745031363,0.23557657036680235
+Qwen/Qwen3.5-9B,T_prompt_primary,22,sensory,SigLIP2,vision_language,0.366849539546908,aggregate,0.29949588536847815,0.4297724184039633
+Qwen/Qwen3.5-9B,T_prompt_primary,23,sensory,THINGS behavioral similarity,human_behavioral,0.4506176296123427,aggregate,0.3862112822621116,0.5141598018165262
+Qwen/Qwen3.5-9B,T_prompt_primary,23,sensory,DINOv2,pure_vision,0.4018596140306667,aggregate,0.3346750797790011,0.4640379208170832
+Qwen/Qwen3.5-9B,T_prompt_primary,23,sensory,CLIP ViT-L/14,vision_language,0.21680939773045038,aggregate,0.14301837634537695,0.2861013798794489
+Qwen/Qwen3.5-9B,T_prompt_primary,23,sensory,SigLIP2,vision_language,0.3900407124091335,aggregate,0.3237191037722051,0.4484465062453436
+Qwen/Qwen3.5-9B,T_prompt_primary,24,sensory,THINGS behavioral similarity,human_behavioral,0.450576682802675,aggregate,0.38054448180226813,0.5103831781664465
+Qwen/Qwen3.5-9B,T_prompt_primary,24,sensory,DINOv2,pure_vision,0.40825957766747245,aggregate,0.3398663986985378,0.47322642880359705
+Qwen/Qwen3.5-9B,T_prompt_primary,24,sensory,CLIP ViT-L/14,vision_language,0.26318307403833724,aggregate,0.1908047663202055,0.3342038770234113
+Qwen/Qwen3.5-9B,T_prompt_primary,24,sensory,SigLIP2,vision_language,0.41031706163285114,aggregate,0.3468073346599678,0.4693300266833481
+Qwen/Qwen3.5-9B,T_prompt_primary,25,sensory,THINGS behavioral similarity,human_behavioral,0.4762539884294796,aggregate,0.4212283214965112,0.5353820780784143
+Qwen/Qwen3.5-9B,T_prompt_primary,25,sensory,DINOv2,pure_vision,0.4212664656743605,aggregate,0.3580643366074439,0.4822859148714461
+Qwen/Qwen3.5-9B,T_prompt_primary,25,sensory,CLIP ViT-L/14,vision_language,0.24653382219171696,aggregate,0.17316733596632106,0.3129246422257869
+Qwen/Qwen3.5-9B,T_prompt_primary,25,sensory,SigLIP2,vision_language,0.37117208992208994,aggregate,0.3004219031933942,0.43626871214403756
+Qwen/Qwen3.5-9B,T_prompt_primary,26,sensory,THINGS behavioral similarity,human_behavioral,0.5003873799739025,aggregate,0.43865592089556027,0.5544070816872279
+Qwen/Qwen3.5-9B,T_prompt_primary,26,sensory,DINOv2,pure_vision,0.43070507708665606,aggregate,0.3648749660214197,0.4863477080054691
+Qwen/Qwen3.5-9B,T_prompt_primary,26,sensory,CLIP ViT-L/14,vision_language,0.26357143626880475,aggregate,0.18855700852721763,0.33487595413394494
+Qwen/Qwen3.5-9B,T_prompt_primary,26,sensory,SigLIP2,vision_language,0.3640611995875154,aggregate,0.2950240295388228,0.42762508275752337
+Qwen/Qwen3.5-9B,T_prompt_primary,27,sensory,THINGS behavioral similarity,human_behavioral,0.5168693645455263,aggregate,0.46221714558701593,0.5714915915181805
+Qwen/Qwen3.5-9B,T_prompt_primary,27,sensory,DINOv2,pure_vision,0.42669621452516193,aggregate,0.35568869981254325,0.48611571999233494
+Qwen/Qwen3.5-9B,T_prompt_primary,27,sensory,CLIP ViT-L/14,vision_language,0.2007079424842583,aggregate,0.13031680578793683,0.2741646534306853
+Qwen/Qwen3.5-9B,T_prompt_primary,27,sensory,SigLIP2,vision_language,0.3458348392558919,aggregate,0.2744204081301756,0.40997409182989625
+Qwen/Qwen3.5-9B,T_prompt_primary,28,sensory,THINGS behavioral similarity,human_behavioral,0.533825690284303,aggregate,0.4795724671554874,0.5857762916529868
+Qwen/Qwen3.5-9B,T_prompt_primary,28,sensory,DINOv2,pure_vision,0.430741654425865,aggregate,0.3668808964854442,0.4957936981942818
+Qwen/Qwen3.5-9B,T_prompt_primary,28,sensory,CLIP ViT-L/14,vision_language,0.20574262843999688,aggregate,0.13131908816677662,0.28101573363185395
+Qwen/Qwen3.5-9B,T_prompt_primary,28,sensory,SigLIP2,vision_language,0.3612208431287379,aggregate,0.2960375853176615,0.42689262217012375
+Qwen/Qwen3.5-9B,T_prompt_primary,29,sensory,THINGS behavioral similarity,human_behavioral,0.5250820840341869,aggregate,0.46766218815882293,0.5776146815653507
+Qwen/Qwen3.5-9B,T_prompt_primary,29,sensory,DINOv2,pure_vision,0.42993146118146125,aggregate,0.3610530087034513,0.492649123571876
+Qwen/Qwen3.5-9B,T_prompt_primary,29,sensory,CLIP ViT-L/14,vision_language,0.19788862058598902,aggregate,0.12226855291563792,0.27180884275575196
+Qwen/Qwen3.5-9B,T_prompt_primary,29,sensory,SigLIP2,vision_language,0.3629797675850308,aggregate,0.29747810386698714,0.4220140788969774
+Qwen/Qwen3.5-9B,T_prompt_primary,30,sensory,THINGS behavioral similarity,human_behavioral,0.5428049844210184,aggregate,0.48623259210952696,0.5946867584325779
+Qwen/Qwen3.5-9B,T_prompt_primary,30,sensory,DINOv2,pure_vision,0.4416787969419549,aggregate,0.37300023351581996,0.5040702505581539
+Qwen/Qwen3.5-9B,T_prompt_primary,30,sensory,CLIP ViT-L/14,vision_language,0.23065708098602838,aggregate,0.1581702114542787,0.2992007987622046
+Qwen/Qwen3.5-9B,T_prompt_primary,30,sensory,SigLIP2,vision_language,0.3542302884408148,aggregate,0.29021036527998295,0.41819247488617356
+Qwen/Qwen3.5-9B,T_prompt_primary,31,sensory,THINGS behavioral similarity,human_behavioral,0.5493979082395399,aggregate,0.4963902781829444,0.5992484708849408
+Qwen/Qwen3.5-9B,T_prompt_primary,31,sensory,DINOv2,pure_vision,0.4411274427721797,aggregate,0.3754349552081736,0.5024320282546711
+Qwen/Qwen3.5-9B,T_prompt_primary,31,sensory,CLIP ViT-L/14,vision_language,0.24754071793545482,aggregate,0.17321222949493653,0.31946256336678786
+Qwen/Qwen3.5-9B,T_prompt_primary,31,sensory,SigLIP2,vision_language,0.3684631562921037,aggregate,0.29572241647254044,0.43321297733177694
+Qwen/Qwen3.5-9B,T_prompt_primary,32,sensory,THINGS behavioral similarity,human_behavioral,0.5732499123330023,aggregate,0.5193081758362021,0.6217937609487723
+Qwen/Qwen3.5-9B,T_prompt_primary,32,sensory,DINOv2,pure_vision,0.45843767718767725,aggregate,0.3923639451706888,0.5187343994958291
+Qwen/Qwen3.5-9B,T_prompt_primary,32,sensory,CLIP ViT-L/14,vision_language,0.27709617512249096,aggregate,0.20192692263567144,0.34550365864767846
+Qwen/Qwen3.5-9B,T_prompt_primary,32,sensory,SigLIP2,vision_language,0.36954676428360644,aggregate,0.2957384398107174,0.437752331072474
+Qwen/Qwen3.5-9B,T_prompt_para_1,0,sensory,THINGS behavioral similarity,human_behavioral,0.20920372977502305,aggregate,0.13405461485858647,0.2870784859905893
+Qwen/Qwen3.5-9B,T_prompt_para_1,0,sensory,DINOv2,pure_vision,0.17576516754148336,aggregate,0.10215332336052597,0.24661519768823723
+Qwen/Qwen3.5-9B,T_prompt_para_1,0,sensory,CLIP ViT-L/14,vision_language,0.06020505691558324,aggregate,-0.017794493926008625,0.13700500374420704
+Qwen/Qwen3.5-9B,T_prompt_para_1,0,sensory,SigLIP2,vision_language,0.15625148519885365,aggregate,0.08142950644399337,0.2343844050027444
+Qwen/Qwen3.5-9B,T_prompt_para_1,1,sensory,THINGS behavioral similarity,human_behavioral,0.20359994763845468,aggregate,0.12787683845594344,0.27757565487954283
+Qwen/Qwen3.5-9B,T_prompt_para_1,1,sensory,DINOv2,pure_vision,0.1830974215842637,aggregate,0.11117915079167008,0.25069061305808454
+Qwen/Qwen3.5-9B,T_prompt_para_1,1,sensory,CLIP ViT-L/14,vision_language,0.0766692115376326,aggregate,0.004029289252617869,0.14750619915471333
+Qwen/Qwen3.5-9B,T_prompt_para_1,1,sensory,SigLIP2,vision_language,0.07818142028668346,aggregate,0.007636605738773412,0.14901423662525537
+Qwen/Qwen3.5-9B,T_prompt_para_1,2,sensory,THINGS behavioral similarity,human_behavioral,0.2290500553421724,aggregate,0.1602759963572056,0.29996759655727
+Qwen/Qwen3.5-9B,T_prompt_para_1,2,sensory,DINOv2,pure_vision,0.2116012543644123,aggregate,0.13101555230231862,0.2789424764744101
+Qwen/Qwen3.5-9B,T_prompt_para_1,2,sensory,CLIP ViT-L/14,vision_language,0.03599945869682712,aggregate,-0.04684436706908357,0.1140434127714278
+Qwen/Qwen3.5-9B,T_prompt_para_1,2,sensory,SigLIP2,vision_language,0.13428328724381358,aggregate,0.06249631355315716,0.21025084469783328
+Qwen/Qwen3.5-9B,T_prompt_para_1,3,sensory,THINGS behavioral similarity,human_behavioral,0.18319161898424896,aggregate,0.10948502858953679,0.254652378651759
+Qwen/Qwen3.5-9B,T_prompt_para_1,3,sensory,DINOv2,pure_vision,0.24534728646570755,aggregate,0.1775204797656637,0.3088532127229776
+Qwen/Qwen3.5-9B,T_prompt_para_1,3,sensory,CLIP ViT-L/14,vision_language,0.1167799424378372,aggregate,0.04022841819497154,0.1912732964340391
+Qwen/Qwen3.5-9B,T_prompt_para_1,3,sensory,SigLIP2,vision_language,0.17615874523769262,aggregate,0.10762151711104152,0.2449639726974964
+Qwen/Qwen3.5-9B,T_prompt_para_1,4,sensory,THINGS behavioral similarity,human_behavioral,0.2428083458778637,aggregate,0.16287836702074762,0.31593933591720574
+Qwen/Qwen3.5-9B,T_prompt_para_1,4,sensory,DINOv2,pure_vision,0.2389084313426419,aggregate,0.17020486906284582,0.30961667375661334
+Qwen/Qwen3.5-9B,T_prompt_para_1,4,sensory,CLIP ViT-L/14,vision_language,0.06843931021562602,aggregate,-0.007788521312389575,0.14359852394881747
+Qwen/Qwen3.5-9B,T_prompt_para_1,4,sensory,SigLIP2,vision_language,0.17761078616341777,aggregate,0.10128001791245621,0.24883308049182268
+Qwen/Qwen3.5-9B,T_prompt_para_1,5,sensory,THINGS behavioral similarity,human_behavioral,0.2826596252777898,aggregate,0.20875694077469567,0.35392838744132027
+Qwen/Qwen3.5-9B,T_prompt_para_1,5,sensory,DINOv2,pure_vision,0.26824929456508406,aggregate,0.19558805671933932,0.33671933392435155
+Qwen/Qwen3.5-9B,T_prompt_para_1,5,sensory,CLIP ViT-L/14,vision_language,0.05046374125321494,aggregate,-0.02426912123266071,0.1252349496755037
+Qwen/Qwen3.5-9B,T_prompt_para_1,5,sensory,SigLIP2,vision_language,0.19684207348681035,aggregate,0.12265660899167483,0.2686800814134434
+Qwen/Qwen3.5-9B,T_prompt_para_1,6,sensory,THINGS behavioral similarity,human_behavioral,0.3191673620617043,aggregate,0.24349639407529505,0.3843626403559279
+Qwen/Qwen3.5-9B,T_prompt_para_1,6,sensory,DINOv2,pure_vision,0.2863210905974064,aggregate,0.21445198411746225,0.35656884270578515
+Qwen/Qwen3.5-9B,T_prompt_para_1,6,sensory,CLIP ViT-L/14,vision_language,0.0992219906693591,aggregate,0.023380342837772527,0.17630437593955073
+Qwen/Qwen3.5-9B,T_prompt_para_1,6,sensory,SigLIP2,vision_language,0.2772208972866868,aggregate,0.21266935958629923,0.3454708991056354
+Qwen/Qwen3.5-9B,T_prompt_para_1,7,sensory,THINGS behavioral similarity,human_behavioral,0.36063616230901,aggregate,0.288246116769929,0.42317861671646145
+Qwen/Qwen3.5-9B,T_prompt_para_1,7,sensory,DINOv2,pure_vision,0.29431864464759205,aggregate,0.22660188465420505,0.36288939440455326
+Qwen/Qwen3.5-9B,T_prompt_para_1,7,sensory,CLIP ViT-L/14,vision_language,0.04746395042447674,aggregate,-0.024155781529724054,0.1176259876999706
+Qwen/Qwen3.5-9B,T_prompt_para_1,7,sensory,SigLIP2,vision_language,0.29354305999042846,aggregate,0.22733448384911925,0.3589195476579347
+Qwen/Qwen3.5-9B,T_prompt_para_1,8,sensory,THINGS behavioral similarity,human_behavioral,0.40774014537132974,aggregate,0.33747958028184544,0.46711699329304673
+Qwen/Qwen3.5-9B,T_prompt_para_1,8,sensory,DINOv2,pure_vision,0.3404175937070674,aggregate,0.27025176132657386,0.4069078705151303
+Qwen/Qwen3.5-9B,T_prompt_para_1,8,sensory,CLIP ViT-L/14,vision_language,0.15763893724420042,aggregate,0.08071943370506311,0.22886355583988766
+Qwen/Qwen3.5-9B,T_prompt_para_1,8,sensory,SigLIP2,vision_language,0.34214684872579615,aggregate,0.27509639814815406,0.403138818938464
+Qwen/Qwen3.5-9B,T_prompt_para_1,9,sensory,THINGS behavioral similarity,human_behavioral,0.44251556400218905,aggregate,0.37706197377331907,0.5025648499191161
+Qwen/Qwen3.5-9B,T_prompt_para_1,9,sensory,DINOv2,pure_vision,0.3773646438120123,aggregate,0.30600025008016657,0.44019984064205764
+Qwen/Qwen3.5-9B,T_prompt_para_1,9,sensory,CLIP ViT-L/14,vision_language,0.181586007243902,aggregate,0.10736169823775776,0.2605689944899271
+Qwen/Qwen3.5-9B,T_prompt_para_1,9,sensory,SigLIP2,vision_language,0.37094212587633646,aggregate,0.3030705035632577,0.42934589345336527
+Qwen/Qwen3.5-9B,T_prompt_para_1,10,sensory,THINGS behavioral similarity,human_behavioral,0.4636545982241555,aggregate,0.4026908761715775,0.5230387466773029
+Qwen/Qwen3.5-9B,T_prompt_para_1,10,sensory,DINOv2,pure_vision,0.39151838164996067,aggregate,0.32566776572075945,0.45386377971245984
+Qwen/Qwen3.5-9B,T_prompt_para_1,10,sensory,CLIP ViT-L/14,vision_language,0.215790378619326,aggregate,0.14268593591747294,0.28901166052332244
+Qwen/Qwen3.5-9B,T_prompt_para_1,10,sensory,SigLIP2,vision_language,0.359412354478144,aggregate,0.29054956676506677,0.4241636166352098
+Qwen/Qwen3.5-9B,T_prompt_para_1,11,sensory,THINGS behavioral similarity,human_behavioral,0.4642172918824066,aggregate,0.40391658519841134,0.5233595373413177
+Qwen/Qwen3.5-9B,T_prompt_para_1,11,sensory,DINOv2,pure_vision,0.39195872584030483,aggregate,0.32078022024246616,0.4543056409029239
+Qwen/Qwen3.5-9B,T_prompt_para_1,11,sensory,CLIP ViT-L/14,vision_language,0.19913604946499686,aggregate,0.12653349796349966,0.2733057011389427
+Qwen/Qwen3.5-9B,T_prompt_para_1,11,sensory,SigLIP2,vision_language,0.3727240536451063,aggregate,0.30984641002759117,0.43213066409114537
+Qwen/Qwen3.5-9B,T_prompt_para_1,12,sensory,THINGS behavioral similarity,human_behavioral,0.45939661748073324,aggregate,0.39427159671076684,0.5197587874149707
+Qwen/Qwen3.5-9B,T_prompt_para_1,12,sensory,DINOv2,pure_vision,0.38223827204090366,aggregate,0.3149035836277335,0.4457863168690449
+Qwen/Qwen3.5-9B,T_prompt_para_1,12,sensory,CLIP ViT-L/14,vision_language,0.21619141684931162,aggregate,0.14664301183470657,0.28452098749974786
+Qwen/Qwen3.5-9B,T_prompt_para_1,12,sensory,SigLIP2,vision_language,0.374719159258633,aggregate,0.30738513917445576,0.4329464022898852
+Qwen/Qwen3.5-9B,T_prompt_para_1,13,sensory,THINGS behavioral similarity,human_behavioral,0.44780594868182644,aggregate,0.38662417512498176,0.5079024458908699
+Qwen/Qwen3.5-9B,T_prompt_para_1,13,sensory,DINOv2,pure_vision,0.3761223613197298,aggregate,0.30497646661324007,0.4441444889283061
+Qwen/Qwen3.5-9B,T_prompt_para_1,13,sensory,CLIP ViT-L/14,vision_language,0.22948926567347622,aggregate,0.1543514127725233,0.30154291844691344
+Qwen/Qwen3.5-9B,T_prompt_para_1,13,sensory,SigLIP2,vision_language,0.36498868900184694,aggregate,0.3020704348783613,0.428827179149498
+Qwen/Qwen3.5-9B,T_prompt_para_1,14,sensory,THINGS behavioral similarity,human_behavioral,0.4447015468083881,aggregate,0.38035152701013275,0.5084528185609211
+Qwen/Qwen3.5-9B,T_prompt_para_1,14,sensory,DINOv2,pure_vision,0.37043491319807115,aggregate,0.30289104124533034,0.4393924302709299
+Qwen/Qwen3.5-9B,T_prompt_para_1,14,sensory,CLIP ViT-L/14,vision_language,0.24344011844011848,aggregate,0.16914769867621735,0.3138520718133835
+Qwen/Qwen3.5-9B,T_prompt_para_1,14,sensory,SigLIP2,vision_language,0.3552555592029277,aggregate,0.2884748129940439,0.41642933957523653
+Qwen/Qwen3.5-9B,T_prompt_para_1,15,sensory,THINGS behavioral similarity,human_behavioral,0.440136464992458,aggregate,0.37277562100894696,0.5058110443350954
+Qwen/Qwen3.5-9B,T_prompt_para_1,15,sensory,DINOv2,pure_vision,0.3671914115993064,aggregate,0.29798811059884944,0.43536356703942974
+Qwen/Qwen3.5-9B,T_prompt_para_1,15,sensory,CLIP ViT-L/14,vision_language,0.22510461326250802,aggregate,0.1464373292079701,0.2996266026603706
+Qwen/Qwen3.5-9B,T_prompt_para_1,15,sensory,SigLIP2,vision_language,0.3421664671664672,aggregate,0.27434026301088765,0.40436243661689947
+Qwen/Qwen3.5-9B,T_prompt_para_1,16,sensory,THINGS behavioral similarity,human_behavioral,0.4307496526071449,aggregate,0.36678780727285804,0.4906187983560177
+Qwen/Qwen3.5-9B,T_prompt_para_1,16,sensory,DINOv2,pure_vision,0.3635852451641926,aggregate,0.29710225781362726,0.4334952182403682
+Qwen/Qwen3.5-9B,T_prompt_para_1,16,sensory,CLIP ViT-L/14,vision_language,0.2144585351822194,aggregate,0.14352931394135013,0.28648635094968816
+Qwen/Qwen3.5-9B,T_prompt_para_1,16,sensory,SigLIP2,vision_language,0.33279596766438874,aggregate,0.2670088589931648,0.3958930549889882
+Qwen/Qwen3.5-9B,T_prompt_para_1,17,sensory,THINGS behavioral similarity,human_behavioral,0.4419111517194054,aggregate,0.3770918627758849,0.5038342025803925
+Qwen/Qwen3.5-9B,T_prompt_para_1,17,sensory,DINOv2,pure_vision,0.3686345413319098,aggregate,0.29685052691402725,0.43594832265269573
+Qwen/Qwen3.5-9B,T_prompt_para_1,17,sensory,CLIP ViT-L/14,vision_language,0.22737019776493464,aggregate,0.1516594730117913,0.2996527924094755
+Qwen/Qwen3.5-9B,T_prompt_para_1,17,sensory,SigLIP2,vision_language,0.33203727282674655,aggregate,0.26491281768564373,0.3982328299884621
+Qwen/Qwen3.5-9B,T_prompt_para_1,18,sensory,THINGS behavioral similarity,human_behavioral,0.4345303674112953,aggregate,0.36979282752485537,0.49212471975382877
+Qwen/Qwen3.5-9B,T_prompt_para_1,18,sensory,DINOv2,pure_vision,0.36386439346965666,aggregate,0.2969897630582462,0.4275137638534722
+Qwen/Qwen3.5-9B,T_prompt_para_1,18,sensory,CLIP ViT-L/14,vision_language,0.23261540202329678,aggregate,0.15923910947057002,0.3093193153705849
+Qwen/Qwen3.5-9B,T_prompt_para_1,18,sensory,SigLIP2,vision_language,0.33747240984083093,aggregate,0.27169315677604716,0.40113840009100415
+Qwen/Qwen3.5-9B,T_prompt_para_1,19,sensory,THINGS behavioral similarity,human_behavioral,0.44455628312647166,aggregate,0.3817873177159688,0.49862613880256845
+Qwen/Qwen3.5-9B,T_prompt_para_1,19,sensory,DINOv2,pure_vision,0.36628150279466076,aggregate,0.29771115496163153,0.42931883168980634
+Qwen/Qwen3.5-9B,T_prompt_para_1,19,sensory,CLIP ViT-L/14,vision_language,0.21458778202199258,aggregate,0.1418747844643767,0.29062694805125955
+Qwen/Qwen3.5-9B,T_prompt_para_1,19,sensory,SigLIP2,vision_language,0.33133201060832645,aggregate,0.2651188053243998,0.3927562015964975
+Qwen/Qwen3.5-9B,T_prompt_para_1,20,sensory,THINGS behavioral similarity,human_behavioral,0.5000578962703163,aggregate,0.43972665755558216,0.55231890620843
+Qwen/Qwen3.5-9B,T_prompt_para_1,20,sensory,DINOv2,pure_vision,0.3913880986249408,aggregate,0.323527278785102,0.45436760708042917
+Qwen/Qwen3.5-9B,T_prompt_para_1,20,sensory,CLIP ViT-L/14,vision_language,0.222467349112086,aggregate,0.15266757016611238,0.29523562765143035
+Qwen/Qwen3.5-9B,T_prompt_para_1,20,sensory,SigLIP2,vision_language,0.3874118068197016,aggregate,0.3140198734562406,0.44903614845462564
+Qwen/Qwen3.5-9B,T_prompt_para_1,21,sensory,THINGS behavioral similarity,human_behavioral,0.5065224144684414,aggregate,0.4406478559471953,0.5632447499612984
+Qwen/Qwen3.5-9B,T_prompt_para_1,21,sensory,DINOv2,pure_vision,0.3866490708595972,aggregate,0.31689960518040694,0.4493897154060535
+Qwen/Qwen3.5-9B,T_prompt_para_1,21,sensory,CLIP ViT-L/14,vision_language,0.23416021606811083,aggregate,0.16275932834287168,0.3022506439576467
+Qwen/Qwen3.5-9B,T_prompt_para_1,21,sensory,SigLIP2,vision_language,0.3899131234657551,aggregate,0.32224382615731256,0.45370363015375803
+Qwen/Qwen3.5-9B,T_prompt_para_1,22,sensory,THINGS behavioral similarity,human_behavioral,0.4896481854581751,aggregate,0.4283908905385864,0.5427809589493187
+Qwen/Qwen3.5-9B,T_prompt_para_1,22,sensory,DINOv2,pure_vision,0.36074091666196934,aggregate,0.2910774472196313,0.42764712214670914
+Qwen/Qwen3.5-9B,T_prompt_para_1,22,sensory,CLIP ViT-L/14,vision_language,0.20515369528527425,aggregate,0.12918275503523274,0.2763903097858195
+Qwen/Qwen3.5-9B,T_prompt_para_1,22,sensory,SigLIP2,vision_language,0.35938506826664723,aggregate,0.29069759385345895,0.4230686862138109
+Qwen/Qwen3.5-9B,T_prompt_para_1,23,sensory,THINGS behavioral similarity,human_behavioral,0.5116869527032866,aggregate,0.4500645425045454,0.5701997777639469
+Qwen/Qwen3.5-9B,T_prompt_para_1,23,sensory,DINOv2,pure_vision,0.3776199943963102,aggregate,0.31312873569563676,0.4442646263077144
+Qwen/Qwen3.5-9B,T_prompt_para_1,23,sensory,CLIP ViT-L/14,vision_language,0.25366671419303,aggregate,0.18680962397973933,0.3190361470580457
+Qwen/Qwen3.5-9B,T_prompt_para_1,23,sensory,SigLIP2,vision_language,0.3873649712465502,aggregate,0.31880043803748687,0.45164876117739616
+Qwen/Qwen3.5-9B,T_prompt_para_1,24,sensory,THINGS behavioral similarity,human_behavioral,0.49094012229812745,aggregate,0.430540628326271,0.5524872361883334
+Qwen/Qwen3.5-9B,T_prompt_para_1,24,sensory,DINOv2,pure_vision,0.3570666383166384,aggregate,0.28617405703167564,0.4208086201088935
+Qwen/Qwen3.5-9B,T_prompt_para_1,24,sensory,CLIP ViT-L/14,vision_language,0.3031377209008788,aggregate,0.23275087307336992,0.3716040672610796
+Qwen/Qwen3.5-9B,T_prompt_para_1,24,sensory,SigLIP2,vision_language,0.4201801636012163,aggregate,0.3543332467667983,0.4824488537187046
+Qwen/Qwen3.5-9B,T_prompt_para_1,25,sensory,THINGS behavioral similarity,human_behavioral,0.5363134933244614,aggregate,0.4773851726864094,0.5933561271080605
+Qwen/Qwen3.5-9B,T_prompt_para_1,25,sensory,DINOv2,pure_vision,0.39225742350742354,aggregate,0.3217477202275571,0.455314100726734
+Qwen/Qwen3.5-9B,T_prompt_para_1,25,sensory,CLIP ViT-L/14,vision_language,0.28238320672531203,aggregate,0.20873406040740228,0.3469833286903067
+Qwen/Qwen3.5-9B,T_prompt_para_1,25,sensory,SigLIP2,vision_language,0.36896024889445944,aggregate,0.29855862027487157,0.4313860043265446
+Qwen/Qwen3.5-9B,T_prompt_para_1,26,sensory,THINGS behavioral similarity,human_behavioral,0.5586501404855385,aggregate,0.501535252194853,0.6127178248162746
+Qwen/Qwen3.5-9B,T_prompt_para_1,26,sensory,DINOv2,pure_vision,0.39120752607594717,aggregate,0.32542347565945057,0.4576003378099821
+Qwen/Qwen3.5-9B,T_prompt_para_1,26,sensory,CLIP ViT-L/14,vision_language,0.28191246776773093,aggregate,0.20495414666941233,0.35780374223647776
+Qwen/Qwen3.5-9B,T_prompt_para_1,26,sensory,SigLIP2,vision_language,0.36454219677903893,aggregate,0.292516714709166,0.429300914041447
+Qwen/Qwen3.5-9B,T_prompt_para_1,27,sensory,THINGS behavioral similarity,human_behavioral,0.5337179611779154,aggregate,0.4772175200611835,0.5852992071104808
+Qwen/Qwen3.5-9B,T_prompt_para_1,27,sensory,DINOv2,pure_vision,0.35273175733702056,aggregate,0.28291627305419403,0.41588294213506655
+Qwen/Qwen3.5-9B,T_prompt_para_1,27,sensory,CLIP ViT-L/14,vision_language,0.18207619194461303,aggregate,0.11051062816742288,0.25354047839062777
+Qwen/Qwen3.5-9B,T_prompt_para_1,27,sensory,SigLIP2,vision_language,0.3439147879937354,aggregate,0.272048481718028,0.4111417977401791
+Qwen/Qwen3.5-9B,T_prompt_para_1,28,sensory,THINGS behavioral similarity,human_behavioral,0.5643743663628458,aggregate,0.5069565083240933,0.6183252776587513
+Qwen/Qwen3.5-9B,T_prompt_para_1,28,sensory,DINOv2,pure_vision,0.3680678861599915,aggregate,0.29995315408186674,0.4293225075828925
+Qwen/Qwen3.5-9B,T_prompt_para_1,28,sensory,CLIP ViT-L/14,vision_language,0.208278933607881,aggregate,0.13244654335656075,0.2749770393123928
+Qwen/Qwen3.5-9B,T_prompt_para_1,28,sensory,SigLIP2,vision_language,0.3763927711296133,aggregate,0.31046456839224107,0.4470169270846552
+Qwen/Qwen3.5-9B,T_prompt_para_1,29,sensory,THINGS behavioral similarity,human_behavioral,0.5493168676787393,aggregate,0.4923249992498137,0.6044905897003363
+Qwen/Qwen3.5-9B,T_prompt_para_1,29,sensory,DINOv2,pure_vision,0.37023662188135875,aggregate,0.30646026922972575,0.435390587209388
+Qwen/Qwen3.5-9B,T_prompt_para_1,29,sensory,CLIP ViT-L/14,vision_language,0.19461614033982458,aggregate,0.11592553599995266,0.2685746674990267
+Qwen/Qwen3.5-9B,T_prompt_para_1,29,sensory,SigLIP2,vision_language,0.3817778603962815,aggregate,0.31054296103695306,0.4427284231569036
+Qwen/Qwen3.5-9B,T_prompt_para_1,30,sensory,THINGS behavioral similarity,human_behavioral,0.5701968564589884,aggregate,0.5138556149008362,0.6224174898250735
+Qwen/Qwen3.5-9B,T_prompt_para_1,30,sensory,DINOv2,pure_vision,0.3964672369277633,aggregate,0.33172868071741435,0.46101454708433354
+Qwen/Qwen3.5-9B,T_prompt_para_1,30,sensory,CLIP ViT-L/14,vision_language,0.24948629389418867,aggregate,0.17609819727537412,0.3173891621302544
+Qwen/Qwen3.5-9B,T_prompt_para_1,30,sensory,SigLIP2,vision_language,0.3708383691936324,aggregate,0.3069983384835817,0.4364917557365651
+Qwen/Qwen3.5-9B,T_prompt_para_1,31,sensory,THINGS behavioral similarity,human_behavioral,0.5773833465303518,aggregate,0.5232638906469187,0.629163849069732
+Qwen/Qwen3.5-9B,T_prompt_para_1,31,sensory,DINOv2,pure_vision,0.39874190532085274,aggregate,0.3329657195764148,0.46238246985249387
+Qwen/Qwen3.5-9B,T_prompt_para_1,31,sensory,CLIP ViT-L/14,vision_language,0.2619740530924742,aggregate,0.1904225183875392,0.3306739656042866
+Qwen/Qwen3.5-9B,T_prompt_para_1,31,sensory,SigLIP2,vision_language,0.3815564276090592,aggregate,0.3173807174866305,0.4423949453655134
+Qwen/Qwen3.5-9B,T_prompt_para_1,32,sensory,THINGS behavioral similarity,human_behavioral,0.6118839990693536,aggregate,0.5598788362275056,0.6635902222831682
+Qwen/Qwen3.5-9B,T_prompt_para_1,32,sensory,DINOv2,pure_vision,0.4382505780532097,aggregate,0.3717960658305345,0.5017185235428823
+Qwen/Qwen3.5-9B,T_prompt_para_1,32,sensory,CLIP ViT-L/14,vision_language,0.29374998618419673,aggregate,0.22151532239390787,0.3637465528165825
+Qwen/Qwen3.5-9B,T_prompt_para_1,32,sensory,SigLIP2,vision_language,0.38437640575798476,aggregate,0.3176524696894741,0.44728962987615545
+Qwen/Qwen3.5-9B,T_prompt_para_2,0,sensory,THINGS behavioral similarity,human_behavioral,0.2021073389336626,aggregate,0.13073545207501505,0.2773824629299795
+Qwen/Qwen3.5-9B,T_prompt_para_2,0,sensory,DINOv2,pure_vision,0.18022155851103222,aggregate,0.10358533893581932,0.25155447357353
+Qwen/Qwen3.5-9B,T_prompt_para_2,0,sensory,CLIP ViT-L/14,vision_language,0.0697546783073099,aggregate,-0.0038299739149919194,0.14914661779393187
+Qwen/Qwen3.5-9B,T_prompt_para_2,0,sensory,SigLIP2,vision_language,0.1430932450669293,aggregate,0.06673206827041077,0.2180056465381364
+Qwen/Qwen3.5-9B,T_prompt_para_2,1,sensory,THINGS behavioral similarity,human_behavioral,0.223629680790574,aggregate,0.15239744132461114,0.2896728604650908
+Qwen/Qwen3.5-9B,T_prompt_para_2,1,sensory,DINOv2,pure_vision,0.18237240276713965,aggregate,0.11188181275416459,0.255194606906861
+Qwen/Qwen3.5-9B,T_prompt_para_2,1,sensory,CLIP ViT-L/14,vision_language,0.052780547846337324,aggregate,-0.019761617335984732,0.12698923867817855
+Qwen/Qwen3.5-9B,T_prompt_para_2,1,sensory,SigLIP2,vision_language,0.08841782525993054,aggregate,0.011004347273627904,0.16029644927389938
+Qwen/Qwen3.5-9B,T_prompt_para_2,2,sensory,THINGS behavioral similarity,human_behavioral,0.2572868209260539,aggregate,0.1805046687880028,0.32673269811324585
+Qwen/Qwen3.5-9B,T_prompt_para_2,2,sensory,DINOv2,pure_vision,0.21881552144710043,aggregate,0.14048402133938664,0.29062496591128145
+Qwen/Qwen3.5-9B,T_prompt_para_2,2,sensory,CLIP ViT-L/14,vision_language,0.024518180768180773,aggregate,-0.04741905013815024,0.09927274328805774
+Qwen/Qwen3.5-9B,T_prompt_para_2,2,sensory,SigLIP2,vision_language,0.1295225341277973,aggregate,0.059453904282868175,0.19771111501390295
+Qwen/Qwen3.5-9B,T_prompt_para_2,3,sensory,THINGS behavioral similarity,human_behavioral,0.25877552993468717,aggregate,0.18348304882520797,0.3222318947799958
+Qwen/Qwen3.5-9B,T_prompt_para_2,3,sensory,DINOv2,pure_vision,0.28212578377052067,aggregate,0.2115526880112838,0.35254112854067615
+Qwen/Qwen3.5-9B,T_prompt_para_2,3,sensory,CLIP ViT-L/14,vision_language,0.1689718679850259,aggregate,0.09367318225062586,0.23902730860763413
+Qwen/Qwen3.5-9B,T_prompt_para_2,3,sensory,SigLIP2,vision_language,0.2511582478687742,aggregate,0.18273488628693302,0.32106599915918205
+Qwen/Qwen3.5-9B,T_prompt_para_2,4,sensory,THINGS behavioral similarity,human_behavioral,0.320414574261335,aggregate,0.2550241850645823,0.3858502880034683
+Qwen/Qwen3.5-9B,T_prompt_para_2,4,sensory,DINOv2,pure_vision,0.2694777612540771,aggregate,0.19297709778352914,0.33956012941143143
+Qwen/Qwen3.5-9B,T_prompt_para_2,4,sensory,CLIP ViT-L/14,vision_language,0.10261159438791019,aggregate,0.027390722628039616,0.17616935419948956
+Qwen/Qwen3.5-9B,T_prompt_para_2,4,sensory,SigLIP2,vision_language,0.25214214030003507,aggregate,0.18256352468198322,0.3201661980549026
+Qwen/Qwen3.5-9B,T_prompt_para_2,5,sensory,THINGS behavioral similarity,human_behavioral,0.3221659440549995,aggregate,0.25592900078785913,0.39501198404489374
+Qwen/Qwen3.5-9B,T_prompt_para_2,5,sensory,DINOv2,pure_vision,0.2877575887444309,aggregate,0.21712196522864025,0.3576208550521691
+Qwen/Qwen3.5-9B,T_prompt_para_2,5,sensory,CLIP ViT-L/14,vision_language,0.1261837034863351,aggregate,0.050045571841087044,0.2000654646080376
+Qwen/Qwen3.5-9B,T_prompt_para_2,5,sensory,SigLIP2,vision_language,0.23844508383982072,aggregate,0.16838535094523224,0.3039414353434425
+Qwen/Qwen3.5-9B,T_prompt_para_2,6,sensory,THINGS behavioral similarity,human_behavioral,0.40633239567982715,aggregate,0.3365615949027463,0.4709563223973784
+Qwen/Qwen3.5-9B,T_prompt_para_2,6,sensory,DINOv2,pure_vision,0.3414881803039698,aggregate,0.2708957773981307,0.40690811297853674
+Qwen/Qwen3.5-9B,T_prompt_para_2,6,sensory,CLIP ViT-L/14,vision_language,0.20791392008497275,aggregate,0.13720933995741105,0.28425412228041674
+Qwen/Qwen3.5-9B,T_prompt_para_2,6,sensory,SigLIP2,vision_language,0.2656207343707344,aggregate,0.19553494976152447,0.33111091394297876
+Qwen/Qwen3.5-9B,T_prompt_para_2,7,sensory,THINGS behavioral similarity,human_behavioral,0.41304377276917315,aggregate,0.34123937537498,0.48102382393959087
+Qwen/Qwen3.5-9B,T_prompt_para_2,7,sensory,DINOv2,pure_vision,0.3024858913016808,aggregate,0.23157737695241687,0.36889468772428247
+Qwen/Qwen3.5-9B,T_prompt_para_2,7,sensory,CLIP ViT-L/14,vision_language,0.21563498537182751,aggregate,0.13992415487953486,0.2872251626081254
+Qwen/Qwen3.5-9B,T_prompt_para_2,7,sensory,SigLIP2,vision_language,0.3195704100309364,aggregate,0.2469351777242124,0.3835578009272579
+Qwen/Qwen3.5-9B,T_prompt_para_2,8,sensory,THINGS behavioral similarity,human_behavioral,0.4379279370678407,aggregate,0.36614794554723806,0.497744976208094
+Qwen/Qwen3.5-9B,T_prompt_para_2,8,sensory,DINOv2,pure_vision,0.3569563191273718,aggregate,0.2855520894553498,0.42124415323838443
+Qwen/Qwen3.5-9B,T_prompt_para_2,8,sensory,CLIP ViT-L/14,vision_language,0.26432767880136304,aggregate,0.18568322926621988,0.33188749387547434
+Qwen/Qwen3.5-9B,T_prompt_para_2,8,sensory,SigLIP2,vision_language,0.2648909491014754,aggregate,0.1911316130153929,0.33986988262610157
+Qwen/Qwen3.5-9B,T_prompt_para_2,9,sensory,THINGS behavioral similarity,human_behavioral,0.4545084702111451,aggregate,0.3874538821284964,0.5168610094728874
+Qwen/Qwen3.5-9B,T_prompt_para_2,9,sensory,DINOv2,pure_vision,0.36734487063434434,aggregate,0.29417194164267957,0.42763416044012265
+Qwen/Qwen3.5-9B,T_prompt_para_2,9,sensory,CLIP ViT-L/14,vision_language,0.22265403515403517,aggregate,0.14063108942746616,0.30097049293775824
+Qwen/Qwen3.5-9B,T_prompt_para_2,9,sensory,SigLIP2,vision_language,0.2618681549602603,aggregate,0.19210983295033052,0.33531585604471514
+Qwen/Qwen3.5-9B,T_prompt_para_2,10,sensory,THINGS behavioral similarity,human_behavioral,0.4625645112822576,aggregate,0.3936604710259938,0.5235694461461396
+Qwen/Qwen3.5-9B,T_prompt_para_2,10,sensory,DINOv2,pure_vision,0.37408394316289056,aggregate,0.3019358318473452,0.43883303990285427
+Qwen/Qwen3.5-9B,T_prompt_para_2,10,sensory,CLIP ViT-L/14,vision_language,0.207832752240647,aggregate,0.1340105416541506,0.2820548330105759
+Qwen/Qwen3.5-9B,T_prompt_para_2,10,sensory,SigLIP2,vision_language,0.2794041050619998,aggregate,0.19859297392725983,0.35224343349539006
+Qwen/Qwen3.5-9B,T_prompt_para_2,11,sensory,THINGS behavioral similarity,human_behavioral,0.45868488230991183,aggregate,0.39689565434582447,0.521751751323246
+Qwen/Qwen3.5-9B,T_prompt_para_2,11,sensory,DINOv2,pure_vision,0.3700958733853471,aggregate,0.29539187680065737,0.4388608890394948
+Qwen/Qwen3.5-9B,T_prompt_para_2,11,sensory,CLIP ViT-L/14,vision_language,0.1858279424068898,aggregate,0.10997435979972459,0.25521757288733543
+Qwen/Qwen3.5-9B,T_prompt_para_2,11,sensory,SigLIP2,vision_language,0.2718299017641123,aggregate,0.20362575928778118,0.34218391858000885
+Qwen/Qwen3.5-9B,T_prompt_para_2,12,sensory,THINGS behavioral similarity,human_behavioral,0.4524724632197211,aggregate,0.3859998091393316,0.5123467682558843
+Qwen/Qwen3.5-9B,T_prompt_para_2,12,sensory,DINOv2,pure_vision,0.3616779389805706,aggregate,0.29345956332238354,0.42354661756339756
+Qwen/Qwen3.5-9B,T_prompt_para_2,12,sensory,CLIP ViT-L/14,vision_language,0.17292836865205288,aggregate,0.09874747525830548,0.24592072960437822
+Qwen/Qwen3.5-9B,T_prompt_para_2,12,sensory,SigLIP2,vision_language,0.27351477351477355,aggregate,0.20092967746918358,0.3492520282300881
+Qwen/Qwen3.5-9B,T_prompt_para_2,13,sensory,THINGS behavioral similarity,human_behavioral,0.44282266507469686,aggregate,0.3759550956058905,0.5053087514483454
+Qwen/Qwen3.5-9B,T_prompt_para_2,13,sensory,DINOv2,pure_vision,0.3559076996576997,aggregate,0.28846973260933856,0.42134653617185647
+Qwen/Qwen3.5-9B,T_prompt_para_2,13,sensory,CLIP ViT-L/14,vision_language,0.17200270983165722,aggregate,0.10028803176553354,0.2453045943121848
+Qwen/Qwen3.5-9B,T_prompt_para_2,13,sensory,SigLIP2,vision_language,0.2597737482605904,aggregate,0.18248171005419844,0.32702840738769906
+Qwen/Qwen3.5-9B,T_prompt_para_2,14,sensory,THINGS behavioral similarity,human_behavioral,0.4472506075757081,aggregate,0.38031456112665984,0.5111659211136675
+Qwen/Qwen3.5-9B,T_prompt_para_2,14,sensory,DINOv2,pure_vision,0.35601069647122285,aggregate,0.2827208689479611,0.41937837004992773
+Qwen/Qwen3.5-9B,T_prompt_para_2,14,sensory,CLIP ViT-L/14,vision_language,0.17059398144924462,aggregate,0.0989469814462259,0.24282346570272995
+Qwen/Qwen3.5-9B,T_prompt_para_2,14,sensory,SigLIP2,vision_language,0.24292838108627585,aggregate,0.1667463107963989,0.3207869837085746
+Qwen/Qwen3.5-9B,T_prompt_para_2,15,sensory,THINGS behavioral similarity,human_behavioral,0.4513574750929757,aggregate,0.3889058890714005,0.5128685476861249
+Qwen/Qwen3.5-9B,T_prompt_para_2,15,sensory,DINOv2,pure_vision,0.36046542954437694,aggregate,0.2936792094655684,0.4234560116697957
+Qwen/Qwen3.5-9B,T_prompt_para_2,15,sensory,CLIP ViT-L/14,vision_language,0.15133430265009215,aggregate,0.08360937929403628,0.2272938571109271
+Qwen/Qwen3.5-9B,T_prompt_para_2,15,sensory,SigLIP2,vision_language,0.229839841681947,aggregate,0.15509292763861568,0.3058893371381874
+Qwen/Qwen3.5-9B,T_prompt_para_2,16,sensory,THINGS behavioral similarity,human_behavioral,0.447667671955528,aggregate,0.3785687103000511,0.5121790373860429
+Qwen/Qwen3.5-9B,T_prompt_para_2,16,sensory,DINOv2,pure_vision,0.35968034652245184,aggregate,0.29206551953283993,0.42533688300299977
+Qwen/Qwen3.5-9B,T_prompt_para_2,16,sensory,CLIP ViT-L/14,vision_language,0.15386622130043184,aggregate,0.07855623139626342,0.22991171502245392
+Qwen/Qwen3.5-9B,T_prompt_para_2,16,sensory,SigLIP2,vision_language,0.2400276841066315,aggregate,0.15643875640618632,0.309840753747657
+Qwen/Qwen3.5-9B,T_prompt_para_2,17,sensory,THINGS behavioral similarity,human_behavioral,0.437540567249397,aggregate,0.3685841226002008,0.4970700991912244
+Qwen/Qwen3.5-9B,T_prompt_para_2,17,sensory,DINOv2,pure_vision,0.35376942778258574,aggregate,0.286659102738538,0.41560408836672874
+Qwen/Qwen3.5-9B,T_prompt_para_2,17,sensory,CLIP ViT-L/14,vision_language,0.14648557740663007,aggregate,0.06283966571739459,0.21475930570748533
+Qwen/Qwen3.5-9B,T_prompt_para_2,17,sensory,SigLIP2,vision_language,0.2422412521096732,aggregate,0.16649326827833352,0.3097830505821865
+Qwen/Qwen3.5-9B,T_prompt_para_2,18,sensory,THINGS behavioral similarity,human_behavioral,0.4380894494837523,aggregate,0.3717029856158226,0.498967975143256
+Qwen/Qwen3.5-9B,T_prompt_para_2,18,sensory,DINOv2,pure_vision,0.35152356533935486,aggregate,0.28073733147774543,0.41846038005736774
+Qwen/Qwen3.5-9B,T_prompt_para_2,18,sensory,CLIP ViT-L/14,vision_language,0.1498461679382732,aggregate,0.07241707797994025,0.2197354430504241
+Qwen/Qwen3.5-9B,T_prompt_para_2,18,sensory,SigLIP2,vision_language,0.24099555020607655,aggregate,0.16840317790387638,0.30829274791609956
+Qwen/Qwen3.5-9B,T_prompt_para_2,19,sensory,THINGS behavioral similarity,human_behavioral,0.4460174099091482,aggregate,0.37804727591400267,0.5059979269831927
+Qwen/Qwen3.5-9B,T_prompt_para_2,19,sensory,DINOv2,pure_vision,0.353765144883566,aggregate,0.2830789697045474,0.4126088087625932
+Qwen/Qwen3.5-9B,T_prompt_para_2,19,sensory,CLIP ViT-L/14,vision_language,0.1413209192814456,aggregate,0.0686936033615742,0.21848183310624322
+Qwen/Qwen3.5-9B,T_prompt_para_2,19,sensory,SigLIP2,vision_language,0.24633853581222007,aggregate,0.1672318003745096,0.3214854491540523
+Qwen/Qwen3.5-9B,T_prompt_para_2,20,sensory,THINGS behavioral similarity,human_behavioral,0.4698699420864653,aggregate,0.4029870334581503,0.5322185078441476
+Qwen/Qwen3.5-9B,T_prompt_para_2,20,sensory,DINOv2,pure_vision,0.3595112410901885,aggregate,0.294525490517918,0.42315736662718223
+Qwen/Qwen3.5-9B,T_prompt_para_2,20,sensory,CLIP ViT-L/14,vision_language,0.13720795464216518,aggregate,0.05666196447522755,0.2065960164365633
+Qwen/Qwen3.5-9B,T_prompt_para_2,20,sensory,SigLIP2,vision_language,0.2705539777908199,aggregate,0.19881023769324038,0.33786524426221515
+Qwen/Qwen3.5-9B,T_prompt_para_2,21,sensory,THINGS behavioral similarity,human_behavioral,0.45007394697286585,aggregate,0.37964728127472425,0.5138183133606109
+Qwen/Qwen3.5-9B,T_prompt_para_2,21,sensory,DINOv2,pure_vision,0.3461427244321982,aggregate,0.27748458214820204,0.4081030116596565
+Qwen/Qwen3.5-9B,T_prompt_para_2,21,sensory,CLIP ViT-L/14,vision_language,0.15135861846388163,aggregate,0.07684452214399377,0.22482759320611792
+Qwen/Qwen3.5-9B,T_prompt_para_2,21,sensory,SigLIP2,vision_language,0.2684380875170349,aggregate,0.19018613702393328,0.3394900117262023
+Qwen/Qwen3.5-9B,T_prompt_para_2,22,sensory,THINGS behavioral similarity,human_behavioral,0.445338253449987,aggregate,0.3768035033091288,0.5075766652184153
+Qwen/Qwen3.5-9B,T_prompt_para_2,22,sensory,DINOv2,pure_vision,0.3327197044302308,aggregate,0.268522358424732,0.4020145468281601
+Qwen/Qwen3.5-9B,T_prompt_para_2,22,sensory,CLIP ViT-L/14,vision_language,0.1638166046060783,aggregate,0.08627607431448107,0.23460829881308878
+Qwen/Qwen3.5-9B,T_prompt_para_2,22,sensory,SigLIP2,vision_language,0.24132364099469367,aggregate,0.16739741756572385,0.31559746420368134
+Qwen/Qwen3.5-9B,T_prompt_para_2,23,sensory,THINGS behavioral similarity,human_behavioral,0.4488257192273604,aggregate,0.37798028751794066,0.5097540741314361
+Qwen/Qwen3.5-9B,T_prompt_para_2,23,sensory,DINOv2,pure_vision,0.3410770565375829,aggregate,0.2686423964174364,0.40609263230260667
+Qwen/Qwen3.5-9B,T_prompt_para_2,23,sensory,CLIP ViT-L/14,vision_language,0.18868670842355056,aggregate,0.11923817519056729,0.25236389150307575
+Qwen/Qwen3.5-9B,T_prompt_para_2,23,sensory,SigLIP2,vision_language,0.2476958003273793,aggregate,0.1731577338043788,0.31624200716690276
+Qwen/Qwen3.5-9B,T_prompt_para_2,24,sensory,THINGS behavioral similarity,human_behavioral,0.443748639803244,aggregate,0.37427187216870594,0.5042893711997579
+Qwen/Qwen3.5-9B,T_prompt_para_2,24,sensory,DINOv2,pure_vision,0.3335590490195754,aggregate,0.2676695113926668,0.3959442390969624
+Qwen/Qwen3.5-9B,T_prompt_para_2,24,sensory,CLIP ViT-L/14,vision_language,0.17811596101069788,aggregate,0.10834722645997352,0.2427734874799557
+Qwen/Qwen3.5-9B,T_prompt_para_2,24,sensory,SigLIP2,vision_language,0.2704351273430221,aggregate,0.1988079342498861,0.34357877983444823
+Qwen/Qwen3.5-9B,T_prompt_para_2,25,sensory,THINGS behavioral similarity,human_behavioral,0.4418978683793644,aggregate,0.37567083601351486,0.5066825057713971
+Qwen/Qwen3.5-9B,T_prompt_para_2,25,sensory,DINOv2,pure_vision,0.3347658939764203,aggregate,0.26046153983975356,0.40044793441702137
+Qwen/Qwen3.5-9B,T_prompt_para_2,25,sensory,CLIP ViT-L/14,vision_language,0.16792172877699196,aggregate,0.09270689512323166,0.2416560824169063
+Qwen/Qwen3.5-9B,T_prompt_para_2,25,sensory,SigLIP2,vision_language,0.23712173712173715,aggregate,0.15908908932509308,0.3126970309225252
+Qwen/Qwen3.5-9B,T_prompt_para_2,26,sensory,THINGS behavioral similarity,human_behavioral,0.45794199019165477,aggregate,0.38679343499058244,0.5244547863444945
+Qwen/Qwen3.5-9B,T_prompt_para_2,26,sensory,DINOv2,pure_vision,0.3462521455942509,aggregate,0.2847173196785264,0.4138134354829253
+Qwen/Qwen3.5-9B,T_prompt_para_2,26,sensory,CLIP ViT-L/14,vision_language,0.16950488167593433,aggregate,0.09328942237759952,0.24120640080020797
+Qwen/Qwen3.5-9B,T_prompt_para_2,26,sensory,SigLIP2,vision_language,0.23690168591484384,aggregate,0.15802790527887148,0.3090830646465308
+Qwen/Qwen3.5-9B,T_prompt_para_2,27,sensory,THINGS behavioral similarity,human_behavioral,0.4644342937249115,aggregate,0.3958264957802725,0.5262654561141857
+Qwen/Qwen3.5-9B,T_prompt_para_2,27,sensory,DINOv2,pure_vision,0.3448544698544699,aggregate,0.277762984160753,0.40741480567015803
+Qwen/Qwen3.5-9B,T_prompt_para_2,27,sensory,CLIP ViT-L/14,vision_language,0.1353153622890465,aggregate,0.058754205908825116,0.20733634065853035
+Qwen/Qwen3.5-9B,T_prompt_para_2,27,sensory,SigLIP2,vision_language,0.22674144055723006,aggregate,0.1553734305046259,0.2966424805863923
+Qwen/Qwen3.5-9B,T_prompt_para_2,28,sensory,THINGS behavioral similarity,human_behavioral,0.4787490627781008,aggregate,0.41215869880070727,0.53965639147487
+Qwen/Qwen3.5-9B,T_prompt_para_2,28,sensory,DINOv2,pure_vision,0.35447714230608973,aggregate,0.2899212052595737,0.4192985123002426
+Qwen/Qwen3.5-9B,T_prompt_para_2,28,sensory,CLIP ViT-L/14,vision_language,0.14935477435477437,aggregate,0.07553004324823069,0.21811244490506515
+Qwen/Qwen3.5-9B,T_prompt_para_2,28,sensory,SigLIP2,vision_language,0.24214519773730303,aggregate,0.16989217597033934,0.3158754140996789
+Qwen/Qwen3.5-9B,T_prompt_para_2,29,sensory,THINGS behavioral similarity,human_behavioral,0.4712260614256984,aggregate,0.399548484635144,0.5310947327531195
+Qwen/Qwen3.5-9B,T_prompt_para_2,29,sensory,DINOv2,pure_vision,0.3550865228496808,aggregate,0.29062755887294855,0.42398205653622745
+Qwen/Qwen3.5-9B,T_prompt_para_2,29,sensory,CLIP ViT-L/14,vision_language,0.14194266496898078,aggregate,0.06771168126285212,0.21113817111358538
+Qwen/Qwen3.5-9B,T_prompt_para_2,29,sensory,SigLIP2,vision_language,0.23733367154419788,aggregate,0.16552956179279613,0.30479756009678666
+Qwen/Qwen3.5-9B,T_prompt_para_2,30,sensory,THINGS behavioral similarity,human_behavioral,0.4804662696085405,aggregate,0.4135687743913414,0.5411334988398695
+Qwen/Qwen3.5-9B,T_prompt_para_2,30,sensory,DINOv2,pure_vision,0.3675949712133923,aggregate,0.3009091349385433,0.42988352757199816
+Qwen/Qwen3.5-9B,T_prompt_para_2,30,sensory,CLIP ViT-L/14,vision_language,0.16997185582711902,aggregate,0.09865082188716656,0.2422745474364994
+Qwen/Qwen3.5-9B,T_prompt_para_2,30,sensory,SigLIP2,vision_language,0.23685723356775992,aggregate,0.15486402427738366,0.3086781186302739
+Qwen/Qwen3.5-9B,T_prompt_para_2,31,sensory,THINGS behavioral similarity,human_behavioral,0.4985820237615392,aggregate,0.43292949810404363,0.5585784605974468
+Qwen/Qwen3.5-9B,T_prompt_para_2,31,sensory,DINOv2,pure_vision,0.37631364111627275,aggregate,0.30748763992175937,0.4435540662300642
+Qwen/Qwen3.5-9B,T_prompt_para_2,31,sensory,CLIP ViT-L/14,vision_language,0.18479424400477035,aggregate,0.11156063019283205,0.25761495887516156
+Qwen/Qwen3.5-9B,T_prompt_para_2,31,sensory,SigLIP2,vision_language,0.25139553429027117,aggregate,0.17692460260519008,0.3309402517033094
+Qwen/Qwen3.5-9B,T_prompt_para_2,32,sensory,THINGS behavioral similarity,human_behavioral,0.5277054827595345,aggregate,0.46636311005084713,0.5844349558114923
+Qwen/Qwen3.5-9B,T_prompt_para_2,32,sensory,DINOv2,pure_vision,0.3989171242460717,aggregate,0.336950065808381,0.46237782089443297
+Qwen/Qwen3.5-9B,T_prompt_para_2,32,sensory,CLIP ViT-L/14,vision_language,0.246601139693245,aggregate,0.1690163330200153,0.32414040878993716
+Qwen/Qwen3.5-9B,T_prompt_para_2,32,sensory,SigLIP2,vision_language,0.27775173498857714,aggregate,0.20357877823455936,0.345285022403143
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,0,sensory,THINGS behavioral similarity,human_behavioral,0.1445891360355181,aggregate,0.06690950352450335,0.22039804272398525
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,0,sensory,DINOv2,pure_vision,0.14995109896425687,aggregate,0.07089155348464038,0.21971697457798786
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,0,sensory,CLIP ViT-L/14,vision_language,0.006752163002163003,aggregate,-0.06936210794724133,0.07908009565727679
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,0,sensory,SigLIP2,vision_language,0.0964481918429287,aggregate,0.01974509605015342,0.1661976902688992
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,1,sensory,THINGS behavioral similarity,human_behavioral,0.12899754146499193,aggregate,0.05736674828183081,0.202599290386836
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,1,sensory,DINOv2,pure_vision,0.1026417473785895,aggregate,0.025382238875614596,0.1746086631387737
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,1,sensory,CLIP ViT-L/14,vision_language,0.07054404422825476,aggregate,-0.004814738945065745,0.14295061689997157
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,1,sensory,SigLIP2,vision_language,0.06119665165717798,aggregate,-0.001408056445761853,0.1290644911965988
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,2,sensory,THINGS behavioral similarity,human_behavioral,0.08393200270419554,aggregate,0.005675950121095607,0.15547527430974664
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,2,sensory,DINOv2,pure_vision,0.06064588465904256,aggregate,-0.012103141683134307,0.13152940773263497
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,2,sensory,CLIP ViT-L/14,vision_language,0.031013715224241543,aggregate,-0.04845359226977956,0.1076544560601476
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,2,sensory,SigLIP2,vision_language,-0.0665818790818791,aggregate,-0.1337089191864638,-0.0005659345174264192
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,3,sensory,THINGS behavioral similarity,human_behavioral,0.08197833617229182,aggregate,0.006860097688447515,0.15332416103025426
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,3,sensory,DINOv2,pure_vision,0.06419257406099513,aggregate,-0.011193196811097287,0.13806096827233424
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,3,sensory,CLIP ViT-L/14,vision_language,0.029271680587470063,aggregate,-0.04129109266424297,0.10876094218294403
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,3,sensory,SigLIP2,vision_language,0.019842153065837278,aggregate,-0.04997607572816154,0.09316671415233528
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,4,sensory,THINGS behavioral similarity,human_behavioral,0.03925460557670768,aggregate,-0.02969650164676721,0.11567945498481876
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,4,sensory,DINOv2,pure_vision,0.024858498542709072,aggregate,-0.05420629175527799,0.10554329291097206
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,4,sensory,CLIP ViT-L/14,vision_language,-0.09296104855315383,aggregate,-0.16482303060326495,-0.015417121501202743
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,4,sensory,SigLIP2,vision_language,0.09228189820295085,aggregate,0.020707647978340987,0.16572823260394534
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,5,sensory,THINGS behavioral similarity,human_behavioral,0.12941671818023115,aggregate,0.049920565859802674,0.20672449272591664
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,5,sensory,DINOv2,pure_vision,0.11107363574468838,aggregate,0.038552961053959625,0.1861580215978108
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,5,sensory,CLIP ViT-L/14,vision_language,0.12951534991008676,aggregate,0.05797031083487148,0.20059970218177087
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,5,sensory,SigLIP2,vision_language,0.2118237578763895,aggregate,0.1430397134713797,0.284046102024666
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,6,sensory,THINGS behavioral similarity,human_behavioral,0.18808025371585693,aggregate,0.1136566542371008,0.26227777494258
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,6,sensory,DINOv2,pure_vision,0.16914933197827936,aggregate,0.09371955206276245,0.23854690488352648
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,6,sensory,CLIP ViT-L/14,vision_language,0.13421427730638258,aggregate,0.058379739640871044,0.20406009659258792
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,6,sensory,SigLIP2,vision_language,0.23415980159401215,aggregate,0.16461484715383135,0.3021484140271279
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,7,sensory,THINGS behavioral similarity,human_behavioral,0.2669701320849431,aggregate,0.19709839277175964,0.3378878598332482
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,7,sensory,DINOv2,pure_vision,0.23002345370766428,aggregate,0.15741903615999217,0.30156270844411015
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,7,sensory,CLIP ViT-L/14,vision_language,0.1050158204763468,aggregate,0.03536310927806843,0.17908137594374818
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,7,sensory,SigLIP2,vision_language,0.2085722085722086,aggregate,0.1316025632076496,0.2804863031095842
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,8,sensory,THINGS behavioral similarity,human_behavioral,0.2795876396286717,aggregate,0.20670084007249093,0.35150497656259294
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,8,sensory,DINOv2,pure_vision,0.24237540355961412,aggregate,0.1663413924784701,0.30959244291427085
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,8,sensory,CLIP ViT-L/14,vision_language,0.09622047286520972,aggregate,0.016027252629890795,0.17321902371274542
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,8,sensory,SigLIP2,vision_language,0.23745656311445787,aggregate,0.159167442643604,0.3044316338142509
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,9,sensory,THINGS behavioral similarity,human_behavioral,0.2754024938353826,aggregate,0.19954733746110878,0.34597220395736045
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,9,sensory,DINOv2,pure_vision,0.21158695500800767,aggregate,0.1407484671905832,0.2780837960316932
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,9,sensory,CLIP ViT-L/14,vision_language,0.02249154058364585,aggregate,-0.0500707316317953,0.09463347557112946
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,9,sensory,SigLIP2,vision_language,0.20292755490123915,aggregate,0.1312901140196639,0.27307635999322943
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,10,sensory,THINGS behavioral similarity,human_behavioral,0.2856555262299758,aggregate,0.21151532350196886,0.3515178441084836
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,10,sensory,DINOv2,pure_vision,0.21963953049479368,aggregate,0.14172745601258102,0.2919712379041457
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,10,sensory,CLIP ViT-L/14,vision_language,-0.011063453497664025,aggregate,-0.08399387729658173,0.06627616728983286
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,10,sensory,SigLIP2,vision_language,0.18936513344408085,aggregate,0.11911645644483203,0.26043193539111475
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,11,sensory,THINGS behavioral similarity,human_behavioral,0.33569732102044886,aggregate,0.25969481017665513,0.40052520451640267
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,11,sensory,DINOv2,pure_vision,0.2711253648753649,aggregate,0.1938228344161333,0.3379591693123755
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,11,sensory,CLIP ViT-L/14,vision_language,0.05815890190890192,aggregate,-0.01096163834780942,0.13629744454887685
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,11,sensory,SigLIP2,vision_language,0.2221969393022025,aggregate,0.15564026124747654,0.28742238181973223
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,12,sensory,THINGS behavioral similarity,human_behavioral,0.34549603881253843,aggregate,0.2762090922730073,0.4148860567102184
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,12,sensory,DINOv2,pure_vision,0.28051506834401574,aggregate,0.21270781491379603,0.3484361788481603
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,12,sensory,CLIP ViT-L/14,vision_language,0.05041341718973299,aggregate,-0.023108628304136437,0.12356628464470311
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,12,sensory,SigLIP2,vision_language,0.17923718252665624,aggregate,0.10322967712626809,0.24903116857124485
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,13,sensory,THINGS behavioral similarity,human_behavioral,0.336943192699525,aggregate,0.2661254500515976,0.40873740490814026
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,13,sensory,DINOv2,pure_vision,0.27402354047090893,aggregate,0.2025097733271954,0.34469500843109446
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,13,sensory,CLIP ViT-L/14,vision_language,0.04319590339327182,aggregate,-0.02991911832451086,0.11945336392227794
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,13,sensory,SigLIP2,vision_language,0.18371194851458011,aggregate,0.11557139547929458,0.2516599375718219
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,14,sensory,THINGS behavioral similarity,human_behavioral,0.3318110300671651,aggregate,0.26204284064985744,0.4022105083647359
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,14,sensory,DINOv2,pure_vision,0.27086466066729226,aggregate,0.1980573218328709,0.34248949098883374
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,14,sensory,CLIP ViT-L/14,vision_language,0.05202223294328558,aggregate,-0.022391898426869634,0.12733662518873878
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,14,sensory,SigLIP2,vision_language,0.19278582272003328,aggregate,0.11947568881129704,0.2603492545562324
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,15,sensory,THINGS behavioral similarity,human_behavioral,0.3272690214535081,aggregate,0.2550058987329945,0.40083804516488
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,15,sensory,DINOv2,pure_vision,0.25917690555848455,aggregate,0.18518638516134617,0.3309842066861486
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,15,sensory,CLIP ViT-L/14,vision_language,0.05317726863779496,aggregate,-0.026532370623266122,0.12893908128729842
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,15,sensory,SigLIP2,vision_language,0.19198502422186636,aggregate,0.11858252624300394,0.26711889185471466
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,16,sensory,THINGS behavioral similarity,human_behavioral,0.31588349292128975,aggregate,0.2386496816928103,0.38205220556600594
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,16,sensory,DINOv2,pure_vision,0.24814108366739948,aggregate,0.17667531532293512,0.3153827819283635
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,16,sensory,CLIP ViT-L/14,vision_language,0.03983655628392471,aggregate,-0.037618689235452425,0.1156320220905488
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,16,sensory,SigLIP2,vision_language,0.19892805254647364,aggregate,0.12078997133834576,0.2656599339080702
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,17,sensory,THINGS behavioral similarity,human_behavioral,0.30765956180617265,aggregate,0.2355364440007766,0.3777579726463014
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,17,sensory,DINOv2,pure_vision,0.2362936869515817,aggregate,0.16191147334108688,0.30471186320592974
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,17,sensory,CLIP ViT-L/14,vision_language,0.04678151882099251,aggregate,-0.024586725926782804,0.12145865969262062
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,17,sensory,SigLIP2,vision_language,0.2034427116663959,aggregate,0.1268600970708871,0.27717306832910416
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,18,sensory,THINGS behavioral similarity,human_behavioral,0.31221757542281486,aggregate,0.23854311765541472,0.37989670980999907
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,18,sensory,DINOv2,pure_vision,0.24065329821908774,aggregate,0.16277498550846034,0.307565140238626
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,18,sensory,CLIP ViT-L/14,vision_language,0.06571324498956078,aggregate,-0.012323273866269217,0.13712664285488954
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,18,sensory,SigLIP2,vision_language,0.19457206792733112,aggregate,0.12137724106740275,0.26493392060188464
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,19,sensory,THINGS behavioral similarity,human_behavioral,0.3092642055318611,aggregate,0.23734523925248582,0.38136243550924354
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,19,sensory,DINOv2,pure_vision,0.2379680434768136,aggregate,0.16357772382659577,0.309427391387587
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,19,sensory,CLIP ViT-L/14,vision_language,0.06658312307911222,aggregate,-0.007445764639768486,0.15245739642860906
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,19,sensory,SigLIP2,vision_language,0.18322005569029468,aggregate,0.11309116385074706,0.2545580207523254
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,20,sensory,THINGS behavioral similarity,human_behavioral,0.30905687168608337,aggregate,0.23037739313684488,0.3795000336851909
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,20,sensory,DINOv2,pure_vision,0.23866054129212028,aggregate,0.16429364307721525,0.312491810032957
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,20,sensory,CLIP ViT-L/14,vision_language,0.07531097991624308,aggregate,-0.0009191488463680904,0.14877360999223163
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,20,sensory,SigLIP2,vision_language,0.18206821331821335,aggregate,0.10821591054459735,0.25553188112852393
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,21,sensory,THINGS behavioral similarity,human_behavioral,0.3151681424071544,aggregate,0.2371002059889169,0.384137308498296
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,21,sensory,DINOv2,pure_vision,0.2489964891280681,aggregate,0.17975098204676873,0.32209310564639715
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,21,sensory,CLIP ViT-L/14,vision_language,0.08950640694061748,aggregate,0.013293109671771422,0.16636489410197655
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,21,sensory,SigLIP2,vision_language,0.1936399502188976,aggregate,0.12472256728260901,0.259561943963702
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,22,sensory,THINGS behavioral similarity,human_behavioral,0.31560409594024363,aggregate,0.2452022478208463,0.38514036430843956
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,22,sensory,DINOv2,pure_vision,0.2456087505429611,aggregate,0.1773801815316607,0.31394552263640085
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,22,sensory,CLIP ViT-L/14,vision_language,0.09261921104026369,aggregate,0.016276059257727783,0.16857374184546786
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,22,sensory,SigLIP2,vision_language,0.19465458281247758,aggregate,0.12347612434443722,0.2653880604324285
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,23,sensory,THINGS behavioral similarity,human_behavioral,0.2911996348909471,aggregate,0.22063688934264503,0.3663029256330595
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,23,sensory,DINOv2,pure_vision,0.23649722827354408,aggregate,0.1667347827387692,0.30583140701591877
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,23,sensory,CLIP ViT-L/14,vision_language,0.08882832731516943,aggregate,0.013793487768480276,0.15997556101373242
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,23,sensory,SigLIP2,vision_language,0.20973622453885615,aggregate,0.14108822170603244,0.27709665993887833
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,24,sensory,THINGS behavioral similarity,human_behavioral,0.30782919858908175,aggregate,0.24105731623613247,0.3761319518046883
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,24,sensory,DINOv2,pure_vision,0.2513398220635063,aggregate,0.1827360236799012,0.3177805873798497
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,24,sensory,CLIP ViT-L/14,vision_language,0.08704577783525153,aggregate,0.012509764613260919,0.15810660907379528
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,24,sensory,SigLIP2,vision_language,0.20971249589670646,aggregate,0.14187217793457868,0.2801612590456145
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,25,sensory,THINGS behavioral similarity,human_behavioral,0.35361329698897753,aggregate,0.28503805839411694,0.42185795684924193
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,25,sensory,DINOv2,pure_vision,0.27208853360169155,aggregate,0.2040788534465041,0.3367407242490513
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,25,sensory,CLIP ViT-L/14,vision_language,0.06811501877291352,aggregate,-0.003363906532722155,0.1451966263160834
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,25,sensory,SigLIP2,vision_language,0.25012099189730774,aggregate,0.18051188349773073,0.32084210094662835
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,26,sensory,THINGS behavioral similarity,human_behavioral,0.3421607424290293,aggregate,0.26285082712029595,0.4100903120630533
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,26,sensory,DINOv2,pure_vision,0.2691999254499255,aggregate,0.1987346681992621,0.3361702795695889
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,26,sensory,CLIP ViT-L/14,vision_language,0.08994011954538271,aggregate,0.019423429995263267,0.16743953454919694
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,26,sensory,SigLIP2,vision_language,0.21509129897287796,aggregate,0.14190438076514314,0.2856911110054964
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,27,sensory,THINGS behavioral similarity,human_behavioral,0.3404603124164396,aggregate,0.2634628604104505,0.41048354372131385
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,27,sensory,DINOv2,pure_vision,0.2617680249259197,aggregate,0.18941939075254732,0.32718762960140235
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,27,sensory,CLIP ViT-L/14,vision_language,0.08928324717798403,aggregate,0.01992132127880997,0.16553218513953283
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,27,sensory,SigLIP2,vision_language,0.18592779612516458,aggregate,0.11840091963272055,0.2516973211976341
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,28,sensory,THINGS behavioral similarity,human_behavioral,0.34292004576862145,aggregate,0.26892873439934967,0.4095672279421548
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,28,sensory,DINOv2,pure_vision,0.26411001082053714,aggregate,0.19809903051650388,0.3305846787171073
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,28,sensory,CLIP ViT-L/14,vision_language,0.0750234039707724,aggregate,0.00731638243313766,0.14797609502762013
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,28,sensory,SigLIP2,vision_language,0.1744393685183159,aggregate,0.10226539544451325,0.2439185094396154
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,29,sensory,THINGS behavioral similarity,human_behavioral,0.275784339084268,aggregate,0.19782061098173717,0.35020579670863716
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,29,sensory,DINOv2,pure_vision,0.20763722408459254,aggregate,0.14185774338078025,0.27768326351076755
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,29,sensory,CLIP ViT-L/14,vision_language,0.040524617827249414,aggregate,-0.031015486131987124,0.11174766234323692
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,29,sensory,SigLIP2,vision_language,0.14282594381278593,aggregate,0.0758487006362871,0.21418110285973585
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,30,sensory,THINGS behavioral similarity,human_behavioral,0.30543194161911114,aggregate,0.23297688414202283,0.37684702137076304
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,30,sensory,DINOv2,pure_vision,0.25180776332092125,aggregate,0.18459624936368507,0.31941076904936483
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,30,sensory,CLIP ViT-L/14,vision_language,0.1737233645128382,aggregate,0.10579839731216859,0.23973170988385537
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,30,sensory,SigLIP2,vision_language,0.12292113607903084,aggregate,0.048315228435848755,0.19545379420186274
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,31,sensory,THINGS behavioral similarity,human_behavioral,0.32343622945690326,aggregate,0.25943846035335694,0.3889493699926908
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,31,sensory,DINOv2,pure_vision,0.27533562730931155,aggregate,0.20135513567793722,0.34959009130761154
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,31,sensory,CLIP ViT-L/14,vision_language,0.13160588818483557,aggregate,0.0654282810544973,0.20515295549215784
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,31,sensory,SigLIP2,vision_language,0.09846920208762315,aggregate,0.0258847142764752,0.17681383033374468
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,32,sensory,THINGS behavioral similarity,human_behavioral,0.32690964007937096,aggregate,0.2544359309597536,0.3958667104004881
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,32,sensory,DINOv2,pure_vision,0.27686707456444304,aggregate,0.20392650142380034,0.34898052482743513
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,32,sensory,CLIP ViT-L/14,vision_language,0.13879345622766678,aggregate,0.06428253539473897,0.21034075377901418
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,32,sensory,SigLIP2,vision_language,0.09693302291986504,aggregate,0.01891039471424308,0.1699907909095681
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,33,sensory,THINGS behavioral similarity,human_behavioral,0.29134741712663276,aggregate,0.2221851812382989,0.36923148044553683
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,33,sensory,DINOv2,pure_vision,0.24953350940193048,aggregate,0.17534509780127944,0.3184449774569921
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,33,sensory,CLIP ViT-L/14,vision_language,0.10666960666960669,aggregate,0.033997352642391655,0.17768049276807893
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,33,sensory,SigLIP2,vision_language,0.09084508920035236,aggregate,0.018464157969091705,0.16346185742861902
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,34,sensory,THINGS behavioral similarity,human_behavioral,0.2937731093810948,aggregate,0.22097706056939762,0.36794288441230294
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,34,sensory,DINOv2,pure_vision,0.2503387634966583,aggregate,0.1808308075780165,0.3266441766542935
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,34,sensory,CLIP ViT-L/14,vision_language,0.09553313665155772,aggregate,0.022958059406915542,0.16942516059944326
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,34,sensory,SigLIP2,vision_language,0.09391091956881432,aggregate,0.021422476131450114,0.1681387465694654
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,35,sensory,THINGS behavioral similarity,human_behavioral,0.3012026805130253,aggregate,0.22438976751475737,0.3710128498446204
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,35,sensory,DINOv2,pure_vision,0.2535902782613309,aggregate,0.18338667764253302,0.32374368123793384
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,35,sensory,CLIP ViT-L/14,vision_language,0.08816807007596482,aggregate,0.016048865514190786,0.16066347008143317
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,35,sensory,SigLIP2,vision_language,0.10497889774205565,aggregate,0.030479459278952608,0.18100755527547996
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,36,sensory,THINGS behavioral similarity,human_behavioral,0.380360622371196,aggregate,0.3144615687162528,0.4456938382016222
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,36,sensory,DINOv2,pure_vision,0.29028076889918997,aggregate,0.21823590669262655,0.3583694520254342
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,36,sensory,CLIP ViT-L/14,vision_language,0.14636596708965133,aggregate,0.07490983821143427,0.2240598377580983
+Qwen/Qwen3-VL-8B-Instruct,M_text_only,36,sensory,SigLIP2,vision_language,0.20268874874138035,aggregate,0.13338854283267756,0.2691776304116443
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,0,sensory,THINGS behavioral similarity,human_behavioral,0.4992627644722649,aggregate,0.43833962526475884,0.5534233555134542
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,0,sensory,DINOv2,pure_vision,0.252781604755289,aggregate,0.17884563610013157,0.32114133410596196
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,0,sensory,CLIP ViT-L/14,vision_language,0.22521766107292426,aggregate,0.14838132454404898,0.29557064728113586
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,0,sensory,SigLIP2,vision_language,0.6463574012916119,aggregate,0.5988862346760769,0.6891727295119893
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,1,sensory,THINGS behavioral similarity,human_behavioral,0.5468960906663107,aggregate,0.4852612280197271,0.6027678899815783
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,1,sensory,DINOv2,pure_vision,0.281078476802161,aggregate,0.20906113704835766,0.34553704152903925
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,1,sensory,CLIP ViT-L/14,vision_language,0.2540590484669432,aggregate,0.18417950531448746,0.3217690602099894
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,1,sensory,SigLIP2,vision_language,0.6913037324221536,aggregate,0.6454076332039467,0.7339907837490052
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,2,sensory,THINGS behavioral similarity,human_behavioral,0.4812751315868178,aggregate,0.4158770870279495,0.5343257597180137
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,2,sensory,DINOv2,pure_vision,0.23993967743967748,aggregate,0.16355939205245543,0.3066902514879378
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,2,sensory,CLIP ViT-L/14,vision_language,0.19285756127861395,aggregate,0.11641436403195814,0.2628413800966217
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,2,sensory,SigLIP2,vision_language,0.6300058800058801,aggregate,0.5790262333215884,0.6807264933824481
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,3,sensory,THINGS behavioral similarity,human_behavioral,0.47078206476928164,aggregate,0.41034793016404486,0.5320787508462828
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,3,sensory,DINOv2,pure_vision,0.23802795019900286,aggregate,0.16517394957159448,0.30463096683918867
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,3,sensory,CLIP ViT-L/14,vision_language,0.21274140353087725,aggregate,0.14163269195383463,0.27755755452338465
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,3,sensory,SigLIP2,vision_language,0.6575112101427891,aggregate,0.6091890893559632,0.7021561475340549
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,4,sensory,THINGS behavioral similarity,human_behavioral,0.4621142588632527,aggregate,0.399511923428078,0.5215186604395956
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,4,sensory,DINOv2,pure_vision,0.2433798469982681,aggregate,0.16927952938924967,0.31103806816942114
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,4,sensory,CLIP ViT-L/14,vision_language,0.21137277551751238,aggregate,0.13901454516831888,0.2842524747380105
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,4,sensory,SigLIP2,vision_language,0.6388333838991734,aggregate,0.5904637732269878,0.6833057739199262
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,5,sensory,THINGS behavioral similarity,human_behavioral,0.43659663766978524,aggregate,0.36675960951421355,0.4970727173641873
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,5,sensory,DINOv2,pure_vision,0.2251313468418732,aggregate,0.1569073540026175,0.2951146069635781
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,5,sensory,CLIP ViT-L/14,vision_language,0.19738417106838163,aggregate,0.12005699465679333,0.26490635502676235
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,5,sensory,SigLIP2,vision_language,0.6356961603672131,aggregate,0.5827524695952606,0.6828353220845421
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,6,sensory,THINGS behavioral similarity,human_behavioral,0.4349135531807353,aggregate,0.369530203813032,0.49397485020087856
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,6,sensory,DINOv2,pure_vision,0.22257051862315022,aggregate,0.1516146087595927,0.28936544290706534
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,6,sensory,CLIP ViT-L/14,vision_language,0.19154989549726395,aggregate,0.11814548175288923,0.25875789952584183
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,6,sensory,SigLIP2,vision_language,0.6317470166154378,aggregate,0.5795500848805839,0.6752882676734929
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,7,sensory,THINGS behavioral similarity,human_behavioral,0.29740116732936106,aggregate,0.22298038255694452,0.3691364227461058
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,7,sensory,DINOv2,pure_vision,0.1766370828870829,aggregate,0.09978840799285608,0.2513887234773143
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,7,sensory,CLIP ViT-L/14,vision_language,0.17098524499840292,aggregate,0.10523880737165195,0.24001717405713294
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,7,sensory,SigLIP2,vision_language,0.4588631003104688,aggregate,0.39357609940929983,0.5193624639763348
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,8,sensory,THINGS behavioral similarity,human_behavioral,0.2894933959559541,aggregate,0.21247226293426524,0.36661830719112853
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,8,sensory,DINOv2,pure_vision,0.1691452908558172,aggregate,0.09248321279963302,0.24729182879041475
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,8,sensory,CLIP ViT-L/14,vision_language,0.15512528999371106,aggregate,0.07425472474527474,0.22765402201360885
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,8,sensory,SigLIP2,vision_language,0.4443219673482832,aggregate,0.37488916479105744,0.509161339615389
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,9,sensory,THINGS behavioral similarity,human_behavioral,0.3009474941456319,aggregate,0.22689566862151472,0.38122990982693017
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,9,sensory,DINOv2,pure_vision,0.1731451040661567,aggregate,0.09664540999132888,0.24812903063490227
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,9,sensory,CLIP ViT-L/14,vision_language,0.13870354988776043,aggregate,0.06013872119000401,0.2095237212653305
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,9,sensory,SigLIP2,vision_language,0.43504555346660617,aggregate,0.3736694261682475,0.5029004128656213
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,10,sensory,THINGS behavioral similarity,human_behavioral,0.31507284358227305,aggregate,0.23561607154615982,0.3853929448697118
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,10,sensory,DINOv2,pure_vision,0.1852561063087379,aggregate,0.1089931309491222,0.26303867738963516
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,10,sensory,CLIP ViT-L/14,vision_language,0.13242437091121304,aggregate,0.06259036818874766,0.2072916873525888
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,10,sensory,SigLIP2,vision_language,0.413129682866525,aggregate,0.3476442708175239,0.47974684681235985
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,11,sensory,THINGS behavioral similarity,human_behavioral,0.32856952950064283,aggregate,0.24734118372826958,0.4021525205860918
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,11,sensory,DINOv2,pure_vision,0.20123560255139206,aggregate,0.1274648515389172,0.2770378406244339
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,11,sensory,CLIP ViT-L/14,vision_language,0.1652704761257393,aggregate,0.092559293442629,0.23823649416932466
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,11,sensory,SigLIP2,vision_language,0.4139153185205817,aggregate,0.3407239152267011,0.48004584260294114
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,12,sensory,THINGS behavioral similarity,human_behavioral,0.3373118764738744,aggregate,0.26234973215660423,0.40883251393045567
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,12,sensory,DINOv2,pure_vision,0.2016308726835043,aggregate,0.12942663812235009,0.27538104077794334
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,12,sensory,CLIP ViT-L/14,vision_language,0.15533066190960929,aggregate,0.0807328868146191,0.22687140011793105
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,12,sensory,SigLIP2,vision_language,0.4079280674675412,aggregate,0.34232501350307215,0.47283839548838075
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,13,sensory,THINGS behavioral similarity,human_behavioral,0.3517871017752655,aggregate,0.27653831784921884,0.4237443651713865
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,13,sensory,DINOv2,pure_vision,0.21329866395655872,aggregate,0.1413436505701176,0.2888336247541017
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,13,sensory,CLIP ViT-L/14,vision_language,0.17523001240106506,aggregate,0.10280385894629013,0.24447848647190823
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,13,sensory,SigLIP2,vision_language,0.42341036748931493,aggregate,0.3567814175097587,0.4895930093270946
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,14,sensory,THINGS behavioral similarity,human_behavioral,0.3652428002621326,aggregate,0.29658122017747696,0.44390546819604665
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,14,sensory,DINOv2,pure_vision,0.2188163503952978,aggregate,0.14223031412597256,0.285896755176272
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,14,sensory,CLIP ViT-L/14,vision_language,0.18948830133040662,aggregate,0.12363578592785948,0.2614898125298994
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,14,sensory,SigLIP2,vision_language,0.4447203805756438,aggregate,0.3796419017343712,0.5088373708790961
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,15,sensory,THINGS behavioral similarity,human_behavioral,0.3724745024358375,aggregate,0.2976280966467505,0.44710184216594845
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,15,sensory,DINOv2,pure_vision,0.22030742096531572,aggregate,0.14763945356005675,0.28892627304647844
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,15,sensory,CLIP ViT-L/14,vision_language,0.16933878118088647,aggregate,0.0993233858878751,0.24536171785125668
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,15,sensory,SigLIP2,vision_language,0.44343423290791717,aggregate,0.37875364514249293,0.5112766176126694
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,16,sensory,THINGS behavioral similarity,human_behavioral,0.36911755461427986,aggregate,0.29511730475995057,0.43678944436391043
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,16,sensory,DINOv2,pure_vision,0.21660678897521005,aggregate,0.13974648662729075,0.2881065178417618
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,16,sensory,CLIP ViT-L/14,vision_language,0.1750730994152047,aggregate,0.1047260425937533,0.24240947223858708
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,16,sensory,SigLIP2,vision_language,0.4560667817246765,aggregate,0.3892181718559548,0.5168999907475952
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,17,sensory,THINGS behavioral similarity,human_behavioral,0.36571892879002477,aggregate,0.29668168554893254,0.4327224011630893
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,17,sensory,DINOv2,pure_vision,0.20982253876990722,aggregate,0.13383074211208765,0.28226393725078397
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,17,sensory,CLIP ViT-L/14,vision_language,0.1727763948158685,aggregate,0.10104741187359964,0.23855237825759237
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,17,sensory,SigLIP2,vision_language,0.4533950471450472,aggregate,0.38182335048420996,0.5150443653933068
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,18,sensory,THINGS behavioral similarity,human_behavioral,0.3670590025044376,aggregate,0.2997098826376561,0.4382692347242266
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,18,sensory,DINOv2,pure_vision,0.20520477921793714,aggregate,0.13127028428426538,0.277268498836091
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,18,sensory,CLIP ViT-L/14,vision_language,0.1628043552385658,aggregate,0.0861272762534292,0.23656646742232731
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,18,sensory,SigLIP2,vision_language,0.4568373926926559,aggregate,0.3934336456321746,0.5206698903443836
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,19,sensory,THINGS behavioral similarity,human_behavioral,0.3592796367514271,aggregate,0.2881775140763351,0.4293007709097378
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,19,sensory,DINOv2,pure_vision,0.19742606749185698,aggregate,0.12356423156524052,0.26307881888464335
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,19,sensory,CLIP ViT-L/14,vision_language,0.1591300768932348,aggregate,0.08744358628373965,0.2339168237674427
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,19,sensory,SigLIP2,vision_language,0.4557160675581729,aggregate,0.39141186057357963,0.5173186505112087
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,20,sensory,THINGS behavioral similarity,human_behavioral,0.3472974140850728,aggregate,0.27130273637491426,0.41933083769510243
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,20,sensory,DINOv2,pure_vision,0.19015971647277327,aggregate,0.11767494377951919,0.2596699616513181
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,20,sensory,CLIP ViT-L/14,vision_language,0.16609718068930274,aggregate,0.09496112044605845,0.23753591868794155
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,20,sensory,SigLIP2,vision_language,0.45808674246989284,aggregate,0.3930491472009632,0.5213098430318186
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,21,sensory,THINGS behavioral similarity,human_behavioral,0.3425408815608452,aggregate,0.27162808027094865,0.4184379729302269
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,21,sensory,DINOv2,pure_vision,0.18302367973420608,aggregate,0.11538554979928871,0.2504813212132019
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,21,sensory,CLIP ViT-L/14,vision_language,0.16477051674420098,aggregate,0.0935688754326409,0.23104225221569552
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,21,sensory,SigLIP2,vision_language,0.45684675289938453,aggregate,0.3941583733923716,0.5162783947895528
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,22,sensory,THINGS behavioral similarity,human_behavioral,0.3275216080234623,aggregate,0.24713756122522973,0.3968641540196236
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,22,sensory,DINOv2,pure_vision,0.172577309090467,aggregate,0.09224002914800222,0.2498445372693485
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,22,sensory,CLIP ViT-L/14,vision_language,0.15126021540495227,aggregate,0.0723643585851849,0.2244570997429951
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,22,sensory,SigLIP2,vision_language,0.4456763996237681,aggregate,0.38352217202784145,0.5079166536181453
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,23,sensory,THINGS behavioral similarity,human_behavioral,0.29099343845654896,aggregate,0.21591874652637558,0.36540904101056054
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,23,sensory,DINOv2,pure_vision,0.14170482591535224,aggregate,0.06788646228899707,0.21865773085097956
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,23,sensory,CLIP ViT-L/14,vision_language,0.16885999451788927,aggregate,0.0926299174858161,0.2415511959610404
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,23,sensory,SigLIP2,vision_language,0.45777134099502526,aggregate,0.394916359732388,0.516548655460392
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,24,sensory,THINGS behavioral similarity,human_behavioral,0.31685723892778256,aggregate,0.2432092075494698,0.3890475262947984
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,24,sensory,DINOv2,pure_vision,0.15829138855454647,aggregate,0.07850186382859664,0.2307271400459351
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,24,sensory,CLIP ViT-L/14,vision_language,0.16862650744229693,aggregate,0.09493088586797578,0.23539753396326524
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,24,sensory,SigLIP2,vision_language,0.4564998380787855,aggregate,0.393692762548483,0.5174322895209232
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,25,sensory,THINGS behavioral similarity,human_behavioral,0.397985380404697,aggregate,0.32730105696450135,0.46200321158528657
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,25,sensory,DINOv2,pure_vision,0.21133561100666368,aggregate,0.13654154818976685,0.2794579354371852
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,25,sensory,CLIP ViT-L/14,vision_language,0.18354916381232173,aggregate,0.10578309560173375,0.2534880124003437
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,25,sensory,SigLIP2,vision_language,0.48123844998845006,aggregate,0.41996001089805085,0.5387644674167341
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,26,sensory,THINGS behavioral similarity,human_behavioral,0.42263300375823054,aggregate,0.35221638399308464,0.48766327337128984
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,26,sensory,DINOv2,pure_vision,0.2210681190944349,aggregate,0.1497516465187915,0.29348249259826203
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,26,sensory,CLIP ViT-L/14,vision_language,0.17739449976292085,aggregate,0.10064816975561526,0.24721313270413628
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,26,sensory,SigLIP2,vision_language,0.48605850744008644,aggregate,0.4228709749204974,0.5432376220878834
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,27,sensory,THINGS behavioral similarity,human_behavioral,0.4443558549926418,aggregate,0.3836770173820866,0.507138587148313
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,27,sensory,DINOv2,pure_vision,0.23934956994167522,aggregate,0.16993770650420478,0.3067786884209555
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,27,sensory,CLIP ViT-L/14,vision_language,0.1413120080883239,aggregate,0.07167789072198236,0.21155452832958394
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,27,sensory,SigLIP2,vision_language,0.4612386240675715,aggregate,0.4004569187733081,0.5190938361102883
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,28,sensory,THINGS behavioral similarity,human_behavioral,0.4499188934287174,aggregate,0.3823095765217371,0.5102407987880232
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,28,sensory,DINOv2,pure_vision,0.2414345128160918,aggregate,0.16754749871456798,0.30717541783370983
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,28,sensory,CLIP ViT-L/14,vision_language,0.1287709889683574,aggregate,0.058066780526513734,0.2018217058770362
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,28,sensory,SigLIP2,vision_language,0.46564113340429136,aggregate,0.402721377055805,0.5200463029426807
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,29,sensory,THINGS behavioral similarity,human_behavioral,0.44552901358708974,aggregate,0.3749935173035794,0.5065933559160953
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,29,sensory,DINOv2,pure_vision,0.2287832781253834,aggregate,0.161267561470686,0.29890919550018163
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,29,sensory,CLIP ViT-L/14,vision_language,0.10458386938650098,aggregate,0.034242023238444955,0.17772051383432477
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,29,sensory,SigLIP2,vision_language,0.4704089671194935,aggregate,0.4085831178117126,0.5290195803738474
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,30,sensory,THINGS behavioral similarity,human_behavioral,0.45373035896195363,aggregate,0.39203766564156933,0.513670285355059
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,30,sensory,DINOv2,pure_vision,0.26917771654613765,aggregate,0.1953580924643109,0.339734126064738
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,30,sensory,CLIP ViT-L/14,vision_language,0.10715478314162526,aggregate,0.03629863167676339,0.1775121340387587
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,30,sensory,SigLIP2,vision_language,0.36938777892725266,aggregate,0.3088396631646067,0.4344824313849467
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,31,sensory,THINGS behavioral similarity,human_behavioral,0.4259352339680596,aggregate,0.35766013022844845,0.4880559340762499
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,31,sensory,DINOv2,pure_vision,0.283977412266886,aggregate,0.21284789853521704,0.3495665616845651
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,31,sensory,CLIP ViT-L/14,vision_language,0.08478520156151736,aggregate,0.0049021579159106024,0.1571040569396097
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,31,sensory,SigLIP2,vision_language,0.30651129828761414,aggregate,0.23620905346091464,0.3714666560509731
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,32,sensory,THINGS behavioral similarity,human_behavioral,0.41181687148703633,aggregate,0.34614822165977666,0.4717918411064333
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,32,sensory,DINOv2,pure_vision,0.2695247004457531,aggregate,0.196081971233493,0.334673663073727
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,32,sensory,CLIP ViT-L/14,vision_language,0.09055934384881754,aggregate,0.011821128720273258,0.1702643931987992
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,32,sensory,SigLIP2,vision_language,0.3063197767145136,aggregate,0.23772177597016939,0.37213638433482443
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,33,sensory,THINGS behavioral similarity,human_behavioral,0.3936786940811244,aggregate,0.3334808958243742,0.4568427293228721
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,33,sensory,DINOv2,pure_vision,0.25897446950078534,aggregate,0.18652618623726513,0.32724044778830136
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,33,sensory,CLIP ViT-L/14,vision_language,0.08028235495340759,aggregate,0.0075917880949339794,0.15900712999977276
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,33,sensory,SigLIP2,vision_language,0.2925705310573732,aggregate,0.21878647130969467,0.3565013310536033
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,34,sensory,THINGS behavioral similarity,human_behavioral,0.4025550524879807,aggregate,0.336094266847976,0.4656072247142198
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,34,sensory,DINOv2,pure_vision,0.26234621629358473,aggregate,0.1904390484849595,0.3374994767701709
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,34,sensory,CLIP ViT-L/14,vision_language,0.10043232411653466,aggregate,0.02379025815655429,0.1764875620965171
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,34,sensory,SigLIP2,vision_language,0.32786483115430487,aggregate,0.25809541412885967,0.39463384766481086
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,35,sensory,THINGS behavioral similarity,human_behavioral,0.3774967423827204,aggregate,0.30859978039281094,0.4367190379005482
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,35,sensory,DINOv2,pure_vision,0.2332324157982053,aggregate,0.15851453432814633,0.3022788770442141
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,35,sensory,CLIP ViT-L/14,vision_language,0.03807037853090485,aggregate,-0.0295603815769009,0.11481204823265818
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,35,sensory,SigLIP2,vision_language,0.31561435837751634,aggregate,0.2506654741780781,0.3830474733120257
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,36,sensory,THINGS behavioral similarity,human_behavioral,0.2738680446405531,aggregate,0.20485779941791143,0.34736404014297073
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,36,sensory,DINOv2,pure_vision,0.16299117943854788,aggregate,0.09343304258985297,0.23600341607267833
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,36,sensory,CLIP ViT-L/14,vision_language,0.01888596132017185,aggregate,-0.06335915169602167,0.09462475748780587
+Qwen/Qwen3-VL-8B-Instruct,M_matched_image,36,sensory,SigLIP2,vision_language,0.314098833835676,aggregate,0.24757021683467018,0.38156735753889076
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,0,sensory,THINGS behavioral similarity,human_behavioral,0.4727271600940029,aggregate,0.41238620948634186,0.5320397066147039
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,0,sensory,DINOv2,pure_vision,0.2610038383064699,aggregate,0.19124441698483294,0.331833784948519
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,0,sensory,CLIP ViT-L/14,vision_language,0.1466903621508885,aggregate,0.07303036422552366,0.2173627968549928
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,0,sensory,SigLIP2,vision_language,0.5241316491316492,aggregate,0.4697582528078502,0.5777031022459767
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,1,sensory,THINGS behavioral similarity,human_behavioral,0.5313209885607897,aggregate,0.47025806219722993,0.5828489970868521
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,1,sensory,DINOv2,pure_vision,0.29730776276828913,aggregate,0.2281793165584348,0.3658935833826495
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,1,sensory,CLIP ViT-L/14,vision_language,0.17129499530815323,aggregate,0.09911534485308801,0.2420457011285245
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,1,sensory,SigLIP2,vision_language,0.5592274161353109,aggregate,0.5076257269699653,0.6121665446025852
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,2,sensory,THINGS behavioral similarity,human_behavioral,0.4678187019069209,aggregate,0.40723738979286667,0.5233551960964828
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,2,sensory,DINOv2,pure_vision,0.2478915357204831,aggregate,0.17933608401455928,0.31539397232329813
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,2,sensory,CLIP ViT-L/14,vision_language,0.10412749886434099,aggregate,0.03599997076485322,0.17337835786329647
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,2,sensory,SigLIP2,vision_language,0.5272812723470619,aggregate,0.46985390892719775,0.5860876283070164
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,3,sensory,THINGS behavioral similarity,human_behavioral,0.45678004322366345,aggregate,0.39495817545752476,0.5227925842159639
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,3,sensory,DINOv2,pure_vision,0.23845330424277797,aggregate,0.16566584465809356,0.30960005908311283
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,3,sensory,CLIP ViT-L/14,vision_language,0.1236660841924,aggregate,0.04718805960734457,0.19315421543897934
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,3,sensory,SigLIP2,vision_language,0.5384870631581159,aggregate,0.47908274295689807,0.5890436308389745
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,4,sensory,THINGS behavioral similarity,human_behavioral,0.45452073800531145,aggregate,0.3944648182933262,0.5131093551854007
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,4,sensory,DINOv2,pure_vision,0.24425297122665546,aggregate,0.1718685039095242,0.3166797071061863
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,4,sensory,CLIP ViT-L/14,vision_language,0.12570450234923922,aggregate,0.05531607626544603,0.1940719126939868
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,4,sensory,SigLIP2,vision_language,0.525339702971282,aggregate,0.47076463566684007,0.579075964101132
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,5,sensory,THINGS behavioral similarity,human_behavioral,0.4404538433892177,aggregate,0.3851264695999041,0.49982508621314176
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,5,sensory,DINOv2,pure_vision,0.23145663606189926,aggregate,0.16189663865396964,0.30019340757489327
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,5,sensory,CLIP ViT-L/14,vision_language,0.12184339980392614,aggregate,0.04819621250673463,0.1870889812665318
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,5,sensory,SigLIP2,vision_language,0.5302062506009875,aggregate,0.4731354158665325,0.5855973684964362
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,6,sensory,THINGS behavioral similarity,human_behavioral,0.4393853672635334,aggregate,0.37658762654329847,0.49643305446140784
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,6,sensory,DINOv2,pure_vision,0.22633473784789576,aggregate,0.1517891023244537,0.29488907431875155
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,6,sensory,CLIP ViT-L/14,vision_language,0.113518929308403,aggregate,0.04673798520980049,0.1837419288325432
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,6,sensory,SigLIP2,vision_language,0.521204736665263,aggregate,0.4599992404726546,0.5771028913242363
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,7,sensory,THINGS behavioral similarity,human_behavioral,0.2891756925845144,aggregate,0.21668190245024213,0.371892197588509
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,7,sensory,DINOv2,pure_vision,0.17249479420532055,aggregate,0.09286018612296154,0.24382039330180924
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,7,sensory,CLIP ViT-L/14,vision_language,0.11573387889177364,aggregate,0.04604706761375751,0.1867503445385096
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,7,sensory,SigLIP2,vision_language,0.37838583891215477,aggregate,0.3122374476446755,0.44358213454913287
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,8,sensory,THINGS behavioral similarity,human_behavioral,0.27823550122926743,aggregate,0.19273532680526156,0.35714945872222637
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,8,sensory,DINOv2,pure_vision,0.16132696231380445,aggregate,0.08391219456318448,0.228910260263175
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,8,sensory,CLIP ViT-L/14,vision_language,0.1023707503970662,aggregate,0.03060419861960346,0.1748444971156841
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,8,sensory,SigLIP2,vision_language,0.37750066039539726,aggregate,0.31110206151700776,0.44056310051081976
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,9,sensory,THINGS behavioral similarity,human_behavioral,0.287300994899827,aggregate,0.20814173931207744,0.35718802349525364
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,9,sensory,DINOv2,pure_vision,0.16582069049174314,aggregate,0.08931844475692377,0.23710196676529618
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,9,sensory,CLIP ViT-L/14,vision_language,0.08228198524251157,aggregate,0.007577268325014353,0.15749458587343984
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,9,sensory,SigLIP2,vision_language,0.37761142859827074,aggregate,0.31232148270529647,0.44494827654418356
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,10,sensory,THINGS behavioral similarity,human_behavioral,0.3110257714061075,aggregate,0.23689422419972914,0.39063547793544506
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,10,sensory,DINOv2,pure_vision,0.1857165524928683,aggregate,0.10741538190575771,0.26167589702571364
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,10,sensory,CLIP ViT-L/14,vision_language,0.10542587351797879,aggregate,0.03568516710840743,0.17360552243163377
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,10,sensory,SigLIP2,vision_language,0.3702088866562551,aggregate,0.3009238411467822,0.43520437163722886
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,11,sensory,THINGS behavioral similarity,human_behavioral,0.32776050503502563,aggregate,0.2503221299207798,0.40750406248180465
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,11,sensory,DINOv2,pure_vision,0.2027747175773492,aggregate,0.1259000145938674,0.2755782914937838
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,11,sensory,CLIP ViT-L/14,vision_language,0.15033504013767174,aggregate,0.08000856412368712,0.21699235245176235
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,11,sensory,SigLIP2,vision_language,0.3609040812988182,aggregate,0.28687146803533214,0.428979652504805
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,12,sensory,THINGS behavioral similarity,human_behavioral,0.3430335025537424,aggregate,0.2701015278979869,0.4110779375259504
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,12,sensory,DINOv2,pure_vision,0.2056264375343323,aggregate,0.1344969012666097,0.28111749233417843
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,12,sensory,CLIP ViT-L/14,vision_language,0.15182735412998574,aggregate,0.0781858667204678,0.22225842739252943
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,12,sensory,SigLIP2,vision_language,0.36848577966999024,aggregate,0.29646013676947613,0.43621754324321177
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,13,sensory,THINGS behavioral similarity,human_behavioral,0.36091564053372616,aggregate,0.284640554880667,0.43255686590248527
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,13,sensory,DINOv2,pure_vision,0.21988489916121498,aggregate,0.14519435800115693,0.29239404254618273
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,13,sensory,CLIP ViT-L/14,vision_language,0.17945184557026664,aggregate,0.10427398947068298,0.24499199404509592
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,13,sensory,SigLIP2,vision_language,0.3823257606152343,aggregate,0.31349967847646903,0.44826143699110604
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,14,sensory,THINGS behavioral similarity,human_behavioral,0.36671704789751025,aggregate,0.29253907518567107,0.43658754626811863
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,14,sensory,DINOv2,pure_vision,0.22221956268008902,aggregate,0.14677301128478853,0.29213743139967174
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,14,sensory,CLIP ViT-L/14,vision_language,0.18603514491672388,aggregate,0.11540317999620366,0.24884626481544703
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,14,sensory,SigLIP2,vision_language,0.4004895698974647,aggregate,0.3359847747394964,0.46488842336107217
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,15,sensory,THINGS behavioral similarity,human_behavioral,0.3643083355700731,aggregate,0.2866143712597802,0.43278461279142855
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,15,sensory,DINOv2,pure_vision,0.21789518171097122,aggregate,0.14052126228740536,0.2904345154342738
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,15,sensory,CLIP ViT-L/14,vision_language,0.16364062581167846,aggregate,0.09140791785450003,0.23571032982875725
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,15,sensory,SigLIP2,vision_language,0.40252501765659665,aggregate,0.33186232990513437,0.4699577535211641
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,16,sensory,THINGS behavioral similarity,human_behavioral,0.3559098118081784,aggregate,0.2779604155073529,0.4272874223431831
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,16,sensory,DINOv2,pure_vision,0.210073848231743,aggregate,0.13847853058029924,0.282779708424475
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,16,sensory,CLIP ViT-L/14,vision_language,0.15973306762780448,aggregate,0.08502419887480134,0.22187562484192902
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,16,sensory,SigLIP2,vision_language,0.408043360345992,aggregate,0.3387247572248019,0.47196073487034185
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,17,sensory,THINGS behavioral similarity,human_behavioral,0.359280083591612,aggregate,0.2819379695696448,0.4300600469684404
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,17,sensory,DINOv2,pure_vision,0.24866276839961055,aggregate,0.17309010719158033,0.31939117522590393
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,17,sensory,CLIP ViT-L/14,vision_language,0.1999038281933019,aggregate,0.1264360990367261,0.2716166137821677
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,17,sensory,SigLIP2,vision_language,0.36459265900055376,aggregate,0.2945311966274422,0.4319166919047101
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,18,sensory,THINGS behavioral similarity,human_behavioral,0.3566999877423612,aggregate,0.2804481319969131,0.42773420111104826
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,18,sensory,DINOv2,pure_vision,0.24282676585308166,aggregate,0.16812899951785393,0.3098187600678053
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,18,sensory,CLIP ViT-L/14,vision_language,0.1887109206188154,aggregate,0.11521749297087952,0.25565956095244063
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,18,sensory,SigLIP2,vision_language,0.37087339225497123,aggregate,0.2996738884365841,0.4404598896790113
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,19,sensory,THINGS behavioral similarity,human_behavioral,0.34622739432965893,aggregate,0.2718106312155497,0.41666563693327097
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,19,sensory,DINOv2,pure_vision,0.2331718335007809,aggregate,0.15659563942173077,0.3033304840907897
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,19,sensory,CLIP ViT-L/14,vision_language,0.1888367825867826,aggregate,0.11297696515336886,0.2556289293014841
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,19,sensory,SigLIP2,vision_language,0.37118835803046335,aggregate,0.29874782532258803,0.43947769366770345
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,20,sensory,THINGS behavioral similarity,human_behavioral,0.33025042041060343,aggregate,0.25182071489706404,0.40447142839272454
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,20,sensory,DINOv2,pure_vision,0.21911249213880796,aggregate,0.14853159648528577,0.2883449857965226
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,20,sensory,CLIP ViT-L/14,vision_language,0.18695845505056033,aggregate,0.11858169703867821,0.2614958544189166
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,20,sensory,SigLIP2,vision_language,0.37286083009767224,aggregate,0.30249240661452076,0.44400422829096975
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,21,sensory,THINGS behavioral similarity,human_behavioral,0.32413277206143926,aggregate,0.25358848422978786,0.39538796864144626
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,21,sensory,DINOv2,pure_vision,0.21294587741956167,aggregate,0.1392851458959258,0.28078293427481515
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,21,sensory,CLIP ViT-L/14,vision_language,0.18811162561162564,aggregate,0.11632014539754902,0.2642187466516379
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,21,sensory,SigLIP2,vision_language,0.3671392914813968,aggregate,0.30066437766869736,0.43799426593973334
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,22,sensory,THINGS behavioral similarity,human_behavioral,0.31294503124377654,aggregate,0.23284573012723053,0.39066526922651135
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,22,sensory,DINOv2,pure_vision,0.20163097630202895,aggregate,0.12261627009555037,0.2770928602673415
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,22,sensory,CLIP ViT-L/14,vision_language,0.18079522520311997,aggregate,0.10646601917745398,0.24773428160775068
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,22,sensory,SigLIP2,vision_language,0.3651250855198224,aggregate,0.29306832959738877,0.42962746340624725
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,23,sensory,THINGS behavioral similarity,human_behavioral,0.2838281123612142,aggregate,0.2131883859610722,0.3609507828162712
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,23,sensory,DINOv2,pure_vision,0.17634346252767308,aggregate,0.10571093485129084,0.2514539161451311
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,23,sensory,CLIP ViT-L/14,vision_language,0.19437305128094604,aggregate,0.11862022068723371,0.268350969751123
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,23,sensory,SigLIP2,vision_language,0.3712363334073861,aggregate,0.3004815930073534,0.43612495525308376
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,24,sensory,THINGS behavioral similarity,human_behavioral,0.29967789931492284,aggregate,0.22645428996334982,0.3783282711105985
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,24,sensory,DINOv2,pure_vision,0.1820553300816459,aggregate,0.10896984370035123,0.25379589997204294
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,24,sensory,CLIP ViT-L/14,vision_language,0.17957097233413025,aggregate,0.10828191008727381,0.2478038872395062
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,24,sensory,SigLIP2,vision_language,0.3738440317387686,aggregate,0.30572926375717113,0.4385736429962199
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,25,sensory,THINGS behavioral similarity,human_behavioral,0.36470427659569926,aggregate,0.29118722451113255,0.4412758490189075
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,25,sensory,DINOv2,pure_vision,0.21657193861141233,aggregate,0.1415040958273506,0.2872758329460761
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,25,sensory,CLIP ViT-L/14,vision_language,0.1828077732682996,aggregate,0.1123691458152823,0.25195586370325235
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,25,sensory,SigLIP2,vision_language,0.3961358303463567,aggregate,0.32747910718499934,0.46058836485961463
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,26,sensory,THINGS behavioral similarity,human_behavioral,0.3764703504780834,aggregate,0.3101969088199547,0.44804542012200466
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,26,sensory,DINOv2,pure_vision,0.21615677372256323,aggregate,0.14027642434150903,0.2890232188488461
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,26,sensory,CLIP ViT-L/14,vision_language,0.17819775056617165,aggregate,0.10848417350270659,0.24767501679569282
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,26,sensory,SigLIP2,vision_language,0.40659159573633263,aggregate,0.3398427662597724,0.46922704900821194
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,27,sensory,THINGS behavioral similarity,human_behavioral,0.40453894166511534,aggregate,0.3340922356813476,0.4737336715895368
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,27,sensory,DINOv2,pure_vision,0.2407752917621339,aggregate,0.161592343717472,0.3113972637335794
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,27,sensory,CLIP ViT-L/14,vision_language,0.15814127985180618,aggregate,0.08575418107629303,0.22547607075532808
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,27,sensory,SigLIP2,vision_language,0.3978441889626101,aggregate,0.33199098505370606,0.45513172815399244
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,28,sensory,THINGS behavioral similarity,human_behavioral,0.4199992870867959,aggregate,0.3503402090040234,0.4829496877096948
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,28,sensory,DINOv2,pure_vision,0.2475957393720552,aggregate,0.17261079249523875,0.3182411449376907
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,28,sensory,CLIP ViT-L/14,vision_language,0.15666395600606128,aggregate,0.08826994772292904,0.22520314046504886
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,28,sensory,SigLIP2,vision_language,0.40922568225199807,aggregate,0.342036156444478,0.4688816926470059
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,29,sensory,THINGS behavioral similarity,human_behavioral,0.42217807982820205,aggregate,0.35215401644733624,0.48903754259192245
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,29,sensory,DINOv2,pure_vision,0.2421184986974461,aggregate,0.17044962939260958,0.3078839130803721
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,29,sensory,CLIP ViT-L/14,vision_language,0.13861813368392317,aggregate,0.06338754555717384,0.20777521944018593
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,29,sensory,SigLIP2,vision_language,0.4192398254898255,aggregate,0.35053715545706227,0.48310236523466876
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,30,sensory,THINGS behavioral similarity,human_behavioral,0.4551043925304163,aggregate,0.3917452039077342,0.5200231275719228
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,30,sensory,DINOv2,pure_vision,0.2949489215936585,aggregate,0.22138072268568496,0.36374553922102426
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,30,sensory,CLIP ViT-L/14,vision_language,0.17071065590802434,aggregate,0.09856275986474858,0.24165309065260518
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,30,sensory,SigLIP2,vision_language,0.3343461698724857,aggregate,0.2690822733595093,0.4024428345950755
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,31,sensory,THINGS behavioral similarity,human_behavioral,0.4386280950156906,aggregate,0.37159407064286837,0.4986886759525483
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,31,sensory,DINOv2,pure_vision,0.31620781620781624,aggregate,0.24783726096313782,0.38277461898982995
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,31,sensory,CLIP ViT-L/14,vision_language,0.1492824140850457,aggregate,0.07718423943985242,0.22057823663102877
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,31,sensory,SigLIP2,vision_language,0.2805503677214204,aggregate,0.21435544974809884,0.3480742095509139
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,32,sensory,THINGS behavioral similarity,human_behavioral,0.43137006989291365,aggregate,0.36423017693826637,0.4966864404569073
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,32,sensory,DINOv2,pure_vision,0.30952497399865825,aggregate,0.23981438414774103,0.3786266957412115
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,32,sensory,CLIP ViT-L/14,vision_language,0.16303936205251998,aggregate,0.0903474443468952,0.22831482951854754
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,32,sensory,SigLIP2,vision_language,0.28096981550928923,aggregate,0.21220281242080596,0.34783721300944737
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,33,sensory,THINGS behavioral similarity,human_behavioral,0.4244470530432812,aggregate,0.35769542917398567,0.48771599912836583
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,33,sensory,DINOv2,pure_vision,0.30068824805666916,aggregate,0.23135683230387738,0.3680412622187096
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,33,sensory,CLIP ViT-L/14,vision_language,0.15501244942034417,aggregate,0.08465281290095683,0.21997131505477174
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,33,sensory,SigLIP2,vision_language,0.29047716054295003,aggregate,0.22149109261846542,0.35483850037388415
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,34,sensory,THINGS behavioral similarity,human_behavioral,0.417446407866987,aggregate,0.35299823243665107,0.47576070731492176
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,34,sensory,DINOv2,pure_vision,0.29495510416563053,aggregate,0.22411484332064535,0.3619536343643476
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,34,sensory,CLIP ViT-L/14,vision_language,0.1670665650928809,aggregate,0.09392638418164513,0.23218335601303236
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,34,sensory,SigLIP2,vision_language,0.3081161765372292,aggregate,0.2382845862277009,0.37707563012711903
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,35,sensory,THINGS behavioral similarity,human_behavioral,0.37648562428803883,aggregate,0.30408595230377755,0.4404965697177174
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,35,sensory,DINOv2,pure_vision,0.2493546983678563,aggregate,0.17924584093742918,0.32275490491906733
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,35,sensory,CLIP ViT-L/14,vision_language,0.11147325785483682,aggregate,0.041762278013713974,0.18377172486283175
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,35,sensory,SigLIP2,vision_language,0.3158894655605182,aggregate,0.2483119363746222,0.3824810269714433
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,36,sensory,THINGS behavioral similarity,human_behavioral,0.31446424725048566,aggregate,0.24623155305416922,0.3798851578660881
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,36,sensory,DINOv2,pure_vision,0.19467945125839864,aggregate,0.12094509622549139,0.2643173483526406
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,36,sensory,CLIP ViT-L/14,vision_language,0.12856209402262037,aggregate,0.05603696838602502,0.2002878798140038
+Qwen/Qwen3-VL-8B-Instruct,M_degraded_image,36,sensory,SigLIP2,vision_language,0.36169631399894564,aggregate,0.2990967342351976,0.42504054156508486
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,0,sensory,THINGS behavioral similarity,human_behavioral,0.030530660294725627,aggregate,-0.04470806694218391,0.10727984750894215
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,0,sensory,DINOv2,pure_vision,0.009602397760292498,aggregate,-0.06733691045848277,0.09186826244882601
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,0,sensory,CLIP ViT-L/14,vision_language,0.018696443038548304,aggregate,-0.05112610084478201,0.08951511314284419
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,0,sensory,SigLIP2,vision_language,0.0035126679863521975,aggregate,-0.06718585171322845,0.07873882343875394
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,1,sensory,THINGS behavioral similarity,human_behavioral,0.05181142409896453,aggregate,-0.026459430022920005,0.13004792082532504
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,1,sensory,DINOv2,pure_vision,0.027354806960070123,aggregate,-0.05279406677011041,0.10298073350788757
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,1,sensory,CLIP ViT-L/14,vision_language,0.018195309313730368,aggregate,-0.05637853031853717,0.08831562015505645
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,1,sensory,SigLIP2,vision_language,-0.013017940649519598,aggregate,-0.08316785512435261,0.060537886206214475
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,2,sensory,THINGS behavioral similarity,human_behavioral,0.03470317269733351,aggregate,-0.03209664087526186,0.11174692332058533
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,2,sensory,DINOv2,pure_vision,0.0023303460803460805,aggregate,-0.07673538795457772,0.08450165926138928
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,2,sensory,CLIP ViT-L/14,vision_language,-0.022456206666732984,aggregate,-0.09355186497009625,0.04910086688919557
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,2,sensory,SigLIP2,vision_language,-0.0042196571801834965,aggregate,-0.07391545456807243,0.07224991437269111
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,3,sensory,THINGS behavioral similarity,human_behavioral,0.03775716287355204,aggregate,-0.03367666037554993,0.11325535163372612
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,3,sensory,DINOv2,pure_vision,-0.0012765111559547146,aggregate,-0.07697926988855312,0.07351701152587765
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,3,sensory,CLIP ViT-L/14,vision_language,-0.011241021206507,aggregate,-0.08743795106876359,0.06635315468942321
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,3,sensory,SigLIP2,vision_language,-0.005805642368931222,aggregate,-0.07613825924227198,0.06916874246199417
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,4,sensory,THINGS behavioral similarity,human_behavioral,0.029426640063426927,aggregate,-0.03891980307913171,0.10010729185916117
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,4,sensory,DINOv2,pure_vision,-0.0032659177396019506,aggregate,-0.08508340669028933,0.07306062977164811
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,4,sensory,CLIP ViT-L/14,vision_language,-0.02164207591839171,aggregate,-0.09431676846644976,0.049499629631363604
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,4,sensory,SigLIP2,vision_language,-0.0034625511599195814,aggregate,-0.0797174933316907,0.06939785807055054
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,5,sensory,THINGS behavioral similarity,human_behavioral,0.023986442056354466,aggregate,-0.04860961669650405,0.0992295555649081
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,5,sensory,DINOv2,pure_vision,-0.006462946485858443,aggregate,-0.0823960939244507,0.07001957693342065
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,5,sensory,CLIP ViT-L/14,vision_language,-0.01398057413418929,aggregate,-0.08380427777596512,0.06090424966806962
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,5,sensory,SigLIP2,vision_language,-0.003550903252617467,aggregate,-0.08246218994222927,0.07599470780461651
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,6,sensory,THINGS behavioral similarity,human_behavioral,0.021461754390027094,aggregate,-0.05146645433206872,0.0929067873764525
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,6,sensory,DINOv2,pure_vision,-0.012784211797369693,aggregate,-0.08704701317367369,0.06729330792863808
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,6,sensory,CLIP ViT-L/14,vision_language,-0.014889325744588905,aggregate,-0.08529972218144029,0.05321502079733773
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,6,sensory,SigLIP2,vision_language,-0.0001720067509541194,aggregate,-0.07340575588114773,0.07127688677496681
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,7,sensory,THINGS behavioral similarity,human_behavioral,0.06102388756850999,aggregate,-0.01770966882923448,0.13781199905158253
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,7,sensory,DINOv2,pure_vision,0.04837603521814049,aggregate,-0.02873145665414569,0.123750730782043
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,7,sensory,CLIP ViT-L/14,vision_language,-0.0001948719053982212,aggregate,-0.07278475884046069,0.06969775716072668
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,7,sensory,SigLIP2,vision_language,-0.030648321766742825,aggregate,-0.10306903012783035,0.041355096864317126
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,8,sensory,THINGS behavioral similarity,human_behavioral,0.06296130536641859,aggregate,-0.00637920679498949,0.13636554530378409
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,8,sensory,DINOv2,pure_vision,0.04633770381019221,aggregate,-0.027992037436329296,0.11846172632381056
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,8,sensory,CLIP ViT-L/14,vision_language,-0.007031915809740741,aggregate,-0.08422304745382346,0.06762251642518051
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,8,sensory,SigLIP2,vision_language,-0.019585282912293993,aggregate,-0.09428642347825779,0.06276467971391948
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,9,sensory,THINGS behavioral similarity,human_behavioral,0.06679308181714873,aggregate,-0.007744014297220142,0.13840783044102176
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,9,sensory,DINOv2,pure_vision,0.04941101158206422,aggregate,-0.02195489620557142,0.12386174839611765
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,9,sensory,CLIP ViT-L/14,vision_language,-0.016692840705998604,aggregate,-0.08877727205946705,0.058752593227306346
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,9,sensory,SigLIP2,vision_language,-0.015608680082364296,aggregate,-0.08955162840394619,0.0562024288583565
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,10,sensory,THINGS behavioral similarity,human_behavioral,0.058279557640403525,aggregate,-0.011939379656021704,0.12770788772383107
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,10,sensory,DINOv2,pure_vision,0.041795982585456276,aggregate,-0.03819120922727509,0.12249253075088753
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,10,sensory,CLIP ViT-L/14,vision_language,-0.011895821106347423,aggregate,-0.08322125559570627,0.06813357384560204
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,10,sensory,SigLIP2,vision_language,-0.007127538377538378,aggregate,-0.07517991662497012,0.0642009847471012
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,11,sensory,THINGS behavioral similarity,human_behavioral,0.04774590960971454,aggregate,-0.028766899228578148,0.11721506873467015
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,11,sensory,DINOv2,pure_vision,0.03485930953036217,aggregate,-0.033371324381490666,0.11379154389271287
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,11,sensory,CLIP ViT-L/14,vision_language,-0.01789384848595375,aggregate,-0.08672063008328813,0.055652318946505706
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,11,sensory,SigLIP2,vision_language,-0.01552132966606651,aggregate,-0.08902842848524674,0.0589887782276182
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,12,sensory,THINGS behavioral similarity,human_behavioral,0.04028692826925289,aggregate,-0.03267183848515722,0.11752449241854519
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,12,sensory,DINOv2,pure_vision,0.031420297316607455,aggregate,-0.043497187480797124,0.10739068060782567
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,12,sensory,CLIP ViT-L/14,vision_language,-0.004406498687969278,aggregate,-0.07413393051232721,0.06613932520529828
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,12,sensory,SigLIP2,vision_language,-0.01701195136937365,aggregate,-0.09035859100789495,0.062178995150667445
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,13,sensory,THINGS behavioral similarity,human_behavioral,0.03791916275148343,aggregate,-0.03398901293897501,0.11247261115721331
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,13,sensory,DINOv2,pure_vision,0.03326337701337702,aggregate,-0.03745976989813634,0.11346821090260654
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,13,sensory,CLIP ViT-L/14,vision_language,-0.013385544635544637,aggregate,-0.08655762111912006,0.06481463502985717
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,13,sensory,SigLIP2,vision_language,-0.0207157608473398,aggregate,-0.09331132028686213,0.052177473428726015
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,14,sensory,THINGS behavioral similarity,human_behavioral,0.03904089410283681,aggregate,-0.031109906794984758,0.1152622883022633
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,14,sensory,DINOv2,pure_vision,0.035886272728377994,aggregate,-0.04010095763690844,0.11233389074767175
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,14,sensory,CLIP ViT-L/14,vision_language,-0.01319191615244247,aggregate,-0.08860815683284802,0.05953758698912836
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,14,sensory,SigLIP2,vision_language,-0.025343087843087846,aggregate,-0.09763956612604281,0.04630874752457125
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,15,sensory,THINGS behavioral similarity,human_behavioral,0.04424804464258421,aggregate,-0.0248186515943202,0.12380044463653275
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,15,sensory,DINOv2,pure_vision,0.03673570285412391,aggregate,-0.03525195864257609,0.11028241474619317
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,15,sensory,CLIP ViT-L/14,vision_language,-0.010211363829784884,aggregate,-0.0812004050065373,0.06411447831459027
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,15,sensory,SigLIP2,vision_language,-0.026008733245575354,aggregate,-0.09804546845635059,0.04724034191000545
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,16,sensory,THINGS behavioral similarity,human_behavioral,0.04281835916018824,aggregate,-0.03551635480194992,0.11815653194022088
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,16,sensory,DINOv2,pure_vision,0.03899075280654229,aggregate,-0.031533507249787235,0.11332669941146639
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,16,sensory,CLIP ViT-L/14,vision_language,-0.005558857532541744,aggregate,-0.07825462701920279,0.06462163941398354
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,16,sensory,SigLIP2,vision_language,-0.03488024047234574,aggregate,-0.1098552436767903,0.03285503886827572
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,17,sensory,THINGS behavioral similarity,human_behavioral,0.06222974674012312,aggregate,-0.008718326471318165,0.1420897405799129
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,17,sensory,DINOv2,pure_vision,0.03788725005830269,aggregate,-0.04016751939514291,0.11178160283854092
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,17,sensory,CLIP ViT-L/14,vision_language,-0.03859271951377215,aggregate,-0.11395954636808474,0.0344910045779805
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,17,sensory,SigLIP2,vision_language,-0.0322805553068711,aggregate,-0.10704468546328706,0.045727865414071145
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,18,sensory,THINGS behavioral similarity,human_behavioral,0.05842945221150854,aggregate,-0.015490100276073794,0.1304586617598732
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,18,sensory,DINOv2,pure_vision,0.035784761113708485,aggregate,-0.04467650493170457,0.11324202696877758
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,18,sensory,CLIP ViT-L/14,vision_language,-0.04210338420864737,aggregate,-0.11395697850528827,0.034983737673169854
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,18,sensory,SigLIP2,vision_language,-0.029639111875953986,aggregate,-0.10124317912559444,0.05073713142880981
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,19,sensory,THINGS behavioral similarity,human_behavioral,0.06050729969297001,aggregate,-0.01094637521643232,0.1330778887842151
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,19,sensory,DINOv2,pure_vision,0.04218531192215403,aggregate,-0.034602681368280444,0.11779919916882718
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,19,sensory,CLIP ViT-L/14,vision_language,-0.035612719823246146,aggregate,-0.10978769700010681,0.037917964930516045
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,19,sensory,SigLIP2,vision_language,-0.03372199260357155,aggregate,-0.10830156075795148,0.03793088649741246
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,20,sensory,THINGS behavioral similarity,human_behavioral,0.05887186461636078,aggregate,-0.019881074016284812,0.12975004722361752
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,20,sensory,DINOv2,pure_vision,0.0419685765080502,aggregate,-0.03617303773432174,0.12249196061398324
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,20,sensory,CLIP ViT-L/14,vision_language,-0.037745983469667684,aggregate,-0.11186126126274641,0.04042288259011853
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,20,sensory,SigLIP2,vision_language,-0.0442162350057087,aggregate,-0.12000530646108601,0.03405316765431856
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,21,sensory,THINGS behavioral similarity,human_behavioral,0.046812501085364645,aggregate,-0.03358764316551005,0.11813782324837409
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,21,sensory,DINOv2,pure_vision,0.0399055662213557,aggregate,-0.03102731436198226,0.11475584110442716
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,21,sensory,CLIP ViT-L/14,vision_language,-0.037395580158738055,aggregate,-0.1089044774929014,0.02704743095372632
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,21,sensory,SigLIP2,vision_language,-0.044740648359069414,aggregate,-0.1194804928414786,0.02890614418996018
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,22,sensory,THINGS behavioral similarity,human_behavioral,0.044481376462754185,aggregate,-0.028588428496913926,0.12224581771414234
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,22,sensory,DINOv2,pure_vision,0.03651174868280132,aggregate,-0.03475840832636023,0.10754193629009857
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,22,sensory,CLIP ViT-L/14,vision_language,-0.0413160561186877,aggregate,-0.10498775483037365,0.031776762013146796
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,22,sensory,SigLIP2,vision_language,-0.04364339726181832,aggregate,-0.11489430804276987,0.027974854770706784
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,23,sensory,THINGS behavioral similarity,human_behavioral,0.029353805113293784,aggregate,-0.04427759849105126,0.10943725769241877
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,23,sensory,DINOv2,pure_vision,0.031391301128143236,aggregate,-0.043246925204030236,0.1053168965156821
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,23,sensory,CLIP ViT-L/14,vision_language,-0.028082519858835652,aggregate,-0.10285098076657624,0.042948503838134186
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,23,sensory,SigLIP2,vision_language,-0.05259482891061839,aggregate,-0.12377954351736038,0.02253209551593939
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,24,sensory,THINGS behavioral similarity,human_behavioral,0.014385187004140683,aggregate,-0.05559547680756531,0.08485400031472856
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,24,sensory,DINOv2,pure_vision,0.0278918272339325,aggregate,-0.04705641744548778,0.10400886041210972
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,24,sensory,CLIP ViT-L/14,vision_language,-0.01798040449356239,aggregate,-0.08302311971542102,0.05546394056381135
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,24,sensory,SigLIP2,vision_language,-0.06112895422105949,aggregate,-0.13038435276389176,0.012205076709754719
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,25,sensory,THINGS behavioral similarity,human_behavioral,0.007526596384798861,aggregate,-0.06742172899830304,0.08129284623601725
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,25,sensory,DINOv2,pure_vision,0.027850932696684996,aggregate,-0.04418214723528419,0.10687321153368162
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,25,sensory,CLIP ViT-L/14,vision_language,-0.01916932361116399,aggregate,-0.09005652328815227,0.051919514771238726
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,25,sensory,SigLIP2,vision_language,-0.04107295014471493,aggregate,-0.11541402950647262,0.028352229431954024
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,26,sensory,THINGS behavioral similarity,human_behavioral,0.011456962029044407,aggregate,-0.06399724254830651,0.08692399593557239
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,26,sensory,DINOv2,pure_vision,0.025359735886051678,aggregate,-0.04947050195381003,0.1000579214700399
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,26,sensory,CLIP ViT-L/14,vision_language,-0.04746857871857872,aggregate,-0.11719447188169946,0.02535898203500851
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,26,sensory,SigLIP2,vision_language,-0.03246668871668872,aggregate,-0.10450897264235277,0.04524603900559494
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,27,sensory,THINGS behavioral similarity,human_behavioral,0.018408373541333376,aggregate,-0.050033461275800856,0.09253662968720076
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,27,sensory,DINOv2,pure_vision,0.017507247770405666,aggregate,-0.05983008551470192,0.08931647269094554
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,27,sensory,CLIP ViT-L/14,vision_language,-0.023317552922816082,aggregate,-0.09569823688636583,0.04884092734930018
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,27,sensory,SigLIP2,vision_language,0.006109831767726505,aggregate,-0.07047624095215141,0.08424676121864833
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,28,sensory,THINGS behavioral similarity,human_behavioral,0.011369665705655604,aggregate,-0.06930952068702256,0.08359788944427535
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,28,sensory,DINOv2,pure_vision,-0.00024854630117788015,aggregate,-0.07489639681831531,0.07977017280578849
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,28,sensory,CLIP ViT-L/14,vision_language,-0.031102481760376503,aggregate,-0.10028106773115045,0.04743063580901265
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,28,sensory,SigLIP2,vision_language,0.009099433441538705,aggregate,-0.06170017571977389,0.08524524692743694
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,29,sensory,THINGS behavioral similarity,human_behavioral,0.0006783643333789312,aggregate,-0.0730738190841917,0.08294783320593452
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,29,sensory,DINOv2,pure_vision,-0.009508622995465102,aggregate,-0.08572369011564505,0.06814809419524426
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,29,sensory,CLIP ViT-L/14,vision_language,-0.06487676717939876,aggregate,-0.14360124797882076,0.0013600621030989948
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,29,sensory,SigLIP2,vision_language,0.04831863055547267,aggregate,-0.027888128955943454,0.12427509193081038
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,30,sensory,THINGS behavioral similarity,human_behavioral,-0.003641849061244626,aggregate,-0.08240271301486062,0.07110885211145407
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,30,sensory,DINOv2,pure_vision,-0.005531260465470992,aggregate,-0.08353115990164457,0.06855064325046795
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,30,sensory,CLIP ViT-L/14,vision_language,0.015016051200261728,aggregate,-0.05383641279281586,0.08638005578675066
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,30,sensory,SigLIP2,vision_language,0.07662507004612269,aggregate,-0.00035767163405315,0.15139421088568114
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,31,sensory,THINGS behavioral similarity,human_behavioral,0.0027616551407287616,aggregate,-0.07514981537548543,0.0808605652143762
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,31,sensory,DINOv2,pure_vision,-0.005158164697638383,aggregate,-0.07453737329285856,0.07025730198343788
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,31,sensory,CLIP ViT-L/14,vision_language,0.025893129511550567,aggregate,-0.050147069584770755,0.09526072751100682
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,31,sensory,SigLIP2,vision_language,0.07384754095280412,aggregate,0.0001750980698752957,0.14776444661543156
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,32,sensory,THINGS behavioral similarity,human_behavioral,-0.0036417271957396627,aggregate,-0.07928656532142747,0.07052562602417924
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,32,sensory,DINOv2,pure_vision,-0.007169555751200765,aggregate,-0.07842563251951079,0.0666514945368417
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,32,sensory,CLIP ViT-L/14,vision_language,-0.0010599829770305276,aggregate,-0.07476850816441642,0.06650466329857556
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,32,sensory,SigLIP2,vision_language,0.08598534659623981,aggregate,0.014112349259403856,0.15436152919032736
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,33,sensory,THINGS behavioral similarity,human_behavioral,0.0022434830136242585,aggregate,-0.07436102446722113,0.07621497044943187
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,33,sensory,DINOv2,pure_vision,-0.010946295485769171,aggregate,-0.08815858428654705,0.06418722654389682
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,33,sensory,CLIP ViT-L/14,vision_language,-0.0066971070260543955,aggregate,-0.08175763458388956,0.06846633560736255
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,33,sensory,SigLIP2,vision_language,0.08744664336769602,aggregate,0.010823331078151843,0.16104158051044476
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,34,sensory,THINGS behavioral similarity,human_behavioral,-0.013334097023831102,aggregate,-0.09068469669652368,0.06733353715490684
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,34,sensory,DINOv2,pure_vision,-0.01904135456767036,aggregate,-0.09483172833610401,0.05547343646531133
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,34,sensory,CLIP ViT-L/14,vision_language,-0.01580116876169508,aggregate,-0.08775858942754568,0.05743060820224832
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,34,sensory,SigLIP2,vision_language,0.07170111775374934,aggregate,-0.005583988820056565,0.1418415017063194
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,35,sensory,THINGS behavioral similarity,human_behavioral,-0.021856395516933667,aggregate,-0.09766912262925183,0.04977714878477203
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,35,sensory,DINOv2,pure_vision,-0.021013595026752926,aggregate,-0.10190453706264851,0.055637339788988945
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,35,sensory,CLIP ViT-L/14,vision_language,-0.013687765332502176,aggregate,-0.0857196873954551,0.06256420138335143
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,35,sensory,SigLIP2,vision_language,0.0681735286998445,aggregate,-0.008523834204165241,0.1394147011633668
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,36,sensory,THINGS behavioral similarity,human_behavioral,0.05021230494283441,aggregate,-0.02669491533656307,0.12574447648161127
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,36,sensory,DINOv2,pure_vision,0.10446108143476567,aggregate,0.031244417616985726,0.17818561151824977
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,36,sensory,CLIP ViT-L/14,vision_language,0.012644257710047185,aggregate,-0.06372738086252648,0.08115585501986701
+Qwen/Qwen3-VL-8B-Instruct,M_mismatched_image,36,sensory,SigLIP2,vision_language,-0.09067011205169101,aggregate,-0.16821312090244994,-0.01253926513834885
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,0,sensory,THINGS behavioral similarity,human_behavioral,0.024837266390174143,aggregate,-0.05179936291123217,0.1010153080908787
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,0,sensory,DINOv2,pure_vision,0.020861206716469877,aggregate,-0.05019034541532548,0.09603904450994902
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,0,sensory,CLIP ViT-L/14,vision_language,-0.019095374358532254,aggregate,-0.094173820656594,0.049086086513289856
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,0,sensory,SigLIP2,vision_language,0.031773273549589344,aggregate,-0.04377199310795892,0.10316622799128275
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,1,sensory,THINGS behavioral similarity,human_behavioral,0.05260883071977524,aggregate,-0.025783093972530327,0.12683298728154382
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,1,sensory,DINOv2,pure_vision,0.04684020144546461,aggregate,-0.02974217928607702,0.12287646855101485
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,1,sensory,CLIP ViT-L/14,vision_language,-0.03727151424519846,aggregate,-0.11380440449872103,0.03995154777437019
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,1,sensory,SigLIP2,vision_language,0.05142000207789682,aggregate,-0.025002287999911235,0.12334531203635991
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,2,sensory,THINGS behavioral similarity,human_behavioral,0.043780365456369555,aggregate,-0.039634296109476407,0.12383021129753517
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,2,sensory,DINOv2,pure_vision,0.04966681117996908,aggregate,-0.02250285024336941,0.1229892130263576
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,2,sensory,CLIP ViT-L/14,vision_language,-0.04794567294567295,aggregate,-0.1268576330000605,0.031840294523943685
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,2,sensory,SigLIP2,vision_language,0.016830480646270123,aggregate,-0.05439936070926072,0.09044980951225891
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,3,sensory,THINGS behavioral similarity,human_behavioral,0.013505764898489587,aggregate,-0.06193012138231352,0.09005062992273534
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,3,sensory,DINOv2,pure_vision,0.026979414547904562,aggregate,-0.044985026151346134,0.09716865304399395
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,3,sensory,CLIP ViT-L/14,vision_language,-0.034913398701713415,aggregate,-0.10941617206155584,0.035057560411433146
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,3,sensory,SigLIP2,vision_language,0.062463872213765856,aggregate,-0.007463788775506061,0.13659487265117365
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,4,sensory,THINGS behavioral similarity,human_behavioral,0.03477990734362548,aggregate,-0.04072787651151568,0.1136097745975615
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,4,sensory,DINOv2,pure_vision,0.03061398949556845,aggregate,-0.03857729158011925,0.10577630999673653
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,4,sensory,CLIP ViT-L/14,vision_language,-0.08056841116051644,aggregate,-0.152128422033831,-0.005829732499827863
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,4,sensory,SigLIP2,vision_language,0.057432121576858425,aggregate,-0.015414487716443638,0.13406128494796649
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,5,sensory,THINGS behavioral similarity,human_behavioral,0.04304165738711623,aggregate,-0.036573719118689715,0.12138449991915717
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,5,sensory,DINOv2,pure_vision,0.04329541171646435,aggregate,-0.029409266036272964,0.12009970436719537
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,5,sensory,CLIP ViT-L/14,vision_language,-0.03126647534542272,aggregate,-0.11064329819965965,0.03684697567610508
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,5,sensory,SigLIP2,vision_language,0.09038491933228776,aggregate,0.01446322323353098,0.1606682859934533
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,6,sensory,THINGS behavioral similarity,human_behavioral,0.05952676984003425,aggregate,-0.02091810120947651,0.14152624335240183
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,6,sensory,DINOv2,pure_vision,0.06356512935460305,aggregate,-0.014150146659218986,0.1431571850168327
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,6,sensory,CLIP ViT-L/14,vision_language,0.007749525841631106,aggregate,-0.07242573868542318,0.07660513186583122
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,6,sensory,SigLIP2,vision_language,0.09496879562669037,aggregate,0.021991423526187832,0.16212437835686305
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,7,sensory,THINGS behavioral similarity,human_behavioral,0.07008925937356458,aggregate,-0.006011845706578147,0.15334888428754884
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,7,sensory,DINOv2,pure_vision,0.05914845881951146,aggregate,-0.014982629719605631,0.1331491446428456
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,7,sensory,CLIP ViT-L/14,vision_language,0.027989953976796086,aggregate,-0.04414684451494244,0.10026123415781255
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,7,sensory,SigLIP2,vision_language,0.05290361211413844,aggregate,-0.02049371837132366,0.12569955092433677
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,8,sensory,THINGS behavioral similarity,human_behavioral,0.11123336929381274,aggregate,0.03216147265660638,0.1859771824496028
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,8,sensory,DINOv2,pure_vision,0.08928896423759429,aggregate,0.008486075668873898,0.16868228711523903
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,8,sensory,CLIP ViT-L/14,vision_language,0.017239342223727992,aggregate,-0.06432513709875622,0.09102619232137543
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,8,sensory,SigLIP2,vision_language,0.11665271716657699,aggregate,0.04126366614852133,0.18796346800961125
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,9,sensory,THINGS behavioral similarity,human_behavioral,0.0986001817217788,aggregate,0.02643274859670432,0.17570684317951535
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,9,sensory,DINOv2,pure_vision,0.06419243645725603,aggregate,-0.015228660985384043,0.14141671078239695
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,9,sensory,CLIP ViT-L/14,vision_language,-0.029827715118168254,aggregate,-0.10942477082779166,0.048896253513853946
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,9,sensory,SigLIP2,vision_language,0.08426080620549245,aggregate,0.005267791390762643,0.16195065358323954
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,10,sensory,THINGS behavioral similarity,human_behavioral,0.08743470166968943,aggregate,0.007650167776120747,0.16289440957456375
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,10,sensory,DINOv2,pure_vision,0.05485637229058282,aggregate,-0.02521319078764348,0.12498723341451451
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,10,sensory,CLIP ViT-L/14,vision_language,-0.052467136348715304,aggregate,-0.13335063845120645,0.02388028017783753
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,10,sensory,SigLIP2,vision_language,0.09166270843902424,aggregate,0.01995548921072141,0.1723373532636626
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,11,sensory,THINGS behavioral similarity,human_behavioral,0.09652956492694517,aggregate,0.019191249761022114,0.17237547696847663
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,11,sensory,DINOv2,pure_vision,0.06382317402054245,aggregate,-0.014361169394024023,0.1429773093127324
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,11,sensory,CLIP ViT-L/14,vision_language,-0.045394757565810205,aggregate,-0.11977280630916488,0.03098835235766376
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,11,sensory,SigLIP2,vision_language,0.10768209781367677,aggregate,0.03628477597692913,0.18078202923336448
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,12,sensory,THINGS behavioral similarity,human_behavioral,0.1141476609795082,aggregate,0.027222174801226656,0.18815186145260798
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,12,sensory,DINOv2,pure_vision,0.0726759953733638,aggregate,-0.007022076525996462,0.14180758561119716
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,12,sensory,CLIP ViT-L/14,vision_language,-0.03679252034515193,aggregate,-0.11470213186836184,0.03976847028939429
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,12,sensory,SigLIP2,vision_language,0.08922055797055799,aggregate,0.01598146580032675,0.16076250477669987
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,13,sensory,THINGS behavioral similarity,human_behavioral,0.11098090458936351,aggregate,0.028536510698674213,0.1901454686757901
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,13,sensory,DINOv2,pure_vision,0.07205566580566582,aggregate,0.0016260031226171718,0.15402990047824622
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,13,sensory,CLIP ViT-L/14,vision_language,-0.023173972187130083,aggregate,-0.0967089818090599,0.04744863171413708
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,13,sensory,SigLIP2,vision_language,0.0959312390233443,aggregate,0.024658238160489253,0.1696908427266598
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,14,sensory,THINGS behavioral similarity,human_behavioral,0.11358053954124338,aggregate,0.03394979399964754,0.1949229301354371
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,14,sensory,DINOv2,pure_vision,0.07682857682857684,aggregate,-0.000509953785864661,0.15493441461040114
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,14,sensory,CLIP ViT-L/14,vision_language,-0.020667889088941724,aggregate,-0.09085070126797787,0.056970448608148455
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,14,sensory,SigLIP2,vision_language,0.10247903175534756,aggregate,0.03305308731986571,0.1765285688521675
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,15,sensory,THINGS behavioral similarity,human_behavioral,0.11180313115135176,aggregate,0.03381581662811978,0.18672150786853778
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,15,sensory,DINOv2,pure_vision,0.07399664800980592,aggregate,0.0014030607170150756,0.14870045075686664
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,15,sensory,CLIP ViT-L/14,vision_language,-0.004370042198989568,aggregate,-0.08256133160046276,0.07351149450984348
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,15,sensory,SigLIP2,vision_language,0.10922798258324576,aggregate,0.03384002645151361,0.17884741962670422
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,16,sensory,THINGS behavioral similarity,human_behavioral,0.1122318946196481,aggregate,0.031688749030436995,0.19462057982371214
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,16,sensory,DINOv2,pure_vision,0.0735344236759627,aggregate,0.001079291966675775,0.14641532925922915
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,16,sensory,CLIP ViT-L/14,vision_language,-0.0053585457008686705,aggregate,-0.0823570523553765,0.07305065350137831
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,16,sensory,SigLIP2,vision_language,0.10608452558607784,aggregate,0.033464436777709536,0.1798588182201069
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,17,sensory,THINGS behavioral similarity,human_behavioral,0.09973235288472405,aggregate,0.01543814473390832,0.17862597696127622
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,17,sensory,DINOv2,pure_vision,0.07217959356117251,aggregate,-0.00843702927229691,0.1485533399577503
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,17,sensory,CLIP ViT-L/14,vision_language,0.008181062457378247,aggregate,-0.07002665053340178,0.08077867129333452
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,17,sensory,SigLIP2,vision_language,0.10506144716671034,aggregate,0.030803725385029228,0.18182703691497185
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,18,sensory,THINGS behavioral similarity,human_behavioral,0.09540287771172327,aggregate,0.006589709425700861,0.17667186025294146
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,18,sensory,DINOv2,pure_vision,0.07513641789047414,aggregate,-0.0037532224656598944,0.15003004930279892
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,18,sensory,CLIP ViT-L/14,vision_language,0.005510139603771566,aggregate,-0.07110301856360164,0.07301828845939333
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,18,sensory,SigLIP2,vision_language,0.1170365374550273,aggregate,0.04238017631646011,0.19230143226805788
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,19,sensory,THINGS behavioral similarity,human_behavioral,0.0963184938723485,aggregate,0.012497742250424826,0.17811464784466782
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,19,sensory,DINOv2,pure_vision,0.06461803172329489,aggregate,-0.010921010303519673,0.13807993604736266
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,19,sensory,CLIP ViT-L/14,vision_language,0.006686952410636622,aggregate,-0.06945011187486715,0.08081364280079927
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,19,sensory,SigLIP2,vision_language,0.11206177653546076,aggregate,0.034685782526768974,0.1861609680405194
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,20,sensory,THINGS behavioral similarity,human_behavioral,0.09185122943506908,aggregate,0.014068647048055974,0.171261629434601
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,20,sensory,DINOv2,pure_vision,0.06837258047612661,aggregate,-0.008576341225975488,0.14541314533980682
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,20,sensory,CLIP ViT-L/14,vision_language,0.01113194543859464,aggregate,-0.06266217425413778,0.09041772794067457
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,20,sensory,SigLIP2,vision_language,0.11384178834453407,aggregate,0.03648707236631717,0.19196906427301783
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,21,sensory,THINGS behavioral similarity,human_behavioral,0.09142498452054199,aggregate,0.013131342607512772,0.16930868158941767
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,21,sensory,DINOv2,pure_vision,0.0659310862372346,aggregate,-0.011166952514129783,0.13868425417696756
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,21,sensory,CLIP ViT-L/14,vision_language,0.01692327118124351,aggregate,-0.05569018625924469,0.08963409685546476
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,21,sensory,SigLIP2,vision_language,0.11084522693393985,aggregate,0.03566056100884774,0.18138736609309322
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,22,sensory,THINGS behavioral similarity,human_behavioral,0.09259704632544527,aggregate,0.011756143047606556,0.17500826892575078
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,22,sensory,DINOv2,pure_vision,0.07063148160321726,aggregate,-0.008009768504910409,0.14375985805057542
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,22,sensory,CLIP ViT-L/14,vision_language,0.010091598172158848,aggregate,-0.06951562615897039,0.08396258423463342
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,22,sensory,SigLIP2,vision_language,0.10598411923480448,aggregate,0.03776478444991979,0.17906406870227656
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,23,sensory,THINGS behavioral similarity,human_behavioral,0.08754096839001754,aggregate,0.010617747188151587,0.17036166023824098
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,23,sensory,DINOv2,pure_vision,0.06171664395348607,aggregate,-0.011542041565581092,0.13521833125265745
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,23,sensory,CLIP ViT-L/14,vision_language,0.015659936712568292,aggregate,-0.06375762622827383,0.09242160015766117
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,23,sensory,SigLIP2,vision_language,0.1139297076797077,aggregate,0.04312717504281713,0.184712990083761
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,24,sensory,THINGS behavioral similarity,human_behavioral,0.09001524435912504,aggregate,0.011179731929139252,0.16529079527039117
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,24,sensory,DINOv2,pure_vision,0.07946518472834263,aggregate,0.005175769824613038,0.15343039345698747
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,24,sensory,CLIP ViT-L/14,vision_language,0.022755077031392824,aggregate,-0.05314437504030602,0.09387900481794659
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,24,sensory,SigLIP2,vision_language,0.10220661865398709,aggregate,0.03028007906149079,0.17499816142752958
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,25,sensory,THINGS behavioral similarity,human_behavioral,0.1098179014536625,aggregate,0.028183029903910566,0.189451318362442
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,25,sensory,DINOv2,pure_vision,0.0863704959099696,aggregate,0.010462521871072047,0.16074310744819262
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,25,sensory,CLIP ViT-L/14,vision_language,-0.0015787663813979606,aggregate,-0.0755856689363635,0.07156462681777453
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,25,sensory,SigLIP2,vision_language,0.11714388523599051,aggregate,0.04852804915629713,0.19458968051362915
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,26,sensory,THINGS behavioral similarity,human_behavioral,0.11653581865844154,aggregate,0.03695307274498105,0.19288091741457364
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,26,sensory,DINOv2,pure_vision,0.09382676486720981,aggregate,0.020338790610168335,0.1721658231594523
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,26,sensory,CLIP ViT-L/14,vision_language,0.012737600841009403,aggregate,-0.06363391756933204,0.08721504999233402
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,26,sensory,SigLIP2,vision_language,0.11610217467049117,aggregate,0.039250685169644445,0.18978928780684098
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,27,sensory,THINGS behavioral similarity,human_behavioral,0.11377219335871587,aggregate,0.029242470755696897,0.19086909500877314
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,27,sensory,DINOv2,pure_vision,0.09099578507473245,aggregate,0.01867488305160689,0.16475607230597678
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,27,sensory,CLIP ViT-L/14,vision_language,0.0049438470491102076,aggregate,-0.07231759349011053,0.07543491321480146
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,27,sensory,SigLIP2,vision_language,0.10415378343009923,aggregate,0.029491833933775566,0.18144844047092465
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,28,sensory,THINGS behavioral similarity,human_behavioral,0.11574844563087282,aggregate,0.03352417149286717,0.199288811213405
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,28,sensory,DINOv2,pure_vision,0.0892974774553722,aggregate,0.010714526228241393,0.16704288742048534
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,28,sensory,CLIP ViT-L/14,vision_language,2.3210549526339004e-05,aggregate,-0.08065717638651103,0.07520980043990828
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,28,sensory,SigLIP2,vision_language,0.09795366538787592,aggregate,0.025648048982793596,0.17211823961144823
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,29,sensory,THINGS behavioral similarity,human_behavioral,0.10016647843523878,aggregate,0.024348757104836187,0.17924218713342957
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,29,sensory,DINOv2,pure_vision,0.08032480400901454,aggregate,0.004466308915717639,0.15759173013448813
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,29,sensory,CLIP ViT-L/14,vision_language,-0.0015941710020657392,aggregate,-0.08001511109658614,0.06653705827974377
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,29,sensory,SigLIP2,vision_language,0.09329932849669693,aggregate,0.015517091888517926,0.16568265767944085
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,30,sensory,THINGS behavioral similarity,human_behavioral,0.10003750410915248,aggregate,0.01938919335813919,0.17950301890265943
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,30,sensory,DINOv2,pure_vision,0.0898104927710191,aggregate,0.013574027949794263,0.1635831531764257
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,30,sensory,CLIP ViT-L/14,vision_language,0.025671834882361202,aggregate,-0.05180635490371241,0.10098636424088107
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,30,sensory,SigLIP2,vision_language,0.08493240894556685,aggregate,0.0022154930411238307,0.15870482834613617
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,31,sensory,THINGS behavioral similarity,human_behavioral,0.10772908607675433,aggregate,0.027540386544782258,0.1866761839995959
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,31,sensory,DINOv2,pure_vision,0.09272953022953025,aggregate,0.014898541600187467,0.17057395005859524
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,31,sensory,CLIP ViT-L/14,vision_language,0.007171818027081186,aggregate,-0.06783872235481236,0.07844374052022259
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,31,sensory,SigLIP2,vision_language,0.09244050362471416,aggregate,0.014242948772042874,0.16742308651415222
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,32,sensory,THINGS behavioral similarity,human_behavioral,0.10891877775804232,aggregate,0.027235210943479124,0.18896199659594456
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,32,sensory,DINOv2,pure_vision,0.09509672996515103,aggregate,0.022700899929210563,0.1772485932278535
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,32,sensory,CLIP ViT-L/14,vision_language,0.023243880151774893,aggregate,-0.050216738534539083,0.10053176711545554
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,32,sensory,SigLIP2,vision_language,0.095967781823045,aggregate,0.01996431144781062,0.17679388800051268
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,33,sensory,THINGS behavioral similarity,human_behavioral,0.09641724555320387,aggregate,0.017760533048237548,0.17761823483260167
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,33,sensory,DINOv2,pure_vision,0.09025536163694059,aggregate,0.012215518583164036,0.16719343362674302
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,33,sensory,CLIP ViT-L/14,vision_language,0.014952878439720547,aggregate,-0.06435117168525951,0.08988650374611358
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,33,sensory,SigLIP2,vision_language,0.08764082448292976,aggregate,0.011224994323485135,0.16384411782819944
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,34,sensory,THINGS behavioral similarity,human_behavioral,0.09003340231936459,aggregate,0.012371620691765747,0.17030221723662214
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,34,sensory,DINOv2,pure_vision,0.08557512011459381,aggregate,0.007259351850468899,0.16549513940540403
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,34,sensory,CLIP ViT-L/14,vision_language,0.02405172470961945,aggregate,-0.06022663729211884,0.0973264433469625
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,34,sensory,SigLIP2,vision_language,0.09809330861962443,aggregate,0.022799518463286372,0.1746164747174554
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,35,sensory,THINGS behavioral similarity,human_behavioral,0.10158344928328356,aggregate,0.02356211772762646,0.17750840502571819
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,35,sensory,DINOv2,pure_vision,0.09559717289980449,aggregate,0.011999100154214381,0.17360142283183744
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,35,sensory,CLIP ViT-L/14,vision_language,0.005477516990674886,aggregate,-0.0750884542363557,0.07894254621394797
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,35,sensory,SigLIP2,vision_language,0.07926502827818618,aggregate,0.007144885932551184,0.1512073053632883
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,36,sensory,THINGS behavioral similarity,human_behavioral,0.1053195613126174,aggregate,0.022617421949661674,0.18025148511537648
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,36,sensory,DINOv2,pure_vision,0.09894774697406278,aggregate,0.02127254366444819,0.1761293565429232
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,36,sensory,CLIP ViT-L/14,vision_language,0.022467535625430364,aggregate,-0.053252247512373854,0.1026351936718055
+Qwen/Qwen3-VL-8B-Instruct,M_blank_image,36,sensory,SigLIP2,vision_language,0.09855686335949496,aggregate,0.02607898616167992,0.17335915500765545

@@ -1,0 +1,19 @@
+anchor_name,representation,sample_size,rsa_score
+THINGS behavioral similarity,single_image_grounding,1,0.38503078270152885
+controlled_THINGS,single_image_grounding,1,0.25605670374718936
+SigLIP2,single_image_grounding,1,0.47205430880914495
+THINGS behavioral similarity,prototype_size_3,3,0.538193052287012
+controlled_THINGS,prototype_size_3,3,0.3357693453627129
+SigLIP2,prototype_size_3,3,0.3749011176567434
+THINGS behavioral similarity,prototype_size_5,5,0.552050480554231
+controlled_THINGS,prototype_size_5,5,0.3616063631065605
+SigLIP2,prototype_size_5,5,0.3966452067912786
+THINGS behavioral similarity,prototype_size_10,10,0.5345511399597463
+controlled_THINGS,prototype_size_10,10,0.33834458737735484
+SigLIP2,prototype_size_10,10,0.3999465069737474
+THINGS behavioral similarity,prototype_all_images,999,0.5414629630579098
+controlled_THINGS,prototype_all_images,999,0.33891028040258203
+SigLIP2,prototype_all_images,999,0.3896683261468102
+THINGS behavioral similarity,T_prompt_primary,0,0.5141419268541259
+controlled_THINGS,T_prompt_primary,0,0.17574316283356947
+SigLIP2,T_prompt_primary,0,0.37409268364657233

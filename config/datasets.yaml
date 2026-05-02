@@ -1,0 +1,18 @@
+sensory:
+  concept_source: THINGS
+  metadata_source: THINGSplus
+  human_anchor_source: THINGS-data behavioral similarity
+  secondary_human_anchor_source: Lancaster Sensorimotor Norms
+
+abstract:
+  concept_source: SimLex-999 overlap plus manual screening
+  lexical_source: WordNet
+  human_anchor_source: SimLex-999 subset
+  human_anchor_policy: partial_allowed
+
+lexical_normalization:
+  source: WordNet
+
+extension:
+  motor_source: SimVerb-3500
+  audio_anchor_source: CLAP

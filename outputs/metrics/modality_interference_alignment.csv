@@ -1,0 +1,17 @@
+anchor_name,condition,model_id,rsa_score,comparison_to_prompt,comparison_to_matched,best_base_condition,integration_pattern
+THINGS behavioral similarity,T_prompt_primary,Qwen/Qwen3.5-9B,0.1912834378008773,0.0,-0.08097454038811902,M_matched_image,
+controlled_THINGS,T_prompt_primary,Qwen/Qwen3.5-9B,0.1843202657000627,0.0,-0.07842408242756416,M_matched_image,
+SigLIP2,T_prompt_primary,Qwen/Qwen3.5-9B,0.1422913520819516,0.0,-0.05106591013868009,M_matched_image,
+lancaster_perceptual,T_prompt_primary,Qwen/Qwen3.5-9B,0.11511797111759148,0.0,-0.11004450993607087,M_matched_image,
+THINGS behavioral similarity,M_matched_image,Qwen/Qwen3-VL-8B-Instruct,0.27225797818899633,0.08097454038811902,0.0,M_matched_image,
+controlled_THINGS,M_matched_image,Qwen/Qwen3-VL-8B-Instruct,0.26274434812762687,0.07842408242756416,0.0,M_matched_image,
+SigLIP2,M_matched_image,Qwen/Qwen3-VL-8B-Instruct,0.19335726222063168,0.05106591013868009,0.0,M_matched_image,
+lancaster_perceptual,M_matched_image,Qwen/Qwen3-VL-8B-Instruct,0.22516248105366235,0.11004450993607087,0.0,M_matched_image,
+THINGS behavioral similarity,M_prompt_plus_matched_image,Qwen/Qwen3-VL-8B-Instruct,0.277736059301575,0.08645262150069771,0.005478081112578692,M_matched_image,additive
+controlled_THINGS,M_prompt_plus_matched_image,Qwen/Qwen3-VL-8B-Instruct,0.2674520718189447,0.08313180611888199,0.004707723691317833,M_matched_image,image_dominant
+SigLIP2,M_prompt_plus_matched_image,Qwen/Qwen3-VL-8B-Instruct,0.18753137065650136,0.04524001857454976,-0.0058258915641303255,M_matched_image,image_dominant
+lancaster_perceptual,M_prompt_plus_matched_image,Qwen/Qwen3-VL-8B-Instruct,0.24984125673773006,0.13472328562013858,0.024678775684067705,M_matched_image,additive
+THINGS behavioral similarity,M_text_only,Qwen/Qwen3-VL-8B-Instruct,0.16108344246769132,-0.030199995333185986,-0.111174535721305,M_matched_image,
+controlled_THINGS,M_text_only,Qwen/Qwen3-VL-8B-Instruct,0.15856109238190486,-0.025759173318157857,-0.10418325574572201,M_matched_image,
+SigLIP2,M_text_only,Qwen/Qwen3-VL-8B-Instruct,0.12200949033968406,-0.020281861742267537,-0.07134777188094762,M_matched_image,
+lancaster_perceptual,M_text_only,Qwen/Qwen3-VL-8B-Instruct,0.11580381671902072,0.0006858456014292441,-0.10935866433464163,M_matched_image,

@@ -1,0 +1,21 @@
+{
+  "method_note": "Descriptive rank-RDM regression: prompt+image RDM is predicted from prompt-only and matched-image RDMs.",
+  "null": {
+    "mean_image_weight": 3.239921854370124e-05,
+    "mean_prompt_weight": -6.101693982615681e-05,
+    "mean_r2": 1.1323482350726103e-06,
+    "p95_r2": 3.2985278394918925e-06
+  },
+  "num_concepts": 1854,
+  "num_pairs": 1717731,
+  "observed": {
+    "integration_label": "image_dominant",
+    "matched_image_weight": 0.9443765658916787,
+    "mixture_r2": 0.9025507884796969,
+    "p_ge_null_r2": 0.000999000999000999,
+    "prompt_weight": 0.012780098500287473,
+    "residual_norm": 0.3121685626713587
+  },
+  "permutations": 1000,
+  "seed": 20260424
+}

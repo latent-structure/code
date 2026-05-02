@@ -1,0 +1,18 @@
+{
+  "joint_control_prompt_minus_matched": -0.07802892319643076,
+  "joint_control_scores": {
+    "M_degraded_image": 0.2532192310821468,
+    "M_matched_image": 0.2632547393855549,
+    "T_prompt_primary": 0.18522581618912412
+  },
+  "largest_prompt_reduction_control": "all_proxies_joint",
+  "largest_prompt_reduction_value": 0.006057621988146189,
+  "num_concepts": 1854,
+  "num_pairs": 1717731,
+  "raw_prompt_minus_matched": -0.08097454026001019,
+  "raw_scores": {
+    "M_degraded_image": 0.2613633391362664,
+    "M_matched_image": 0.2722579784372805,
+    "T_prompt_primary": 0.1912834381772703
+  }
+}

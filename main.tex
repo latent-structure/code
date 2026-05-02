@@ -1,0 +1,1143 @@
+\documentclass{article}
+
+\PassOptionsToPackage{numbers,sort&compress}{natbib}
+\usepackage{neurips_2026}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{courier}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{array}
+\usepackage{caption}
+
+\graphicspath{{figures/}}
+
+\title{Prompting Is Not Grounding: The Geometry of Concept Space in Vision-Language Models}
+
+\author{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+When a vision-language model is shown an image of a concept alongside its name, does visual input merely enrich the text-evoked concept, or does it reorganize the geometry in which that concept is represented? We study language-backbone concept representations across three VLM families -- Qwen, Mistral, and Llama -- using 1,854 concrete object concepts from THINGS under matched images, mismatched images, sensory prompts, and blank-image controls. Matched images dominate global pairwise geometry while text anchors local concept identity: even when text and image conflict, mismatched images substantially perturb the global structure of concept space yet leave the named concept as the model's nearest neighbor. The striking result is that local identity survives while global geometry is reorganized by the image. This global-local profile holds across all three model families and persists in Llama despite weaker alignment to human behavioral benchmarks, demonstrating that visual restructuring and benchmark alignment are separable properties of multimodal integration. The dissociation has direct behavioral consequences: concepts whose representations shift closer to a mismatched image show greater drift in the model's own relational judgments and generated descriptions, including explicit mention of the unrelated image concept. These results recast grounding not as a stronger form of sensory prompting, but as an image-contingent, identity-preserving reorganization of concept space.
+\end{abstract}
+
+\section{Introduction}
+
+Vision-language models are built on the premise that pairing language with images produces better-grounded concept representations. When a model processes an image of a concept alongside its name, the dominant assumption is that the image enriches the text-evoked representation with perceptual evidence, producing a more concrete, more visually anchored version of the same underlying concept \citep{radford2021clip,li2023blip2}. Recent work has begun to complicate this picture, showing that image-token utility is strongly task-dependent and that multimodal adaptation can reshape reasoning dynamics rather than simply extending them \citep{ratzlaff2025trainingfree,ghosh2026image_tokens}. But the more fundamental question has received less attention: when visual input changes a text-specified concept representation, does it change global relational geometry, local concept identity, or both?
+
+We test this directly by studying concept geometry rather than task accuracy. Using representational similarity analysis (RSA) \citep{kriegeskorte2008rsa} over 1,854 concrete object concepts from the THINGS database \citep{hebart2020things}, we extract language-backbone hidden states across three VLM families and compare matched grounding against sensory prompting, mismatched images, and blank-image controls --- isolating the contribution of visual correspondence from generic image presence, layerwise geometry, and generated-output behavior. Figure~\ref{fig:conceptual_overview} summarizes the design.
+
+\begin{figure}[!htbp]
+  \centering
+  \captionsetup{font=footnotesize,skip=2pt}
+  \includegraphics[width=\linewidth,height=0.30\textheight,keepaspectratio]{{NeurIPS Figure 1_v2}.png}
+  \caption{Conceptual overview. We compare sensory prompting with image-grounded inputs, extract language-backbone concept states, and test whether visual input changes global relational geometry, local concept identity, or both.}
+  \label{fig:conceptual_overview}
+\end{figure}
+
+For concrete, nameable object concepts with matched photographic exemplars, we a scale-separated integration profile: matched images dominate global pairwise geometry while the text-specified concept remains locally identifiable, and this dissociation persists even under mismatched grounding. This profile is consistent across Qwen, Mistral, and Llama and has direct behavioral consequences, with geometric drift predicting shifts in the model's own relational judgments and generated descriptions.
+
+Our contributions are as follows:
+\begin{enumerate}
+  \item We identify a scale-separated integration profile in VLM concept space: visual input reshapes global pairwise geometry while the text-specified concept remains locally identifiable even under mismatched-image perturbations.
+  \item We show that sensory prompting does not close the matched-grounding gap: matched images produce larger, more reference-aligned changes in concept geometry than language-only sensory prompts.
+  \item We show that this global-local profile is consistent across Qwen, Mistral, and Llama, while external reference-space alignment is architecture-dependent; Llama shows the same routing, geometry, and output effects even though its external alignment is weaker.
+  \item We connect this representational profile to behavior: concepts whose hidden states move closer to the mismatched image concept show greater mismatched-image drift in cross-family forced-choice judgments, CLIP output consistency, and generated descriptions.
+\end{enumerate}
+
+\section{Related work}
+
+\paragraph{Grounding as perceptual enrichment.}
+Modern vision-language models operationalize grounding by aligning images and text or by coupling visual encoders to language models for multimodal inference \citep{radford2021clip,li2023blip2}. This design encourages an enrichment view in which images add perceptual evidence to a text-evoked concept. Recent work complicates this view by showing that visual input is not uniformly additive: multimodal adaptation can introduce task trade-offs \citep{ratzlaff2025trainingfree}, and image-token utility can vary across depth and task context \citep{ghosh2026image_tokens}. What remains unclear is whether these effects reflect changes to global relational geometry, local concept identity, or both --- a distinction the present work addresses directly.
+
+\paragraph{Prompting, grounding, and concept geometry.}
+Perceptual structure can also be partially evoked without direct perceptual input. \citet{wang2025words} show that explicit sensory prompts can surface modality-appropriate structure in text-only language models, increasing alignment with specialist vision and audio encoders. This raises the possibility that sensory prompting and image-based grounding may access perceptual structure through different routes. If those routes were equivalent, matched images would produce the same geometric changes as a well-constructed sensory prompt; our results show they do not.
+
+\paragraph{Global and local structure in representational spaces.}
+Representational similarity analysis provides a way to study concept structure through pairwise geometry rather than task accuracy \citep{kriegeskorte2008rsa}. Large-scale resources such as THINGS and THINGS-data make human object-concept geometry measurable at scale \citep{hebart2020things,hebart2023thingsdata}, and prior work has compared model spaces with human conceptual, behavioral, and sensorimotor reference spaces \citep{hebart2020multidimensional,muttenthaler2025aligning,xu2025ungrounded}. Rather than benchmarking a single model condition against human geometry, we manipulate input modality within a fixed model to isolate what visual input changes: global pairwise relations, local concept identity, or both. This global-local distinction is central to evaluating whether grounding is a quantitatively stronger form of perceptual prompting or an identity-preserving transformation of concept geometry.
+
+\section{Experimental setup}
+
+\paragraph{Design.}
+We analyze 1,854 concrete object concepts from THINGS \citep{hebart2020things}. The primary contrast compares language-only sensory prompting with matched-image grounding, while the key within-VLM controls hold the text fixed and vary only the image: matched, degraded, mismatched, or blank. Matched images provide the primary grounding condition; degraded and blank images serve as low-signal baselines; mismatched images test whether conflicting visual input reassigns local concept identity. This design separates global geometric restructuring from local concept-identity preservation. Qwen provides the primary same-family comparison, and Mistral and Llama provide cross-family replications.
+
+\paragraph{Models and conditions.}
+All models are used frozen at inference time. Each family contributes a text-only / vision-language pair: Qwen3.5-9B paired with Qwen3-VL-8B-Instruct \citep{qwen35,qwen3vl}, Mistral-Small-24B paired with Mistral-Small-3.1-24B, and Llama-3.1-8B paired with Llama-3.2-11B-Vision \citep{mistral_small,llama31_32}. Conditions include neutral text, sensory prompt, text-only VLM, matched image, prompt-plus-image, degraded image, mismatched image, and blank-image; exact prompts, image controls, and input formats are in Appendix~\ref{app:methods}.
+
+\paragraph{Representation extraction.}
+All representations are language-backbone hidden states extracted during the shared forward pass, not vision-encoder-only states. Representations are pooled into a single concept vector per layer and condition by averaging over the concept-token span; unresolved spans are excluded rather than contributing broad-span pooled vectors. In multimodal conditions, states are taken after visual input has entered computation. Aggregate comparisons average pooled vectors across the prespecified mid-to-late layer band (final half of extracted layers per model). A 200-concept position-control analysis confirms that matched-image shifts are large at concept spans but near zero at length-matched non-concept spans, ruling out a generic token-position or image-prefix artifact (Appendix Table~\ref{tab:appendix_position_control}). Full extraction details are in Appendix~\ref{app:methods}.
+
+\paragraph{Reference spaces and RSA.}
+THINGS behavioral similarity is the primary external reference space; Lancaster sensorimotor norms and learned visual or vision-language spaces provide supporting references. For each layer- and condition-specific representation, we construct a cosine-distance representational dissimilarity matrix (RDM), and quantify alignment via representational similarity analysis (RSA), defined as the Spearman correlation between condensed RDM vectors:
+
+\begin{equation}
+  \mathrm{RSA}\!\left(D^{(a)}, D^{(b)}\right)
+  =
+  \rho_S\!\left(
+  \mathrm{vec}_{\Delta}(D^{(a)}),
+  \mathrm{vec}_{\Delta}(D^{(b)})
+  \right).
+  \label{eq:rsa}
+\end{equation}
+where $\mathrm{vec}_{\Delta}(D)$ denotes the upper-triangular entries of $D$, excluding the diagonal. Layerwise summaries use 1,000 bootstrap resamples; because RDM entries are not independent observations, the resulting intervals are treated as uncertainty summaries over geometry rather than independent-trial inferential tests. The main claims rest on converging prespecified contrasts rather than CI-overlap or multiple-comparison decision rules.
+
+\section{Visual input reshapes global concept geometry while text preserves local identity}
+\label{sec:global_local}
+
+\subsection{Matched grounding changes concept geometry relative to prompting}
+\label{sec:external_alignment}
+
+Within the Qwen VLM, a neutral text-only input and the same input paired with a matched image differ only in whether visual evidence is present. Matched images shift concept geometry relative to text-only input, with gaps of +0.1112 for THINGS behavioral similarity, +0.0713 for SigLIP2, and +0.1094 for Lancaster perceptual norms; Figure~\ref{fig:layerwise_rsa_trajectory} shows the scale of these effects across depth. Mistral shows the same directional pattern with comparable magnitude; Llama's external-reference gaps are small and reference-dependent. Appendix Table~\ref{tab:appendix_external_alignment_gaps} gives the full family-by-family alignment summary. A cross-model prompt-versus-grounding comparison shows the same Qwen/Mistral pattern, but constitutes only an upper-bound comparison because the text-only and VLM models differ beyond modality.
+
+\begin{figure}[!htbp]
+  \centering
+  \captionsetup{font=footnotesize,skip=2pt}
+  \includegraphics[width=\linewidth]{{Figure_2_RSA_Trajectories}.pdf}
+  \caption{Layerwise THINGS alignment across model families. The y-axis is Spearman RSA between each condition's condensed language-backbone RDM and the THINGS behavioral-similarity RDM. Legend labels denote sensory prompting (\texttt{T\_prompt\_primary}), text-only VLM input (\texttt{M\_text\_only}), matched-image grounding (\texttt{M\_matched\_image}), and mismatched-image grounding (\texttt{M\_mismatched\_image}).}
+  \label{fig:layerwise_rsa_trajectory}
+\end{figure}
+
+\subsection{Prompt-plus-image states are globally image-dominant}
+
+The mixture decomposition identifies the geometric scale of the change. When sensory prompts and matched images are presented together, prompt-plus-image geometry is dominated by matched-image geometry rather than forming a balanced mixture of text-evoked and grounded representations. Using the rank-RDM mixture model described in Appendix~\ref{app:methods}, the matched-image weight is 0.9444 against a prompt weight of 0.0128, and a 1,000-permutation diagnostic places the mixture fit far above shuffled baselines (\(p<0.001\)). Collinearity diagnostics support the same interpretation: prompt and matched-image predictors are only moderately correlated (Spearman \(r=0.4367\), VIF \(=1.27\)), and unique \(R^2\) is 0.7218 for the matched-image predictor versus 0.0001 for prompt predictor. When both prompt and image are available, visual input largely determines the global pairwise geometry of the concept manifold.
+
+\subsection{Mismatched images perturb geometry without reassigning identity}
+
+The mismatched-image controls reveal the complementary side of this dissociation. Because the text label remains present, some retention of the named concept is expected; the nontrivial result is that local identity survives while global pairwise geometry is substantially reorganized toward image-conditioned structure. The named concept is almost always the nearest matched-image anchor in the full 1,854-concept space (mean rank 1.015, median rank 1), confirming that local text identity survives the conflicting image. The mismatched-image concept does move closer than a random non-target concept on average (mean rank 519.77 versus 692.87), indicating a weak geometric pull toward the depicted concept, but one that falls short of displacing the named concept from its position as nearest neighbor.
+
+\subsection{The global-local profile is consistent across model families}
+
+The global-local dissociation is stable across depth and consistent across families (Table~\ref{tab:global_local_family}). Qwen, Mistral, and Llama all show image-dominant prompt-plus-image geometry and text-anchored local identity under mismatched images.
+
+Llama is especially informative because it separates visual restructuring from external reference-space alignment. Despite weak matched-image gains against external reference spaces, its prompt-plus-image geometry is still image-dominant and its mismatched-image representations remain locally anchored to the text concept. Internal visual-encoder alignment confirms that Llama incorporates visual input into language-backbone geometry, but this restructuring does not produce the same external reference-space signature as Qwen and Mistral.
+
+\begin{table}[!htbp]
+\centering
+\caption{Last-half global-geometry summaries across model families. Image and prompt weights come from the prompt-plus-image mixture decomposition.}
+\label{tab:global_local_family}
+\scriptsize
+\begin{tabular}{lrr}
+  \toprule
+  Family & Image weight & Prompt weight \\
+  \midrule
+  Qwen & 0.9191 & 0.0586 \\
+  Mistral & 0.8964 & -0.0273 \\
+  Llama & 0.8719 & 0.0403 \\
+  \bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Image-dominant routing extends beyond object nouns}
+
+To test whether the global-local profile is specific to concrete object nouns, we extend the analysis to two additional concept types. For 504 event labels from imSitu (126,102 images total), prompt-plus-image geometry remains strongly image-dominant (matched-image weight 0.8947, mixture \(R^2 = 0.8690\)) and mismatched images never reassign event identity (source-assignment rate 0.0000). Reference-space gains are near zero.
+
+For 2,207 attribute-object compositions from MIT-States (63,440 images total), the same profile holds: matched-image weight 0.9085, mixture \(R^2 = 0.9467\), and source-assignment 0.0000. The higher predictor correlation in MIT-States (\(\rho=0.7836\)) reduces the separability of mixture weights, so this is best read as a compositional robustness test rather than an independent alignment claim. Appendix Table~\ref{tab:mitstates_generalization} gives the numerical summary. Across all three concept types, image-dominant routing and text-anchored local identity hold.
+
+\section{Geometry predicts mismatched-image drift}
+\label{sec:geometry_output}
+
+The global-local account predicts that mismatched-image drift should be sparse in aggregate but concentrated where the hidden state is pulled closest to the mismatched-image concept. We use \textit{drift} to mean a graded behavioral shift toward the mismatched-image concept, and \textit{explicit mismatched-image mention} for the binary case where the unrelated image concept appears in generated text. We test this prediction with a cross-family logit forced-choice probe (Appendix Table~\ref{tab:cross_model_logit_forced_choice}), CLIP forced-choice consistency (Appendix Table~\ref{tab:clip_forced_choice}), lexical output measures (Appendix Tables~\ref{tab:continuous_drift_validation} and~\ref{tab:behavior_reliability_ceiling}), and concept-level mismatched-image attraction analyses (Appendix Tables~\ref{tab:mismatch_attraction_quartiles} and~\ref{tab:continuous_drift_validation}), where \textit{attraction} means cosine proximity to the matched-image representation of the mismatched-image concept.
+
+The clearest behavioral signal appears in the cross-family logit forced-choice probe. Each family compares a neighbor of the named concept against a neighbor of the mismatched-image concept. Mismatched grounding increases mismatched-image-neighbor preference by +0.3786 in Qwen, +0.4337 in Mistral, and +0.1791 in Llama relative to text-only input, with the same direction relative to blank and matched-image controls (Table~\ref{tab:cross_model_logit_forced_choice_main}). The effect is largest in Mistral and smallest in Llama, but directionally consistent across all three families --- mirroring the representational dissociation, with Llama showing the same qualitative pull at attenuated magnitude.
+
+\begin{table}[!htbp]
+\centering
+\caption{Cross-family logit forced-choice similarity probe. Values report mismatched-image-neighbor choice, named-concept-neighbor choice, and the mismatch-minus-text delta for each family.}
+\label{tab:cross_model_logit_forced_choice_main}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Family & Text-only & Matched image & Blank image & Mismatched image & Mismatch--text \\
+\midrule
+Qwen & 0.1499 & 0.1354 & 0.1413 & 0.5286 & +0.3786 \\
+Mistral & 0.1467 & 0.1009 & 0.1737 & 0.5804 & +0.4337 \\
+Llama & 0.3603 & 0.4563 & 0.5151 & 0.5394 & +0.1791 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The CLIP forced-choice probe connects these relational shifts to generated output. A CLIP-based judgment scores each generated description against the matched image of the named concept and the mismatched image. Matched-image grounding produces named-concept image choice in 98.87\% of cases (mean named-image margin +0.1565), whereas mismatched-image grounding drops to 58.31\% named-image choice (mean margin +0.0154). Text-only and blank-image conditions both outperform mismatched grounding --- 89.91\% and 91.37\%, respectively --- indicating that conflicting visual input actively degrades fidelity to the named concept rather than simply failing to improve it. In Llama, named-image choice falls from 99.89\% under matched grounding to 23.73\% under mismatched grounding; because Llama's blank-image baseline is unusually high (91.37\%), this result is best read as a strong within-family mismatch effect rather than a direct calibration point against the other families.
+
+The primary behavioral signal is concentrated rather than diffuse. In the top quartile of geometric attraction toward the mismatched image, CLIP mismatched-image choice rises to 54.31\%, exceeding named-image choice at 45.69\%; in the bottom quartile the pattern reverses, with mismatched-image choice at 32.33\% and named-image choice at 67.67\%. The same concentration appears in generated text: explicit mismatched-image mention rises from 13.79\% to 20.47\%, and continuous description drift shifts from $-0.0351$ to $+0.0833$. Geometry therefore identifies the subset of concepts where mismatched-image drift becomes behaviorally visible, as summarized in Appendix Table~\ref{tab:mismatch_attraction_quartiles}.
+
+\begin{figure}[!htbp]
+  \centering
+  \captionsetup{font=footnotesize,skip=2pt}
+  \includegraphics[width=\linewidth]{Figure_4_Geometry_Behavior.pdf}
+  \caption{Continuous geometry-to-output relationships under mismatched grounding. Left: stronger geometric attraction toward the mismatched image predicts greater implicit source drift, measured as output-description similarity drift in generated descriptions. Middle: implicit drift predicts higher Lancaster visual mean scores. Right: implicit drift predicts explicit mismatched-image mention. Contours show concept density and dashed lines show fitted trends with uncertainty bands; the panel-label shorthand denotes the mismatched-image concept.}
+  \label{fig:geometry_output_analysis}
+\end{figure}
+
+The strongest continuous evidence comes from output-to-output drift rather than raw geometric attraction. Mismatched-image description similarity tracks explicit mention at $r = +0.4269$ and Lancaster visual mean at $\rho = +0.4373$; by contrast, raw geometric attraction predicts the same endpoints at $\rho=+0.1468$ and $\rho=+0.1509$ respectively (Appendix Table~\ref{tab:continuous_drift_validation}). Graded description drift therefore captures mismatched-image influence more directly than hidden-state attraction alone, and this concentration survives controlling for image similarity, CLIP anchor similarity, and lexical proxies (Appendix Table~\ref{tab:pair_similarity_covariate}).
+
+These results connect the global-local representational split to generated behavior. Matched images increase visual output fidelity and perceptual image consistency; mismatched images induce graded drift toward the mismatched-image concept at a rate partially predicted by geometric proximity, concentrated in the concepts where geometric attraction is strongest. Local text identity limits but does not eliminate this drift, and the THINGSplus moderator analysis suggests the risk is higher for livelier and more movable object classes (Appendix Table~\ref{tab:thingsplus_moderators}).
+
+\section{Mechanisms underlying the global-local profile}
+
+\subsection{Grounding induces reference-aligned, not generic, compression}
+\label{sec:dimensionality}
+
+The global reorganization induced by matched grounding is not generic compression; it is reference-aligned compression. Matched grounding compresses the mid-to-late concept manifold relative to text-only VLM states and to mismatched or blank-image controls across all three families (Table~\ref{tab:cross_family_pr}). Participation ratio (PR) summarizes effective dimensionality; lower PR indicates a lower-dimensional manifold. But compression alone does not produce the observed RSA gains: sensory prompting has nearly the same PR as matched-image grounding (113.01 versus 113.28) while showing substantially weaker alignment across all main reference spaces. Degraded images sharpen the point: in Llama, degraded-image PR is even lower than matched-image PR, showing compression can arise without semantic correspondence. PR reduction is therefore necessary but not sufficient for grounding-like restructuring.
+
+\begin{table}[!htbp]
+\centering
+\caption{Cross-family participation-ratio compression. Values are mid-to-late mean participation ratios over the 1,854 sensory concepts.}
+\label{tab:cross_family_pr}
+\small
+\begin{tabular}{lrrr}
+  \toprule
+  Family & Text-only VLM & Matched image & Matched reduction \\
+  \midrule
+  Qwen & 147.05 & 113.28 & 22.96\% lower \\
+  Mistral & 193.35 & 165.04 & 14.64\% lower \\
+  Llama & 193.14 & 137.43 & 28.84\% lower \\
+  \bottomrule
+\end{tabular}
+\end{table}
+
+Perturbation controls reinforce this point: matched versus degraded images preserve local geometry substantially better than matched versus mismatched images, with \(k=10\) neighbor Jaccard similarity of 0.4997 versus 0.1799 in Qwen-VL; the same qualitative pattern holds for Mistral-VL and Llama-VL. The relevant phenomenon is therefore compression that preserves reference structure specifically when visual correspondence is maintained.
+
+Two robustness checks support the generality of this pattern. A 12-exemplar analysis over 1,652 concepts with exactly 12 available images shows that averaged grounding exceeds single-image grounding for THINGS behavioral similarity (0.2801 versus 0.2692) and controlled THINGS (0.2702 versus 0.2599), confirming that the result is not an artifact of an idiosyncratic exemplar (Appendix Table~\ref{tab:twelve_image_prototype}). A text-only pilot on 204 SimLex-999 abstract nouns shows the inverse pattern: sensory prompting compresses the concept manifold more strongly than in a matched concrete control set but does not produce reliable Lancaster sensorimotor alignment gains --- compression without reference-aligned restructuring, reinforcing that the concrete-object results depend on matched visual evidence (Appendix~\ref{app:abstract_concept_pilot}).
+
+\subsection{Grounded states converge toward internal visual representations}
+\label{sec:internal_visual_encoder}
+
+Grounded language-backbone states converge toward the model's own visual encoder in all three families (Appendix Table~\ref{tab:appendix_internal_visual_encoder}). In Qwen and Mistral, matched-image grounding substantially exceeds text-only and mismatched-image input in RSA to the internal visual-encoder RDM, with matched-minus-text-only gaps of +0.0774 and +0.0706 respectively.
+
+The Llama result is a theoretical dissociation rather than a weak replication. In Qwen and Mistral, internal visual convergence and external reference-space alignment move together; in Llama, they separate. Matched-image grounding still shifts language-backbone geometry toward the Llama-VL internal visual encoder --- layerwise alignment confirms the same ordering as in the other families (Appendix Table~\ref{tab:appendix_layerwise_internal_visual_encoder}) --- yet this integration does not produce comparable alignment with external human or learned-visual reference spaces. The Llama case therefore establishes that visual restructuring and external alignment are separable properties of multimodal integration, a dissociation that benchmark-only evaluations would miss.
+
+\section{Discussion and limitations}
+
+Visual grounding is not a stronger form of sensory prompting. Sensory prompts can evoke latent perceptual structure from language alone \citep{wang2025words}, but matched-image grounding does not simply amplify this geometry. It imposes an image-contingent transformation on the language-backbone representation, with behavioral consequences that connect internal geometry to observable outputs. Prompting and grounding are different routes into concept space.
+
+The clearest signature of this transformation is scale separation. At the global level, prompt-plus-image representations are dominated by matched-image geometry, indicating that visual evidence strongly shapes pairwise relations across the concept manifold. At the local level, however, text remains highly stable: mismatched images perturb global geometry while the named concept remains the nearest matched-image anchor. The contribution is therefore not the isolated fact that text identity survives conflicting images, but that it survives while the global concept manifold is reorganized. Grounding appears less like visual replacement of language meaning and more like context-dependent deformation of concept geometry.
+
+A smaller human-local-neighborhood analysis qualifies this scale separation: sensory prompting preserves fine-grained local human-neighbor structure slightly better than matched grounding, 0.4542 versus 0.4218, suggesting that matched images improve broad perceptual organization while losing some fine local structure.
+
+A VLM must integrate visual evidence without allowing conflicting images to override the lexical identity specified by language, and the observed pattern provides one solution: images reshape global semantic relations while text maintains local lexical identity. This suggests that evaluations should distinguish visual sensitivity from identity preservation.
+
+Our analyses characterize a representational dissociation rather than the circuit-level mechanism that produces it. RSA identifies how concept geometry differs across conditions but does not directly reveal which attention heads, cross-modal routing pathways, or architectural components implement the global-local split. Dimensionality analyses further suggest that the relevant change is not generic compression: degraded images can also compress the manifold, whereas matched images produce compression aligned with reference structure.
+
+The Llama case is the paper's cleanest dissociation: it shows the same global-local signature and positive convergence toward its own internal visual encoder, yet produces weaker alignment to external human and visual reference spaces. Taken together, the results suggest that visual restructuring, visual routing, and external alignment are separable properties of multimodal integration.
+
+Several limitations should be noted. First, our analyses primarily characterize internal representational geometry: the geometry-to-output analysis connects this structure to generated descriptions, but higher geometric alignment does not establish better downstream performance. Second, conclusions may not generalize to abstract concepts, actions, social categories, or complex relational scenes; the imSitu and MIT-States extensions show the profile holds for event and compositional concepts, but abstract concepts without matched visual evidence show a different pattern (Section 6.1). Third, the primary grounded condition uses one fixed image per concept; the 12-exemplar analysis preserves the main pattern but does not test atypical or adversarial instances. Fourth, we analyze frozen inference-time models, so the study reveals the representational consequences of multimodal training, but not the training dynamics or circuit-level mechanisms by which these geometries emerge.
+
+These findings have implications for how VLMs are evaluated and deployed. Preserving local text identity may support instruction following, but may also contribute to language-prior persistence when visual evidence is weak or conflicting. The geometry-to-output analysis shows that the global-local split is not confined to hidden states: geometric attraction toward a mismatched image predicts mismatched-image drift, concentrated in the high-attraction concepts where drift should be most visible. Understanding grounding as identity-preserving geometric reorganization, rather than perceptual enrichment, has direct implications for evaluation: visual sensitivity and identity preservation are dissociable properties, and benchmarks that conflate them will mischaracterize what VLMs do with visual input.
+
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\clearpage
+\appendix
+
+\section{Full methods and reproducibility}
+\label{app:methods}
+
+This appendix is organized by function. Sections A.1--A.3 describe data, prompts, and representation extraction. Sections A.4--A.7 define RSA, reference spaces, and geometry metrics. Sections A.8--A.11 document the primary global-local analyses: mixture decomposition, mismatched-image rank validation, layerwise summaries, and internal visual-encoder alignment. Sections A.12--A.15 report robustness checks, secondary diagnostics, Llama mechanism analyses, the imSitu generalization, the MIT-States generalization, the abstract-concept pilot, and CLIP forced-choice behavior analyses. Sections A.16--A.17 summarize statistical treatment and implementation details.
+
+\subsection{Data, concepts, and images}
+
+The main concept set contains 1,854 concrete object concepts from THINGS. Concepts are matched to THINGS metadata using normalized \texttt{uniqueID} or word fields, and image provenance is recorded for each retained concept. The primary image condition uses one fixed matched THINGS image per concept. No web-sourced replacement images are used.
+
+Image controls are designed to isolate the contribution of visual input within the multimodal model. \texttt{M\_degraded\_image} applies a deterministic transformation to the matched image: downsampling to 25\% of the original linear resolution, conversion to grayscale, upsampling, and Gaussian blurring with radius 2. \texttt{M\_mismatched\_image} pairs each concept with an image selected by a fixed mapping to a different concept, excluding self-pairs. \texttt{M\_blank\_image} replaces the matched image with a uniform gray image passed through the same preprocessing steps.
+
+All multimodal images are converted to RGB, resized with aspect ratio preserved and maximum side length 384 pixels, and then passed through the checkpoint-specific Hugging Face processor for standard resizing, patching, and normalization. Degradation and blank-image construction are applied before this processor step, ensuring that all multimodal conditions share the same downstream preprocessing path.
+
+THINGS behavioral similarity is loaded in THINGS concept order, restricted to the analysis overlap, and converted to a distance RDM as \(1-\mathrm{similarity}\). Learned visual and vision-language reference spaces are computed from matched-image embeddings over the same concept ordering and converted to cosine-distance RDMs.
+
+\subsection{Prompt conditions and model inputs}
+
+Table~\ref{tab:appendix_prompts} lists the exact text templates. The neutral template is used for label-only text conditions and for neutral multimodal inputs. The sensory template is used for the primary language-only prompting condition and for the prompt-plus-image condition. The two paraphrases are used only as prompt-stability checks.
+
+\begin{table}[!htbp]
+\centering
+\caption{Exact text templates used in prompt conditions.}
+\label{tab:appendix_prompts}
+\begin{tabular}{p{0.22\linewidth}p{0.68\linewidth}}
+\toprule
+Template & Text \\
+\midrule
+Neutral & Consider the concept: \texttt{\{concept\}}. \\
+Sensory prompt & Imagine vividly perceiving \texttt{\{concept\}} with the relevant senses. Consider the concept: \texttt{\{concept\}}. \\
+Paraphrase 1 & Picture the sensory experience of \texttt{\{concept\}} as clearly as possible. Consider the concept: \texttt{\{concept\}}. \\
+Paraphrase 2 & Focus on what \texttt{\{concept\}} would look, feel, sound, smell, or taste like when relevant. Consider the concept: \texttt{\{concept\}}. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All multimodal image conditions retain the explicit concept text. The neutral multimodal condition combines an image with the neutral template, whereas the prompt-plus-image condition combines the matched image with the sensory template.
+
+For the main image-control conditions, text is held fixed and only the visual input changes. Thus, \texttt{M\_text\_only}, \texttt{M\_matched\_image}, \texttt{M\_degraded\_image}, \texttt{M\_mismatched\_image}, and \texttt{M\_blank\_image} differ in visual input but not in concept wording. The prompt-plus-image condition is analyzed as a supplementary integration check rather than as the primary prompting-versus-grounding contrast.
+
+\subsection{Representation extraction}
+
+Let \(\mathcal{C}=\{c_i\}_{i=1}^n\) be the concept set, \(q\) a condition, and \(\ell\) a model layer. For text conditions, each prompt is passed through the text model. For multimodal conditions, the model receives a chat-style input containing the image token plus the text prompt whenever an image is present. The concept label remains present in all multimodal conditions.
+
+Representations are extracted layerwise and pooled into one concept vector per layer and condition. For both text and multimodal backbones, concept vectors are formed by pooling over the concept-token span in language-backbone hidden states. In multimodal conditions, representations are taken from the shared forward pass after visual input has entered computation; the main prompting-versus-grounding comparison therefore does not use vision-encoder-only states.
+
+All reported analyses use verified concept-span pooling over the 1,854-concept THINGS subset for the Qwen, Mistral, and Llama families.
+
+We pool hidden states over the concept text-token span, not over raw visual tokens. For each prompt, the raw concept string is tokenized without special tokens using the same tokenizer as the target model. The resulting token-id sequence is located as a contiguous subsequence in the fully rendered prompt or chat-template input. When multiple exact matches exist, the first complete match corresponding to the explicit concept mention in the rendered prompt is used. For multi-token concepts and subword splits, \(S_i\) is the complete matched subsequence for that concept mention. Cases without a verified concept span are excluded from the reported analyses rather than contributing broad-span pooled vectors.
+
+\begin{table}[!htbp]
+\centering
+\caption{Position-control analysis on a 200-concept subset. Gaps are THINGS RSA differences for concept-token spans versus length-matched non-concept control spans. The preregistered position-confound flag is false: non-concept span shifts are near zero relative to concept-span shifts.}
+\label{tab:appendix_position_control}
+\begin{tabular}{lrr}
+\toprule
+Gap & Concept span & Non-concept span \\
+\midrule
+Matched image -- text-only VLM & -0.0708 & -0.0045 \\
+Matched image -- blank image & -0.0621 & -0.0009 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+If \(S_i\) is the resolved token span for concept \(c_i\), and \(H_{\ell,t}\) is the hidden state at layer \(\ell\) and token \(t\), the concept representation is the mean-pooled span embedding
+\begin{equation}
+  h_{q,\ell}(c_i)=\frac{1}{|S_i|}\sum_{t\in S_i} H_{\ell,t}.
+  \label{eq:appendix_pool}
+\end{equation}
+This measures how prompt or visual context changes the representation of the explicitly named concept.
+
+Main summaries use a predefined mid-to-late layer band, whereas depth-resolved analyses compute metrics separately for each layer. For a model with \(L\) extracted hidden-state layers, the mid-to-late band is the final half of available layer indices:
+\begin{equation}
+  \mathcal{L}_{mid}=\{\ell:\ell\ge L-\lceil fL\rceil\}, \quad f=0.5.
+  \label{eq:appendix_mid_layers}
+\end{equation}
+Table~\ref{tab:appendix_layer_bands} lists the extracted layer ranges and corresponding mid-to-late bands for each text and multimodal model. Aggregate comparisons average concept embeddings across \(\mathcal{L}_{mid}\) before the downstream metric is computed:
+
+\begin{table}[!htbp]
+\centering
+\caption{Extracted layer ranges and mid-to-late aggregation bands for text and multimodal models.}
+\label{tab:appendix_layer_bands}
+\begin{tabular}{lcccc}
+\toprule
+Family & Text layers & Text band & Multimodal layers & Multimodal band \\
+\midrule
+Qwen & 0--32 & 16--32 & 0--36 & 18--36 \\
+Mistral & 0--40 & 20--40 & 0--40 & 20--40 \\
+Llama & 0--32 & 16--32 & 0--40 & 20--40 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For aggregate comparisons, the pooled concept representation is
+\begin{equation}
+  \bar{h}_{q}(c_i)=\frac{1}{|\mathcal{L}_{mid}|}\sum_{\ell\in\mathcal{L}_{mid}} h_{q,\ell}(c_i).
+  \label{eq:appendix_layer_average}
+\end{equation}
+Aggregate RDMs are then constructed from \(\bar{h}_{q}(c_i)\) in the same way as single-layer RDMs.
+
+Extraction uses deterministic forward passes with hidden-state readout enabled. No generation is performed during representation extraction, and no sampling temperature or decoding settings are used.
+
+\subsection{Representational similarity analysis}
+
+For each condition and layer, we compute a concept representational dissimilarity matrix (RDM) from pairwise cosine distances:
+\begin{equation}
+  D^{q,\ell}_{ij}=1-\frac{h_{q,\ell}(c_i)^\top h_{q,\ell}(c_j)}
+  {\|h_{q,\ell}(c_i)\|_2\|h_{q,\ell}(c_j)\|_2}, \quad i\ne j.
+  \label{eq:appendix_cosine_rdm}
+\end{equation}
+Let \(\operatorname{vec}(D)\) denote the upper-triangular entries of \(D\), excluding the diagonal. Given a reference RDM \(D^A\), alignment is quantified using representational similarity analysis (RSA), defined as the Spearman correlation between condensed RDM vectors:
+\begin{equation}
+  \operatorname{RSA}(q,\ell,A)=
+  \rho_s\left(\operatorname{vec}(D^{q,\ell}), \operatorname{vec}(D^A)\right).
+  \label{eq:appendix_rsa}
+\end{equation}
+Because both model and reference-space RDMs are defined in terms of distances, higher RSA indicates greater agreement about which concept pairs are relatively close or far apart in the two spaces. We use cosine distance because it captures angular, directional similarity while being invariant to vector norm, making it well suited for comparing representation geometry across layers and model families. We use Spearman RSA because our hypotheses concern rank-order geometry rather than calibrated metric distances.
+
+\subsection{Reference spaces and controls}
+
+We evaluate alignment against operational reference spaces, not direct measurements of perceptual experience. THINGS behavioral similarity is the main human behavioral reference space. Lancaster Sensorimotor Norms provide a supporting human sensorimotor lexical reference space over resolved word overlap. \texttt{SigLIP2} is the primary vision-language reference space. \texttt{DINOv2} is a pure-vision comparison reference space, and \texttt{CLIP ViT-L/14} is an alternate vision-language comparison reference space. For each reference-space-specific analysis, the concept set is restricted to concepts present in both the condition embeddings and the reference space. Concepts without overlap are excluded only from that analysis, and the final overlap \(n\) is reported when it differs from the main concept set.
+
+Partial RSA, residual RSA, and variance partitioning test whether prompting and grounding advantages reflect shared coarse structure or separable components of concept geometry. Controlled THINGS is the joint partial-RSA score against the THINGS behavioral RDM after simultaneously controlling for subtype membership, sound-linked status, lexical trigram distance, and coarse-category structure.
+
+Each proxy is converted into an RDM over the same THINGS-overlap concept set; Appendix Table~\ref{tab:appendix_proxy_encodings} lists the proxy encodings:
+\begin{table}[!htbp]
+\centering
+\caption{Control-proxy encodings.}
+\label{tab:appendix_proxy_encodings}
+\small
+\begin{tabular}{p{0.28\linewidth}p{0.62\linewidth}}
+\toprule
+Proxy & Encoding \\
+\midrule
+Subtype membership & Distance \(0\) within subtype and \(1\) across subtype. \\
+Sound-linked status & Distance \(0\) within the sound-linked/non-sound split and \(1\) across the split. \\
+Lexical distance & Trigram Jaccard distance over padded lowercase concept strings. \\
+Coarse category & Distance \(0\) within collapsed buckets and \(1\) otherwise; buckets are \texttt{visual\_surface}, \texttt{cross\_modal}, and \texttt{other}. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Let \(x=\operatorname{vec}(D^q)\) be a model RDM vector, \(y=\operatorname{vec}(D^{THINGS})\) the human RDM vector, \(Z\) a matrix of proxy RDM vectors, and \(R(\cdot)\) a rank transform. We residualize ranked vectors against the controls:
+\begin{equation}
+  r_x = R(x)-P_ZR(x), \quad r_y = R(y)-P_ZR(y),
+  \label{eq:appendix_resid}
+\end{equation}
+where \(P_Z\) denotes the ordinary least-squares projection onto the column space of the rank-transformed proxy design matrix \(Z\). Partial RSA is then computed as
+\begin{equation}
+  \operatorname{partialRSA}(x,y;Z)=\operatorname{corr}(r_x,r_y).
+  \label{eq:appendix_partial_rsa}
+\end{equation}
+For human residual RSA, the target THINGS vector and each condition vector are residualized against visual, category, and lexical control RDMs before the residual vectors are correlated. These controls include model-based visual or vision-language RDMs, category and subtype proxy RDMs, and lexical trigram distance. For visual residual RSA, the same residualization logic is applied to model-based visual or vision-language reference spaces, including \texttt{SigLIP2}, \texttt{CLIP ViT-L/14}, and \texttt{DINOv2}. Appendix Tables~\ref{tab:appendix_external_alignment_gaps} and~\ref{tab:appendix_residual_variance_controls} report the full external-alignment and control-adjusted gaps. Absolute values from the residual, partial-RSA, and aggregate-RSA analyses are reported with their analysis labels and are not treated as identical estimators.
+
+Variance partitioning regresses the ranked target RDM vector on rank-transformed predictor RDM vectors grouped into human-derived reference, learned visual-reference, and control-proxy blocks using ordinary least squares. The human-derived reference block contains human behavioral and sensorimotor reference RDMs, the learned visual-reference block contains model-based visual or vision-language RDMs, and the control-proxy block contains category, subtype, sound-linked, and lexical controls. We report total fit as full-model \(R^2\), unique family variance as the drop in \(R^2\) after leaving that predictor family out, and shared variance as the remainder not attributable to any single family.
+If \(R(y)\) is the ranked target RDM vector, the full model is
+\begin{equation}
+  R(y)=Z_{\mathrm{human}}\beta_h + Z_{\mathrm{learned}}\beta_l + Z_{\mathrm{proxy}}\beta_p + \varepsilon,
+  \label{eq:appendix_variance_partition}
+\end{equation}
+where each \(Z\) block contains the rank-transformed predictor RDM vectors for one family. For predictor family \(g\), unique variance is defined as
+\begin{equation}
+  U_g = R^2_{\mathrm{full}} - R^2_{-g},
+  \label{eq:appendix_unique_variance}
+\end{equation}
+where \(R^2_{-g}\) is the fit of the model with family \(g\) removed.
+
+\begin{table}[!htbp]
+\centering
+\caption{External reference-alignment gaps. Within-VLM gaps compare \texttt{M\_matched\_image} against \texttt{M\_text\_only}, holding the VLM fixed and varying only image presence. Cross-model gaps compare \texttt{M\_matched\_image} against \texttt{T\_prompt\_primary} and are reported as upper-bound, confounded contrasts.}
+\label{tab:appendix_external_alignment_gaps}
+\footnotesize
+\begin{tabular}{llrrrr}
+\toprule
+Contrast & Family & THINGS & Controlled THINGS & SigLIP2 & Lancaster perceptual \\
+\midrule
+Within-VLM & Qwen & +0.1112 & +0.1042 & +0.0713 & +0.1094 \\
+Within-VLM & Mistral & +0.1660 & +0.1545 & +0.1197 & +0.1110 \\
+Within-VLM & Llama & +0.0056 & +0.0048 & +0.0160 & +0.0102 \\
+\midrule
+Cross-model & Qwen & +0.0810 & +0.0784 & +0.0511 & +0.1100 \\
+Cross-model & Mistral & +0.1138 & +0.1084 & +0.0821 & +0.0621 \\
+Cross-model & Llama & +0.0033 & +0.0041 & +0.0108 & -0.0011 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Residual and variance-partitioning controls. Residual RSA gaps test whether matched-grounding advantages remain after removing visual, category, or lexical proxy structure. Variance partitioning reports cross-model prompt versus matched-image components from ranked RDM regressions.}
+\label{tab:appendix_residual_variance_controls}
+\footnotesize
+\begin{tabular}{llr}
+\toprule
+Analysis & Contrast or component & Gap \\
+\midrule
+Human residual after visual controls & \texttt{M\_matched\_image}--\texttt{M\_text\_only} & +0.0721 \\
+Human residual after visual controls & \texttt{M\_matched\_image}--\texttt{T\_prompt\_primary} & +0.0590 \\
+SigLIP2 residual & \texttt{M\_matched\_image}--\texttt{M\_text\_only} & +0.0221 \\
+CLIP ViT-L/14 residual & \texttt{M\_matched\_image}--\texttt{M\_text\_only} & +0.0229 \\
+DINOv2 residual & \texttt{M\_matched\_image}--\texttt{M\_text\_only} & +0.0281 \\
+\midrule
+Variance partitioning & Total fit, matched--prompt & +0.0370 \\
+Variance partitioning & Unique THINGS, matched--prompt & +0.0191 \\
+Variance partitioning & Unique SigLIP2, matched--prompt & +0.0017 \\
+Variance partitioning & Unique DINOv2, matched--prompt & +0.0006 \\
+Variance partitioning & Shared human-family, matched--prompt & +0.0179 \\
+Variance partitioning & Shared model-anchor family, matched--prompt & +0.0343 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Lancaster sensorimotor subspaces}
+
+Lancaster analyses use the subset of THINGS concepts resolved to entries in the Lancaster Sensorimotor Norms. The main Lancaster validation reports three reference spaces: the full sensorimotor space, a perceptual subspace, and a haptic/material subspace. For each subspace, feature vectors are converted to cosine-distance RDMs over the resolved concept overlap, and condition alignment is computed with the same Spearman RSA procedure used for the other reference spaces.
+
+Gap summaries compare matched-image grounding against sensory prompting and against multimodal image controls. Bootstrap intervals are used as descriptive uncertainty summaries. For Lancaster gaps, intervals are computed by resampling condensed RDM entries with replacement and recomputing the paired condition difference:
+\begin{equation}
+  \Delta_b =
+  \operatorname{RSA}(q_a,A;\mathcal{B}_b)
+  -
+  \operatorname{RSA}(q_b,A;\mathcal{B}_b),
+  \label{eq:appendix_bootstrap_gap}
+\end{equation}
+where \(\mathcal{B}_b\) denotes the bootstrap sample for replicate \(b\). Reported intervals are percentile intervals over the bootstrap gap distribution \(\{\Delta_b\}\).
+
+For prototype analyses that resample concepts rather than pair entries, \(\mathcal{B}_b=(i_1,\ldots,i_n)\) is drawn with replacement from concept indices. The condition and reference RDMs are then rebuilt on the sampled concept list before computing \(\Delta_b\), and Appendix Table~\ref{tab:appendix_lancaster_gaps} reports the Lancaster alignment gaps.
+
+\begin{table}[!htbp]
+\centering
+\caption{Lancaster sensorimotor alignment gaps. RSA values are mid-to-late aggregate Spearman correlations over 1,519 Lancaster-resolved THINGS concepts. Intervals summarize bootstrap resampling of condensed RDM entries.}
+\label{tab:appendix_lancaster_gaps}
+\footnotesize
+\begin{tabular}{lrrrrr}
+\toprule
+Reference & Prompt & Matched & Gap vs. prompt & 95\% CI & Gap vs. blank \\
+\midrule
+Full sensorimotor & 0.1168 & 0.2512 & +0.1345 & [0.1323, 0.1365] & +0.1209 \\
+Perceptual & 0.1151 & 0.2252 & +0.1101 & [0.1079, 0.1121] & +0.0969 \\
+Haptic/material & 0.0588 & 0.0852 & +0.0264 & [0.0245, 0.0285] & +0.0359 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Geometry and perturbation metrics}
+
+Image perturbation analyses compare the matched-image condition with degraded, mismatched, and blank-image controls.
+
+For baseline condition \(q_0\), perturbed condition \(q_1\), and reference space \(A\), the absolute RSA drop is
+\begin{equation}
+  \Delta_{\mathrm{abs}}(q_0,q_1,A,\ell)=
+  \operatorname{RSA}(q_0,\ell,A)-\operatorname{RSA}(q_1,\ell,A).
+  \label{eq:appendix_abs_drop}
+\end{equation}
+Geometry metrics are supporting analyses rather than primary claims. Procrustes analyses compare condition embedding matrices after centering, Frobenius normalization, and optimal orthogonal alignment. For centered and normalized matrices \(\tilde X\) and \(\tilde Y\), disparity is
+\begin{equation}
+  \delta(X,Y)=\min_{R^\top R=I}\|\tilde X-\tilde YR\|_F^2
+  =2-2\sum_k \sigma_k(\tilde X^\top\tilde Y),
+  \label{eq:appendix_procrustes}
+\end{equation}
+where \(\sigma_k\) are singular values.
+
+Intrinsic dimensionality is estimated with the participation ratio, a scale-invariant summary of the effective dimensionality of the concept manifold. Given the centered concept matrix
+\begin{equation}
+  X_c = X - \mathbf{1}\mu^\top, \qquad
+  \mu = \frac{1}{n}\sum_{i=1}^n x_i,
+  \label{eq:appendix_centered_matrix}
+\end{equation}
+we form the concept-space Gram matrix
+\begin{equation}
+  G = X_c X_c^\top.
+  \label{eq:appendix_gram_matrix}
+\end{equation}
+The participation ratio is
+\begin{equation}
+  \operatorname{PR}(X)=
+  \frac{\bigl(\operatorname{tr}(G)\bigr)^2}{\|G\|_F^2}.
+  \label{eq:appendix_pr}
+\end{equation}
+
+For participation-ratio/RSA analyses, condition-level mid-to-late participation-ratio values are correlated with condition-level RSA values across the eight Qwen conditions using Spearman correlation. This descriptive association is used to assess whether lower effective dimensionality tracks reference-space alignment rather than generic compression alone, and Appendix Table~\ref{tab:appendix_cross_family_pr} summarizes the cross-family participation-ratio compression values.
+
+\begin{table}[!htbp]
+\centering
+\caption{Cross-family participation-ratio compression. Values are mid-to-late mean participation ratios over the 1,854 sensory concepts.}
+\label{tab:appendix_cross_family_pr}
+\small
+\begin{tabular}{lrrr}
+  \toprule
+  Family & Text-only VLM & Matched image & Matched reduction \\
+  \midrule
+  Qwen & 147.05 & 113.28 & 22.96\% lower \\
+  Mistral & 193.35 & 165.04 & 14.64\% lower \\
+  Llama & 193.14 & 137.43 & 28.84\% lower \\
+  \bottomrule
+\end{tabular}
+\end{table}
+
+Nearest-neighbor preservation quantifies local restructuring. If \(N_k^a(i)\) and \(N_k^b(i)\) are the top-\(k\) neighbors of concept \(i\) under two conditions, then
+\begin{equation}
+  J_k(i)=\frac{|N_k^a(i)\cap N_k^b(i)|}{|N_k^a(i)\cup N_k^b(i)|}.
+  \label{eq:appendix_jaccard}
+\end{equation}
+For neighbors shared across the two conditions, rank displacement is summarized as
+\begin{equation}
+  \Delta_{\mathrm{rank}}(i)=\frac{1}{|S_i|}\sum_{j\in S_i}\left|r_a(i,j)-r_b(i,j)\right|,
+  \label{eq:appendix_rank_shift}
+\end{equation}
+where \(S_i=N_k^a(i)\cap N_k^b(i)\), and \(r_a(i,j)\) and \(r_b(i,j)\) are the ranks of neighbor \(j\) around concept \(i\) under conditions \(a\) and \(b\). We compute mean Jaccard overlap and mean rank shift for \(k=5\) and \(k=10\); Results summarize the \(k=10\) analyses, and Appendix Table~\ref{tab:appendix_perturbation_robustness} gives the corresponding Qwen-VL robustness summary.
+
+\begin{table}[!htbp]
+\centering
+\caption{Perturbation robustness for Qwen-VL. Values are last-half means comparing matched-image geometry to degraded, mismatched, and blank-image controls. Higher Jaccard means stronger local-neighbor preservation; lower Procrustes disparity means closer global geometry after orthogonal alignment.}
+\label{tab:appendix_perturbation_robustness}
+\footnotesize
+\begin{tabular}{lrrr}
+\toprule
+Comparison & \(k=10\) Jaccard & Rank shift & Procrustes disparity \\
+\midrule
+Matched--degraded & 0.4997 & 1.9733 & 0.0288 \\
+Matched--mismatched & 0.1799 & 3.0742 & 0.2090 \\
+Matched--blank & 0.2139 & 3.1980 & 0.2093 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Prompt-plus-image mixture decomposition}
+
+To quantify whether prompt-plus-image geometry is closer to prompt-only or matched-image geometry, we fit a descriptive rank-RDM regression. Let \(z_{pi}\) be the condensed RDM for \texttt{M\_prompt\_plus\_matched\_image}, \(z_p\) the corresponding vector for \texttt{T\_prompt\_primary}, and \(z_m\) the corresponding vector for \texttt{M\_matched\_image}. Each vector is rank-transformed and standardized:
+\begin{equation}
+  \tilde z =
+  \frac{\operatorname{rank}(z)-\overline{\operatorname{rank}(z)}}
+  {s(\operatorname{rank}(z))},
+  \label{eq:appendix_rank_standardize}
+\end{equation}
+where \(s(\cdot)\) is the empirical standard deviation. We then fit the no-intercept regression
+\begin{equation}
+  \tilde z_{pi} = w_p \tilde z_p + w_m \tilde z_m + \varepsilon,
+  \label{eq:appendix_mixture}
+\end{equation}
+Because all rank-RDM vectors are centered and standardized before fitting, the intercept is zero by construction; the no-intercept model makes the coefficients directly interpretable as prompt and matched-image geometric weights rather than absorbing shared mean offsets. We report \(w_p\), \(w_m\), \(R^2\), and the residual norm. If \(\hat z_{pi}=w_p\tilde z_p+w_m\tilde z_m\) and \(N\) is the number of RDM entries, these summaries are
+\begin{equation}
+  R^2=\frac{\|\hat z_{pi}\|_2^2}{\|\tilde z_{pi}\|_2^2},
+  \qquad
+  \operatorname{resid}=
+  \frac{\|\tilde z_{pi}-\hat z_{pi}\|_2}{\sqrt{N}}.
+  \label{eq:appendix_mixture_summaries}
+\end{equation}
+This regression is descriptive rather than causal. A permutation null is obtained by permuting the target RDM entries, refitting the same regression, and comparing the observed \(R^2\) to the null distribution. The reported validation uses 1,000 random permutations with a fixed random seed and reports the observed permutation \(p\)-value, computed with a plus-one correction, together with the null mean and upper-tail null \(R^2\). Appendix Tables~\ref{tab:appendix_mixture_validation} and~\ref{tab:appendix_mixture_collinearity} summarize the validation and collinearity diagnostics.
+
+\begin{table}[!htbp]
+\centering
+\caption{Prompt-plus-image mixture validation. The observed prompt-plus-image RDM is fit as a rank-RDM regression on prompt-only and matched-image RDMs. The permutation null shuffles the target RDM before refitting the same model. Dashes indicate quantities not summarized for that null statistic; the upper-tail null summary is reported for \(R^2\), which defines the permutation diagnostic.}
+\label{tab:appendix_mixture_validation}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Analysis & Image weight & Prompt weight & \(R^2\) & Residual norm \\
+\midrule
+Observed fit & 0.9444 & 0.0128 & 0.9026 & 0.3122 \\
+Permutation null mean & 0.0001 & -0.0003 & 0.0000 & -- \\
+Permutation null 95th pct. & -- & -- & 0.0000 & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Mixture collinearity and metric-robustness diagnostics. Predictor diagnostics are computed for the prompt-only and matched-image RDM predictors in the prompt-plus-image mixture model. Unique \(R^2\) is the drop in fit when each predictor is removed. CKA values compare prompt-plus-image states with matched-image states and show that the image-dominant pattern is not specific to rank-RDM regression.}
+\label{tab:appendix_mixture_collinearity}
+\small
+\begin{tabular}{lr}
+\toprule
+Diagnostic & Value \\
+\midrule
+Prompt/matched predictor Pearson correlation & 0.4641 \\
+Prompt/matched predictor Spearman correlation & 0.4367 \\
+Variance inflation factor & 1.27 \\
+Matched-image unique \(R^2\) & 0.7218 \\
+Prompt unique \(R^2\) & 0.0001 \\
+Permutation count & 1000 \\
+\midrule
+Qwen prompt+image vs. matched-image CKA & 0.9715 \\
+Mistral prompt+image vs. matched-image CKA & 0.9405 \\
+Llama prompt+image vs. matched-image CKA & 0.9446 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Mismatched-image rank validation}
+
+The mismatched-image analysis tests whether an unrelated image changes local concept identity. For each named concept \(c_i\), the mismatched condition pairs its text with the image of a different mismatched-image concept \(c_j\). Let \(u_i\) be the mismatched representation. We rank all matched-image reference anchors by cosine distance to \(u_i\), including the matched-image representation for the named concept \(m_i\), the matched-image representation for the concept depicted in the unrelated image \(m_j\), and all other non-target concepts. A random-mismatch null repeats the rank comparison after replacing the deterministic unrelated-image concept with a random non-target concept. The named concept remains almost always the nearest anchor, with mean rank 1.015 and median rank 1, while the mismatched-image concept is closer than a random non-target on average, with mean ranks 519.77 versus 692.87. We therefore interpret mismatched images as producing sub-threshold geometric attraction toward the depicted concept without usually overriding local text identity, as summarized in Appendix Table~\ref{tab:appendix_identity_separability}.
+
+\begin{table}[!htbp]
+\centering
+\caption{Mismatched-image rank validation. Rank summaries use matched-image reference anchors over the 1,854-concept space.}
+\label{tab:appendix_identity_separability}
+\footnotesize
+\begin{tabular}{lrr}
+\toprule
+Anchor & Mean rank & Median rank \\
+\midrule
+Named concept & 1.015 & 1 \\
+Mismatched-image concept & 519.77 & 331 \\
+Random non-target concept & 692.87 & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Layerwise global-local analysis}
+
+The global-local analysis combines the mixture and rank-validation analyses across depth. For global geometry, Equation~\ref{eq:appendix_mixture} is fit separately at each layer where prompt-only, matched-image, and prompt-plus-image RDMs are available. For local identity, the mismatched-image rank validation above is repeated separately at each multimodal layer where all matched-image anchors are available. Summaries report means over all analyzed layers and over the first and last halves of the available extracted layer indices. Cross-family summaries use the available text and VLM layers for each model family and compare the final-half layer band within each family. Appendix Table~\ref{tab:appendix_layerwise_global_local} reports the Qwen layerwise global-geometry summary.
+
+Layerwise reference-alignment trajectories compute RSA separately at each extracted layer. We report the first layer where matched-image RSA exceeds prompt-only RSA, the layer with the maximum matched-minus-prompt gap, and mean matched-minus-prompt gaps over the final half of extracted layers.
+
+\begin{table}[!htbp]
+\centering
+\caption{Qwen layerwise global-geometry summary. Mixture values summarize prompt-plus-image decomposition across layers.}
+\label{tab:appendix_layerwise_global_local}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Metric & All layers & First half & Last half \\
+\midrule
+Matched-image mixture weight & 0.9391 & 0.9604 & 0.9191 \\
+Prompt mixture weight & 0.0381 & 0.0162 & 0.0586 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Alignment with the internal visual encoder}
+
+Internal visual-encoder alignment uses each VLM's own visual encoder as a reference space. For each matched image \(I_i\), the image is run through the checkpoint processor and visual encoder, and the \texttt{pooler\_output} representation is retained when available:
+\begin{equation}
+  v_i=f_{\mathrm{vis}}(I_i), \qquad
+  D^V_{ij}=1-\frac{v_i^\top v_j}{\|v_i\|_2\|v_j\|_2}.
+  \label{eq:appendix_visual_encoder_rdm}
+\end{equation}
+The resulting visual-encoder RDM \(D^V\) is constructed over the same 1,854 concepts. Each language-backbone condition RDM is then compared to \(D^V\) with Spearman RSA.
+
+\begin{table}[!htbp]
+\centering
+\caption{Internal visual-encoder alignment across model families. Values are RSA between each language-backbone condition RDM and the model family's own internal visual-encoder RDM.}
+\label{tab:appendix_internal_visual_encoder}
+\small
+\begin{tabular}{lrrr}
+  \toprule
+  Condition & Qwen RSA & Mistral RSA & Llama RSA \\
+  \midrule
+  \texttt{M\_text\_only} & 0.1303 & 0.0621 & 0.1015 \\
+  \texttt{M\_matched\_image} & 0.2078 & 0.1328 & 0.1101 \\
+  \texttt{M\_mismatched\_image} & 0.1237 & 0.0685 & 0.0763 \\
+  \texttt{M\_blank\_image} & 0.1356 & 0.0571 & 0.0797 \\
+  \texttt{M\_degraded\_image} & 0.2064 & 0.1434 & 0.1223 \\
+  \texttt{M\_prompt\_plus\_matched\_image} & 0.2056 & 0.1633 & 0.1266 \\
+  \midrule
+  Matched--text-only gap & +0.0774 & +0.0706 & +0.0086 \\
+  Matched--mismatched gap & +0.0841 & +0.0643 & +0.0339 \\
+  Matched--blank gap & +0.0722 & +0.0757 & +0.0304 \\
+  \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Layerwise internal visual-encoder alignment summary. Mean RSA values average over extracted layers; last-half gaps use the prespecified mid-to-late layer band. The first positive layer is the first layer at which matched-image RSA exceeds text-only RSA.}
+\label{tab:appendix_layerwise_internal_visual_encoder}
+\small
+\begin{tabular}{lrrrrr}
+  \toprule
+  Family & Matched mean & Text-only mean & Matched--text mean & Last-half gap & First positive layer \\
+  \midrule
+  Qwen & 0.1406 & 0.0919 & +0.0487 & +0.0592 & 1 \\
+  Mistral & 0.0677 & 0.0305 & +0.0373 & +0.0516 & 1 \\
+  Llama & 0.1032 & 0.0816 & +0.0263 & +0.0266 & 4 \\
+  \bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Robustness and secondary analyses}
+
+Multi-image analyses test whether the primary single-image results are sensitive to the choice of image exemplar. Prototype matrices are formed by stacking image-averaged concept vectors, and prototype RDMs are compared to THINGS, controlled THINGS, and SigLIP2 reference spaces using the same cosine-distance and RSA procedure as the primary representations. Within-concept image similarity, nearest between-concept similarity, image-to-prompt similarity, and prototype-to-single-image similarity are reported as stability analyses.
+
+The equal-image prototype analysis uses the same archive source but fixes the number of images per concept. It includes 1,652 concepts with exactly 12 images per concept, excluding the one archive-covered concept with only three images. For each concept, a 12-image prototype is computed by averaging the 12 image-conditioned language-backbone vectors, and prototype RDMs are compared to prompt-only and single-image grounding RDMs using the same RSA procedure. Prototype-size curves additionally evaluate deterministic subsets of 3, 5, 10, and 12 images. This analysis directly addresses the exemplar-versus-concept confound by holding image count fixed across concepts.
+
+\begin{table}[!htbp]
+\centering
+\caption{Equal-image 12-exemplar prototype analysis. Values compare prompt-only, single-image grounding, and 12-image prototype geometry over 1,652 concepts.}
+\label{tab:twelve_image_prototype}
+\small
+\begin{tabular}{lrrrrr}
+  \toprule
+  Reference & Prompt & Single & 12-image & Prototype--prompt & Prototype--single \\
+  \midrule
+  THINGS behavioral & 0.1905 & 0.2692 & 0.2801 & +0.0896 & +0.0111 \\
+  Controlled THINGS & 0.1837 & 0.2599 & 0.2702 & +0.0862 & +0.0102 \\
+  SigLIP2 & 0.1412 & 0.1807 & 0.1772 & +0.0360 & -0.0035 \\
+  \bottomrule
+\end{tabular}
+\end{table}
+
+Linear decoding analyses assess whether metadata labels are linearly decodable from condition-level concept representations. Features are standardized before fitting multinomial logistic regression with three-fold stratified cross-validation. If there are \(C\) classes, balanced accuracy and macro-F1 are
+\begin{equation}
+  \operatorname{BA}=\frac{1}{C}\sum_{c=1}^{C}
+  \frac{\operatorname{TP}_c}{\operatorname{TP}_c+\operatorname{FN}_c},
+  \qquad
+  \operatorname{macroF1}=\frac{1}{C}\sum_{c=1}^{C}\operatorname{F1}_c.
+  \label{eq:appendix_probe_metrics}
+\end{equation}
+Coarse-category decoders use all 1,854 concepts and 30 classes; subtype decoders use the covered subset with at least three examples per class. These results are secondary analyses of label separability, not replacements for RSA.
+
+The generated-description analysis is an output-level diagnostic rather than a downstream task benchmark. It uses the 1,854-concept sensory subset, deterministic decoding, six input conditions, and a constrained 10--20 word sensory-description prompt. Generated descriptions are scored with deterministic lexical metrics, including visual words per 100 tokens, sensory words per 100 tokens, Lancaster visual mean, explicit mention of the unrelated image concept for mismatched images, and word count. Prespecified paired contrasts use paired concept-level bootstrap intervals and paired sign-flip permutation tests with 1,000 permutations; false-discovery-rate adjusted \(q\)-values are reported for the prespecified contrast set.
+
+The THINGSplus moderator analysis tests whether concept-level grounding effects vary systematically with object properties. We join the 1,854 THINGS concepts to THINGSplus object-level norms and use 15 standardized predictors, including naturalness, manmadeness, liveliness, size, heaviness, graspability, holdability, movability, pleasantness, and arousal. Outcomes are standardized concept-level geometry and behavior measures, including RDM disruption, mismatched-image attraction, description drift, CLIP mismatched-minus-named similarity, explicit mismatched-image mention, target perturbation, and Lancaster visual mean. We first compute bivariate Spearman associations between each property and outcome, then fit a joint standardized ridge regression for each outcome using all moderators simultaneously. Because THINGSplus properties are correlated, ridge coefficients are interpreted as diagnostic moderator associations rather than causal or independently identifiable effects.
+
+Reliability checks provide context for the human behavioral reference space. Repeated THINGS triplets are summarized by odd-one-out consistency over repeated triplet rows. The available split-half RDM reliability uses the 48-concept THINGS split-half RDM. A full 1,854-concept split-half RDM ceiling is not available, so full-set RSA values are interpreted comparatively rather than ceiling-normalized.
+
+\subsection{Secondary analyses}
+\label{app:secondary_diagnostics}
+
+A small human-local geometry analysis gives a limited prompt-favoring caveat. All-concept local alignment is 0.4542 for prompt-only, 0.4218 for matched images, and 0.4095 for degraded images, with sound-linked concepts favoring prompting in subtype summaries. Because this analysis uses a much smaller behavioral-overlap subset, it is interpreted as a secondary qualification of the main pattern rather than as a reversal of the global-geometry result. Human behavioral reliability provides context for the RSA values: repeated-triplet consistency is \(0.6842\pm0.0076\), and the available 48-concept split-half RDM has Spearman \(\rho=0.8954\). A full 1,854-concept split-half RDM ceiling is not available, so full-set RSA values are interpreted comparatively rather than ceiling-normalized.
+
+Linear decoding analyses provide a secondary diagnostic of label separability rather than a replacement for RSA. Visually grounded states make coarse category and subtype labels more linearly decodable than prompt-only or text-only states. Coarse balanced accuracy is 0.5756 for matched images and 0.5788 for degraded images versus 0.4398 for sensory prompting. Subtype balanced accuracy is 0.4802 for matched images and 0.4786 for degraded images versus 0.3799 for sensory prompting. Because degraded-image results are close to matched-image results, these analyses are interpreted as evidence that visual input increases category separability, not as specific evidence of semantically correct grounding; Appendix Table~\ref{tab:behavior_reliability_ceiling} reports the reliability and ceiling-normalized summary for the behavior endpoints.
+
+The generated-description analysis asks whether geometry-level differences are visible in deterministic outputs. Matched-image generations contain more visual detail than VLM text-only, blank-image, and sensory-prompt conditions, while mismatched images sometimes introduce content from the unrelated image without fully replacing the named text concept; Table~\ref{tab:generated_description_examples} gives representative examples.
+
+\begin{table}[!htbp]
+\centering
+\caption{Illustrative generated descriptions. The examples show the two output-level patterns predicted by the global-local split: matched images increase concrete visual detail, while mismatched images can introduce content from the unrelated image without always replacing the named text concept. Aggregate lexical metrics show 14.22 visual words per 100 tokens for matched images, compared with 10.35 for VLM text-only, 11.11 for blank images, and 5.16 for sensory prompting; mismatched images explicitly mention the unrelated image concept in 16.24\% of generations.}
+\label{tab:generated_description_examples}
+\small
+\begin{tabular}{p{0.16\linewidth}p{0.18\linewidth}p{0.54\linewidth}}
+\toprule
+Concept & Condition & Generated description \\
+\midrule
+amplifier & Blank image & Metallic, angular, with knobs and dials, emits warmth, hums softly, feels sturdy under touch. \\
+amplifier & Matched image & Brown wooden casing, perforated black grille, orange control panel, knobs, dials, textured rope base, vintage aesthetic. \\
+snowshoe & Mismatch: ski boot & Red plastic snowshoe with blue buckles, textured grip, smooth surface, sturdy build, vibrant colors, slightly glossy finish. \\
+goose & Mismatch: turkey & Plump, feathered bird with glossy brown and white plumage, textured skin, and vibrant red wattle. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Llama attention routing and geometry coupling.}
+The Llama mechanism analyses show that visual routing is present but not sufficient for external alignment. Across 33 mixture layers and 41 retention layers, the last-half matched-image mixture weight is 0.8719, compared with prompt weight 0.0403, while local text retention remains 0.9931 and image-hijack remains 0.0049. In the cross-attention probe, blank input yields top-1 attention 0.0513 and entropy 0.6311, matched images yield 0.0614 and 0.5993, and mismatched images yield 0.0663 and 0.5987. The attention-to-geometry coupling is directional: more concentrated matched-image attention predicts less RDM disruption, \(\rho=-0.2283\), and lower normalized entropy predicts greater disruption, \(\rho=+0.2169\). Taken together, these analyses show that Llama routes visual evidence and that the routing is geometrically meaningful, but the routing still falls short of strong external reference-space convergence; Appendix Tables~\ref{tab:llama_attention_routing} and~\ref{tab:llama_attention_geometry} summarize the routing and coupling results.
+
+\begin{table}[!htbp]
+\centering
+\caption{Llama attention routing summary. Mixture and retention layers summarize the mid-to-late Llama behavior around mismatched grounding, and the cross-attention probe reports mean top-1 attention and entropy for blank, matched, and mismatched images.}
+\label{tab:llama_attention_routing}
+\small
+\begin{tabular}{lr}
+\toprule
+Quantity & Value \\
+\midrule
+Mixture layers analyzed & 33 \\
+Retention layers analyzed & 41 \\
+Last-half matched-image mixture weight & 0.8719 \\
+Last-half prompt weight & 0.0403 \\
+Last-half text-retention rate & 0.9931 \\
+Last-half image-hijack rate & 0.0049 \\
+\midrule
+Blank top-1 attention & 0.0513 \\
+Matched top-1 attention & 0.0614 \\
+Mismatched top-1 attention & 0.0663 \\
+Blank entropy & 0.6311 \\
+Matched entropy & 0.5993 \\
+Mismatched entropy & 0.5987 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Llama attention-to-geometry coupling. More selective matched-image routing is associated with less RDM disruption, but the coupling does not fully translate into external reference-space alignment.}
+\label{tab:llama_attention_geometry}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{p{0.44\linewidth}p{0.32\linewidth}p{0.16\linewidth}}
+\toprule
+Predictor / endpoint & Association & Notes \\
+\midrule
+Top-1 attention (matched image) $\rightarrow$ RDM disruption & \(\rho=-0.2283\), CI [-0.2705, -0.1830] & More selective attention predicts less disruption \\
+Attention selectivity (matched image) $\rightarrow$ RDM disruption & \(\rho=-0.2255\), CI [-0.2672, -0.1813] & Selectivity tracks the same pattern \\
+Normalized entropy (matched image) $\rightarrow$ RDM disruption & \(\rho=+0.2169\), CI [+0.1737, +0.2626] & Higher entropy means more disruption \\
+Matched-minus-mismatched normalized entropy $\rightarrow$ named-image choice & \(r=+0.1221\) & Weak but positive coupling to output choice \\
+Mismatched-minus-blank normalized entropy $\rightarrow$ mismatched-image choice & \(r=+0.1156\) & Weak but positive coupling to output choice \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\paragraph{imSitu generalization.}
+The global-local profile also extends to event concepts in imSitu. Using all available images for 504 labels (126,102 images total), the prompt-plus-image mixture remains image-dominant, with matched-image weight 0.8947, prompt weight 0.0647, and mixture \(R^2=0.8690\); the prompt and matched-image predictors remain moderately correlated (\(\rho=+0.5184\)). Local text identity is also retained, with text-retention 0.9960 and source-assignment 0.0000. Reference contrasts are small: \texttt{framenet\_frame} shifts by +0.0055 versus text-only, -0.0554 versus prompt, and +0.0029 versus prompt-plus-image; \texttt{role\_signature} shifts by -0.0047, -0.0348, and -0.0013, respectively. Appendix Table~\ref{tab:imsitu_generalization} gives the numerical summary.
+
+\begin{table}[!htbp]
+\centering
+\caption{imSitu event-concept generalization using all available images. The analysis indicates image-dominant mixture geometry and strong local text retention, with only small reference-space gains.}
+\label{tab:imsitu_generalization}
+\small
+\begin{tabular}{lr}
+\toprule
+Quantity & Value \\
+\midrule
+Labels & 504 \\
+Prompt weight & 0.0647 \\
+Matched-image weight & 0.8947 \\
+Mixture \(R^2\) & 0.8690 \\
+Prompt/matched predictor \(\rho\) & 0.5184 \\
+Text-retention rate & 0.9960 \\
+Source-assignment rate & 0.0000 \\
+Mean source attraction & -0.1487 \\
+\midrule
+\texttt{framenet\_frame}: matched-text & +0.0055 \\
+\texttt{framenet\_frame}: matched-prompt & -0.0554 \\
+\texttt{framenet\_frame}: prompt+image-matched & +0.0029 \\
+\texttt{role\_signature}: matched-text & -0.0047 \\
+\texttt{role\_signature}: matched-prompt & -0.0348 \\
+\texttt{role\_signature}: prompt+image-matched & -0.0013 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{MIT-States generalization.}
+The global-local profile also extends to attribute-object compositions in MIT-States. Using all available images for 2,207 labels (63,440 images total), the prompt-plus-image mixture remains image-dominant, with matched-image weight 0.9085, prompt weight 0.0772, and mixture \(R^2=0.9493\); the prompt and matched-image predictors are strongly correlated (\(\rho=+0.7836\)). Local text identity remains largely intact, with source-assignment 0.0000 and text-retention 0.9583. Reference-space gains are near zero, so this is best read as a compositional robustness test rather than a new alignment claim, and Appendix Table~\ref{tab:mitstates_generalization} gives the numerical summary.
+
+\begin{table}[!htbp]
+\centering
+\caption{MIT-States attribute-object generalization using all available images. The analysis indicates image-dominant mixture geometry and strong local text identity, with near-zero reference-space gains.}
+\label{tab:mitstates_generalization}
+\small
+\begin{tabular}{lr}
+\toprule
+Quantity & Value \\
+\midrule
+Labels & 2,207 \\
+Prompt weight & 0.0772 \\
+Matched-image weight & 0.9085 \\
+Mixture \(R^2\) & 0.9493 \\
+Prompt/matched predictor \(\rho\) & 0.7836 \\
+Text-retention rate & 0.9583 \\
+Source-assignment rate & 0.0000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Abstract concept pilot}
+\label{app:abstract_concept_pilot}
+
+To assess whether the concrete-object constraint is a principled limitation rather than an artifact of THINGS coverage, we ran a pilot analysis on 204 abstract nouns drawn from SimLex-999. Concepts were selected to satisfy four criteria: (i) covered by the Lancaster Sensorimotor Norms, (ii) not present in THINGS, (iii) SimLex concreteness \(\le 3.5\), and (iv) resolvable to a unique Lancaster entry. Representative concepts include \textit{justice}, \textit{freedom}, \textit{danger}, \textit{memory}, and \textit{belief}. Because these concepts have no associated THINGS images, the pilot is restricted to text-only conditions: neutral-text and sensory-prompting inputs in the Qwen text model only. A matched-size concrete control set of 204 Lancaster-covered THINGS concepts was constructed using the same Lancaster resolution procedure to allow direct comparison of prompt effects across abstraction levels.
+
+Representational dissimilarity matrices were constructed from concept-span-pooled mid-to-late hidden states using the same cosine-distance and Spearman RSA procedure as the main analysis. Alignment was evaluated against the full Lancaster sensorimotor space, the perceptual subspace, and the action/body subspace. Participation ratios were computed as in Section~\ref{sec:dimensionality}.
+
+Results are summarized in Table~\ref{tab:abstract_pilot}. Abstract concepts show substantially lower baseline Lancaster alignment than matched-size concrete controls across all three reference spaces: full sensorimotor RSA 0.043 versus 0.170, perceptual RSA 0.045 versus 0.141, and action/body RSA 0.010 versus 0.168. Sensory prompting produces small positive gaps for abstract concepts on full sensorimotor, +0.0122, and perceptual, +0.0100, subspaces, but bootstrap intervals are wide and cross zero. The action/body subspace shows a negative abstract gap, -0.0168, consistent with the absence of embodied referents for these words. For the concrete control set, prompt effects are similarly small and variable, confirming that the large prompting-versus-grounding gaps in the main analysis are driven by matched-image grounding rather than sensory prompting per se.
+
+The participation-ratio analysis reveals a qualitative difference in how prompting compresses abstract versus concrete geometry. Sensory prompting reduces abstract concept manifold dimensionality by 27.63 PR units, from 79.03 to 51.40, compared with 14.50 units for the concrete control, from 83.05 to 68.55. Abstract prompting thus compresses the concept manifold more strongly but without producing correspondingly stronger Lancaster alignment. This dissociation, strong compression without reference-aligned restructuring, is the inverse of the matched-image grounding pattern observed in the main analysis, where compression is accompanied by reference-space alignment gain. The result suggests that sensory prompts can reorganize abstract concept geometry without anchoring it to sensorimotor structure in the way that matched visual evidence does for concrete objects.
+
+We interpret this pilot as evidence that the concrete-object constraint is real and principled. Abstract concepts respond differently to sensory prompting at both the alignment and dimensionality levels, and the absence of matched visual evidence makes it impossible to test the grounding side of the main contrast for this concept class. Whether multimodal grounding of abstract concepts through visual scenes, diagrams, or contextual images would produce analogous global-local restructuring remains an important open question.
+
+\begin{table}[!htbp]
+\centering
+\caption{Abstract concept pilot. RSA values are mid-to-late aggregate Spearman correlations against Lancaster reference spaces. Bootstrap CIs are computed by resampling condensed RDM entries with replacement using 1,000 resamples. The concrete control uses 204 matched-size Lancaster-covered THINGS concepts in the Qwen text model.}
+\label{tab:abstract_pilot}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Group & Reference & Neutral & Prompt & Gap & 95\% CI \\
+\midrule
+Abstract & Full sensorimotor & 0.0430 & 0.0552 & +0.0122 & [-0.0288, +0.0557] \\
+Abstract & Perceptual & 0.0450 & 0.0550 & +0.0100 & [-0.0303, +0.0528] \\
+Abstract & Action/body & 0.0100 & -0.0068 & -0.0168 & [-0.0588, +0.0259] \\
+Concrete control & Full sensorimotor & 0.1696 & 0.1646 & -0.0050 & [-0.0412, +0.0320] \\
+Concrete control & Perceptual & 0.1411 & 0.1598 & +0.0187 & [-0.0166, +0.0527] \\
+Concrete control & Action/body & 0.1677 & 0.1270 & -0.0407 & [-0.0879, +0.0068] \\
+\midrule
+Group & PR neutral & PR prompt & Change & \multicolumn{2}{c}{} \\
+\midrule
+Abstract & 79.03 & 51.40 & -27.63 & \multicolumn{2}{c}{} \\
+Concrete control & 83.05 & 68.55 & -14.50 & \multicolumn{2}{c}{} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{CLIP forced-choice perceptual consistency}
+\label{app:clip_forced_choice}
+
+\paragraph{Relational similarity judgment.}
+The relational similarity judgment probes whether the VLM's own explicit similarity choices shift toward the mismatched-image concept. For each named concept \(t\), we use the fixed mismatched-image concept \(m\) from the mismatch map. Candidate options are selected from THINGS behavioral similarity: the named-concept neighbor maximizes \(\operatorname{sim}(t,c)-\operatorname{sim}(m,c)\), and the mismatched-image neighbor maximizes \(\operatorname{sim}(m,c)-\operatorname{sim}(t,c)\). A/B order is randomized deterministically per concept. The Qwen VLM is prompted: \textit{The text concept is ``\{concept\}.'' The image may be unrelated. Considering the combined input, which candidate is more similar to the concept you would describe: A) ``\{option A\}'' or B) ``\{option B\}''? Answer exactly A or B.} Responses are parsed as A/B and mapped back to named-concept-neighbor or mismatched-image-neighbor choices, and Appendix Table~\ref{tab:similarity_judgment_appendix} summarizes the resulting choice rates.
+
+\begin{table}[!htbp]
+\centering
+\caption{Relational similarity judgment. Candidate neighbors are selected from THINGS behavioral similarity to be close to either the named concept or the mismatched-image concept while relatively far from the other. Invalid or unparsable responses account for the remaining mass.}
+\label{tab:similarity_judgment_appendix}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Condition & Mismatched-image neighbor & Named-concept neighbor & Valid responses \\
+\midrule
+\texttt{M\_text\_only} & 0.1165 & 0.7923 & 0.9088 \\
+\texttt{M\_matched\_image} & 0.1294 & 0.8528 & 0.9822 \\
+\texttt{M\_blank\_image} & 0.0901 & 0.7530 & 0.8431 \\
+\texttt{M\_mismatched\_image} & 0.4871 & 0.4353 & 0.9224 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The CLIP forced-choice analysis evaluates whether generated descriptions are perceptually consistent with their input image, providing a metric that connects hidden-state geometry to output to external visual grounding in a single chain. For each of the 1,854 concepts in the mismatched-image condition, we take the generated description and compute CLIP-style cosine similarity to both the matched image of the named concept and the mismatched image using the SigLIP2 text and image encoders. The named-image choice rate is the proportion of concepts for which the generated description scores higher similarity to the named-concept image than to the mismatched image. The named-image margin is the mean signed difference, named-image similarity minus mismatched-image similarity, across concepts.
+
+The same procedure is applied to all main generated-description conditions to provide a full condition profile. For text-only and blank-image conditions, the mismatched image for the forced choice is drawn from the same fixed mismatched mapping used in the mismatched-image condition, ensuring comparability across conditions.
+
+Full condition results and primary contrasts are reported in Table~\ref{tab:clip_forced_choice}. The geometry-to-output regressions use the same concept-level geometric mismatched-image-attraction predictor defined in Section~\ref{sec:geometry_output}, the cosine proximity of the mismatched-image language-backbone hidden state to the matched-image representation of the mismatched-image concept, and regress it against the CLIP forced-choice endpoints using the same bootstrap and permutation procedure as the lexical endpoints.
+
+\begin{table}[!htbp]
+\centering
+\caption{CLIP forced-choice perceptual consistency. Named-image choice is the proportion of concepts where the generated description is more CLIP-similar to the matched image of the named concept than to the mismatched image. Named-image margin is mean signed CLIP similarity difference, named image minus mismatched image. All conditions use descriptions generated from the 1,854-concept sensory subset.}
+\label{tab:clip_forced_choice}
+\scriptsize
+\begin{tabular}{lrrr}
+\toprule
+Condition & Named-image choice & Mismatch choice & Mean named-image margin \\
+\midrule
+\texttt{M\_text\_only} & 89.91\% & 10.09\% & +0.0701 \\
+\texttt{M\_blank\_image} & 91.37\% & 8.63\% & +0.0753 \\
+\texttt{M\_matched\_image} & 98.87\% & 1.13\% & +0.1565 \\
+\texttt{M\_prompt\_plus\_matched\_image} & 98.60\% & 1.40\% & +0.1270 \\
+\texttt{M\_mismatched\_image} & 58.31\% & 41.69\% & +0.0154 \\
+\midrule
+Contrast & Estimate & 95\% CI & \(p\) \\
+\midrule
+Matched--mismatched named-image choice & +0.4056 & [+0.3824, +0.4277] & \(<0.001\) \\
+Matched--mismatched named-image margin & +0.1411 & [+0.1355, +0.1472] & \(<0.001\) \\
+\midrule
+Predictor and endpoint & Estimate & 95\% CI & \(p\) \\
+\midrule
+Mismatch attraction to named-image margin & \(\rho=-0.1509\) & [-0.1969, -0.1055] & \(<0.001\) \\
+Mismatch attraction to mismatch choice & \(r=+0.1527\) & [+0.1051, +0.1977] & \(<0.001\) \\
+Mismatch-minus-named margin to named-image choice & \(r=+0.1935\) & [+0.1476, +0.2365] & \(<0.001\) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Cross-model logit forced-choice similarity.}
+The same forced-choice similarity probe can also be scored by logit preference across all three model families. For each family and condition, the model compares a neighbor of the mismatched-image concept against a neighbor of the named concept; source-neighbor choice and target-neighbor choice are the resulting normalized preferences, and the source-target logprob margin is the signed preference for the mismatched-image neighbor over the named-concept neighbor. Llama's blank-image baseline is unusually high, so its margins are baseline-sensitive rather than directly comparable to the other families, and Appendix Table~\ref{tab:cross_model_logit_forced_choice} reports the full family-by-condition probe.
+
+\begin{table}[!htbp]
+\centering
+\caption{Cross-model logit forced-choice similarity probe. Source-neighbor and named-concept-neighbor choices are reported for each family and condition; the source-target logprob margin is the signed preference for the mismatched-image neighbor over the named-concept neighbor.}
+\label{tab:cross_model_logit_forced_choice}
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrr}
+\toprule
+Family & Condition & Mismatched-image neighbor & Named-concept neighbor & Source-target logprob margin \\
+\midrule
+Qwen & \texttt{M\_text\_only} & 0.1499 & 0.8501 & -6.5905 \\
+Qwen & \texttt{M\_blank\_image} & 0.1413 & 0.8587 & -7.3104 \\
+Qwen & \texttt{M\_matched\_image} & 0.1354 & 0.8646 & -6.2463 \\
+Qwen & \texttt{M\_mismatched\_image} & 0.5286 & 0.4714 & +0.1556 \\
+Mistral & \texttt{M\_text\_only} & 0.1467 & 0.8533 & -3.5568 \\
+Mistral & \texttt{M\_blank\_image} & 0.1737 & 0.8263 & -4.0908 \\
+Mistral & \texttt{M\_matched\_image} & 0.1009 & 0.8991 & -5.3505 \\
+Mistral & \texttt{M\_mismatched\_image} & 0.5804 & 0.4196 & +0.8403 \\
+Llama & \texttt{M\_text\_only} & 0.3603 & 0.6397 & -2.5062 \\
+Llama & \texttt{M\_blank\_image} & 0.5151 & 0.4849 & -0.0744 \\
+Llama & \texttt{M\_matched\_image} & 0.4563 & 0.5437 & -0.8266 \\
+Llama & \texttt{M\_mismatched\_image} & 0.5394 & 0.4606 & +0.3687 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Mismatched-image attraction quartile analysis. Concepts are divided by quartile of geometric attraction toward the mismatched image under mismatched-image grounding. Attraction is measured as cosine proximity, so less negative values indicate stronger attraction. Bottom quartile: mismatched-image attraction \(\le -0.2064\); top quartile: mismatched-image attraction \(\ge -0.1538\). All endpoints are computed over the 1,854-concept sensory subset.}
+\label{tab:mismatch_attraction_quartiles}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Endpoint & Bottom quartile & Top quartile & Difference \\
+\midrule
+Explicit mismatched-image mention & 13.79\% & 20.47\% & +6.68 pp \\
+Description drift & -0.0351 & +0.0833 & +0.1183 \\
+Visual words / 100 tokens & 10.78 & 12.57 & +1.79 \\
+Lancaster visual mean & 2.987 & 3.159 & +0.172 \\
+Exemplar-specific rate / 100 & 23.06 & 25.52 & +2.46 \\
+CLIP named-image margin & +0.0318 & -0.0086 & -0.0404 \\
+CLIP mismatched-minus-named similarity & -0.0318 & +0.0086 & +0.0404 \\
+CLIP named-image choice & 67.67\% & 45.69\% & -21.98 pp \\
+CLIP mismatched-image choice & 32.33\% & 54.31\% & +21.98 pp \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Continuous description-similarity drift validation and geometry-to-output associations. Description drift is similarity to the mismatched-image concept's matched-image description minus similarity to the named concept's matched-image description. These measures show both that explicit mismatched-image mention tracks graded variation in generated content and that mismatched-image attraction predicts continuous drift.}
+\label{tab:continuous_drift_validation}
+\footnotesize
+\begin{tabular}{@{}p{0.36\linewidth}p{0.25\linewidth}p{0.31\linewidth}@{}}
+\toprule
+Predictor / continuous measure & Endpoint & Association \\
+\midrule
+Description drift & Explicit mention & \(r=+0.4081\), CI [+0.3721, +0.4426] \\
+Description drift & Lancaster visual mean & \(\rho=+0.4373\), CI [+0.3981, +0.4736] \\
+Mismatched-image description similarity & Explicit mention & \(r=+0.3451\), CI [+0.3016, +0.3883] \\
+Mismatched-image description similarity & Lancaster visual mean & \(\rho=+0.3353\), CI [+0.2938, +0.3718] \\
+Mismatched-image attraction & Description drift & \(\rho=+0.1468\), CI [+0.0994, +0.1915], \(p<0.001\) \\
+Mismatched-image attraction & CLIP mismatched-minus-named similarity & \(\rho=+0.1509\), CI [+0.1045, +0.1952], \(p<0.001\) \\
+Mismatched-image attraction & Mismatched-image description similarity & \(\rho=+0.2277\), CI [+0.1858, +0.2726], \(p<0.001\) \\
+Mismatched-image description similarity & Explicit mention & \(r=+0.4269\), CI [+0.3922, +0.4583] \\
+Mismatched-minus-named description similarity & Explicit mention & \(r=+0.3800\), CI [+0.3409, +0.4171] \\
+CLIP named-minus-mismatched margin & Description drift & \(\rho=-0.1913\), CI [-0.2357, -0.1487], \(p<0.001\) \\
+CLIP named-minus-mismatched margin & CLIP mismatched-minus-named similarity & \(\rho=-0.1914\), CI [-0.2353, -0.1484], \(p<0.001\) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Pair-similarity covariate check. Values compare raw mismatched-image-attraction associations with associations after controlling for named--mismatched-image similarity.}
+\label{tab:pair_similarity_covariate}
+\small
+\begin{tabular}{lrr}
+\toprule
+Endpoint & Raw & Controlled \\
+\midrule
+CLIP named-image margin & -0.1509 & -0.1420 \\
+CLIP mismatched-image choice & +0.1527 & +0.1570 \\
+CLIP named-image choice & -0.1527 & -0.1570 \\
+Lancaster visual mean & +0.1504 & +0.1505 \\
+Visual words / 100 & +0.0957 & +0.1007 \\
+Explicit mismatched-image mention & +0.0509 & +0.0652 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{THINGSplus moderator analysis. Standardized ridge regressions use 15 correlated THINGSplus object-level norms jointly; coefficients are diagnostic moderator associations rather than causal effects.}
+\label{tab:thingsplus_moderators}
+\footnotesize
+\begin{tabular}{llr}
+\toprule
+Outcome & Summary & Value \\
+\midrule
+Lancaster visual mean & Joint model \(R^2\) & 0.1938 \\
+RDM disruption & Joint model \(R^2\) & 0.1632 \\
+Description drift & Joint model \(R^2\) & 0.1175 \\
+CLIP mismatched-minus-named similarity & Joint model \(R^2\) & 0.0872 \\
+\midrule
+Lancaster visual mean & Naturalness coefficient & \(-0.5617\), CI [-0.6978, -0.4166] \\
+Description drift & Naturalness coefficient & \(-0.3167\), CI [-0.4672, -0.1547] \\
+CLIP named-minus-mismatched margin & Naturalness coefficient & \(+0.3142\), CI [+0.1624, +0.4803] \\
+Mismatched-image attraction & Liveliness coefficient & \(+0.2357\), CI [+0.1073, +0.3755] \\
+Lancaster visual mean & Movability coefficient & \(+0.2177\), CI [+0.1474, +0.2833] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Behavior endpoint reliability and ceiling-normalized associations. Split-half reliability is computed over repeated generations for the 1,854-concept generated-description set. Ceiling-normalized correlations divide the observed association by the square root of endpoint reliability; this corrects endpoint unreliability only, not predictor unreliability.}
+\label{tab:behavior_reliability_ceiling}
+\footnotesize
+\begin{tabular}{@{}p{0.28\linewidth}p{0.13\linewidth}p{0.33\linewidth}p{0.13\linewidth}@{}}
+\toprule
+Endpoint & Reliability & Association & Ceil.-norm. association \\
+\midrule
+Visual-word rate & 0.7868 & \(\rho=+0.0957\), CI [+0.0504, +0.1404] & 0.1217 \\
+Lancaster visual mean & 0.8477 & \(\rho=+0.1504\), CI [+0.1038, +0.1923] & 0.1774 \\
+Exemplar-specific rate & 0.8385 & \(\rho=+0.0817\), CI [+0.0365, +0.1285] & 0.0975 \\
+CLIP named-image margin & 0.8930 & \(\rho=-0.1509\) & -0.1597 \\
+CLIP named-image choice & 0.8571 & \(r=-0.1527\) & -0.1649 \\
+CLIP mismatched-image choice & 0.8574 & \(r=+0.1527\) & +0.1649 \\
+Description margin \(\to\) named margin & 0.8930 & \(r=+0.1914\) & +0.2026 \\
+Description margin \(\to\) named choice & 0.8571 & \(r=+0.1935\) & +0.2090 \\
+Description margin \(\to\) mismatch choice & 0.8574 & \(r=-0.1935\) & -0.2090 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Statistical analysis}
+
+We report layerwise RSA and mid-to-late aggregate RSA. Uncertainty for individual RSA values is estimated with 1,000 bootstrap resamples over condensed RDM entries and percentile confidence intervals. Condition gaps are summarized as descriptive effect sizes and, when reported in result tables, paired bootstrap difference distributions over the same resampled geometry. Because concept pairs are not independent observations, bootstrap intervals are treated as uncertainty summaries over the geometry comparison rather than as independent-trial inference.
+
+\subsection{Implementation and reproducibility details}
+
+\begin{itemize}
+  \item The primary models are \url{Qwen/Qwen3.5-9B} and \url{Qwen/Qwen3-VL-8B-Instruct}.
+  \item Cross-family replications use the Mistral pair \url{mistralai/Mistral-Small-24B-Instruct-2501} and \url{mistralai/Mistral-Small-3.1-24B-Instruct-2503}, and the Llama pair \url{meta-llama/Llama-3.1-8B-Instruct} and \url{meta-llama/Llama-3.2-11B-Vision-Instruct}.
+  \item Model-based reference spaces use \url{google/siglip2-so400m-patch16-384}, \url{facebook/dinov2-large}, and \url{openai/clip-vit-large-patch14}.
+  \item Replication analyses reuse the same condition families and reference-space set where model support permits.
+  \item Forward-pass extraction was run on a single NVIDIA A40 GPU using bf16 precision where supported.
+  \item Code for the project will be available at \url{https://github.com/zxKyouma/Percept}.
+\end{itemize}
+
+\newpage
+\input{checklist.tex}
+
+\end{document}

@@ -1,0 +1,58 @@
+{
+  "anchors": [
+    {
+      "anchor_name": "THINGS behavioral similarity",
+      "anchor_type": "human_behavioral",
+      "available": true,
+      "matched_concepts": 1854,
+      "missing_concepts": [],
+      "required_for_core": true
+    },
+    {
+      "anchor_name": "Lancaster Sensorimotor Norms",
+      "anchor_type": "human_lexical",
+      "available": true,
+      "matched_concepts": 1854,
+      "missing_concepts": [],
+      "required_for_core": false
+    },
+    {
+      "anchor_name": "SimLex-999",
+      "anchor_type": "human_lexical",
+      "available": true,
+      "matched_concepts": 0,
+      "missing_concepts": [],
+      "required_for_core": false
+    },
+    {
+      "anchor_name": "DINOv2",
+      "anchor_type": "pure_vision",
+      "available": true,
+      "matched_concepts": 1854,
+      "missing_concepts": [],
+      "notes": "ok:cached-models/facebook_dinov2_large:prototype_limit=3",
+      "required_for_core": true
+    },
+    {
+      "anchor_name": "SigLIP2",
+      "anchor_type": "vision_language",
+      "available": true,
+      "matched_concepts": 1854,
+      "missing_concepts": [],
+      "required_for_core": true
+    },
+    {
+      "anchor_name": "CLIP ViT-L/14",
+      "anchor_type": "vision_language",
+      "available": true,
+      "matched_concepts": 1854,
+      "missing_concepts": [],
+      "notes": "ok:cached-models/openai_clip_vit_l14:prototype_limit=3",
+      "required_for_core": false
+    }
+  ],
+  "backbone": {
+    "multimodal": "Qwen/Qwen3-VL-8B-Instruct",
+    "text": "Qwen/Qwen3.5-9B"
+  }
+}

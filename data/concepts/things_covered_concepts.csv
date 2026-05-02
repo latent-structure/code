@@ -1,0 +1,69 @@
+concept,domain,subtype,source_dataset,notes,polysemy_risk,image_source,image_quality_flag,human_anchor_available
+marble,sensory,appearance_color,things,distinctive veined appearance,medium,planned_things_image,good,yes
+crystal,sensory,appearance_color,things,transparent refractive visual cue,medium,planned_things_image,good,yes
+amber,sensory,appearance_color,thingsplus,strong warm color identity,medium,planned_things_image,good,yes
+gold,sensory,appearance_color,things,stable metallic color cue,medium,planned_things_image,good,yes
+ruby,sensory,appearance_color,thingsplus,clear saturated gemstone color,low,planned_things_image,good,yes
+emerald,sensory,appearance_color,thingsplus,clear gemstone color identity,low,planned_things_image,good,yes
+coral,sensory,appearance_color,things,distinctive textured appearance,medium,planned_things_image,good,yes
+sandpaper,sensory,texture_material,things,coarse texture cue,low,planned_things_image,good,yes
+foam,sensory,texture_material,things,distinctive bubbly surface,low,planned_things_image,good,yes
+mud,sensory,texture_material,things,coarse wet material cue,low,planned_things_image,good,yes
+ice,sensory,texture_material,things,crisp material and surface cue,low,planned_things_image,good,yes
+clay,sensory,texture_material,things,stable material cue,low,planned_things_image,good,yes
+gravel,sensory,texture_material,thingsplus,rough particulate texture,low,planned_things_image,good,yes
+moss,sensory,texture_material,things,visually and tactilely distinctive,medium,planned_things_image,good,yes
+bark,sensory,texture_material,things,canonical rough-surface cue,low,planned_things_image,good,yes
+sponge,sensory,texture_material,things,canonical porous texture,low,planned_things_image,good,yes
+bell,sensory,sound_linked,things,canonical ringing object,low,planned_things_image,good,yes
+fireworks,sensory,sound_linked,things,sound-linked event with clear visuals,low,planned_things_image,good,yes
+whistle,sensory,sound_linked,things,clear sound-producing object,medium,planned_things_image,good,yes
+drum,sensory,sound_linked,things,canonical sound-producing instrument,low,planned_things_image,good,yes
+siren,sensory,sound_linked,things,clear warning-sound object,low,planned_things_image,good,yes
+trumpet,sensory,sound_linked,things,canonical sound-producing instrument,low,planned_things_image,good,yes
+gong,sensory,sound_linked,thingsplus,clear resonance-linked object,low,planned_things_image,good,yes
+cymbal,sensory,sound_linked,thingsplus,clear percussive object,low,planned_things_image,good,yes
+chime,sensory,sound_linked,thingsplus,clear ringing object cue,low,planned_things_image,good,yes
+engine,sensory,sound_linked,things,strong auditory association,medium,planned_things_image,good,yes
+rooster,sensory,sound_linked,things,iconic sound-linked animal,low,planned_things_image,good,yes
+coffee,sensory,smell_taste_proxy,things,canonical aroma cue,medium,planned_things_image,good,yes
+garlic,sensory,smell_taste_proxy,things,clear smell cue,low,planned_things_image,good,yes
+cinnamon,sensory,smell_taste_proxy,things,clear spice aroma cue,low,planned_things_image,good,yes
+lemon,sensory,smell_taste_proxy,things,canonical smell/taste cue,low,planned_things_image,good,yes
+peppermint,sensory,smell_taste_proxy,things,clear smell/taste cue,low,planned_things_image,good,yes
+onion,sensory,smell_taste_proxy,things,strong smell cue,low,planned_things_image,good,yes
+basil,sensory,smell_taste_proxy,thingsplus,clear herb aroma cue,low,planned_things_image,good,yes
+ginger,sensory,smell_taste_proxy,things,clear spice cue,low,planned_things_image,good,yes
+orange,sensory,smell_taste_proxy,things,canonical smell/taste cue,low,planned_things_image,good,yes
+soap,sensory,smell_taste_proxy,thingsplus,distinctive smell-linked object,medium,planned_things_image,good,yes
+perfume,sensory,smell_taste_proxy,things,brand variance is manageable but present,medium,planned_things_image,good,yes
+justice,abstract,negative_control,simlex_overlap,high-level social norm,medium,,,partial
+theory,abstract,negative_control,simlex_overlap,familiar knowledge term,low,,,partial
+policy,abstract,negative_control,simlex_overlap,institutional abstraction,medium,,,partial
+contract,abstract,negative_control,simlex_overlap,normative relation term,medium,,,partial
+virtue,abstract,negative_control,simlex_overlap,familiar abstract noun,medium,,,partial
+reason,abstract,negative_control,simlex_overlap,common abstract noun,medium,,,partial
+budget,abstract,negative_control,simlex_overlap,familiar institutional abstraction,low,,,partial
+logic,abstract,negative_control,simlex_overlap,familiar abstract noun,low,,,partial
+ethics,abstract,negative_control,simlex_overlap,familiar abstract noun,medium,,,partial
+tenure,abstract,negative_control,manual_screen,familiar institutional abstraction,medium,,,partial
+method,abstract,negative_control,simlex_overlap,common abstraction,low,,,partial
+status,abstract,negative_control,simlex_overlap,common relational abstraction,medium,,,partial
+truth,abstract,negative_control,simlex_overlap,common abstract noun,low,,,partial
+system,abstract,negative_control,manual_screen,broad but common abstraction,medium,,,partial
+culture,abstract,negative_control,manual_screen,familiar social abstraction,medium,,,partial
+law,abstract,negative_control,simlex_overlap,institutional abstraction,medium,,,partial
+duty,abstract,negative_control,simlex_overlap,normative abstraction,medium,,,partial
+value,abstract,negative_control,simlex_overlap,abstract noun with manageable ambiguity,medium,,,partial
+belief,abstract,negative_control,manual_screen,common mental-state abstraction,medium,,,partial
+motive,abstract,negative_control,manual_screen,common abstract noun,medium,,,partial
+process,abstract,negative_control,simlex_overlap,broad but usable abstraction,low,,,partial
+strategy,abstract,negative_control,manual_screen,common planning abstraction,low,,,partial
+fairness,abstract,negative_control,manual_screen,common evaluative abstraction,low,,,partial
+finance,abstract,negative_control,manual_screen,institutional abstraction,medium,,,partial
+evidence,abstract,negative_control,simlex_overlap,common epistemic abstraction,low,,,partial
+principle,abstract,negative_control,simlex_overlap,common abstract noun,medium,,,partial
+doctrine,abstract,negative_control,manual_screen,familiar but abstract term,medium,,,partial
+concept,abstract,negative_control,manual_screen,meta-level abstraction,low,,,partial
+signal,abstract,negative_control,manual_screen,usable abstract control despite broad usage,medium,,,partial
+agency,abstract,negative_control,manual_screen,social abstraction,medium,,,partial

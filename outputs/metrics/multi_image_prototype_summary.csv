@@ -1,0 +1,10 @@
+anchor_name,representation,rsa_score
+THINGS behavioral similarity,multi_image_prototype,0.2996267883060336
+THINGS behavioral similarity,single_image_grounding,0.297055774414265
+THINGS behavioral similarity,T_prompt_primary,0.2275658303960191
+controlled_THINGS,multi_image_prototype,0.28812979473356837
+controlled_THINGS,single_image_grounding,0.28713456354965794
+controlled_THINGS,T_prompt_primary,0.2246838067592785
+SigLIP2,multi_image_prototype,0.351845324486834
+SigLIP2,single_image_grounding,0.31954177897574126
+SigLIP2,T_prompt_primary,0.04991706406800747

@@ -1,0 +1,28 @@
+condition,predictor_name,component_type,variance_explained,num_concepts,num_pairs
+T_prompt_primary,THINGS behavioral similarity,unique,0.01795877109948945,1854,1717731
+T_prompt_primary,SigLIP2,unique,0.003458642542944458,1854,1717731
+T_prompt_primary,DINOv2,unique,4.8860153256877203e-05,1854,1717731
+T_prompt_primary,subtype_membership,unique,5.478536103178944e-07,1854,1717731
+T_prompt_primary,lexical_trigram_distance,unique,0.011065039577770448,1854,1717731
+T_prompt_primary,all_predictors,total_model_fit,0.051344188915684104,1854,1717731
+T_prompt_primary,THINGS behavioral similarity,shared_with_human,0.033385417816194654,1854,1717731
+T_prompt_primary,model_anchor_family,shared_with_model_anchors,0.0477145048591413,1854,1717731
+T_prompt_primary,proxy_family,shared_with_proxies,0.04027834097717221,1854,1717731
+M_matched_image,THINGS behavioral similarity,unique,0.037024396470596174,1854,1717731
+M_matched_image,SigLIP2,unique,0.005134532178571655,1854,1717731
+M_matched_image,DINOv2,unique,0.0006818361162129194,1854,1717731
+M_matched_image,subtype_membership,unique,5.656672314681421e-05,1854,1717731
+M_matched_image,lexical_trigram_distance,unique,0.007727461722536452,1854,1717731
+M_matched_image,all_predictors,total_model_fit,0.08832886371372506,1854,1717731
+M_matched_image,THINGS behavioral similarity,shared_with_human,0.051304467243128885,1854,1717731
+M_matched_image,model_anchor_family,shared_with_model_anchors,0.0820638263828932,1854,1717731
+M_matched_image,proxy_family,shared_with_proxies,0.08054681516564617,1854,1717731
+M_mismatched_image,THINGS behavioral similarity,unique,0.02360825824037748,1854,1717731
+M_mismatched_image,SigLIP2,unique,0.0007432670753509257,1854,1717731
+M_mismatched_image,DINOv2,unique,6.330200298457211e-05,1854,1717731
+M_mismatched_image,subtype_membership,unique,3.862235306984624e-05,1854,1717731
+M_mismatched_image,lexical_trigram_distance,unique,0.010166083705281569,1854,1717731
+M_mismatched_image,all_predictors,total_model_fit,0.04966046898321159,1854,1717731
+M_mismatched_image,THINGS behavioral similarity,shared_with_human,0.02605221074283411,1854,1717731
+M_mismatched_image,model_anchor_family,shared_with_model_anchors,0.04880048571429386,1854,1717731
+M_mismatched_image,proxy_family,shared_with_proxies,0.039453846333114835,1854,1717731

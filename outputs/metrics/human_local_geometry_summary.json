@@ -1,0 +1,25 @@
+{
+  "all_concepts_degraded_mean": 0.409502939232669,
+  "all_concepts_matched_mean": 0.42183032453302727,
+  "all_concepts_matched_minus_degraded": 0.012327385300358262,
+  "all_concepts_prompt_mean": 0.4542349299106055,
+  "all_concepts_prompt_minus_matched": 0.03240460537757822,
+  "subtype_leaders": [
+    {
+      "best_condition": "M_matched_image",
+      "subtype": "appearance_color"
+    },
+    {
+      "best_condition": "M_matched_image",
+      "subtype": "smell_taste_proxy"
+    },
+    {
+      "best_condition": "T_prompt_primary",
+      "subtype": "sound_linked"
+    },
+    {
+      "best_condition": "M_degraded_image",
+      "subtype": "texture_material"
+    }
+  ]
+}

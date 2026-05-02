@@ -1,0 +1,13 @@
+anchor_name,condition,mean_rsa,ci_low,ci_high,comparison_name,comparison_mean,comparison_ci_low,comparison_ci_high
+lancaster_full_sensorimotor,T_prompt_primary,0.1167589184229192,,,,,,
+lancaster_full_sensorimotor,M_matched_image,0.2511739160861602,,,matched_minus_prompt,0.13446092610311755,0.1323236334951762,0.1364896247925735
+lancaster_full_sensorimotor,M_mismatched_image,0.15671123155442923,,,matched_minus_mismatched,0.0944692648568441,0.09269067446134692,0.09628143002359649
+lancaster_full_sensorimotor,M_blank_image,0.13028893801763636,,,matched_minus_blank,0.12093087513177755,0.119045643005518,0.12262434442188633
+lancaster_perceptual,T_prompt_primary,0.11511797111759148,,,,,,
+lancaster_perceptual,M_matched_image,0.22516248105366235,,,matched_minus_prompt,0.11009187170975994,0.1078967122123053,0.1121399415103976
+lancaster_perceptual,M_mismatched_image,0.16235293274778284,,,matched_minus_mismatched,0.06281067343861137,0.06100375034560816,0.06464367671857975
+lancaster_perceptual,M_blank_image,0.12831390650236438,,,matched_minus_blank,0.09688746228723656,0.09501282003962508,0.0986174261063524
+lancaster_haptic_material,T_prompt_primary,0.05883748992057414,,,,,,
+lancaster_haptic_material,M_matched_image,0.08519245629816816,,,matched_minus_prompt,0.026352252880781146,0.024452778614869712,0.028450704347981717
+lancaster_haptic_material,M_mismatched_image,0.04556371961904141,,,matched_minus_mismatched,0.039611419689553715,0.03786360769722781,0.04139235534748817
+lancaster_haptic_material,M_blank_image,0.049322263164962216,,,matched_minus_blank,0.035854705324725324,0.03411896740162817,0.037708232432082364

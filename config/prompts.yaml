@@ -1,0 +1,8 @@
+text_only:
+  neutral: "Consider the concept: {concept}."
+  sensory_prompt_1: "Imagine vividly perceiving {concept} with the relevant senses. Consider the concept: {concept}."
+  sensory_prompt_2: "Picture the sensory experience of {concept} as clearly as possible. Consider the concept: {concept}."
+  sensory_prompt_3: "Focus on what {concept} would look, feel, sound, smell, or taste like when relevant. Consider the concept: {concept}."
+
+multimodal:
+  neutral: "Consider the concept: {concept}."

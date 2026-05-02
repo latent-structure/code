@@ -1,0 +1,3 @@
+analysis,target_condition,predictor_condition,standardized_weight,mixture_r2,residual_norm,integration_label,p_ge_null_r2,num_concepts,num_pairs
+observed,M_prompt_plus_matched_image,T_prompt_primary,0.012780098500287473,0.9025507884796969,0.3121685626713587,image_dominant,0.000999000999000999,1854,1717731
+observed,M_prompt_plus_matched_image,M_matched_image,0.9443765658916787,0.9025507884796969,0.3121685626713587,image_dominant,0.000999000999000999,1854,1717731

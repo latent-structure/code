@@ -1,0 +1,28 @@
+name: prompting-is-not-grounding
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - torchaudio
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - nltk
+  - pyyaml
+  - tqdm
+  - pip
+  - pip:
+      - transformers>=4.50.0
+      - accelerate>=1.8.0
+      - datasets>=3.0.0
+      - protobuf>=5.0.0
+      - sentencepiece>=0.2.0
+      - safetensors>=0.5.0
+      - pytest>=8.0.0
+      - tueplots>=0.0.16

@@ -1,0 +1,8 @@
+resource_id,resource_type,source_name,license,source_url,local_path,status,notes
+things_concepts,dataset,THINGS,see upstream dataset terms,https://osf.io/jum2f/,THINGS-database/osfstorage/02_object-level/_concepts-metadata_things.tsv,available,images_zip=THINGS-database/osfstorage/images_THINGS.zip; normalized_dir=data/concepts/things
+thingsplus_metadata,dataset,THINGSplus,see upstream dataset terms,https://osf.io/3ku9e/,THINGS-database/osfstorage/object_images_CC0,available,trialwise_tables=3; image_dirs=0; images_zip=THINGS-database/osfstorage/images_THINGSplus-CC0.zip
+things_behavioral_anchor,dataset,THINGS-data behavioral similarity,see upstream dataset terms,https://things-initiative.org/,THINGS-behavior/osfstorage/data/spose_similarity.mat,available,ordering=THINGS-behavior/osfstorage/variables/unique_id.txt; ordering_count=1854
+simlex999,dataset,SimLex-999,research dataset,https://fh295.github.io/simlex.html,data/anchors/simlex999/SimLex-999.txt,available,Normalized from local SimLex-999.zip archive.
+wordnet,lexical,WordNet,Princeton WordNet license,https://wordnet.princeton.edu/,data/lexical/wordnet,available,Normalized from local WordNet-3.0.tar.gz archive.
+lancaster_sensorimotor,dataset,Lancaster Sensorimotor Norms,CC-BY 4.0,https://osf.io/7emr6/,Lancaster_sensorimotor.csv,available,perceptual=Lancaster_perceptual.csv; action=Lancaster_action.csv
+local_seed_images,image_inventory,local seed images,inherited from pilot local assets,,data/images/sensory,partial,Existing root image directory contains pilot-seeded files; THINGS-covered concepts will be normalized separately.

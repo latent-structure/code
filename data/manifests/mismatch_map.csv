@@ -1,0 +1,1855 @@
+concept,concept_subtype,mismatch_concept,mismatch_subtype,mismatch_mode
+aardvark,animal,whale,animal,within_subtype
+abacus,home decor,aardvark,animal,cross_subtype
+accordion,musical instrument,ukulele,musical instrument,within_subtype
+acorn,fruit,abacus,home decor,cross_subtype
+air_conditioner,electronic device,hairdryer,electronic device,within_subtype
+air_mattress,furniture,accordion,musical instrument,cross_subtype
+air_pump,tool,mop,tool,within_subtype
+airbag,part of car,acorn,fruit,cross_subtype
+airboat,vehicle,steamroller,vehicle,within_subtype
+aircraft_carrier,vehicle,air_conditioner,electronic device,cross_subtype
+airplane,vehicle,boat,vehicle,within_subtype
+album,home decor,air_mattress,furniture,cross_subtype
+alligator,animal,seal,animal,within_subtype
+almond,food,air_pump,tool,cross_subtype
+aloe,plant,plant,plant,within_subtype
+alpaca,animal,airbag,part of car,cross_subtype
+altar,Noun,gift,Noun,within_subtype
+aluminum_foil,#N/A,airboat,vehicle,cross_subtype
+amber,Noun,board,Noun,within_subtype
+ambulance,vehicle,album,home decor,cross_subtype
+amplifier,electronic device,computer,electronic device,within_subtype
+anchor,Noun,alligator,animal,cross_subtype
+ankle,body part,face,body part,within_subtype
+anklet,decoration,almond,food,cross_subtype
+ant,"animal, insect",beetle,"animal, insect",within_subtype
+anteater,animal,aloe,plant,cross_subtype
+antelope,animal,cheetah,animal,within_subtype
+antenna,Noun,alpaca,animal,cross_subtype
+anvil,tool,rake,tool,within_subtype
+appetizer,food,altar,Noun,cross_subtype
+apple,"food, fruit",kiwi,"food, fruit",within_subtype
+apple_tree,plant,aluminum_foil,#N/A,cross_subtype
+applesauce,food,dumpling,food,within_subtype
+apron,clothing,amber,Noun,cross_subtype
+aquarium,"home decor, container",terrarium,"home decor, container",within_subtype
+arch,Noun,ambulance,vehicle,cross_subtype
+arm,body part,neck,body part,within_subtype
+armor,clothing,amplifier,electronic device,cross_subtype
+arrow,weapon,dagger,weapon,within_subtype
+artichoke,"plant, food, vegetable",anchor,Noun,cross_subtype
+arugula,"plant, food, vegetable",corn,"plant, food, vegetable",within_subtype
+ashtray,container,ankle,body part,cross_subtype
+asparagus,"plant, food, vegetable",kale,"plant, food, vegetable",within_subtype
+avocado,"food, fruit",anklet,decoration,cross_subtype
+awning,Noun,trigger,Noun,within_subtype
+axe,"weapon, tool",ant,"animal, insect",cross_subtype
+baby,Noun,drumstick,Noun,within_subtype
+backdrop,Noun,anteater,animal,cross_subtype
+backgammon,Noun,cap,Noun,within_subtype
+backpack,container,antelope,animal,cross_subtype
+backscratcher,tool,jack,tool,within_subtype
+bacon,food,antenna,Noun,cross_subtype
+badge,Noun,periscope,Noun,within_subtype
+badger,animal,anvil,tool,cross_subtype
+bag,container,glass,container,within_subtype
+bagel,food,apple,"food, fruit",cross_subtype
+bagpipe,musical instrument,organ,musical instrument,within_subtype
+baklava,"food, dessert",apple_tree,plant,cross_subtype
+balance_beam,sports equipment,goggles,sports equipment,within_subtype
+ball,"toy, sports equipment",applesauce,food,cross_subtype
+balloon,toy,noisemaker,toy,within_subtype
+ballot_box,container,apron,clothing,cross_subtype
+bamboo,plant,tumbleweed,plant,within_subtype
+banana,"food, fruit",aquarium,"home decor, container",cross_subtype
+banana_peel,#N/A,toilet_paper,#N/A,within_subtype
+banana_split,"food, dessert",arch,Noun,cross_subtype
+bandage,medical equipment,brace,medical equipment,within_subtype
+bandanna,"clothing, clothing accessory",arm,body part,cross_subtype
+banjo,musical instrument,piano,musical instrument,within_subtype
+bank,container,armor,clothing,cross_subtype
+banner,decoration,tattoo,decoration,within_subtype
+barbed_wire,#N/A,arrow,weapon,cross_subtype
+barbell,sports equipment,exerciser,sports equipment,within_subtype
+barcode,#N/A,artichoke,"plant, food, vegetable",cross_subtype
+bark,Noun,retainer,Noun,within_subtype
+barnacle,animal,arugula,"plant, food, vegetable",cross_subtype
+barrel,container,laundry_basket,container,within_subtype
+barrette,Noun,ashtray,container,cross_subtype
+baseball,sports equipment,iceskate,sports equipment,within_subtype
+baseball_bat,"weapon, sports equipment",asparagus,"plant, food, vegetable",cross_subtype
+baseball_glove,sports equipment,cleat,sports equipment,within_subtype
+basil,"plant, food",avocado,"food, fruit",cross_subtype
+basket,container,garbage,container,within_subtype
+basketball,sports equipment,awning,Noun,cross_subtype
+basketball_hoop,sports equipment,golf_club,sports equipment,within_subtype
+bassinet,furniture,axe,"weapon, tool",cross_subtype
+bassoon,musical instrument,trumpet,musical instrument,within_subtype
+bat1,animal,baby,Noun,cross_subtype
+bat2,"weapon, sports equipment",baseball_bat,"weapon, sports equipment",within_subtype
+bathmat,Noun,backpack,container,cross_subtype
+bathrobe,clothing,sock,clothing,within_subtype
+bathtub,container,backscratcher,tool,cross_subtype
+baton1,Noun,propeller,Noun,within_subtype
+baton2,weapon,bacon,food,cross_subtype
+baton3,sports equipment,javelin,sports equipment,within_subtype
+baton4,sports equipment,badge,Noun,cross_subtype
+batter,food,gumball,food,within_subtype
+battery,Noun,badger,animal,cross_subtype
+bazooka,weapon,brass_knuckles,weapon,within_subtype
+beachball,"toy, sports equipment",bag,container,cross_subtype
+bead,decoration,diamond,decoration,within_subtype
+beaker,container,bagel,food,cross_subtype
+bean,food,meatloaf,food,within_subtype
+beanbag,furniture,bagpipe,musical instrument,cross_subtype
+beanie,clothing,flip_flop,clothing,within_subtype
+bear,animal,baklava,"food, dessert",cross_subtype
+beard,body part,elbow,body part,within_subtype
+beaver,animal,balance_beam,sports equipment,cross_subtype
+bed,furniture,bedpost,furniture,within_subtype
+bedpan,"medical equipment, container",ball,"toy, sports equipment",cross_subtype
+bedpost,furniture,bed,furniture,within_subtype
+bee,"animal, insect",balloon,toy,cross_subtype
+beehive,Noun,clothespin,Noun,within_subtype
+beer,drink,ballot_box,container,cross_subtype
+beet,"food, vegetable",green_beans,"food, vegetable",within_subtype
+beetle,"animal, insect",bamboo,plant,cross_subtype
+bell,musical instrument,trombone,musical instrument,within_subtype
+bell_pepper,"food, vegetable",banana,"food, fruit",cross_subtype
+belt,"clothing, clothing accessory",bracelet1,"clothing, clothing accessory",within_subtype
+belt_buckle,clothing accessory,banana_peel,#N/A,cross_subtype
+bench,furniture,rack1,furniture,within_subtype
+berry,"food, fruit",banana_split,"food, dessert",cross_subtype
+bib,Noun,umbrella,Noun,within_subtype
+bike,vehicle,bandage,medical equipment,cross_subtype
+bikini,clothing,pantyhose,clothing,within_subtype
+bin,container,bandanna,"clothing, clothing accessory",cross_subtype
+binder,office supply,file2,office supply,within_subtype
+binoculars,Noun,banjo,musical instrument,cross_subtype
+bird,"animal, bird",duck,"animal, bird",within_subtype
+birdbath,"home decor, container",bank,container,cross_subtype
+birdcage,"home decor, container",vase,"home decor, container",within_subtype
+birdhouse,home decor,banner,decoration,cross_subtype
+birthday_cake,"food, dessert",popsicle,"food, dessert",within_subtype
+biscuit,food,barbed_wire,#N/A,cross_subtype
+bison,animal,tiger,animal,within_subtype
+blackberry,"food, fruit",barbell,sports equipment,cross_subtype
+blanket,Noun,playpen,Noun,within_subtype
+blazer,clothing,barcode,#N/A,cross_subtype
+blender,"electronic device, kitchen appliance",food_processor,"electronic device, kitchen appliance",within_subtype
+blimp,vehicle,bark,Noun,cross_subtype
+blind,Adjective,blinder,Adjective,within_subtype
+blinder,Adjective,barnacle,animal,cross_subtype
+blindfold,Noun,collar,Noun,within_subtype
+block,Noun,barrel,container,cross_subtype
+blouse,clothing,chaps,clothing,within_subtype
+blower,"electronic device, tool",barrette,Noun,cross_subtype
+blowfish,animal,iguana,animal,within_subtype
+blowgun,weapon,baseball,sports equipment,cross_subtype
+blowtorch,"weapon, tool",hammer,"weapon, tool",within_subtype
+blueberry,"food, fruit",baseball_bat,"weapon, sports equipment",cross_subtype
+boa,"clothing, clothing accessory",bonnet,"clothing, clothing accessory",within_subtype
+boar,animal,baseball_glove,sports equipment,cross_subtype
+board,Noun,shell2,Noun,within_subtype
+board_game,#N/A,basil,"plant, food",cross_subtype
+boat,vehicle,aircraft_carrier,vehicle,within_subtype
+bobsled,sports equipment,basket,container,cross_subtype
+bok_choy,"plant, food, vegetable",leek,"plant, food, vegetable",within_subtype
+bolo_tie,"clothing, clothing accessory",basketball,sports equipment,cross_subtype
+bologna,food,waffle,food,within_subtype
+bolt,Noun,basketball_hoop,sports equipment,cross_subtype
+bomb,weapon,sword,weapon,within_subtype
+bone,body part,bassinet,furniture,cross_subtype
+bongo,musical instrument,cello,musical instrument,within_subtype
+bonnet,"clothing, clothing accessory",bassoon,musical instrument,cross_subtype
+bonsai,"home decor, plant",bat1,animal,within_subtype
+book,Noun,bat2,"weapon, sports equipment",cross_subtype
+bookmark,Noun,rust,Noun,within_subtype
+bookshelf,furniture,bathmat,Noun,cross_subtype
+boomerang,"weapon, toy",slingshot,"weapon, toy",within_subtype
+boot,clothing,bathtub,container,cross_subtype
+bottle,container,water_bottle,container,within_subtype
+bottle_opener,"kitchen tool, tool",baton1,Noun,cross_subtype
+boulder,Name,wick,Name,within_subtype
+bouquet,decoration,baton2,weapon,cross_subtype
+bow1,"clothing, clothing accessory",shawl,"clothing, clothing accessory",within_subtype
+bow2,weapon,baton3,sports equipment,cross_subtype
+bow3,decoration,bouquet,decoration,within_subtype
+bowl,container,baton4,sports equipment,cross_subtype
+bowler_hat,clothing,stockings,clothing,within_subtype
+bowling_ball,sports equipment,batter,food,cross_subtype
+bowtie,"clothing, clothing accessory",headdress,"clothing, clothing accessory",within_subtype
+box,container,battery,Noun,cross_subtype
+boxer_shorts,clothing,blouse,clothing,within_subtype
+boxing_gloves,sports equipment,bazooka,weapon,cross_subtype
+boy,Noun,grate,Noun,within_subtype
+bra,clothing,beachball,"toy, sports equipment",cross_subtype
+brace,medical equipment,cane,medical equipment,within_subtype
+bracelet1,"clothing, clothing accessory",bead,decoration,cross_subtype
+bracelet2,clothing accessory,patch,clothing accessory,within_subtype
+bracket,Noun,beaker,container,cross_subtype
+braid,Noun,manhole,Noun,within_subtype
+brake,part of car,bean,food,cross_subtype
+branch,Noun,battery,Noun,within_subtype
+brass_knuckles,weapon,beanbag,furniture,cross_subtype
+bread,food,noodle,food,within_subtype
+breadbox,container,beanie,clothing,cross_subtype
+breadstick,food,pepperoni,food,within_subtype
+breakfast,food,bear,animal,cross_subtype
+breathalyzer,Noun,slot,Noun,within_subtype
+brick,Noun,beard,body part,cross_subtype
+briefcase,container,test_tube,container,within_subtype
+broccoli,"plant, food, vegetable",beaver,animal,cross_subtype
+brooch,clothing accessory,insole,clothing accessory,within_subtype
+broom,tool,bed,furniture,cross_subtype
+brownie,"food, dessert",crepe,"food, dessert",within_subtype
+brush,tool,bedpan,"medical equipment, container",cross_subtype
+brussels_sprouts,"food, vegetable",chickpea,"food, vegetable",within_subtype
+bubble,Noun,bedpost,furniture,cross_subtype
+bubble_wrap,#N/A,satellite_dish,#N/A,within_subtype
+bucket,container,bee,"animal, insect",cross_subtype
+buckle,clothing accessory,corsage,clothing accessory,within_subtype
+buffet,food,beehive,Noun,cross_subtype
+bug,"animal, insect",ant,"animal, insect",within_subtype
+buggy,vehicle,beer,drink,cross_subtype
+bull,animal,wolf,animal,within_subtype
+bulldozer,vehicle,beet,"food, vegetable",cross_subtype
+bullet,weapon,arrow,weapon,within_subtype
+bulletin_board,#N/A,beetle,"animal, insect",cross_subtype
+bulletproof_vest,clothing,loincloth,clothing,within_subtype
+bumper,part of car,bell,musical instrument,cross_subtype
+bun,food,cinnamon,food,within_subtype
+bungee,"tool, sports equipment",bell_pepper,"food, vegetable",cross_subtype
+bunkbed,furniture,beanbag,furniture,within_subtype
+buoy,Noun,belt,"clothing, clothing accessory",cross_subtype
+burner,kitchen appliance,oven,kitchen appliance,within_subtype
+burrito,food,belt_buckle,clothing accessory,cross_subtype
+bus,vehicle,tugboat,vehicle,within_subtype
+bush,plant,bench,furniture,cross_subtype
+butter,food,stir_fry,food,within_subtype
+butterfly,"animal, insect",berry,"food, fruit",cross_subtype
+button1,clothing accessory,belt_buckle,clothing accessory,within_subtype
+button2,Noun,bike,vehicle,cross_subtype
+cabbage,"plant, food, vegetable",arugula,"plant, food, vegetable",within_subtype
+cabinet,"furniture, container",bikini,clothing,cross_subtype
+cable,Noun,perfume,Noun,within_subtype
+cactus,plant,bin,container,cross_subtype
+cage,container,dish,container,within_subtype
+cake,"food, dessert",binder,office supply,cross_subtype
+cake_mix,"food, dessert",birthday_cake,"food, dessert",within_subtype
+calamari,food,binoculars,Noun,cross_subtype
+calculator,Noun,coin,Noun,within_subtype
+calf1,animal,bird,"animal, bird",cross_subtype
+calf2,body part,ear,body part,within_subtype
+calzone,food,birdbath,"home decor, container",cross_subtype
+camcorder,electronic device,computer,electronic device,within_subtype
+camel,animal,birdcage,"home decor, container",cross_subtype
+camera1,electronic device,television,electronic device,within_subtype
+camera2,electronic device,birdhouse,home decor,cross_subtype
+camera_lens,#N/A,parking_meter,#N/A,within_subtype
+camper,vehicle,birthday_cake,"food, dessert",cross_subtype
+can,container,teacup,container,within_subtype
+can_opener,"kitchen tool, tool",biscuit,food,cross_subtype
+candelabra,home decor,curtain,home decor,within_subtype
+candle,home decor,bison,animal,cross_subtype
+candlestick,home decor,cuckoo_clock,home decor,within_subtype
+candy,food,blackberry,"food, fruit",cross_subtype
+candy_bar,food,hotdog,food,within_subtype
+candy_cane,food,blanket,Noun,cross_subtype
+cane,medical equipment,stretcher,medical equipment,within_subtype
+canister,container,blazer,clothing,cross_subtype
+cannon,weapon,flamethrower,weapon,within_subtype
+cannonball,weapon,blender,"electronic device, kitchen appliance",cross_subtype
+canoe,vehicle,humvee,vehicle,within_subtype
+cantaloupe,"food, fruit",blimp,vehicle,cross_subtype
+canvas,Noun,wire,Noun,within_subtype
+cap,Noun,blind,Adjective,cross_subtype
+cape,clothing,straightjacket,clothing,within_subtype
+car,vehicle,blinder,Adjective,cross_subtype
+car_door,part of car,windshield,part of car,within_subtype
+car_seat,part of car,blindfold,Noun,cross_subtype
+caramel,"food, dessert",ice,"food, dessert",within_subtype
+card,Noun,blouse,clothing,cross_subtype
+cardboard,Adjective,blind,Adjective,within_subtype
+cardigan,clothing,blower,"electronic device, tool",cross_subtype
+cardinal,"animal, bird",hummingbird,"animal, bird",within_subtype
+carousel,Noun,blowfish,animal,cross_subtype
+carriage,vehicle,ship,vehicle,within_subtype
+carrot,"food, vegetable",blowgun,weapon,cross_subtype
+cart,vehicle,tractor,vehicle,within_subtype
+cash_machine,electronic device,blowtorch,"weapon, tool",cross_subtype
+cash_register,container,bucket,container,within_subtype
+cashew,food,blueberry,"food, fruit",cross_subtype
+casserole,food,tamale,food,within_subtype
+cassette,container,boa,"clothing, clothing accessory",cross_subtype
+cat,animal,barnacle,animal,within_subtype
+catapult,weapon,boar,animal,cross_subtype
+caterpillar,"animal, insect",butterfly,"animal, insect",within_subtype
+catfish,"animal, food",board,Noun,cross_subtype
+cauliflower,"food, vegetable",cucumber,"food, vegetable",within_subtype
+caviar,food,board_game,#N/A,cross_subtype
+cd_player,electronic device,turntable,electronic device,within_subtype
+celery,"food, vegetable",boat,vehicle,cross_subtype
+cello,musical instrument,whistle,musical instrument,within_subtype
+cellphone,electronic device,bobsled,sports equipment,cross_subtype
+cement_mixer,#N/A,polaroid,#N/A,within_subtype
+centerpiece,home decor,bok_choy,"plant, food, vegetable",cross_subtype
+centrifuge,electronic device,camera1,electronic device,within_subtype
+cereal,food,bolo_tie,"clothing, clothing accessory",cross_subtype
+chain,tool,sickle,tool,within_subtype
+chainsaw,"electronic device, weapon, tool",bologna,food,cross_subtype
+chair,furniture,recliner,furniture,within_subtype
+chalice,container,bolt,Noun,cross_subtype
+chalk,Noun,branch,Noun,within_subtype
+chalkboard,Noun,bomb,weapon,cross_subtype
+champagne,drink,milk,drink,within_subtype
+chandelier,home decor,bone,body part,cross_subtype
+chaps,clothing,sweatsuit,clothing,within_subtype
+charcoal,Noun,bongo,musical instrument,cross_subtype
+charger,Noun,vent,Noun,within_subtype
+chariot,vehicle,bonnet,"clothing, clothing accessory",cross_subtype
+checkbook,Noun,railing,Noun,within_subtype
+checkers,Noun,bonsai,"home decor, plant",cross_subtype
+cheese,"food, dessert",ice-cream_cone,"food, dessert",within_subtype
+cheeseburger,food,book,Noun,cross_subtype
+cheesecake,"food, dessert",eclair,"food, dessert",within_subtype
+cheetah,animal,bookmark,Noun,cross_subtype
+cherry,"food, fruit",blueberry,"food, fruit",within_subtype
+chess_piece,#N/A,bookshelf,furniture,cross_subtype
+chessboard,Noun,coal,Noun,within_subtype
+chest1,body part,boomerang,"weapon, toy",cross_subtype
+chest2,"furniture, container",dresser,"furniture, container",within_subtype
+chick,"animal, bird",boot,clothing,cross_subtype
+chicken1,food,quiche,food,within_subtype
+chicken2,animal,bottle,container,cross_subtype
+chicken_wire,#N/A,ferris_wheel,#N/A,within_subtype
+chickpea,"food, vegetable",bottle_opener,"kitchen tool, tool",cross_subtype
+chihuahua,animal,coral,animal,within_subtype
+chili,food,boulder,Name,cross_subtype
+chime,musical instrument,whistle,musical instrument,within_subtype
+chimney,Noun,bouquet,decoration,cross_subtype
+chin,body part,bone,body part,within_subtype
+chinaware,Noun,bow1,"clothing, clothing accessory",cross_subtype
+chinchilla,animal,llama,animal,within_subtype
+chip,Noun,bow2,weapon,cross_subtype
+chipmunk,animal,zebra,animal,within_subtype
+chips,food,bow3,decoration,cross_subtype
+chisel,tool,tool,tool,within_subtype
+chive,"plant, food, vegetable",bowl,container,cross_subtype
+chocolate,"food, dessert",fruitcake,"food, dessert",within_subtype
+chopsticks,tool,bowler_hat,clothing,cross_subtype
+christmas_card,#N/A,chicken_wire,#N/A,within_subtype
+christmas_tree,home decor,bowling_ball,sports equipment,cross_subtype
+chute,Noun,chip,Noun,within_subtype
+cigar,Noun,bowtie,"clothing, clothing accessory",cross_subtype
+cigarette,Noun,hairbrush,Noun,within_subtype
+cigarette_butt,#N/A,box,container,cross_subtype
+cigarette_holder,#N/A,board_game,#N/A,within_subtype
+cilantro,"plant, food, vegetable",boxer_shorts,clothing,cross_subtype
+cinnamon,food,pancake,food,within_subtype
+clam,"animal, food",boxing_gloves,sports equipment,cross_subtype
+clarinet,musical instrument,drum,musical instrument,within_subtype
+clasp,Noun,bra,clothing,cross_subtype
+clay,Noun,foam,Noun,within_subtype
+cleat,sports equipment,brace,medical equipment,cross_subtype
+cleaver,"weapon, kitchen tool, tool",icepick,"weapon, kitchen tool, tool",within_subtype
+clipboard,office supply,bracelet1,"clothing, clothing accessory",cross_subtype
+clipper1,tool,coil,tool,within_subtype
+clipper2,tool,bracelet2,clothing accessory,cross_subtype
+cloak,clothing,cardigan,clothing,within_subtype
+clock,Noun,brake,part of car,cross_subtype
+closet,"furniture, container",filing_cabinet,"furniture, container",within_subtype
+clothes,clothing,branch,Noun,cross_subtype
+clothesline,Noun,fossil,Noun,within_subtype
+clothespin,Noun,brass_knuckles,weapon,cross_subtype
+cloud,Noun,button2,Noun,within_subtype
+clove,food,breadbox,container,cross_subtype
+clover,plant,palm_tree,plant,within_subtype
+coal,Noun,breadstick,food,cross_subtype
+coaster,home decor,candelabra,home decor,within_subtype
+coat,clothing,breakfast,food,cross_subtype
+coat_rack,furniture,lectern,furniture,within_subtype
+cobra,animal,breathalyzer,Noun,cross_subtype
+cockatoo,"animal, bird",eagle,"animal, bird",within_subtype
+cockroach,"animal, insect",brick,Noun,cross_subtype
+cocktail,drink,margarita,drink,within_subtype
+coconut,"food, fruit",briefcase,container,cross_subtype
+cocoon,Noun,gate,Noun,within_subtype
+coffee,drink,broccoli,"plant, food, vegetable",cross_subtype
+coffee_bean,food,saffron,food,within_subtype
+coffee_filter,#N/A,brooch,clothing accessory,cross_subtype
+coffee_pot,container,pot,container,within_subtype
+coffee_table,furniture,broom,tool,cross_subtype
+coffeemaker,"electronic device, kitchen appliance",waffle_iron,"electronic device, kitchen appliance",within_subtype
+coffin,container,brownie,"food, dessert",cross_subtype
+coil,tool,wire_cutters,tool,within_subtype
+coin,Noun,brush,tool,cross_subtype
+coleslaw,food,tomato_sauce,food,within_subtype
+collar,Noun,brussels_sprouts,"food, vegetable",cross_subtype
+column,Noun,fungus,Noun,within_subtype
+comb,Verb,bubble,Noun,cross_subtype
+combination_lock,#N/A,diving_board,#N/A,within_subtype
+comic_book,#N/A,bucket,container,cross_subtype
+compass,Noun,scale,Noun,within_subtype
+compost,Noun,buckle,clothing accessory,cross_subtype
+computer,electronic device,cellphone,electronic device,within_subtype
+computer_screen,electronic device,buffet,food,cross_subtype
+confetti,Noun,porthole,Noun,within_subtype
+contact_lens,#N/A,bug,"animal, insect",cross_subtype
+container,container,tupperware,container,within_subtype
+cooker,"electronic device, container, kitchen appliance",buggy,vehicle,cross_subtype
+cookie,"food, dessert",pudding,"food, dessert",within_subtype
+cookie_cutter,kitchen utensil,bull,animal,cross_subtype
+cookie_sheet,kitchen utensil,cookie_cutter,kitchen utensil,within_subtype
+cooler,Noun,bulldozer,vehicle,cross_subtype
+coop,container,ashtray,container,within_subtype
+copier,electronic device,bullet,weapon,cross_subtype
+coral,animal,anteater,animal,within_subtype
+cord,Noun,bulletin_board,#N/A,cross_subtype
+cordon_bleu,food,bagel,food,within_subtype
+cork,Noun,bulletproof_vest,clothing,cross_subtype
+corkboard,office supply,folder,office supply,within_subtype
+corkscrew,"kitchen tool, tool",bumper,part of car,cross_subtype
+corn,"plant, food, vegetable",arugula,"plant, food, vegetable",within_subtype
+cornbread,food,bungee,"tool, sports equipment",cross_subtype
+cornhusk,#N/A,shower_curtain,#N/A,within_subtype
+cornmeal,food,bunkbed,furniture,cross_subtype
+cornucopia,home decor,abacus,home decor,within_subtype
+corsage,clothing accessory,buoy,Noun,cross_subtype
+corset,clothing,outfit,clothing,within_subtype
+costume,clothing,burner,kitchen appliance,cross_subtype
+cot,furniture,coffee_table,furniture,within_subtype
+cotton_candy,food,bus,vehicle,cross_subtype
+couch,furniture,shelf,furniture,within_subtype
+cougar,animal,bush,plant,cross_subtype
+counter,furniture,mattress,furniture,within_subtype
+coverall,clothing,butter,food,cross_subtype
+cow,animal,rhinoceros,animal,within_subtype
+coyote,animal,butterfly,"animal, insect",cross_subtype
+crab,"animal, food",rabbit,"animal, food",within_subtype
+cracker,food,button1,clothing accessory,cross_subtype
+cranberry,"food, fruit",plum,"food, fruit",within_subtype
+crane,Name,button2,Noun,cross_subtype
+crank,tool,chain,tool,within_subtype
+crate,container,cabbage,"plant, food, vegetable",cross_subtype
+crayfish,"animal, food",squid,"animal, food",within_subtype
+crayon,toy,cabinet,"furniture, container",cross_subtype
+cream,Noun,porthole,Noun,within_subtype
+cream_cheese,food,cable,Noun,cross_subtype
+credit_card,#N/A,photo_booth,#N/A,within_subtype
+creme_brulee,"food, dessert",cactus,plant,cross_subtype
+crepe,"food, dessert",banana_split,"food, dessert",within_subtype
+crib,furniture,cage,container,cross_subtype
+croissant,food,cornbread,food,within_subtype
+cross,Verb,cake,"food, dessert",cross_subtype
+crossbow,weapon,baton2,weapon,within_subtype
+crouton,food,cake_mix,"food, dessert",cross_subtype
+crow,"animal, bird",owl,"animal, bird",within_subtype
+crowbar,"weapon, tool",calamari,food,cross_subtype
+crown,clothing,veil,clothing,within_subtype
+crucifix,decoration,calculator,Noun,cross_subtype
+cruise_ship,vehicle,garbage_truck,vehicle,within_subtype
+crumb,food,calf1,animal,cross_subtype
+crutch,medical equipment,eyedropper,medical equipment,within_subtype
+crystal1,Noun,calf2,body part,cross_subtype
+crystal2,Noun,bib,Noun,within_subtype
+crystal_ball,home decor,calzone,food,cross_subtype
+cuckoo_clock,home decor,weather_vane,home decor,within_subtype
+cucumber,"food, vegetable",camcorder,electronic device,cross_subtype
+cufflink,clothing accessory,lanyard,clothing accessory,within_subtype
+cummerbund,"clothing, clothing accessory",camel,animal,cross_subtype
+cup,container,cage,container,within_subtype
+cupcake,"food, dessert",camera1,electronic device,cross_subtype
+curb,Noun,incense,Noun,within_subtype
+curling_iron,"electronic device, tool",camera2,electronic device,cross_subtype
+curry,food,pizza,food,within_subtype
+curtain,home decor,camera_lens,#N/A,cross_subtype
+cushion,Noun,saucer,Noun,within_subtype
+cutting_board,kitchen tool,camper,vehicle,cross_subtype
+cymbal,musical instrument,saxophone,musical instrument,within_subtype
+dagger,weapon,can,container,cross_subtype
+daisy,plant,palm_tree,plant,within_subtype
+dalmatian,animal,can_opener,"kitchen tool, tool",cross_subtype
+dandelion,plant,fern,plant,within_subtype
+dart,"weapon, sports equipment",candelabra,home decor,cross_subtype
+dartboard,sports equipment,tennis_ball,sports equipment,within_subtype
+dashboard,part of car,candle,home decor,cross_subtype
+deer,animal,goldfish,animal,within_subtype
+defibrillator,"electronic device, medical equipment",candlestick,home decor,cross_subtype
+denture,Noun,urinal,Noun,within_subtype
+deodorant,Noun,candy,food,cross_subtype
+desk,furniture,table,furniture,within_subtype
+dessert,"food, dessert",candy_bar,food,cross_subtype
+detonator,Noun,duct,Noun,within_subtype
+dial,Verb,candy_cane,food,cross_subtype
+diamond,decoration,jewel,decoration,within_subtype
+diaper,clothing,cane,medical equipment,cross_subtype
+dice,Noun,lamppost,Noun,within_subtype
+dip,food,canister,container,cross_subtype
+dirt_bike,vehicle,rocket,vehicle,within_subtype
+dish,container,cannon,weapon,cross_subtype
+dishrag,Noun,pallet,Noun,within_subtype
+dishwasher,"electronic device, kitchen appliance",cannonball,weapon,cross_subtype
+dishwashing_liquid,#N/A,wrapping_paper,#N/A,within_subtype
+diskette,Noun,canoe,vehicle,cross_subtype
+diving_board,#N/A,gas_mask,#N/A,within_subtype
+dog,animal,cantaloupe,"food, fruit",cross_subtype
+dogfood,food,gumdrop,food,within_subtype
+doghouse,container,canvas,Noun,cross_subtype
+doily,home decor,wreath,home decor,within_subtype
+doll,toy,cap,Noun,cross_subtype
+dollhouse,toy,train_set,toy,within_subtype
+dolly,Name,cape,clothing,cross_subtype
+dolphin,animal,camel,animal,within_subtype
+domino,Noun,car,vehicle,cross_subtype
+donkey,animal,turtle,animal,within_subtype
+donut,"food, dessert",car_door,part of car,cross_subtype
+door,Noun,furnace,Noun,within_subtype
+doorbell,Noun,car_seat,part of car,cross_subtype
+doorhandle,#N/A,fencepost,#N/A,within_subtype
+doorknob,Noun,caramel,"food, dessert",cross_subtype
+doorknocker,home decor,tapestry,home decor,within_subtype
+doormat,Noun,cardboard,Adjective,cross_subtype
+doorstop,Noun,mullet,Noun,within_subtype
+dough,food,cardigan,clothing,cross_subtype
+dragonfly,"animal, insect",mosquito,"animal, insect",within_subtype
+drain,Noun,cardinal,"animal, bird",cross_subtype
+drawer,container,container,container,within_subtype
+dreidel,toy,carousel,Noun,cross_subtype
+dress,clothing,cape,clothing,within_subtype
+dresser,"furniture, container",carriage,vehicle,cross_subtype
+drill,"electronic device, tool",vacuum,"electronic device, tool",within_subtype
+drink,drink,carrot,"food, vegetable",cross_subtype
+drum,musical instrument,saxophone,musical instrument,within_subtype
+drumstick,Noun,cart,vehicle,cross_subtype
+dryer,electronic device,printer,electronic device,within_subtype
+duck,"animal, bird",cash_machine,electronic device,cross_subtype
+duckling,"animal, bird",owl,"animal, bird",within_subtype
+duct,Noun,cash_register,container,cross_subtype
+duct_tape,#N/A,fencepost,#N/A,within_subtype
+duffel_bag,container,cashew,food,cross_subtype
+dumbbell,sports equipment,snowboard,sports equipment,within_subtype
+dumbwaiter,Noun,casserole,food,cross_subtype
+dumpling,food,coffee_bean,food,within_subtype
+dumpster,container,cat,animal,cross_subtype
+duster,tool,lighter,tool,within_subtype
+dustpan,"container, tool",catapult,weapon,cross_subtype
+dynamite,weapon,bow2,weapon,within_subtype
+eagle,"animal, bird",caterpillar,"animal, insect",cross_subtype
+ear,body part,calf2,body part,within_subtype
+earplug,Noun,catfish,"animal, food",cross_subtype
+earring,clothing accessory,bracelet2,clothing accessory,within_subtype
+earwig,"animal, insect",cauliflower,"food, vegetable",cross_subtype
+easel,Noun,silverware,Noun,within_subtype
+easter_egg,food,cd_player,electronic device,cross_subtype
+eclair,"food, dessert",cake_mix,"food, dessert",within_subtype
+eel,"animal, food",celery,"food, vegetable",cross_subtype
+egg,food,peanut_butter,food,within_subtype
+egg_roll,food,cello,musical instrument,cross_subtype
+eggbeater,"kitchen tool, tool",grinder,"kitchen tool, tool",within_subtype
+eggnog,drink,cellphone,electronic device,cross_subtype
+eggplant,"food, vegetable",vegetable,"food, vegetable",within_subtype
+eggshell,Noun,cement_mixer,#N/A,cross_subtype
+elbow,body part,tongue,body part,within_subtype
+electric_chair,electronic device,centerpiece,home decor,cross_subtype
+elephant,animal,pony,animal,within_subtype
+emerald,Noun,centrifuge,electronic device,cross_subtype
+enchilada,food,kebab,food,within_subtype
+engine,part of car,cereal,food,cross_subtype
+envelope,office supply,paperweight,office supply,within_subtype
+eraser,office supply,chain,tool,cross_subtype
+espresso,drink,beer,drink,within_subtype
+exerciser,sports equipment,chainsaw,"electronic device, weapon, tool",cross_subtype
+exhaust_pipe,part of car,taillight,part of car,within_subtype
+extinguisher,Noun,chair,furniture,cross_subtype
+eye,body part,shoulder,body part,within_subtype
+eye_patch,"medical equipment, clothing, clothing accessory",chalice,container,cross_subtype
+eyedropper,medical equipment,hearing_aid,medical equipment,within_subtype
+eyeliner,Noun,champagne,drink,cross_subtype
+eyepiece,Noun,barrette,Noun,within_subtype
+face,body part,chandelier,home decor,cross_subtype
+face_mask,sports equipment,puck,sports equipment,within_subtype
+fan,electronic device,chaps,clothing,cross_subtype
+fast_food,food,stew,food,within_subtype
+faucet,Noun,chariot,vehicle,cross_subtype
+feather,Noun,lava,Noun,within_subtype
+fence,Noun,cheese,"food, dessert",cross_subtype
+fencepost,#N/A,shaving_cream,#N/A,within_subtype
+fern,plant,cheeseburger,food,cross_subtype
+ferret,animal,dog,animal,within_subtype
+ferris_wheel,#N/A,cheesecake,"food, dessert",cross_subtype
+ferry,vehicle,submarine,vehicle,within_subtype
+fig,"food, fruit",cheetah,animal,cross_subtype
+figurine,home decor,wallpaper,home decor,within_subtype
+file1,tool,cherry,"food, fruit",cross_subtype
+file2,office supply,paper,office supply,within_subtype
+filing_cabinet,"furniture, container",chess_piece,#N/A,cross_subtype
+film,Noun,eggshell,Noun,within_subtype
+filter,part of car,chessboard,Noun,cross_subtype
+finger,body part,nose,body part,within_subtype
+fingerprint,Noun,chest1,body part,cross_subtype
+fire,Noun,antenna,Noun,within_subtype
+fire_alarm,#N/A,chest2,"furniture, container",cross_subtype
+fire_hydrant,#N/A,napkin_ring,#N/A,within_subtype
+fire_pit,#N/A,chick,"animal, bird",cross_subtype
+firecracker,Noun,tag,Noun,within_subtype
+fireplace,home decor,chicken1,food,cross_subtype
+firetruck,vehicle,truck,vehicle,within_subtype
+firewood,Noun,chicken2,animal,cross_subtype
+fireworks,Noun,toilet,Noun,within_subtype
+first-aid_kit,medical equipment,chicken_wire,#N/A,cross_subtype
+fish,"animal, food",clam,"animal, food",within_subtype
+fishbowl,container,chickpea,"food, vegetable",cross_subtype
+fishhook,Noun,silicone,Noun,within_subtype
+fishing_pole,#N/A,chihuahua,animal,cross_subtype
+fishnet_stockings,clothing,tube_top,clothing,within_subtype
+flag,decoration,chili,food,cross_subtype
+flagpole,Noun,shower,Noun,within_subtype
+flamethrower,weapon,chime,musical instrument,cross_subtype
+flamingo,"animal, bird",cardinal,"animal, bird",within_subtype
+flan,"food, dessert",chimney,Noun,cross_subtype
+flashbulb,Noun,sand,Noun,within_subtype
+flashlight,Noun,chin,body part,cross_subtype
+flask,container,wheelbarrow,container,within_subtype
+flatiron,Noun,chinchilla,animal,cross_subtype
+flip_flop,clothing,clothes,clothing,within_subtype
+flipper,sports equipment,chip,Noun,cross_subtype
+float,Verb,paint,Verb,within_subtype
+floss,Verb,chipmunk,animal,cross_subtype
+flour,food,salami,food,within_subtype
+flower,plant,chips,food,cross_subtype
+flute,musical instrument,chime,musical instrument,within_subtype
+fly,"animal, insect",chisel,tool,cross_subtype
+flypaper,Noun,bathmat,Noun,within_subtype
+flyswatter,tool,chive,"plant, food, vegetable",cross_subtype
+foam,Noun,awning,Noun,within_subtype
+folder,office supply,chocolate,"food, dessert",cross_subtype
+fondue,food,spring_roll,food,within_subtype
+food_processor,"electronic device, kitchen appliance",chopsticks,tool,cross_subtype
+foot,body part,skeleton,body part,within_subtype
+football,sports equipment,christmas_card,#N/A,cross_subtype
+football_helmet,sports equipment,face_mask,sports equipment,within_subtype
+footbath,container,christmas_tree,home decor,cross_subtype
+footprint,Noun,knot,Noun,within_subtype
+footrest,furniture,chute,Noun,cross_subtype
+fork,tool,polisher,tool,within_subtype
+forklift,vehicle,cigar,Noun,cross_subtype
+fossil,Noun,trophy,Noun,within_subtype
+fountain_pen,"office supply, tool",cigarette,Noun,cross_subtype
+fox,animal,toad,animal,within_subtype
+frame,home decor,cigarette_butt,#N/A,cross_subtype
+freezer,"electronic device, kitchen appliance",toaster,"electronic device, kitchen appliance",within_subtype
+french_fries,food,cigarette_holder,#N/A,cross_subtype
+french_horn,musical instrument,horn,musical instrument,within_subtype
+frisbee,"toy, sports equipment",cilantro,"plant, food, vegetable",cross_subtype
+frog,animal,mouse1,animal,within_subtype
+fruit,"food, fruit",cinnamon,food,cross_subtype
+fruitcake,"food, dessert",ice_cream,"food, dessert",within_subtype
+fudge,"food, dessert",clam,"animal, food",cross_subtype
+fungus,Noun,chalk,Noun,within_subtype
+funnel,"kitchen tool, tool",clarinet,musical instrument,cross_subtype
+fur_coat,clothing,bikini,clothing,within_subtype
+furnace,Noun,cleat,sports equipment,cross_subtype
+fuse,Noun,windowsill,Noun,within_subtype
+gallows,Noun,cleaver,"weapon, kitchen tool, tool",cross_subtype
+game,Noun,flashlight,Noun,within_subtype
+garbage,container,clipboard,office supply,cross_subtype
+garbage_truck,vehicle,hot-air_balloon,vehicle,within_subtype
+gargoyle,decoration,clipper1,tool,cross_subtype
+garlic,"food, vegetable",pepper2,"food, vegetable",within_subtype
+garter,clothing,clipper2,tool,cross_subtype
+gas_mask,#N/A,tree_trunk,#N/A,within_subtype
+gasket,part of car,cloak,clothing,cross_subtype
+gate,Noun,hairpin,Noun,within_subtype
+gauge,Noun,closet,"furniture, container",cross_subtype
+gauze,medical equipment,sling,medical equipment,within_subtype
+gavel,tool,clothes,clothing,cross_subtype
+gazelle,animal,jellyfish,animal,within_subtype
+gear,Noun,clove,food,cross_subtype
+gearshift,part of car,odometer,part of car,within_subtype
+gel,Noun,clover,plant,cross_subtype
+gem,Noun,mantle,Noun,within_subtype
+generator,electronic device,coal,Noun,cross_subtype
+gift,Noun,trapdoor,Noun,within_subtype
+ginger,food,coaster,home decor,cross_subtype
+gingerbread_man,food,honey,food,within_subtype
+giraffe,animal,coat,clothing,cross_subtype
+girl,Noun,guillotine,Noun,within_subtype
+glass,container,coat_rack,furniture,cross_subtype
+glasses,clothing accessory,buckle,clothing accessory,within_subtype
+globe,home decor,cobra,animal,cross_subtype
+glove,"clothing, clothing accessory",visor,"clothing, clothing accessory",within_subtype
+glue,office supply,cockatoo,"animal, bird",cross_subtype
+go-kart,vehicle,train_car,vehicle,within_subtype
+goalpost,sports equipment,cockroach,"animal, insect",cross_subtype
+goat,"animal, food",sardine,"animal, food",within_subtype
+goblet,container,cocktail,drink,cross_subtype
+goggles,sports equipment,helmet,sports equipment,within_subtype
+gold,Noun,coconut,"food, fruit",cross_subtype
+goldfish,animal,kitten,animal,within_subtype
+golf_cart,vehicle,cocoon,Noun,cross_subtype
+golf_club,sports equipment,balance_beam,sports equipment,within_subtype
+gondola,vehicle,coffee,drink,cross_subtype
+gong,musical instrument,tuba,musical instrument,within_subtype
+goose,"animal, bird, food",coffee_bean,food,cross_subtype
+gopher,animal,sloth,animal,within_subtype
+gorilla,"animal, food",coffee_filter,#N/A,cross_subtype
+gourd,"home decor, vegetable",coffee_pot,container,within_subtype
+graffiti,decoration,coffee_table,furniture,cross_subtype
+grain,food,wrap,food,within_subtype
+gramophone,Noun,coffeemaker,"electronic device, kitchen appliance",cross_subtype
+granite,Noun,woman,Noun,within_subtype
+granola,food,coffin,container,cross_subtype
+grape,"food, fruit",plum,"food, fruit",within_subtype
+grapefruit,"food, fruit",coil,tool,cross_subtype
+grapevine,plant,hedge,plant,within_subtype
+grass,plant,coin,Noun,cross_subtype
+grasshopper,"animal, insect",lightning_bug,"animal, insect",within_subtype
+grate,Noun,coleslaw,food,cross_subtype
+grater,"kitchen tool, tool",can_opener,"kitchen tool, tool",within_subtype
+gravel,Noun,comb,Verb,cross_subtype
+gravestone,Noun,cigar,Noun,within_subtype
+gravy,food,combination_lock,#N/A,cross_subtype
+green_beans,"food, vegetable",sprouts,"food, vegetable",within_subtype
+grenade,weapon,comic_book,#N/A,cross_subtype
+grill,Noun,firecracker,Noun,within_subtype
+grille,part of car,compass,Noun,cross_subtype
+grinder,"kitchen tool, tool",can_opener,"kitchen tool, tool",within_subtype
+grits,food,compost,Noun,cross_subtype
+groundhog,animal,hyena,animal,within_subtype
+guacamole,food,computer,electronic device,cross_subtype
+guardrail,Noun,thermometer,Noun,within_subtype
+guillotine,Noun,computer_screen,electronic device,cross_subtype
+guinea_pig,animal,maggot,animal,within_subtype
+guitar,musical instrument,confetti,Noun,cross_subtype
+gum,food,casserole,food,within_subtype
+gumball,food,contact_lens,#N/A,cross_subtype
+gumdrop,food,bean,food,within_subtype
+gun,weapon,container,container,cross_subtype
+gurney,medical equipment,swab,medical equipment,within_subtype
+gutter,Noun,cooker,"electronic device, container, kitchen appliance",cross_subtype
+gyro,food,cream_cheese,food,within_subtype
+gyroscope,toy,cookie,"food, dessert",cross_subtype
+hail,Verb,tackle,Verb,within_subtype
+hair,body part,cookie_cutter,kitchen utensil,cross_subtype
+hairbrush,Noun,gallows,Noun,within_subtype
+hairdryer,electronic device,cookie_sheet,kitchen utensil,cross_subtype
+hairnet,Noun,flagpole,Noun,within_subtype
+hairpin,Noun,coop,container,cross_subtype
+hairspray,Noun,scaffold,Noun,within_subtype
+ham,food,copier,electronic device,cross_subtype
+hamburger,food,jelly_bean,food,within_subtype
+hammer,"weapon, tool",coral,animal,cross_subtype
+hammock,furniture,cot,furniture,within_subtype
+hamster,animal,cord,Noun,cross_subtype
+hand,body part,eye,body part,within_subtype
+handbrake,part of car,cordon_bleu,food,cross_subtype
+handcuff,Verb,tackle,Verb,within_subtype
+handkerchief,clothing accessory,cork,Noun,cross_subtype
+handle,Verb,lock,Verb,within_subtype
+handlebar,Noun,corkboard,office supply,cross_subtype
+handprint,Noun,dice,Noun,within_subtype
+hanger,Noun,corkscrew,"kitchen tool, tool",cross_subtype
+hard_disk,#N/A,road_sign,#N/A,within_subtype
+harmonica,musical instrument,corn,"plant, food, vegetable",cross_subtype
+harness,Noun,doorbell,Noun,within_subtype
+harp,musical instrument,cornbread,food,cross_subtype
+hash,food,licorice,food,within_subtype
+hat,"clothing, clothing accessory",cornhusk,#N/A,cross_subtype
+hatbox,container,oilcan,container,within_subtype
+hatchet,tool,cornmeal,food,cross_subtype
+hawk,"animal, bird",swan,"animal, bird",within_subtype
+hay,food,cornucopia,home decor,cross_subtype
+headband,"clothing, clothing accessory",bowtie,"clothing, clothing accessory",within_subtype
+headdress,"clothing, clothing accessory",corsage,clothing accessory,cross_subtype
+headlamp,#N/A,wooden_leg,#N/A,within_subtype
+headlight,part of car,corset,clothing,cross_subtype
+headphones,Noun,turf,Noun,within_subtype
+headrest,part of car,costume,clothing,cross_subtype
+headscarf,clothing,bra,clothing,within_subtype
+headset,Noun,cot,furniture,cross_subtype
+hearing_aid,medical equipment,ice_pack,medical equipment,within_subtype
+hearse,vehicle,cotton_candy,food,cross_subtype
+heater,Noun,hinge,Noun,within_subtype
+hedge,plant,couch,furniture,cross_subtype
+hedgehog,animal,koala,animal,within_subtype
+helicopter,vehicle,cougar,animal,cross_subtype
+helmet,sports equipment,flipper,sports equipment,within_subtype
+highchair,furniture,coverall,clothing,cross_subtype
+highlighter,office supply,corkboard,office supply,within_subtype
+hinge,Noun,cow,animal,cross_subtype
+hip,body part,leg,body part,within_subtype
+hippopotamus,animal,crab,"animal, food",cross_subtype
+hobbyhorse,toy,kaleidoscope,toy,within_subtype
+hockey_stick,sports equipment,cracker,food,cross_subtype
+hoe,tool,plunger,tool,within_subtype
+hole,Noun,cranberry,"food, fruit",cross_subtype
+holster,Noun,guardrail,Noun,within_subtype
+home_plate,sports equipment,crane,Name,cross_subtype
+honey,food,stuffing,food,within_subtype
+honeycomb,Noun,crank,tool,cross_subtype
+honeypot,container,keg,container,within_subtype
+hood,clothing,crate,container,cross_subtype
+hoodie,clothing,shirt,clothing,within_subtype
+hook1,Noun,crayfish,"animal, food",cross_subtype
+hook2,tool,clipper2,tool,within_subtype
+hookah,Noun,crayon,toy,cross_subtype
+hopscotch,Noun,pothole,Noun,within_subtype
+horn,musical instrument,cream,Noun,cross_subtype
+horse,animal,spider,animal,within_subtype
+horseshoe,Noun,cream_cheese,food,cross_subtype
+hose,tool,rope,tool,within_subtype
+hot-air_balloon,vehicle,credit_card,#N/A,cross_subtype
+hot-water_bottle,container,pan,container,within_subtype
+hot_chocolate,drink,creme_brulee,"food, dessert",cross_subtype
+hot_tub,container,locket,container,within_subtype
+hotdog,food,crepe,"food, dessert",cross_subtype
+hotplate,"electronic device, kitchen appliance",mixer,"electronic device, kitchen appliance",within_subtype
+hourglass,home decor,crib,furniture,cross_subtype
+hovercraft,vehicle,dirt_bike,vehicle,within_subtype
+hubcap,part of car,croissant,food,cross_subtype
+hula_hoop,toy,kite,toy,within_subtype
+hummingbird,"animal, bird",cross,Verb,cross_subtype
+hummus,food,coleslaw,food,within_subtype
+humvee,vehicle,crossbow,weapon,cross_subtype
+hydrant,Noun,crystal2,Noun,within_subtype
+hyena,animal,crouton,food,cross_subtype
+ice,"food, dessert",creme_brulee,"food, dessert",within_subtype
+ice-cream_cone,"food, dessert",crow,"animal, bird",cross_subtype
+ice_cream,"food, dessert",brownie,"food, dessert",within_subtype
+ice_cube,"food, dessert",crowbar,"weapon, tool",cross_subtype
+ice_pack,medical equipment,walker1,medical equipment,within_subtype
+icemaker,"electronic device, kitchen appliance",crown,clothing,cross_subtype
+icepick,"weapon, kitchen tool, tool",knife,"weapon, kitchen tool, tool",within_subtype
+iceskate,sports equipment,crucifix,decoration,cross_subtype
+icicle,Noun,noose,Noun,within_subtype
+iguana,animal,cruise_ship,vehicle,cross_subtype
+incense,Noun,gramophone,Noun,within_subtype
+incubator,electronic device,crumb,food,cross_subtype
+inhaler,medical equipment,first-aid_kit,medical equipment,within_subtype
+ink,office supply,crutch,medical equipment,cross_subtype
+inkwell,container,wallet,container,within_subtype
+insole,clothing accessory,crystal1,Noun,cross_subtype
+iron,electronic device,router,electronic device,within_subtype
+ironing_board,#N/A,crystal2,Noun,cross_subtype
+ivy,plant,aloe,plant,within_subtype
+jack,tool,crystal_ball,home decor,cross_subtype
+jacket,clothing,blazer,clothing,within_subtype
+jackhammer,"electronic device, tool",cuckoo_clock,home decor,cross_subtype
+jalapeno,"food, vegetable",beet,"food, vegetable",within_subtype
+jam,food,cucumber,"food, vegetable",cross_subtype
+jar,container,piggy_bank,container,within_subtype
+javelin,sports equipment,cufflink,clothing accessory,cross_subtype
+jeans,clothing,leotard,clothing,within_subtype
+jeep,vehicle,cummerbund,"clothing, clothing accessory",cross_subtype
+jelly_bean,food,cotton_candy,food,within_subtype
+jellyfish,animal,cup,container,cross_subtype
+jersey,clothing,pantsuit,clothing,within_subtype
+jet,vehicle,cupcake,"food, dessert",cross_subtype
+jetski,vehicle,speedboat,vehicle,within_subtype
+jewel,decoration,curb,Noun,cross_subtype
+jewelry,decoration,ring,decoration,within_subtype
+jigsaw_puzzle,#N/A,curling_iron,"electronic device, tool",cross_subtype
+joystick,electronic device,router,electronic device,within_subtype
+jug,container,curry,food,cross_subtype
+juice,drink,coffee,drink,within_subtype
+juicer1,kitchen tool,curtain,home decor,cross_subtype
+juicer2,"electronic device, kitchen appliance",microwave,"electronic device, kitchen appliance",within_subtype
+jukebox,electronic device,cushion,Noun,cross_subtype
+jump_rope,sports equipment,baton4,sports equipment,within_subtype
+jumpsuit,clothing,cutting_board,kitchen tool,cross_subtype
+kale,"plant, food, vegetable",asparagus,"plant, food, vegetable",within_subtype
+kaleidoscope,toy,cymbal,musical instrument,cross_subtype
+kangaroo,animal,warthog,animal,within_subtype
+kayak,vehicle,dagger,weapon,cross_subtype
+kazoo,musical instrument,harp,musical instrument,within_subtype
+kebab,food,daisy,plant,cross_subtype
+keg,container,bank,container,within_subtype
+ketchup,food,dalmatian,animal,cross_subtype
+kettle,"container, kitchen tool",measuring_cup,"container, kitchen tool",within_subtype
+key,Noun,dandelion,plant,cross_subtype
+keyboard,musical instrument,bassoon,musical instrument,within_subtype
+keyhole,Noun,dart,"weapon, sports equipment",cross_subtype
+kilt,clothing,beanie,clothing,within_subtype
+kimono,clothing,dartboard,sports equipment,cross_subtype
+kite,toy,dollhouse,toy,within_subtype
+kitten,animal,dashboard,part of car,cross_subtype
+kiwi,"food, fruit",apple,"food, fruit",within_subtype
+knee,body part,deer,animal,cross_subtype
+kneepad,sports equipment,ski,sports equipment,within_subtype
+knife,"weapon, kitchen tool, tool",defibrillator,"electronic device, medical equipment",cross_subtype
+knitting,Noun,hookah,Noun,within_subtype
+knitting_needle,#N/A,denture,Noun,cross_subtype
+knob,Noun,beehive,Noun,within_subtype
+knot,Noun,desk,furniture,cross_subtype
+koala,animal,rattlesnake,animal,within_subtype
+lab_coat,clothing,dessert,"food, dessert",cross_subtype
+ladder,tool,hose,tool,within_subtype
+ladle,"kitchen tool, tool",detonator,Noun,cross_subtype
+ladybug,"animal, insect",dragonfly,"animal, insect",within_subtype
+lamb,"animal, food",dial,Verb,cross_subtype
+lamb_chop,food,string_cheese,food,within_subtype
+lamp,"electronic device, home decor",diamond,decoration,cross_subtype
+lamppost,Noun,deodorant,Noun,within_subtype
+lampshade,home decor,diaper,clothing,cross_subtype
+landmine,weapon,dynamite,weapon,within_subtype
+lantern,Noun,dip,food,cross_subtype
+lanyard,clothing accessory,earring,clothing accessory,within_subtype
+laptop,electronic device,dirt_bike,vehicle,cross_subtype
+lasagna,food,syrup,food,within_subtype
+laser_pointer,#N/A,dish,container,cross_subtype
+latch,Noun,anchor,Noun,within_subtype
+latte,drink,dishrag,Noun,cross_subtype
+laundry_basket,container,fishbowl,container,within_subtype
+lava,Noun,dishwasher,"electronic device, kitchen appliance",cross_subtype
+lavender,plant,dandelion,plant,within_subtype
+lawnmower,tool,dishwashing_liquid,#N/A,cross_subtype
+leaf,Noun,mannequin,Noun,within_subtype
+leash,Noun,diving_board,#N/A,cross_subtype
+lectern,furniture,step_stool,furniture,within_subtype
+leech,animal,dogfood,food,cross_subtype
+leek,"plant, food, vegetable",bok_choy,"plant, food, vegetable",within_subtype
+leg,body part,doghouse,container,cross_subtype
+leggings,clothing,jeans,clothing,within_subtype
+lego,toy,doily,home decor,cross_subtype
+lemon,"food, fruit",fig,"food, fruit",within_subtype
+lemonade,drink,doll,toy,cross_subtype
+lens,Noun,key,Noun,within_subtype
+leopard,animal,dollhouse,toy,cross_subtype
+leotard,clothing,leggings,clothing,within_subtype
+letter_opener,tool,dolly,Name,cross_subtype
+lettuce,"plant, food, vegetable",broccoli,"plant, food, vegetable",within_subtype
+license_plate,part of car,dolphin,animal,cross_subtype
+licorice,food,soy_sauce,food,within_subtype
+lid,Noun,donkey,animal,cross_subtype
+life_jacket,clothing,swimsuit,clothing,within_subtype
+lifesaver,Noun,donut,"food, dessert",cross_subtype
+light_switch,#N/A,memory_stick,#N/A,within_subtype
+lightbulb,Noun,doorhandle,#N/A,cross_subtype
+lighter,tool,shovel,tool,within_subtype
+lightning_bug,"animal, insect",doorknob,Noun,cross_subtype
+lime,"food, fruit",pear,"food, fruit",within_subtype
+limousine,vehicle,doorknocker,home decor,cross_subtype
+lingerie,clothing,shoe,clothing,within_subtype
+lion,animal,doormat,Noun,cross_subtype
+lip_balm,#N/A,fire_hydrant,#N/A,within_subtype
+lip_gloss,#N/A,doorstop,Noun,cross_subtype
+lipstick,Noun,hydrant,Noun,within_subtype
+lizard,animal,dough,food,cross_subtype
+llama,animal,giraffe,animal,within_subtype
+lobster,"animal, food",dragonfly,"animal, insect",cross_subtype
+lock,Verb,sail,Verb,within_subtype
+locker,container,drain,Noun,cross_subtype
+locket,container,matchbox,container,within_subtype
+log,Noun,drawer,container,cross_subtype
+loincloth,clothing,shoe,clothing,within_subtype
+lollipop,food,dreidel,toy,cross_subtype
+loom,Noun,mousetrap,Noun,within_subtype
+loveseat,furniture,dress,clothing,cross_subtype
+luggage,container,breadbox,container,within_subtype
+lumber,Noun,dresser,"furniture, container",cross_subtype
+lunchbox,container,saltshaker,container,within_subtype
+macadamia,food,drill,"electronic device, tool",cross_subtype
+macaroni,food,candy,food,within_subtype
+machete,weapon,drink,drink,cross_subtype
+machine_gun,weapon,spear,weapon,within_subtype
+maggot,animal,drum,musical instrument,cross_subtype
+magnet,tool,shoehorn,tool,within_subtype
+magnifier,tool,drumstick,Noun,cross_subtype
+magnifying_glass,tool,shears,tool,within_subtype
+mail,Noun,dryer,electronic device,cross_subtype
+mailbox,container,bowl,container,within_subtype
+makeup,Noun,duck,"animal, bird",cross_subtype
+mallet,tool,brush,tool,within_subtype
+man,Noun,duckling,"animal, bird",cross_subtype
+manatee,animal,reindeer,animal,within_subtype
+mandolin,musical instrument,duct,Noun,cross_subtype
+mango,"food, fruit",coconut,"food, fruit",within_subtype
+manhole,Noun,duct_tape,#N/A,cross_subtype
+mannequin,Noun,domino,Noun,within_subtype
+mantle,Noun,duffel_bag,container,cross_subtype
+map,Noun,wand,Noun,within_subtype
+maple_syrup,food,dumbbell,sports equipment,cross_subtype
+marble,toy,doll,toy,within_subtype
+margarita,drink,dumbwaiter,Noun,cross_subtype
+marijuana,plant,grass,plant,within_subtype
+marker,tool,dumpling,food,cross_subtype
+marmalade,food,crumb,food,within_subtype
+marshmallow,food,dumpster,container,cross_subtype
+mascara,Noun,tarp,Noun,within_subtype
+mashed_potato,food,duster,tool,cross_subtype
+mask,clothing,garter,clothing,within_subtype
+mast,Noun,dustpan,"container, tool",cross_subtype
+mat,Noun,badge,Noun,within_subtype
+match,tool,dynamite,weapon,cross_subtype
+matchbox,container,jug,container,within_subtype
+mattress,furniture,eagle,"animal, bird",cross_subtype
+measuring_cup,"container, kitchen tool",kettle,"container, kitchen tool",within_subtype
+meat,food,ear,body part,cross_subtype
+meat_grinder,#N/A,roulette_wheel,#N/A,within_subtype
+meatball,food,earplug,Noun,cross_subtype
+meatloaf,food,spareribs,food,within_subtype
+medal,Noun,earring,clothing accessory,cross_subtype
+meerkat,animal,snail,animal,within_subtype
+megaphone,Noun,earwig,"animal, insect",cross_subtype
+melon,"food, fruit",raspberry,"food, fruit",within_subtype
+memory_stick,#N/A,easel,Noun,cross_subtype
+metal_detector,"electronic device, tool",vacuum,"electronic device, tool",within_subtype
+metronome,Noun,easter_egg,food,cross_subtype
+microphone,electronic device,incubator,electronic device,within_subtype
+microscope,Noun,eclair,"food, dessert",cross_subtype
+microwave,"electronic device, kitchen appliance",dishwasher,"electronic device, kitchen appliance",within_subtype
+milk,drink,eel,"animal, food",cross_subtype
+milkshake,"drink, dessert",egg,food,within_subtype
+minivan,vehicle,egg_roll,food,cross_subtype
+mint,"plant, food",seaweed,"plant, food",within_subtype
+mirror,home decor,eggbeater,"kitchen tool, tool",cross_subtype
+missile,weapon,blowgun,weapon,within_subtype
+mistletoe,Noun,eggnog,drink,cross_subtype
+mitten,"clothing, clothing accessory",muff,"clothing, clothing accessory",within_subtype
+mixer,"electronic device, kitchen appliance",eggplant,"food, vegetable",cross_subtype
+moccasin,clothing,jersey,clothing,within_subtype
+modem,electronic device,eggshell,Noun,cross_subtype
+mold1,container,wine_cooler,container,within_subtype
+mold2,Noun,elbow,body part,cross_subtype
+mole,animal,elephant,animal,within_subtype
+money,Noun,electric_chair,electronic device,cross_subtype
+mongoose,animal,chipmunk,animal,within_subtype
+monkey,animal,emerald,Noun,cross_subtype
+moose,animal,fox,animal,within_subtype
+mop,tool,enchilada,food,cross_subtype
+mosquito,"animal, insect",praying_mantis,"animal, insect",within_subtype
+mosquito_net,#N/A,engine,part of car,cross_subtype
+moss,plant,tree,plant,within_subtype
+moth,"animal, insect",envelope,office supply,cross_subtype
+motherboard,Noun,handprint,Noun,within_subtype
+motorcycle,vehicle,eraser,office supply,cross_subtype
+mouse1,animal,seahorse,animal,within_subtype
+mouse2,electronic device,espresso,drink,cross_subtype
+mousepad,#N/A,ticktacktoe,#N/A,within_subtype
+mousetrap,Noun,exerciser,sports equipment,cross_subtype
+mousse,"food, dessert",dessert,"food, dessert",within_subtype
+mouth,body part,exhaust_pipe,part of car,cross_subtype
+mouthpiece,sports equipment,saddle,sports equipment,within_subtype
+mud,Noun,eye,body part,cross_subtype
+muff,"clothing, clothing accessory",top_hat,"clothing, clothing accessory",within_subtype
+muffin,"food, dessert",eye_patch,"medical equipment, clothing, clothing accessory",cross_subtype
+mug,container,thimble,container,within_subtype
+mulberry,"food, fruit",eyedropper,medical equipment,cross_subtype
+mulch,Noun,telegraph,Noun,within_subtype
+mullet,Noun,face,body part,cross_subtype
+mushroom,food,peanut,food,within_subtype
+music_box,"electronic device, toy",face_mask,sports equipment,cross_subtype
+mussel,"animal, food",crayfish,"animal, food",within_subtype
+mustache,body part,fan,electronic device,cross_subtype
+mustard,food,yolk,food,within_subtype
+nacho,food,faucet,Noun,cross_subtype
+nail,Verb,cross,Verb,within_subtype
+nail_clippers,tool,feather,Noun,cross_subtype
+nail_file,tool,fork,tool,within_subtype
+nail_polish,#N/A,fence,Noun,cross_subtype
+napkin,Noun,game,Noun,within_subtype
+napkin_ring,#N/A,fern,plant,cross_subtype
+navel,body part,mouth,body part,within_subtype
+neck,body part,ferret,animal,cross_subtype
+necklace,decoration,pearl,decoration,within_subtype
+needle,tool,ferris_wheel,#N/A,cross_subtype
+nest,Noun,motherboard,Noun,within_subtype
+net,Noun,ferry,vehicle,cross_subtype
+nightshirt,clothing,cloak,clothing,within_subtype
+nightstand,"furniture, container",fig,"food, fruit",cross_subtype
+noisemaker,toy,marble,toy,within_subtype
+noodle,food,figurine,home decor,cross_subtype
+noose,Noun,canvas,Noun,within_subtype
+nose,body part,file1,tool,cross_subtype
+notebook,office supply,glue,office supply,within_subtype
+notepad,office supply,filing_cabinet,"furniture, container",cross_subtype
+nut,food,sauce,food,within_subtype
+nutcracker,"kitchen tool, tool",film,Noun,cross_subtype
+oar,sports equipment,hockey_stick,sports equipment,within_subtype
+oatmeal,food,filter,part of car,cross_subtype
+octopus,"animal, food",eel,"animal, food",within_subtype
+odometer,part of car,finger,body part,cross_subtype
+oil,Noun,flypaper,Noun,within_subtype
+oilcan,container,fingerprint,Noun,cross_subtype
+okra,"food, vegetable",brussels_sprouts,"food, vegetable",within_subtype
+olive,food,fire,Noun,cross_subtype
+omelet,food,gum,food,within_subtype
+onion,"food, vegetable",fire_alarm,#N/A,cross_subtype
+orange,"food, fruit",mulberry,"food, fruit",within_subtype
+orange_rind,#N/A,firecracker,Noun,cross_subtype
+orangutan,animal,alpaca,animal,within_subtype
+orchid,plant,fireplace,home decor,cross_subtype
+organ,musical instrument,gong,musical instrument,within_subtype
+origami,Noun,firetruck,vehicle,cross_subtype
+ostrich,"animal, bird",puffin,"animal, bird",within_subtype
+otter,animal,firewood,Noun,cross_subtype
+ottoman,furniture,coat_rack,furniture,within_subtype
+outfit,clothing,fireworks,Noun,cross_subtype
+outlet,Noun,siren,Noun,within_subtype
+oven,kitchen appliance,first-aid_kit,medical equipment,cross_subtype
+overalls,clothing,suit,clothing,within_subtype
+owl,"animal, bird",fish,"animal, food",cross_subtype
+oyster,"animal, food",lamb,"animal, food",within_subtype
+pacifier,Noun,fishbowl,container,cross_subtype
+paddle,sports equipment,tee,sports equipment,within_subtype
+padlock,Noun,fishing_pole,#N/A,cross_subtype
+paint,Verb,switch,Verb,within_subtype
+paintbrush,tool,fishnet_stockings,clothing,cross_subtype
+painting,Noun,checkbook,Noun,within_subtype
+pajamas,clothing,flag,decoration,cross_subtype
+palette,Noun,buoy,Noun,within_subtype
+pallet,Noun,flamethrower,weapon,cross_subtype
+palm_tree,plant,bamboo,plant,within_subtype
+pan,container,flamingo,"animal, bird",cross_subtype
+pancake,food,pasta,food,within_subtype
+panda,animal,flan,"food, dessert",cross_subtype
+panther,animal,leopard,animal,within_subtype
+panties,clothing,flashbulb,Noun,cross_subtype
+pants,clothing,vest,clothing,within_subtype
+pantsuit,clothing,flashlight,Noun,cross_subtype
+pantyhose,clothing,kilt,clothing,within_subtype
+papaya,"food, fruit",flask,container,cross_subtype
+paper,office supply,glue,office supply,within_subtype
+paper_bag,container,flatiron,Noun,cross_subtype
+paper_plate,#N/A,cement_mixer,#N/A,within_subtype
+paper_towel,#N/A,flip_flop,clothing,cross_subtype
+paperclip,office supply,rubber_band,office supply,within_subtype
+paperweight,office supply,flipper,sports equipment,cross_subtype
+parachute,Noun,bubble,Noun,within_subtype
+parfait,"food, dessert",float,Verb,cross_subtype
+parking_meter,#N/A,red_carpet,#N/A,within_subtype
+parrot,"animal, bird",floss,Verb,cross_subtype
+parsley,"plant, food, vegetable",cilantro,"plant, food, vegetable",within_subtype
+pasta,food,flower,plant,cross_subtype
+pastry,"food, dessert",tiramisu,"food, dessert",within_subtype
+patch,clothing accessory,flute,musical instrument,cross_subtype
+patty,food,tostada,food,within_subtype
+payphone,Noun,fly,"animal, insect",cross_subtype
+pea,"food, vegetable",pumpkin,"food, vegetable",within_subtype
+peach,"food, fruit",flypaper,Noun,cross_subtype
+peacock,"animal, bird",vulture,"animal, bird",within_subtype
+peanut,food,flyswatter,tool,cross_subtype
+peanut_butter,food,roll,food,within_subtype
+pear,"food, fruit",foam,Noun,cross_subtype
+pearl,decoration,pom-pom,decoration,within_subtype
+pecan,food,folder,office supply,cross_subtype
+pedal,part of car,rim,part of car,within_subtype
+pedometer,Noun,fondue,food,cross_subtype
+peeler,"kitchen tool, tool",scoop,"kitchen tool, tool",within_subtype
+peg,Name,food_processor,"electronic device, kitchen appliance",cross_subtype
+pelican,"animal, bird",hawk,"animal, bird",within_subtype
+pen,"office supply, tool",foot,body part,cross_subtype
+pencil,"office supply, tool",fountain_pen,"office supply, tool",within_subtype
+pencil_sharpener,"office supply, tool",football,sports equipment,cross_subtype
+pendulum,Noun,cream,Noun,within_subtype
+penguin,"animal, bird",football_helmet,sports equipment,cross_subtype
+penholder,office supply,binder,office supply,within_subtype
+penlight,"medical equipment, tool",footbath,container,cross_subtype
+pennant,Noun,wing,Noun,within_subtype
+pepper1,food,footprint,Noun,cross_subtype
+pepper2,"food, vegetable",rhubarb,"food, vegetable",within_subtype
+pepper_mill,kitchen tool,footrest,furniture,cross_subtype
+peppermint,food,ravioli,food,within_subtype
+pepperoni,food,fork,tool,cross_subtype
+perfume,Noun,dumbwaiter,Noun,within_subtype
+periscope,Noun,forklift,vehicle,cross_subtype
+pesto,food,scone,food,within_subtype
+pet_food,food,fossil,Noun,cross_subtype
+petal,Noun,block,Noun,within_subtype
+petri_dish,container,fountain_pen,"office supply, tool",cross_subtype
+pheasant,"animal, bird",peacock,"animal, bird",within_subtype
+phone,Noun,fox,animal,cross_subtype
+phone_booth,#N/A,videogame,#N/A,within_subtype
+photo_booth,#N/A,frame,home decor,cross_subtype
+photograph,Noun,compass,Noun,within_subtype
+piano,musical instrument,freezer,"electronic device, kitchen appliance",cross_subtype
+pickax,"weapon, tool",pitchfork,"weapon, tool",within_subtype
+pickle,food,french_horn,musical instrument,cross_subtype
+pie,"food, dessert",ice_cube,"food, dessert",within_subtype
+piecrust,food,frisbee,"toy, sports equipment",cross_subtype
+pig,"animal, food",lamb,"animal, food",within_subtype
+pigeon,"animal, bird",frog,animal,cross_subtype
+piggy_bank,container,pocket,container,within_subtype
+piglet,animal,fruit,"food, fruit",cross_subtype
+pill,Noun,bolt,Noun,within_subtype
+pillbox,"medical equipment, container",fruitcake,"food, dessert",cross_subtype
+pillow,home decor,doily,home decor,within_subtype
+pin,tool,fudge,"food, dessert",cross_subtype
+pinball,electronic device,record_player,electronic device,within_subtype
+pincushion,Noun,funnel,"kitchen tool, tool",cross_subtype
+pine_needle,#N/A,bubble_wrap,#N/A,within_subtype
+pine_tree,plant,fur_coat,clothing,cross_subtype
+pineapple,"food, fruit",banana,"food, fruit",within_subtype
+pinecone,home decor,furnace,Noun,cross_subtype
+ping-pong_table,sports equipment,trampoline,sports equipment,within_subtype
+pinwheel,"home decor, toy",fuse,Noun,cross_subtype
+pipe1,Noun,lens,Noun,within_subtype
+pipe2,Noun,garbage,container,cross_subtype
+pistachio,food,taco,food,within_subtype
+pita,food,garbage_truck,vehicle,cross_subtype
+pitcher,container,hatbox,container,within_subtype
+pitchfork,"weapon, tool",gargoyle,decoration,cross_subtype
+pizza,food,pistachio,food,within_subtype
+place_mat,home decor,garlic,"food, vegetable",cross_subtype
+plant,plant,marijuana,plant,within_subtype
+plaster_cast,medical equipment,garter,clothing,cross_subtype
+plastic_film,#N/A,ski_lift,#N/A,within_subtype
+plate,Noun,gas_mask,#N/A,cross_subtype
+platypus,animal,orangutan,animal,within_subtype
+playing_card,#N/A,gasket,part of car,cross_subtype
+playpen,Noun,straw2,Noun,within_subtype
+pliers,tool,gate,Noun,cross_subtype
+plug,Noun,fire,Noun,within_subtype
+plum,"food, fruit",gauge,Noun,cross_subtype
+plunger,tool,duster,tool,within_subtype
+pocket,container,gauze,medical equipment,cross_subtype
+pocket_watch,#N/A,dishwashing_liquid,#N/A,within_subtype
+pocketknife,"weapon, tool",gavel,tool,cross_subtype
+pogo_stick,toy,puppet,toy,within_subtype
+poinsettia,plant,gazelle,animal,cross_subtype
+poker,tool,razor,tool,within_subtype
+polar_bear,animal,gear,Noun,cross_subtype
+polaroid,#N/A,water_cooler,#N/A,within_subtype
+pole,Noun,gearshift,part of car,cross_subtype
+police_car,vehicle,van,vehicle,within_subtype
+polisher,tool,gel,Noun,cross_subtype
+polo_shirt,clothing,shower_cap,clothing,within_subtype
+polygraph,electronic device,gem,Noun,cross_subtype
+pom-pom,decoration,crucifix,decoration,within_subtype
+pomegranate,"food, fruit",generator,electronic device,cross_subtype
+pony,animal,orangutan,animal,within_subtype
+poodle,animal,gift,Noun,cross_subtype
+pool_table,furniture,rocking_chair,furniture,within_subtype
+popcorn,food,giraffe,animal,cross_subtype
+poppy,"plant, food",seaweed,"plant, food",within_subtype
+popsicle,"food, dessert",girl,Noun,cross_subtype
+porcupine,animal,kangaroo,animal,within_subtype
+porthole,Noun,glass,container,cross_subtype
+possum,animal,skunk,animal,within_subtype
+poster,home decor,glasses,clothing accessory,cross_subtype
+pot,container,suitcase,container,within_subtype
+potato,"food, vegetable",globe,home decor,cross_subtype
+potholder,#N/A,sewing_kit,#N/A,within_subtype
+pothole,Noun,glove,"clothing, clothing accessory",cross_subtype
+potpie,food,guacamole,food,within_subtype
+potpourri,home decor,glue,office supply,cross_subtype
+powder,Noun,shutter,Noun,within_subtype
+power_line,#N/A,go-kart,vehicle,cross_subtype
+praying_mantis,"animal, insect",caterpillar,"animal, insect",within_subtype
+pretzel,food,goalpost,sports equipment,cross_subtype
+printer,electronic device,remote_control,electronic device,within_subtype
+prism,Name,goat,"animal, food",cross_subtype
+projector,electronic device,electric_chair,electronic device,within_subtype
+propeller,Noun,goblet,container,cross_subtype
+prune,"food, fruit",banana,"food, fruit",within_subtype
+puck,sports equipment,gold,Noun,cross_subtype
+pudding,"food, dessert",cookie,"food, dessert",within_subtype
+puddle,Noun,goldfish,animal,cross_subtype
+puffin,"animal, bird",parrot,"animal, bird",within_subtype
+pug,animal,golf_cart,vehicle,cross_subtype
+pulley,tool,file1,tool,within_subtype
+pulpit,Noun,golf_club,sports equipment,cross_subtype
+pump,Noun,satellite,Noun,within_subtype
+pumpkin,"food, vegetable",gondola,vehicle,cross_subtype
+punch1,drink,soda,drink,within_subtype
+punch2,"office supply, tool",gong,musical instrument,cross_subtype
+punching_bag,sports equipment,football,sports equipment,within_subtype
+puppet,toy,goose,"animal, bird, food",cross_subtype
+puppy,animal,chihuahua,animal,within_subtype
+purse,"container, clothing accessory",gopher,animal,cross_subtype
+quad,vehicle,blimp,vehicle,within_subtype
+quesadilla,food,gorilla,"animal, food",cross_subtype
+quiche,food,sandwich,food,within_subtype
+quill,tool,gourd,"home decor, vegetable",cross_subtype
+quilt,Noun,cocoon,Noun,within_subtype
+rabbit,"animal, food",graffiti,decoration,cross_subtype
+raccoon,animal,bull,animal,within_subtype
+racehorse,animal,grain,food,cross_subtype
+rack1,furniture,bunkbed,furniture,within_subtype
+rack2,furniture,gramophone,Noun,cross_subtype
+racket,sports equipment,rollerskate,sports equipment,within_subtype
+radar,Noun,granola,food,cross_subtype
+radiator,Noun,film,Noun,within_subtype
+radio,electronic device,grape,"food, fruit",cross_subtype
+radish,"food, vegetable",cauliflower,"food, vegetable",within_subtype
+raft,vehicle,grapefruit,"food, fruit",cross_subtype
+rag,Noun,shield,Noun,within_subtype
+railing,Noun,grapevine,plant,cross_subtype
+rain_gauge,#N/A,hard_disk,#N/A,within_subtype
+raincoat,clothing,grass,plant,cross_subtype
+raisin,"food, fruit",blackberry,"food, fruit",within_subtype
+rake,tool,grasshopper,"animal, insect",cross_subtype
+ram,animal,alligator,animal,within_subtype
+ramp,Noun,grater,"kitchen tool, tool",cross_subtype
+raspberry,"food, fruit",grape,"food, fruit",within_subtype
+rat,animal,gravel,Noun,cross_subtype
+ratchet,tool,backscratcher,tool,within_subtype
+rattle,toy,gravestone,Noun,cross_subtype
+rattlesnake,animal,tadpole,animal,within_subtype
+ravioli,food,green_beans,"food, vegetable",cross_subtype
+razor,tool,letter_opener,tool,within_subtype
+razor_blade,weapon,grill,Noun,cross_subtype
+ready_meal,food,peppermint,food,within_subtype
+rearview_mirror,part of car,grinder,"kitchen tool, tool",cross_subtype
+recliner,furniture,sofa_bed,furniture,within_subtype
+record,Noun,grits,food,cross_subtype
+record_player,electronic device,copier,electronic device,within_subtype
+recorder,musical instrument,groundhog,animal,cross_subtype
+red_carpet,#N/A,barbed_wire,#N/A,within_subtype
+reel,Noun,guacamole,food,cross_subtype
+refrigerator,"electronic device, kitchen appliance",toaster_oven,"electronic device, kitchen appliance",within_subtype
+reindeer,animal,guardrail,Noun,cross_subtype
+remote_control,electronic device,washing_machine,electronic device,within_subtype
+retainer,Noun,guinea_pig,animal,cross_subtype
+revolver,weapon,razor_blade,weapon,within_subtype
+revolving_door,#N/A,guitar,musical instrument,cross_subtype
+rhinoceros,animal,stingray,animal,within_subtype
+rhubarb,"food, vegetable",gum,food,cross_subtype
+ribbon,Noun,showerhead,Noun,within_subtype
+rice,food,gun,weapon,cross_subtype
+rickshaw,vehicle,firetruck,vehicle,within_subtype
+rifle,weapon,gurney,medical equipment,cross_subtype
+rim,part of car,headlight,part of car,within_subtype
+ring,decoration,gutter,Noun,cross_subtype
+riser,Noun,trap,Noun,within_subtype
+road_sign,#N/A,gyro,food,cross_subtype
+roadsweeper,vehicle,minivan,vehicle,within_subtype
+robe,clothing,gyroscope,toy,cross_subtype
+robot,toy,pogo_stick,toy,within_subtype
+rock,Noun,hail,Verb,cross_subtype
+rocket,vehicle,car,vehicle,within_subtype
+rocking_chair,furniture,hair,body part,cross_subtype
+rocking_horse,toy,rattle,toy,within_subtype
+roll,food,hairbrush,Noun,cross_subtype
+roller,Noun,lifesaver,Noun,within_subtype
+roller_coaster,#N/A,hairdryer,electronic device,cross_subtype
+rollerblade,sports equipment,snorkel,sports equipment,within_subtype
+rollerskate,sports equipment,hairnet,Noun,cross_subtype
+rolling_pin,"kitchen tool, tool",tongs,"kitchen tool, tool",within_subtype
+roof_rack,part of car,hairpin,Noun,cross_subtype
+rooster,"animal, bird",pigeon,"animal, bird",within_subtype
+root,Noun,ham,food,cross_subtype
+rope,tool,magnifying_glass,tool,within_subtype
+rosary,Noun,hamburger,food,cross_subtype
+rose,plant,lavender,plant,within_subtype
+roulette_wheel,#N/A,hammer,"weapon, tool",cross_subtype
+router,electronic device,cd_player,electronic device,within_subtype
+rubber_band,office supply,hammock,furniture,cross_subtype
+ruby,decoration,jewelry,decoration,within_subtype
+rudder,Noun,hamster,animal,cross_subtype
+rug,home decor,figurine,home decor,within_subtype
+ruler,tool,hand,body part,cross_subtype
+rust,Noun,blanket,Noun,within_subtype
+saddle,sports equipment,handbrake,part of car,cross_subtype
+safety_pin,#N/A,duct_tape,#N/A,within_subtype
+saffron,food,handcuff,Verb,cross_subtype
+sail,Verb,spout,Verb,within_subtype
+sailboat,vehicle,handkerchief,clothing accessory,cross_subtype
+salad,food,ham,food,within_subtype
+salami,food,handle,Verb,cross_subtype
+saltshaker,container,petri_dish,container,within_subtype
+sand,Noun,hard_disk,#N/A,cross_subtype
+sandal,clothing,coat,clothing,within_subtype
+sandbag,container,harmonica,musical instrument,cross_subtype
+sandbox,toy,swing,toy,within_subtype
+sandcastle,Noun,harp,musical instrument,cross_subtype
+sandpaper,tool,marker,tool,within_subtype
+sandwich,food,hat,"clothing, clothing accessory",cross_subtype
+sarcophagus,container,swimming_pool,container,within_subtype
+sardine,"animal, food",hatbox,container,cross_subtype
+satellite,Noun,chessboard,Noun,within_subtype
+satellite_dish,#N/A,hatchet,tool,cross_subtype
+sauce,food,macaroni,food,within_subtype
+saucer,Noun,hawk,"animal, bird",cross_subtype
+sauerkraut,food,mustard,food,within_subtype
+sausage,food,headband,"clothing, clothing accessory",cross_subtype
+saw,tool,nail_file,tool,within_subtype
+sawhorse,tool,headdress,"clothing, clothing accessory",cross_subtype
+saxophone,musical instrument,clarinet,musical instrument,within_subtype
+scaffold,Noun,headlamp,#N/A,cross_subtype
+scaffolding,Noun,girl,Noun,within_subtype
+scale,Noun,headlight,part of car,cross_subtype
+scallion,"food, vegetable",zucchini,"food, vegetable",within_subtype
+scallop,"animal, food",headphones,Noun,cross_subtype
+scalpel,"medical equipment, weapon, tool",headrest,part of car,within_subtype
+scanner,electronic device,headscarf,clothing,cross_subtype
+scarecrow,home decor,birdhouse,home decor,within_subtype
+scarf,"clothing, clothing accessory",headset,Noun,cross_subtype
+school_bus,vehicle,subway,vehicle,within_subtype
+scissors,"office supply, weapon, tool",hearing_aid,medical equipment,cross_subtype
+scone,food,salad,food,within_subtype
+scoop,"kitchen tool, tool",hearse,vehicle,cross_subtype
+scooter,"toy, vehicle",heater,Noun,within_subtype
+scoreboard,sports equipment,hedge,plant,cross_subtype
+scorpion,animal,cow,animal,within_subtype
+scrabble,Noun,hedgehog,animal,cross_subtype
+scrambled_egg,food,jam,food,within_subtype
+scraper,tool,helicopter,vehicle,cross_subtype
+screen1,electronic device,stereo,electronic device,within_subtype
+screen2,Noun,helmet,sports equipment,cross_subtype
+screw,tool,wrench,tool,within_subtype
+screwdriver,tool,highchair,furniture,cross_subtype
+scuba,sports equipment,baseball,sports equipment,within_subtype
+sea_urchin,animal,highlighter,office supply,cross_subtype
+seafood,food,ready_meal,food,within_subtype
+seagull,"animal, bird",hinge,Noun,cross_subtype
+seahorse,animal,dalmatian,animal,within_subtype
+seal,animal,hip,body part,cross_subtype
+seaplane,vehicle,subway,vehicle,within_subtype
+seatbelt,part of car,hippopotamus,animal,cross_subtype
+seaweed,"plant, food",poppy,"plant, food",within_subtype
+seed,fruit,hobbyhorse,toy,cross_subtype
+seesaw,toy,hobbyhorse,toy,within_subtype
+seismograph,Noun,hockey_stick,sports equipment,cross_subtype
+sequin,decoration,anklet,decoration,within_subtype
+sewage,Noun,hoe,tool,cross_subtype
+sewing_kit,#N/A,duct_tape,#N/A,within_subtype
+sewing_machine,electronic device,hole,Noun,cross_subtype
+shaker,container,chalice,container,within_subtype
+shark,animal,holster,Noun,cross_subtype
+shaving_cream,#N/A,paper_plate,#N/A,within_subtype
+shawl,"clothing, clothing accessory",home_plate,sports equipment,cross_subtype
+shears,tool,tuning_fork,tool,within_subtype
+sheath,Noun,honey,food,cross_subtype
+sheep,animal,polar_bear,animal,within_subtype
+sheet,Noun,honeypot,container,cross_subtype
+shelf,furniture,counter,furniture,within_subtype
+shell1,Noun,hood,clothing,cross_subtype
+shell2,Noun,viewfinder,Noun,within_subtype
+shell3,Noun,hoodie,clothing,cross_subtype
+shield,Noun,cork,Noun,within_subtype
+ship,vehicle,hook1,Noun,cross_subtype
+shirt,clothing,toga,clothing,within_subtype
+shoe,clothing,hook2,tool,cross_subtype
+shoe_polish,#N/A,comic_book,#N/A,within_subtype
+shoehorn,tool,hookah,Noun,cross_subtype
+shoelace,Noun,chinaware,Noun,within_subtype
+shopping_basket,container,hopscotch,Noun,cross_subtype
+shopping_cart,container,luggage,container,within_subtype
+shortbread,"food, dessert",horn,musical instrument,cross_subtype
+shorts,clothing,headscarf,clothing,within_subtype
+shoulder,body part,horse,animal,cross_subtype
+shovel,tool,crank,tool,within_subtype
+shower,Noun,hose,tool,cross_subtype
+shower_cap,clothing,overalls,clothing,within_subtype
+shower_curtain,#N/A,hot-air_balloon,vehicle,cross_subtype
+showerhead,Noun,earplug,Noun,within_subtype
+shredder,electronic device,hot-water_bottle,container,cross_subtype
+shrimp,"animal, food",scallop,"animal, food",within_subtype
+shuffleboard,Noun,hot_chocolate,drink,cross_subtype
+shutter,Noun,drain,Noun,within_subtype
+sickle,tool,hot_tub,container,cross_subtype
+sidecar,Noun,turbine,Noun,within_subtype
+sifter,kitchen tool,hotdog,food,cross_subtype
+silicone,Noun,cigarette,Noun,within_subtype
+silverware,Noun,hotplate,"electronic device, kitchen appliance",cross_subtype
+sim_card,#N/A,chess_piece,#N/A,within_subtype
+sink,Noun,hourglass,home decor,cross_subtype
+siren,Noun,valve,Noun,within_subtype
+skateboard,"toy, vehicle, sports equipment",hovercraft,vehicle,cross_subtype
+skeleton,body part,thumb,body part,within_subtype
+skewer,kitchen tool,hubcap,part of car,cross_subtype
+ski,sports equipment,scoreboard,sports equipment,within_subtype
+ski_boots,"sports equipment, clothing",hula_hoop,toy,cross_subtype
+ski_lift,#N/A,orange_rind,#N/A,within_subtype
+ski_pole,sports equipment,hummingbird,"animal, bird",cross_subtype
+skin,body part,stomach,body part,within_subtype
+skirt,clothing,hummus,food,cross_subtype
+skull,body part,chin,body part,within_subtype
+skunk,animal,humvee,vehicle,cross_subtype
+sled,"vehicle, sports equipment",hydrant,Noun,within_subtype
+sledgehammer,tool,hyena,animal,cross_subtype
+sleeping_bag,container,bathtub,container,within_subtype
+slicer,"electronic device, kitchen appliance",ice,"food, dessert",cross_subtype
+slide,toy,snowball,toy,within_subtype
+slime,toy,ice-cream_cone,"food, dessert",cross_subtype
+sling,medical equipment,first-aid_kit,medical equipment,within_subtype
+slingshot,"weapon, toy",ice_cream,"food, dessert",cross_subtype
+slipper,clothing,stiletto,clothing,within_subtype
+slot,Noun,ice_cube,"food, dessert",cross_subtype
+slot_machine,electronic device,pinball,electronic device,within_subtype
+sloth,animal,ice_pack,medical equipment,cross_subtype
+slug,animal,lizard,animal,within_subtype
+smoke_alarm,electronic device,icemaker,"electronic device, kitchen appliance",cross_subtype
+smoothie,drink,lemonade,drink,within_subtype
+snack,food,icepick,"weapon, kitchen tool, tool",cross_subtype
+snail,animal,panda,animal,within_subtype
+snake,animal,iceskate,sports equipment,cross_subtype
+snorkel,sports equipment,target,sports equipment,within_subtype
+snow,Noun,iguana,animal,cross_subtype
+snowball,toy,stilt,toy,within_subtype
+snowboard,sports equipment,incense,Noun,cross_subtype
+snowman,Noun,lipstick,Noun,within_subtype
+snowmobile,vehicle,incubator,electronic device,cross_subtype
+snowplow,vehicle,unicycle,vehicle,within_subtype
+snowshoe,"sports equipment, clothing",inhaler,medical equipment,cross_subtype
+snowsuit,clothing,crown,clothing,within_subtype
+soap,Noun,ink,office supply,cross_subtype
+soccer_ball,sports equipment,baseball_glove,sports equipment,within_subtype
+sock,clothing,inkwell,container,cross_subtype
+soda,drink,smoothie,drink,within_subtype
+soda_fountain,#N/A,insole,clothing accessory,cross_subtype
+sofa_bed,furniture,bench,furniture,within_subtype
+solar_panel,#N/A,iron,electronic device,cross_subtype
+soldering_iron,tool,screw,tool,within_subtype
+sombrero,"clothing, clothing accessory",ironing_board,#N/A,cross_subtype
+sonogram,Noun,thermostat,Noun,within_subtype
+sorbet,"food, dessert",ivy,plant,cross_subtype
+souffle,"food, dessert",cupcake,"food, dessert",within_subtype
+soup,food,jack,tool,cross_subtype
+soy_sauce,food,butter,food,within_subtype
+space_shuttle,vehicle,jacket,clothing,cross_subtype
+spacesuit,clothing,raincoat,clothing,within_subtype
+spaghetti,food,jackhammer,"electronic device, tool",cross_subtype
+spam,food,hamburger,food,within_subtype
+spareribs,food,jalapeno,"food, vegetable",cross_subtype
+spark_plug,part of car,car_seat,part of car,within_subtype
+sparkler,Noun,jam,food,cross_subtype
+spatula,"kitchen tool, tool",funnel,"kitchen tool, tool",within_subtype
+speaker,Noun,jar,container,cross_subtype
+spear,weapon,crossbow,weapon,within_subtype
+speedboat,vehicle,javelin,sports equipment,cross_subtype
+speedometer,part of car,rearview_mirror,part of car,within_subtype
+spider,animal,jeans,clothing,cross_subtype
+spider_web,#N/A,camera_lens,#N/A,within_subtype
+spinach,"plant, food, vegetable",jeep,vehicle,cross_subtype
+splinter,Noun,stair,Noun,within_subtype
+sponge,Noun,jelly_bean,food,cross_subtype
+spool,Noun,speaker,Noun,within_subtype
+spoon,"kitchen tool, tool",jellyfish,animal,cross_subtype
+spout,Verb,handle,Verb,within_subtype
+spring_roll,food,jersey,clothing,cross_subtype
+springboard,sports equipment,bobsled,sports equipment,within_subtype
+sprinkler,Noun,jet,vehicle,cross_subtype
+sprouts,"food, vegetable",onion,"food, vegetable",within_subtype
+spur,Noun,jetski,vehicle,cross_subtype
+squash,"food, vegetable",celery,"food, vegetable",within_subtype
+squeegee,tool,jewel,decoration,cross_subtype
+squid,"animal, food",swordfish,"animal, food",within_subtype
+squirrel,animal,jewelry,decoration,cross_subtype
+squirt_gun,toy,whoopee_cushion,toy,within_subtype
+stained_glass,home decor,jigsaw_puzzle,#N/A,cross_subtype
+stair,Noun,pill,Noun,within_subtype
+stake,Noun,joystick,electronic device,cross_subtype
+stalagmite,Noun,wax,Noun,within_subtype
+stamp1,Noun,jug,container,cross_subtype
+stamp2,tool,sweeper,tool,within_subtype
+staple,office supply,juice,drink,cross_subtype
+staple_gun,tool,anvil,tool,within_subtype
+stapler,office supply,juicer1,kitchen tool,cross_subtype
+star_fruit,"food, fruit",raisin,"food, fruit",within_subtype
+starfish,animal,juicer2,"electronic device, kitchen appliance",cross_subtype
+station_wagon,vehicle,chariot,vehicle,within_subtype
+statue,home decor,jukebox,electronic device,cross_subtype
+steak,food,marmalade,food,within_subtype
+steamroller,vehicle,jump_rope,sports equipment,cross_subtype
+steering_wheel,part of car,pedal,part of car,within_subtype
+stem,Noun,jumpsuit,clothing,cross_subtype
+step_stool,furniture,crib,furniture,within_subtype
+stereo,electronic device,kale,"plant, food, vegetable",cross_subtype
+stethoscope,medical equipment,gauze,medical equipment,within_subtype
+stew,food,kaleidoscope,toy,cross_subtype
+stick,Verb,nail,Verb,within_subtype
+sticker,Noun,kangaroo,animal,cross_subtype
+stiletto,clothing,dress,clothing,within_subtype
+stilt,toy,kayak,vehicle,cross_subtype
+stingray,animal,moose,animal,within_subtype
+stir_fry,food,kazoo,musical instrument,cross_subtype
+stirrup,Noun,twig,Noun,within_subtype
+stockings,clothing,kebab,food,cross_subtype
+stomach,body part,chin,body part,within_subtype
+stool,furniture,keg,container,cross_subtype
+stopwatch,sports equipment,goalpost,sports equipment,within_subtype
+stove1,kitchen appliance,ketchup,food,cross_subtype
+stove2,kitchen appliance,burner,kitchen appliance,within_subtype
+straightjacket,clothing,kettle,"container, kitchen tool",cross_subtype
+strainer,kitchen tool,timer,kitchen tool,within_subtype
+strap,Noun,keyboard,musical instrument,cross_subtype
+straw1,Noun,quilt,Noun,within_subtype
+straw2,Noun,kilt,clothing,cross_subtype
+strawberry,"food, fruit",lime,"food, fruit",within_subtype
+streetlight,Noun,kimono,clothing,cross_subtype
+stretcher,medical equipment,gauze,medical equipment,within_subtype
+string_cheese,food,kite,toy,cross_subtype
+stroller,vehicle,jeep,vehicle,within_subtype
+stuffing,food,kitten,animal,cross_subtype
+stump,Noun,towel,Noun,within_subtype
+submarine,vehicle,kiwi,"food, fruit",cross_subtype
+subway,vehicle,yacht,vehicle,within_subtype
+sugar_cube,food,knee,body part,cross_subtype
+suit,clothing,fishnet_stockings,clothing,within_subtype
+suitcase,container,kneepad,sports equipment,cross_subtype
+sundae,"food, dessert",whipped_cream,"food, dessert",within_subtype
+sundial,Noun,knife,"weapon, kitchen tool, tool",cross_subtype
+sunflower,plant,weed,plant,within_subtype
+sunglasses,Noun,knitting_needle,#N/A,cross_subtype
+sunroof,part of car,roof_rack,part of car,within_subtype
+surfboard,sports equipment,knob,Noun,cross_subtype
+sushi,food,nut,food,within_subtype
+suspenders,"clothing, clothing accessory",knot,Noun,cross_subtype
+swab,medical equipment,gurney,medical equipment,within_subtype
+swan,"animal, bird",koala,animal,cross_subtype
+sweater,clothing,jumpsuit,clothing,within_subtype
+sweatsuit,clothing,ladder,tool,cross_subtype
+sweeper,tool,tape_measure,tool,within_subtype
+sweet_potato,"food, vegetable",ladle,"kitchen tool, tool",cross_subtype
+swimming_pool,container,coffin,container,within_subtype
+swimsuit,clothing,ladybug,"animal, insect",cross_subtype
+swing,toy,slime,toy,within_subtype
+swing_set,#N/A,lamb,"animal, food",cross_subtype
+switch,Verb,dial,Verb,within_subtype
+swizzle_stick,#N/A,lamb_chop,food,cross_subtype
+sword,weapon,catapult,weapon,within_subtype
+swordfish,"animal, food",lamp,"electronic device, home decor",cross_subtype
+syringe,"medical equipment, container",bedpan,"medical equipment, container",within_subtype
+syrup,food,lamppost,Noun,cross_subtype
+t-shirt,clothing,polo_shirt,clothing,within_subtype
+tab,Noun,lampshade,home decor,cross_subtype
+table,furniture,footrest,furniture,within_subtype
+tablecloth,Noun,landmine,weapon,cross_subtype
+tablet,electronic device,scanner,electronic device,within_subtype
+tack,office supply,lantern,Noun,cross_subtype
+tackle,Verb,stick,Verb,within_subtype
+taco,food,lanyard,clothing accessory,cross_subtype
+tadpole,animal,calf1,animal,within_subtype
+taffy,food,laptop,electronic device,cross_subtype
+tag,Noun,yarn,Noun,within_subtype
+taillight,part of car,lasagna,food,cross_subtype
+tamale,food,chicken1,food,within_subtype
+tambourine,musical instrument,laser_pointer,#N/A,cross_subtype
+tank1,weapon,machete,weapon,within_subtype
+tank2,container,latch,Noun,cross_subtype
+tape,office supply,paperclip,office supply,within_subtype
+tape_measure,tool,latte,drink,cross_subtype
+tape_recorder,electronic device,slot_machine,electronic device,within_subtype
+tapestry,home decor,laundry_basket,container,cross_subtype
+tarantula,animal,boar,animal,within_subtype
+target,sports equipment,lava,Noun,cross_subtype
+tarp,Noun,stake,Noun,within_subtype
+tattoo,decoration,lavender,plant,cross_subtype
+taxi,vehicle,gondola,vehicle,within_subtype
+tea,drink,lawnmower,tool,cross_subtype
+teabag,container,canister,container,within_subtype
+teacup,container,leaf,Noun,cross_subtype
+teapot,container,sandbag,container,within_subtype
+teddy_bear,toy,leash,Noun,cross_subtype
+tee,sports equipment,bowling_ball,sports equipment,within_subtype
+teepee,Noun,lectern,furniture,cross_subtype
+telegraph,Noun,hole,Noun,within_subtype
+telephone_pole,#N/A,leech,animal,cross_subtype
+telescope,Noun,riser,Noun,within_subtype
+television,electronic device,leek,"plant, food, vegetable",cross_subtype
+tennis_ball,sports equipment,boxing_gloves,sports equipment,within_subtype
+tent,container,leg,body part,cross_subtype
+terrarium,"home decor, container",birdbath,"home decor, container",within_subtype
+test_tube,container,leggings,clothing,cross_subtype
+thermometer,Noun,screen2,Noun,within_subtype
+thermos,container,lego,toy,cross_subtype
+thermostat,Noun,doormat,Noun,within_subtype
+thimble,container,lemon,"food, fruit",cross_subtype
+thorn,body part,foot,body part,within_subtype
+thread,Noun,lemonade,drink,cross_subtype
+throne,furniture,rack2,furniture,within_subtype
+thumb,body part,lens,Noun,cross_subtype
+thumbtack,office supply,stapler,office supply,within_subtype
+tiara,clothing,leopard,animal,cross_subtype
+tick,animal,donkey,animal,within_subtype
+ticktacktoe,#N/A,leotard,clothing,cross_subtype
+tie,"clothing, clothing accessory",bolo_tie,"clothing, clothing accessory",within_subtype
+tiger,animal,letter_opener,tool,cross_subtype
+tile,Noun,ramp,Noun,within_subtype
+timer,kitchen tool,lettuce,"plant, food, vegetable",cross_subtype
+tinsel,Noun,origami,Noun,within_subtype
+tiramisu,"food, dessert",license_plate,part of car,cross_subtype
+toad,animal,panther,animal,within_subtype
+toast,food,lid,Noun,cross_subtype
+toaster,"electronic device, kitchen appliance",juicer2,"electronic device, kitchen appliance",within_subtype
+toaster_oven,"electronic device, kitchen appliance",life_jacket,clothing,cross_subtype
+toe,body part,thorn,body part,within_subtype
+toga,clothing,lifesaver,Noun,cross_subtype
+toilet,Noun,leash,Noun,within_subtype
+toilet_paper,#N/A,lightbulb,Noun,cross_subtype
+tomato,"food, vegetable, fruit",lighter,tool,within_subtype
+tomato_sauce,food,lightning_bug,"animal, insect",cross_subtype
+tongs,"kitchen tool, tool",funnel,"kitchen tool, tool",within_subtype
+tongue,body part,lime,"food, fruit",cross_subtype
+tool,tool,needle,tool,within_subtype
+toolbox,container,limousine,vehicle,cross_subtype
+tooth,body part,knee,body part,within_subtype
+toothbrush,Noun,lingerie,clothing,cross_subtype
+toothpaste,Noun,strap,Noun,within_subtype
+toothpick,tool,lion,animal,cross_subtype
+top_hat,"clothing, clothing accessory",tie,"clothing, clothing accessory",within_subtype
+torch,Noun,lip_balm,#N/A,cross_subtype
+torpedo,weapon,missile,weapon,within_subtype
+torso,body part,lip_gloss,#N/A,cross_subtype
+tortellini,food,pet_food,food,within_subtype
+tortilla,food,lipstick,Noun,cross_subtype
+tostada,food,wafer,food,within_subtype
+totem_pole,decoration,lizard,animal,cross_subtype
+toucan,"animal, bird",pheasant,"animal, bird",within_subtype
+touchpad,#N/A,llama,animal,cross_subtype
+towel,Noun,fishhook,Noun,within_subtype
+towel_rack,#N/A,lobster,"animal, food",cross_subtype
+toy,toy,sandbox,toy,within_subtype
+tractor,vehicle,lock,Verb,cross_subtype
+traffic_light,#N/A,towel_rack,#N/A,within_subtype
+trailer,"container, vehicle",locker,container,cross_subtype
+train,vehicle,trolley,vehicle,within_subtype
+train_car,vehicle,locket,container,cross_subtype
+train_set,toy,dreidel,toy,within_subtype
+trampoline,sports equipment,log,Noun,cross_subtype
+trap,Noun,pendulum,Noun,within_subtype
+trapdoor,Noun,loincloth,clothing,cross_subtype
+trashcan,container,crate,container,within_subtype
+tray,container,lollipop,food,cross_subtype
+treadmill,"electronic device, sports equipment",loom,Noun,within_subtype
+treasure,Noun,loveseat,furniture,cross_subtype
+tree,plant,grapevine,plant,within_subtype
+tree_trunk,#N/A,luggage,container,cross_subtype
+triangle,musical instrument,bagpipe,musical instrument,within_subtype
+tricycle,vehicle,lumber,Noun,cross_subtype
+trident,"weapon, tool",axe,"weapon, tool",within_subtype
+trigger,Noun,lunchbox,container,cross_subtype
+tripod,Noun,hairnet,Noun,within_subtype
+trolley,vehicle,macadamia,food,cross_subtype
+trombone,musical instrument,bell,musical instrument,within_subtype
+trophy,Noun,macaroni,food,cross_subtype
+trough,container,cassette,container,within_subtype
+trowel,tool,machete,weapon,cross_subtype
+truck,vehicle,trolley,vehicle,within_subtype
+trumpet,musical instrument,machine_gun,weapon,cross_subtype
+trunk,container,mailbox,container,within_subtype
+tuba,musical instrument,maggot,animal,cross_subtype
+tube_top,clothing,sweater,clothing,within_subtype
+tugboat,vehicle,magnet,tool,cross_subtype
+tulip,plant,daisy,plant,within_subtype
+tumbleweed,plant,magnifier,tool,cross_subtype
+tuning_fork,tool,magnet,tool,within_subtype
+tupperware,container,magnifying_glass,tool,cross_subtype
+turban,clothing,coverall,clothing,within_subtype
+turbine,Noun,mailbox,container,cross_subtype
+turf,Noun,medal,Noun,within_subtype
+turkey,"animal, bird, food",makeup,Noun,cross_subtype
+turnstile,Noun,shell3,Noun,within_subtype
+turntable,electronic device,mallet,tool,cross_subtype
+turtle,animal,rat,animal,within_subtype
+turtleneck,clothing,man,Noun,cross_subtype
+tuxedo,clothing,kimono,clothing,within_subtype
+tweezers,"medical equipment, tool",manatee,animal,cross_subtype
+twig,Noun,rosary,Noun,within_subtype
+typewriter,Noun,mandolin,musical instrument,cross_subtype
+ukulele,musical instrument,banjo,musical instrument,within_subtype
+umbrella,Noun,mango,"food, fruit",cross_subtype
+undershirt,clothing,nightshirt,clothing,within_subtype
+underwear,clothing,manhole,Noun,cross_subtype
+unicycle,vehicle,go-kart,vehicle,within_subtype
+uniform,clothing,mannequin,Noun,cross_subtype
+urinal,Noun,mail,Noun,within_subtype
+urn,container,mantle,Noun,cross_subtype
+vacuum,"electronic device, tool",jackhammer,"electronic device, tool",within_subtype
+valve,Noun,maple_syrup,food,cross_subtype
+van,vehicle,canoe,vehicle,within_subtype
+vase,"home decor, container",marble,toy,cross_subtype
+vegetable,"food, vegetable",celery,"food, vegetable",within_subtype
+veil,clothing,margarita,drink,cross_subtype
+velcro,#N/A,playing_card,#N/A,within_subtype
+vending_machine,electronic device,marijuana,plant,cross_subtype
+vent,Noun,binoculars,Noun,within_subtype
+vest,clothing,marker,tool,cross_subtype
+vial,"medical equipment, container",syringe,"medical equipment, container",within_subtype
+videocassette,container,marmalade,food,cross_subtype
+videogame,#N/A,pine_needle,#N/A,within_subtype
+viewfinder,Noun,marshmallow,food,cross_subtype
+violin,musical instrument,french_horn,musical instrument,within_subtype
+vise,tool,mascara,Noun,cross_subtype
+visor,"clothing, clothing accessory",bandanna,"clothing, clothing accessory",within_subtype
+volleyball,sports equipment,mashed_potato,food,cross_subtype
+vulture,"animal, bird",chick,"animal, bird",within_subtype
+wafer,food,mask,clothing,cross_subtype
+waffle,food,calamari,food,within_subtype
+waffle_iron,"electronic device, kitchen appliance",mast,Noun,cross_subtype
+wagon,vehicle,airboat,vehicle,within_subtype
+walker1,medical equipment,mat,Noun,cross_subtype
+walker2,Name,peg,Name,within_subtype
+wall,Noun,match,tool,cross_subtype
+wallet,container,duffel_bag,container,within_subtype
+wallpaper,home decor,matchbox,container,cross_subtype
+walnut,food,cracker,food,within_subtype
+walrus,animal,mattress,furniture,cross_subtype
+wand,Noun,turnstile,Noun,within_subtype
+warthog,animal,measuring_cup,"container, kitchen tool",cross_subtype
+washboard,Noun,telescope,Noun,within_subtype
+washcloth,Noun,meat,food,cross_subtype
+washing_machine,electronic device,polygraph,electronic device,within_subtype
+wasp,"animal, insect",meat_grinder,#N/A,cross_subtype
+watch,clothing accessory,cufflink,clothing accessory,within_subtype
+water_bottle,container,meatball,food,cross_subtype
+water_cooler,#N/A,aluminum_foil,#N/A,within_subtype
+water_filter,kitchen appliance,meatloaf,food,cross_subtype
+water_fountain,#N/A,cornhusk,#N/A,within_subtype
+water_heater,"electronic device, container",medal,Noun,cross_subtype
+watering_can,"container, tool",dustpan,"container, tool",within_subtype
+watermelon,"food, fruit",meerkat,animal,cross_subtype
+waterwheel,Noun,keyhole,Noun,within_subtype
+wax,Noun,melon,"food, fruit",cross_subtype
+wax_paper,#N/A,nail_polish,#N/A,within_subtype
+weasel,animal,memory_stick,#N/A,cross_subtype
+weather_vane,home decor,pinecone,home decor,within_subtype
+webcam,electronic device,metal_detector,"electronic device, tool",cross_subtype
+wedding_cake,"food, dessert",cheesecake,"food, dessert",within_subtype
+wedge,tool,metronome,Noun,cross_subtype
+weed,plant,ivy,plant,within_subtype
+wetsuit,"sports equipment, clothing",microphone,electronic device,cross_subtype
+whale,animal,aardvark,animal,within_subtype
+wheat,food,microscope,Noun,cross_subtype
+wheel,part of car,license_plate,part of car,within_subtype
+wheelbarrow,container,microwave,"electronic device, kitchen appliance",cross_subtype
+wheelchair,"medical equipment, vehicle",milk,drink,within_subtype
+whip,weapon,milkshake,"drink, dessert",cross_subtype
+whipped_cream,"food, dessert",caramel,"food, dessert",within_subtype
+whisk,kitchen tool,minivan,vehicle,cross_subtype
+whistle,musical instrument,french_horn,musical instrument,within_subtype
+whiteboard,office supply,mint,"plant, food",cross_subtype
+whoopee_cushion,toy,rocking_horse,toy,within_subtype
+wick,Name,mirror,home decor,cross_subtype
+wig,clothing,tuxedo,clothing,within_subtype
+wind_chimes,home decor,missile,weapon,cross_subtype
+window,Noun,oil,Noun,within_subtype
+windowsill,Noun,mitten,"clothing, clothing accessory",cross_subtype
+windshield,part of car,car_door,part of car,within_subtype
+windshield_wiper,part of car,mixer,"electronic device, kitchen appliance",cross_subtype
+windsock,Noun,mud,Noun,within_subtype
+wine,drink,moccasin,clothing,cross_subtype
+wine_bottle,container,pitcher,container,within_subtype
+wine_cooler,container,modem,electronic device,cross_subtype
+wineglass,container,sarcophagus,container,within_subtype
+wing,Noun,mold1,container,cross_subtype
+wire,Noun,gravel,Noun,within_subtype
+wire_cutters,tool,mold2,Noun,cross_subtype
+wok,container,cup,container,within_subtype
+wolf,animal,money,Noun,cross_subtype
+woman,Noun,soap,Noun,within_subtype
+wood,Noun,mongoose,animal,cross_subtype
+wooden_leg,#N/A,plastic_film,#N/A,within_subtype
+workbench,furniture,monkey,animal,cross_subtype
+worm,animal,hamster,animal,within_subtype
+wrap,food,moose,animal,cross_subtype
+wrapping_paper,#N/A,solar_panel,#N/A,within_subtype
+wreath,home decor,mop,tool,cross_subtype
+wreck,vehicle,forklift,vehicle,within_subtype
+wrench,tool,mosquito,"animal, insect",cross_subtype
+wrist,body part,hair,body part,within_subtype
+xylophone,musical instrument,mosquito_net,#N/A,cross_subtype
+yacht,vehicle,carriage,vehicle,within_subtype
+yak,animal,moss,plant,cross_subtype
+yarn,Noun,book,Noun,within_subtype
+yo-yo,toy,moth,"animal, insect",cross_subtype
+yogurt,food,dip,food,within_subtype
+yoke,Noun,motorcycle,vehicle,cross_subtype
+yolk,food,seafood,food,within_subtype
+zebra,animal,mouse2,electronic device,cross_subtype
+zipper,Noun,granite,Noun,within_subtype
+zucchini,"food, vegetable",mousepad,#N/A,cross_subtype

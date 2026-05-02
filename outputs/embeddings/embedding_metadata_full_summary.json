@@ -1,0 +1,74 @@
+{
+  "mode": "merged_real_model_extraction",
+  "precision": "bf16",
+  "record_count": 1208,
+  "source_tags": [
+    "qwen",
+    "mistral",
+    "llama"
+  ],
+  "span_pooling_verified": true,
+  "concept_subset": "data/concepts/things_max_1854_concepts.csv",
+  "selected_model_count": 8,
+  "selected_models": [
+    {
+      "device": "cuda:0",
+      "family": "text",
+      "model_id": "Qwen/Qwen3.5-9B",
+      "output_tag": "qwen",
+      "precision": "torch.bfloat16"
+    },
+    {
+      "device": "cuda:0",
+      "family": "multimodal",
+      "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+      "output_tag": "qwen",
+      "precision": "torch.bfloat16"
+    },
+    {
+      "device": "cuda:0",
+      "family": "anchor",
+      "model_id": "google/siglip2-so400m-patch16-384",
+      "output_tag": "qwen",
+      "precision": "torch.bfloat16",
+      "vision_source": "last_hidden_state_fallback"
+    },
+    {
+      "device": "cuda:0",
+      "family": "anchor",
+      "model_id": "google/siglip2-base-patch16-224",
+      "output_tag": "qwen",
+      "precision": "torch.bfloat16",
+      "vision_source": "last_hidden_state_fallback"
+    },
+    {
+      "device": "cuda:0",
+      "family": "text",
+      "model_id": "mistralai/Mistral-Small-24B-Instruct-2501",
+      "output_tag": "mistral",
+      "precision": "torch.bfloat16"
+    },
+    {
+      "device": "cuda:0",
+      "family": "multimodal",
+      "model_id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+      "output_tag": "mistral",
+      "precision": "torch.bfloat16"
+    },
+    {
+      "device": "cuda:0",
+      "family": "text",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "output_tag": "llama",
+      "precision": "torch.bfloat16"
+    },
+    {
+      "device": "cuda:0",
+      "family": "multimodal",
+      "model_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+      "output_tag": "llama",
+      "precision": "torch.bfloat16"
+    }
+  ],
+  "note": "Compact summary derived from corrected full metadata; full per-record metadata is kept locally under legacy/metadata and not committed."
+}

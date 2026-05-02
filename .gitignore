@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.pyc
+
+# Manuscript/result notes: keep only the curated results ledger
+*.md
+!README.md
+!DATA_AVAILABILITY.md
+
+# Cluster / scheduler logs
+logs/
+neurips_*.out
+neurips_*.err
+slurm-*.out
+slurm-*.err
+nnUNetbatchscript.sh
+submit_*slurm*.sh
+submit_neurips_downstream_rerun.sh
+
+# Large raw datasets
+THINGS-database/
+THINGS-behavior/
+data/images/
+pilot_grounding/
+data/lexical/wordnet/
+
+# Local source archives
+WordNet-3.0.tar.gz
+SimLex-999.zip
+
+# Heavy recomputable outputs
+outputs/rdms/
+outputs/embeddings/*.npz
+outputs/embeddings/embedding_metadata_full.json
+
+# Appendix/exploratory outputs not required for the clean Results v5 ledger
+outputs/metrics/intrinsic_dimensionality_things38.csv
+outputs/metrics/procrustes_summary_things38.csv
+outputs/metrics/human_blockwise_rsa.csv
+outputs/tables/human_blockwise_rsa_table.csv
+
+# Large processed anchor binaries
+data/anchors/*.npy
+
+# Local caches
+.cache/
+.codex
+.codex/
+
+# Local cleanup/archive area
+legacy/*
+!legacy/scripts/
+!legacy/scripts/**
+
+# Local data and generated artifacts
+datasets/
+outputs/
+figures_data/
+legacy/scripts/submit_*.sh
+data/concepts/abstract_lancaster_140_strict_concepts.csv
+data/concepts/abstract_lancaster_204_concepts.csv
+data/concepts/concrete_lancaster_control_204_concepts.csv

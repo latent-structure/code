@@ -1,0 +1,6 @@
+anchor_name,comparison_name,left_representation,right_representation,left_rsa,right_rsa,mean_gap,ci_low,ci_high
+THINGS behavioral similarity,prototype_minus_prompt,prototype_all_images,T_prompt_primary,0.5414629630579098,0.5141419268541259,0.03395178933893394,-0.11620704288486816,0.17596029213799078
+THINGS behavioral similarity,prototype_minus_single,prototype_all_images,single_image_grounding,0.5414629630579098,0.38503078270152885,0.13711029463402508,-0.0011153253325791033,0.27757293086380497
+controlled_THINGS,prototype_minus_prompt,prototype_all_images,T_prompt_primary,0.33891028040258203,0.17574316283356947,0.15019347732627045,-0.08476823755035484,0.36529204776224733
+controlled_THINGS,prototype_minus_single,prototype_all_images,single_image_grounding,0.33891028040258203,0.25605670374718936,0.06361090337614314,-0.14055930218034754,0.23252340090088455
+SigLIP2,prototype_minus_single,prototype_all_images,single_image_grounding,0.3896683261468102,0.47205430880914495,-0.07766861489505021,-0.28317322240824655,0.13041838012796714

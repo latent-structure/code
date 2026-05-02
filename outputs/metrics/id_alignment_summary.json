@@ -1,0 +1,334 @@
+{
+  "conditions": {
+    "M_blank_image": {
+      "human_anchor_scores": {
+        "SigLIP2": 0.1216006156833154,
+        "THINGS behavioral similarity": 0.17083429640034975,
+        "controlled_THINGS": 0.16784939478677902,
+        "lancaster_perceptual": 0.12831390650236438
+      },
+      "mean_participation_ratio": 143.6427513327268
+    },
+    "M_degraded_image": {
+      "human_anchor_scores": {
+        "SigLIP2": 0.17511495822567796,
+        "THINGS behavioral similarity": 0.26136334085399443,
+        "controlled_THINGS": 0.25263472609453397,
+        "lancaster_perceptual": 0.21880578140732398
+      },
+      "mean_participation_ratio": 118.29253617593957
+    },
+    "M_matched_image": {
+      "human_anchor_scores": {
+        "SigLIP2": 0.19335726222063168,
+        "THINGS behavioral similarity": 0.2722579781890108,
+        "controlled_THINGS": 0.26274434812763603,
+        "lancaster_perceptual": 0.22516248105366235
+      },
+      "mean_participation_ratio": 113.28041348551288
+    },
+    "M_mismatched_image": {
+      "human_anchor_scores": {
+        "SigLIP2": 0.11649610449153405,
+        "THINGS behavioral similarity": 0.19640581910103685,
+        "controlled_THINGS": 0.1915736855636258,
+        "lancaster_perceptual": 0.16235293274778284
+      },
+      "mean_participation_ratio": 151.45842275666726
+    },
+    "M_prompt_plus_matched_image": {
+      "human_anchor_scores": {
+        "SigLIP2": 0.18753137065650138,
+        "THINGS behavioral similarity": 0.27773605930158995,
+        "controlled_THINGS": 0.26745207181895403,
+        "lancaster_perceptual": 0.24984125673773006
+      },
+      "mean_participation_ratio": 107.17311560387151
+    },
+    "M_text_only": {
+      "human_anchor_scores": {
+        "SigLIP2": 0.12200949033968406,
+        "THINGS behavioral similarity": 0.16108344246769993,
+        "controlled_THINGS": 0.15856109238191038,
+        "lancaster_perceptual": 0.11580381671902072
+      },
+      "mean_participation_ratio": 147.04889426530102
+    },
+    "T_neutral": {
+      "human_anchor_scores": {
+        "SigLIP2": 0.1434636684469339,
+        "THINGS behavioral similarity": 0.19576352449346682,
+        "controlled_THINGS": 0.19106521582250288,
+        "lancaster_perceptual": 0.11920387325697668
+      },
+      "mean_participation_ratio": 136.09617440944564
+    },
+    "T_prompt_primary": {
+      "human_anchor_scores": {
+        "SigLIP2": 0.1422913520819516,
+        "THINGS behavioral similarity": 0.19128343780088755,
+        "controlled_THINGS": 0.18432026570006915,
+        "lancaster_perceptual": 0.11511797111759148
+      },
+      "mean_participation_ratio": 113.01090980343899
+    }
+  },
+  "correlations": [
+    {
+      "comparison_name": "THINGS behavioral similarity",
+      "comparison_type": "human_anchor",
+      "condition_subset": "all_conditions",
+      "metric_name": "rsa_score",
+      "num_conditions": 8,
+      "spearman_rho": -0.5714285714285714
+    },
+    {
+      "comparison_name": "controlled_THINGS",
+      "comparison_type": "human_anchor",
+      "condition_subset": "all_conditions",
+      "metric_name": "rsa_score",
+      "num_conditions": 8,
+      "spearman_rho": -0.5714285714285714
+    },
+    {
+      "comparison_name": "SigLIP2",
+      "comparison_type": "human_anchor",
+      "condition_subset": "all_conditions",
+      "metric_name": "rsa_score",
+      "num_conditions": 8,
+      "spearman_rho": -0.7857142857142857
+    },
+    {
+      "comparison_name": "lancaster_perceptual",
+      "comparison_type": "human_anchor",
+      "condition_subset": "all_conditions",
+      "metric_name": "rsa_score",
+      "num_conditions": 8,
+      "spearman_rho": -0.3333333333333333
+    },
+    {
+      "comparison_name": "THINGS behavioral similarity",
+      "comparison_type": "human_anchor",
+      "condition_subset": "primary_comparison",
+      "metric_name": "rsa_score",
+      "num_conditions": 4,
+      "spearman_rho": -0.7999999999999998
+    },
+    {
+      "comparison_name": "controlled_THINGS",
+      "comparison_type": "human_anchor",
+      "condition_subset": "primary_comparison",
+      "metric_name": "rsa_score",
+      "num_conditions": 4,
+      "spearman_rho": -0.7999999999999998
+    },
+    {
+      "comparison_name": "SigLIP2",
+      "comparison_type": "human_anchor",
+      "condition_subset": "primary_comparison",
+      "metric_name": "rsa_score",
+      "num_conditions": 4,
+      "spearman_rho": -0.3999999999999999
+    },
+    {
+      "comparison_name": "lancaster_perceptual",
+      "comparison_type": "human_anchor",
+      "condition_subset": "primary_comparison",
+      "metric_name": "rsa_score",
+      "num_conditions": 4,
+      "spearman_rho": -0.3999999999999999
+    },
+    {
+      "comparison_name": "THINGS behavioral similarity",
+      "comparison_type": "human_anchor",
+      "condition_subset": "multimodal_perturbations",
+      "metric_name": "rsa_score",
+      "num_conditions": 6,
+      "spearman_rho": -0.8285714285714286
+    },
+    {
+      "comparison_name": "controlled_THINGS",
+      "comparison_type": "human_anchor",
+      "condition_subset": "multimodal_perturbations",
+      "metric_name": "rsa_score",
+      "num_conditions": 6,
+      "spearman_rho": -0.8285714285714286
+    },
+    {
+      "comparison_name": "SigLIP2",
+      "comparison_type": "human_anchor",
+      "condition_subset": "multimodal_perturbations",
+      "metric_name": "rsa_score",
+      "num_conditions": 6,
+      "spearman_rho": -0.8857142857142857
+    },
+    {
+      "comparison_name": "lancaster_perceptual",
+      "comparison_type": "human_anchor",
+      "condition_subset": "multimodal_perturbations",
+      "metric_name": "rsa_score",
+      "num_conditions": 6,
+      "spearman_rho": -0.8285714285714286
+    },
+    {
+      "comparison_name": "THINGS behavioral similarity",
+      "comparison_type": "human_anchor",
+      "condition_subset": "visual_input_only",
+      "metric_name": "rsa_score",
+      "num_conditions": 4,
+      "spearman_rho": -0.7999999999999998
+    },
+    {
+      "comparison_name": "controlled_THINGS",
+      "comparison_type": "human_anchor",
+      "condition_subset": "visual_input_only",
+      "metric_name": "rsa_score",
+      "num_conditions": 4,
+      "spearman_rho": -0.7999999999999998
+    },
+    {
+      "comparison_name": "SigLIP2",
+      "comparison_type": "human_anchor",
+      "condition_subset": "visual_input_only",
+      "metric_name": "rsa_score",
+      "num_conditions": 4,
+      "spearman_rho": -0.9999999999999998
+    },
+    {
+      "comparison_name": "lancaster_perceptual",
+      "comparison_type": "human_anchor",
+      "condition_subset": "visual_input_only",
+      "metric_name": "rsa_score",
+      "num_conditions": 4,
+      "spearman_rho": -0.7999999999999998
+    },
+    {
+      "comparison_name": "coarse_category",
+      "comparison_type": "linear_probe",
+      "condition_subset": "all_conditions",
+      "metric_name": "balanced_accuracy",
+      "num_conditions": 8,
+      "spearman_rho": -0.3333333333333333
+    },
+    {
+      "comparison_name": "coarse_category",
+      "comparison_type": "linear_probe",
+      "condition_subset": "all_conditions",
+      "metric_name": "macro_f1",
+      "num_conditions": 8,
+      "spearman_rho": -0.30952380952380953
+    },
+    {
+      "comparison_name": "subtype",
+      "comparison_type": "linear_probe",
+      "condition_subset": "all_conditions",
+      "metric_name": "balanced_accuracy",
+      "num_conditions": 8,
+      "spearman_rho": -0.35714285714285715
+    },
+    {
+      "comparison_name": "subtype",
+      "comparison_type": "linear_probe",
+      "condition_subset": "all_conditions",
+      "metric_name": "macro_f1",
+      "num_conditions": 8,
+      "spearman_rho": -0.38095238095238093
+    },
+    {
+      "comparison_name": "coarse_category",
+      "comparison_type": "linear_probe",
+      "condition_subset": "primary_comparison",
+      "metric_name": "balanced_accuracy",
+      "num_conditions": 4,
+      "spearman_rho": -0.3999999999999999
+    },
+    {
+      "comparison_name": "coarse_category",
+      "comparison_type": "linear_probe",
+      "condition_subset": "primary_comparison",
+      "metric_name": "macro_f1",
+      "num_conditions": 4,
+      "spearman_rho": -0.3999999999999999
+    },
+    {
+      "comparison_name": "subtype",
+      "comparison_type": "linear_probe",
+      "condition_subset": "primary_comparison",
+      "metric_name": "balanced_accuracy",
+      "num_conditions": 4,
+      "spearman_rho": -0.3999999999999999
+    },
+    {
+      "comparison_name": "subtype",
+      "comparison_type": "linear_probe",
+      "condition_subset": "primary_comparison",
+      "metric_name": "macro_f1",
+      "num_conditions": 4,
+      "spearman_rho": -0.3999999999999999
+    },
+    {
+      "comparison_name": "coarse_category",
+      "comparison_type": "linear_probe",
+      "condition_subset": "multimodal_perturbations",
+      "metric_name": "balanced_accuracy",
+      "num_conditions": 6,
+      "spearman_rho": -0.6
+    },
+    {
+      "comparison_name": "coarse_category",
+      "comparison_type": "linear_probe",
+      "condition_subset": "multimodal_perturbations",
+      "metric_name": "macro_f1",
+      "num_conditions": 6,
+      "spearman_rho": -0.6
+    },
+    {
+      "comparison_name": "subtype",
+      "comparison_type": "linear_probe",
+      "condition_subset": "multimodal_perturbations",
+      "metric_name": "balanced_accuracy",
+      "num_conditions": 6,
+      "spearman_rho": -0.6571428571428571
+    },
+    {
+      "comparison_name": "subtype",
+      "comparison_type": "linear_probe",
+      "condition_subset": "multimodal_perturbations",
+      "metric_name": "macro_f1",
+      "num_conditions": 6,
+      "spearman_rho": -0.6
+    },
+    {
+      "comparison_name": "coarse_category",
+      "comparison_type": "linear_probe",
+      "condition_subset": "visual_input_only",
+      "metric_name": "balanced_accuracy",
+      "num_conditions": 4,
+      "spearman_rho": -0.5999999999999999
+    },
+    {
+      "comparison_name": "coarse_category",
+      "comparison_type": "linear_probe",
+      "condition_subset": "visual_input_only",
+      "metric_name": "macro_f1",
+      "num_conditions": 4,
+      "spearman_rho": -0.5999999999999999
+    },
+    {
+      "comparison_name": "subtype",
+      "comparison_type": "linear_probe",
+      "condition_subset": "visual_input_only",
+      "metric_name": "balanced_accuracy",
+      "num_conditions": 4,
+      "spearman_rho": -0.7999999999999998
+    },
+    {
+      "comparison_name": "subtype",
+      "comparison_type": "linear_probe",
+      "condition_subset": "visual_input_only",
+      "metric_name": "macro_f1",
+      "num_conditions": 4,
+      "spearman_rho": -0.5999999999999999
+    }
+  ]
+}

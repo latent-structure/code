@@ -1,0 +1,27 @@
+{
+  "all_layers_matched_rsa": 0.38583865028551645,
+  "all_layers_prompt_rsa": 0.4275576331285318,
+  "anchor_name": "THINGS behavioral similarity",
+  "behavior_overlap_count": 37,
+  "concept_subset": "data/concepts/things_covered_concepts.csv",
+  "excluded_concepts": [
+    "crystal"
+  ],
+  "mid_to_late_matched_rsa": 0.38163433497317795,
+  "mid_to_late_mean_embedding_matched_rsa": 0.45725657796990543,
+  "mid_to_late_mean_embedding_prompt_minus_matched": 0.06593715944303807,
+  "mid_to_late_mean_embedding_prompt_rsa": 0.5231937374129435,
+  "mid_to_late_prompt_rsa": 0.4798033642728942,
+  "sensory_subset_count": 38,
+  "supporting_layers": 5,
+  "things_behavior_matrix_path": "THINGS-behavior/osfstorage/data/spose_similarity.mat",
+  "things_behavior_order_path": "THINGS-behavior/osfstorage/variables/unique_id.txt",
+  "top_prompt_advantage_concepts": [
+    "bell",
+    "engine",
+    "trumpet",
+    "drum",
+    "chime"
+  ],
+  "total_layers": 37
+}

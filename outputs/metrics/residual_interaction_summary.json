@@ -1,0 +1,69 @@
+{
+  "conditions": {
+    "M_blank_image": {
+      "human_residual_rsa": 0.11000666054674893,
+      "raw_things_rsa": 0.17083429640034975
+    },
+    "M_matched_image": {
+      "human_residual_rsa": 0.17388251236603158,
+      "raw_things_rsa": 0.2722579781890108
+    },
+    "M_mismatched_image": {
+      "human_residual_rsa": 0.13896673844290192,
+      "raw_things_rsa": 0.19640581910103685
+    },
+    "M_prompt_plus_matched_image": {
+      "human_residual_rsa": 0.1815164892573962,
+      "raw_things_rsa": 0.27773605930158995
+    },
+    "M_text_only": {
+      "human_residual_rsa": 0.10178097765540738,
+      "raw_things_rsa": 0.16108344246769993
+    },
+    "T_prompt_primary": {
+      "human_residual_rsa": 0.1148797112892784,
+      "raw_things_rsa": 0.19128343780088755
+    }
+  },
+  "num_concepts": 1854,
+  "primary_contrasts": {
+    "CLIP ViT-L/14_visual_residual_matched_minus_prompt": 0.05835321855282775,
+    "DINOv2_visual_residual_matched_minus_prompt": 0.022214329092868808,
+    "SigLIP2_visual_residual_matched_minus_prompt": 0.01572385844961916,
+    "human_residual_leader": "M_matched_image",
+    "human_residual_prompt_minus_matched": -0.05900280107675318
+  },
+  "prompt_image_mixture": {
+    "integration_label": "image_dominant",
+    "matched_image_weight": 0.9443765658916854,
+    "mixture_r2": 0.9025507884797046,
+    "prompt_weight": 0.012780098500283742,
+    "residual_norm": 0.3121685626713588
+  },
+  "visual_residual_anchors": {
+    "CLIP ViT-L/14": {
+      "M_blank_image": 0.0893306982034205,
+      "M_matched_image": 0.11134575009393145,
+      "M_mismatched_image": 0.10088165532106973,
+      "M_prompt_plus_matched_image": 0.11610917446292268,
+      "M_text_only": 0.08842165530372657,
+      "T_prompt_primary": 0.052992531541103706
+    },
+    "DINOv2": {
+      "M_blank_image": 0.010939608894985072,
+      "M_matched_image": 0.03530002036855252,
+      "M_mismatched_image": 0.011609248134149465,
+      "M_prompt_plus_matched_image": 0.03710689116900921,
+      "M_text_only": 0.0071998915088894305,
+      "T_prompt_primary": 0.013085691275683714
+    },
+    "SigLIP2": {
+      "M_blank_image": 0.04906634170546932,
+      "M_matched_image": 0.0767541517093297,
+      "M_mismatched_image": 0.02942709105791497,
+      "M_prompt_plus_matched_image": 0.06727785313975211,
+      "M_text_only": 0.054684277363818166,
+      "T_prompt_primary": 0.06103029325971054
+    }
+  }
+}

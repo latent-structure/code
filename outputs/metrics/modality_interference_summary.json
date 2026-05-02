@@ -1,0 +1,49 @@
+{
+  "anchors": {
+    "SigLIP2": {
+      "best_base_condition": "M_matched_image",
+      "combined_minus_best_base": -0.0058258915641303255,
+      "combined_minus_matched": -0.0058258915641303255,
+      "combined_minus_prompt": 0.04524001857454976,
+      "combined_rsa": 0.18753137065650136,
+      "integration_pattern": "image_dominant",
+      "matched_rsa": 0.19335726222063168,
+      "prompt_rsa": 0.1422913520819516,
+      "text_only_rsa": 0.12200949033968406
+    },
+    "THINGS behavioral similarity": {
+      "best_base_condition": "M_matched_image",
+      "combined_minus_best_base": 0.005478081112578692,
+      "combined_minus_matched": 0.005478081112578692,
+      "combined_minus_prompt": 0.08645262150069771,
+      "combined_rsa": 0.277736059301575,
+      "integration_pattern": "additive",
+      "matched_rsa": 0.27225797818899633,
+      "prompt_rsa": 0.1912834378008773,
+      "text_only_rsa": 0.16108344246769132
+    },
+    "controlled_THINGS": {
+      "best_base_condition": "M_matched_image",
+      "combined_minus_best_base": 0.004707723691317833,
+      "combined_minus_matched": 0.004707723691317833,
+      "combined_minus_prompt": 0.08313180611888199,
+      "combined_rsa": 0.2674520718189447,
+      "integration_pattern": "image_dominant",
+      "matched_rsa": 0.26274434812762687,
+      "prompt_rsa": 0.1843202657000627,
+      "text_only_rsa": 0.15856109238190486
+    },
+    "lancaster_perceptual": {
+      "best_base_condition": "M_matched_image",
+      "combined_minus_best_base": 0.024678775684067705,
+      "combined_minus_matched": 0.024678775684067705,
+      "combined_minus_prompt": 0.13472328562013858,
+      "combined_rsa": 0.24984125673773006,
+      "integration_pattern": "additive",
+      "matched_rsa": 0.22516248105366235,
+      "prompt_rsa": 0.11511797111759148,
+      "text_only_rsa": 0.11580381671902072
+    }
+  },
+  "overall_pattern": "additive"
+}

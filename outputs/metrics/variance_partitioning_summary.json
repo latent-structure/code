@@ -1,0 +1,55 @@
+{
+  "conditions": {
+    "M_matched_image": {
+      "shared_with_human": 0.051304467243128885,
+      "shared_with_model_anchors": 0.0820638263828932,
+      "shared_with_proxies": 0.08054681516564617,
+      "total_model_fit": 0.08832886371372506,
+      "unique_anchor_family": 0.006265037330831863,
+      "unique_human_family": 0.037024396470596174,
+      "unique_predictors": {
+        "DINOv2": 0.0006818361162129194,
+        "SigLIP2": 0.005134532178571655,
+        "THINGS behavioral similarity": 0.037024396470596174,
+        "lexical_trigram_distance": 0.007727461722536452,
+        "subtype_membership": 5.656672314681421e-05
+      },
+      "unique_proxy_family": 0.007782048548078888
+    },
+    "M_mismatched_image": {
+      "shared_with_human": 0.02605221074283411,
+      "shared_with_model_anchors": 0.04880048571429386,
+      "shared_with_proxies": 0.039453846333114835,
+      "total_model_fit": 0.04966046898321159,
+      "unique_anchor_family": 0.00085998326891773,
+      "unique_human_family": 0.02360825824037748,
+      "unique_predictors": {
+        "DINOv2": 6.330200298457211e-05,
+        "SigLIP2": 0.0007432670753509257,
+        "THINGS behavioral similarity": 0.02360825824037748,
+        "lexical_trigram_distance": 0.010166083705281569,
+        "subtype_membership": 3.862235306984624e-05
+      },
+      "unique_proxy_family": 0.010206622650096753
+    },
+    "T_prompt_primary": {
+      "shared_with_human": 0.033385417816194654,
+      "shared_with_model_anchors": 0.0477145048591413,
+      "shared_with_proxies": 0.04027834097717221,
+      "total_model_fit": 0.051344188915684104,
+      "unique_anchor_family": 0.0036296840565428062,
+      "unique_human_family": 0.01795877109948945,
+      "unique_predictors": {
+        "DINOv2": 4.8860153256877203e-05,
+        "SigLIP2": 0.003458642542944458,
+        "THINGS behavioral similarity": 0.01795877109948945,
+        "lexical_trigram_distance": 0.011065039577770448,
+        "subtype_membership": 5.478536103178944e-07
+      },
+      "unique_proxy_family": 0.011065847938511897
+    }
+  },
+  "highest_unique_anchor_condition": "M_matched_image",
+  "highest_unique_human_condition": "M_matched_image",
+  "matched_minus_mismatched_anchor_unique": 0.005405054061914133
+}

@@ -1,0 +1,56 @@
+{
+  "margin_sensitivity": {
+    "observed": {
+      "0.0": {
+        "ambiguous_rate": 0.0,
+        "image_hijack_rate": 0.0005393743257820927,
+        "text_retention_rate": 0.9994606256742179
+      },
+      "0.005": {
+        "ambiguous_rate": 0.0010787486515641855,
+        "image_hijack_rate": 0.0005393743257820927,
+        "text_retention_rate": 0.9983818770226537
+      },
+      "0.01": {
+        "ambiguous_rate": 0.0010787486515641855,
+        "image_hijack_rate": 0.0005393743257820927,
+        "text_retention_rate": 0.9983818770226537
+      },
+      "0.02": {
+        "ambiguous_rate": 0.0016181229773462784,
+        "image_hijack_rate": 0.0,
+        "text_retention_rate": 0.9983818770226537
+      }
+    },
+    "random_null": {
+      "0.0": {
+        "ambiguous_rate": 0.0,
+        "image_hijack_rate": 0.0005393743257820927,
+        "text_retention_rate": 0.9994606256742179
+      },
+      "0.005": {
+        "ambiguous_rate": 0.0005393743257820927,
+        "image_hijack_rate": 0.0005393743257820927,
+        "text_retention_rate": 0.9989212513484358
+      },
+      "0.01": {
+        "ambiguous_rate": 0.0005393743257820927,
+        "image_hijack_rate": 0.0005393743257820927,
+        "text_retention_rate": 0.9989212513484358
+      },
+      "0.02": {
+        "ambiguous_rate": 0.0010787486515641855,
+        "image_hijack_rate": 0.0,
+        "text_retention_rate": 0.9989212513484358
+      }
+    }
+  },
+  "mean_random_source_rank": 692.866235167206,
+  "mean_source_rank": 519.767529665588,
+  "mean_target_rank": 1.0151024811218985,
+  "median_source_rank": 331.0,
+  "median_target_rank": 1.0,
+  "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+  "num_pairs": 1854,
+  "seed": 20260424
+}

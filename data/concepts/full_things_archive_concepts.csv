@@ -1,0 +1,1654 @@
+concept,subtype,source_dataset,current_matched_image,archive_image_count,selected_image_count
+aardvark,animal,things,data/images/things_max/aardvark.jpg,14,14
+abacus,home decor,things,data/images/things_max/abacus.jpg,14,14
+accordion,musical instrument,things,data/images/things_max/accordion.jpg,14,14
+acorn,fruit,things,data/images/things_max/acorn.jpg,16,16
+air_conditioner,electronic device,things,data/images/things_max/air_conditioner.jpg,13,13
+air_mattress,furniture,things,data/images/things_max/air_mattress.jpg,13,13
+air_pump,tool,things,data/images/things_max/air_pump.jpg,13,13
+airbag,part of car,things,data/images/things_max/airbag.jpg,16,16
+airboat,vehicle,things,data/images/things_max/airboat.jpg,13,13
+aircraft_carrier,vehicle,things,data/images/things_max/aircraft_carrier.jpg,23,23
+airplane,vehicle,things,data/images/things_max/airplane.jpg,12,12
+album,home decor,things,data/images/things_max/album.jpg,16,16
+alligator,animal,things,data/images/things_max/alligator.jpg,14,14
+almond,food,things,data/images/things_max/almond.jpg,13,13
+aloe,plant,things,data/images/things_max/aloe.jpg,12,12
+alpaca,animal,things,data/images/things_max/alpaca.jpg,15,15
+altar,Noun,things,data/images/things_max/altar.jpg,18,18
+aluminum_foil,#N/A,things,data/images/things_max/aluminum_foil.jpg,15,15
+amber,Noun,things,data/images/things_max/amber.jpg,12,12
+ambulance,vehicle,things,data/images/things_max/ambulance.jpg,13,13
+amplifier,electronic device,things,data/images/things_max/amplifier.jpg,16,16
+anchor,Noun,things,data/images/things_max/anchor.jpg,14,14
+ankle,body part,things,data/images/things_max/ankle.jpg,12,12
+anklet,decoration,things,data/images/things_max/anklet.jpg,12,12
+ant,"animal, insect",things,data/images/things_max/ant.jpg,12,12
+anteater,animal,things,data/images/things_max/anteater.jpg,12,12
+antelope,animal,things,data/images/things_max/antelope.jpg,12,12
+antenna,Noun,things,data/images/things_max/antenna.jpg,12,12
+anvil,tool,things,data/images/things_max/anvil.jpg,13,13
+appetizer,food,things,data/images/things_max/appetizer.jpg,29,29
+apple,"food, fruit",things,data/images/things_max/apple.jpg,12,12
+apple_tree,plant,things,data/images/things_max/apple_tree.jpg,12,12
+applesauce,food,things,data/images/things_max/applesauce.jpg,16,16
+apron,clothing,things,data/images/things_max/apron.jpg,13,13
+aquarium,"home decor, container",things,data/images/things_max/aquarium.jpg,12,12
+arch,Noun,things,data/images/things_max/arch.jpg,12,12
+arm,body part,things,data/images/things_max/arm.jpg,13,13
+armor,clothing,things,data/images/things_max/armor.jpg,14,14
+arrow,weapon,things,data/images/things_max/arrow.jpg,15,15
+artichoke,"plant, food, vegetable",things,data/images/things_max/artichoke.jpg,12,12
+arugula,"plant, food, vegetable",things,data/images/things_max/arugula.jpg,13,13
+ashtray,container,things,data/images/things_max/ashtray.jpg,14,14
+asparagus,"plant, food, vegetable",things,data/images/things_max/asparagus.jpg,12,12
+avocado,"food, fruit",things,data/images/things_max/avocado.jpg,16,16
+awning,Noun,things,data/images/things_max/awning.jpg,13,13
+axe,"weapon, tool",things,data/images/things_max/axe.jpg,14,14
+baby,Noun,things,data/images/things_max/baby.jpg,35,35
+backdrop,Noun,things,data/images/things_max/backdrop.jpg,14,14
+backgammon,Noun,things,data/images/things_max/backgammon.jpg,13,13
+backpack,container,things,data/images/things_max/backpack.jpg,13,13
+backscratcher,tool,things,data/images/things_max/backscratcher.jpg,20,20
+bacon,food,things,data/images/things_max/bacon.jpg,18,18
+badge,Noun,things,data/images/things_max/badge.jpg,13,13
+badger,animal,things,data/images/things_max/badger.jpg,23,23
+bag,container,things,data/images/things_max/bag.jpg,16,16
+bagel,food,things,data/images/things_max/bagel.jpg,24,24
+bagpipe,musical instrument,things,data/images/things_max/bagpipe.jpg,15,15
+baklava,"food, dessert",things,data/images/things_max/baklava.jpg,16,16
+balance_beam,sports equipment,things,data/images/things_max/balance_beam.jpg,13,13
+ball,"toy, sports equipment",things,data/images/things_max/ball.jpg,16,16
+balloon,toy,things,data/images/things_max/balloon.jpg,20,20
+ballot_box,container,things,data/images/things_max/ballot_box.jpg,16,16
+bamboo,plant,things,data/images/things_max/bamboo.jpg,16,16
+banana,"food, fruit",things,data/images/things_max/banana.jpg,13,13
+banana_peel,#N/A,things,data/images/things_max/banana_peel.jpg,17,17
+banana_split,"food, dessert",things,data/images/things_max/banana_split.jpg,15,15
+bandage,medical equipment,things,data/images/things_max/bandage.jpg,12,12
+bandanna,"clothing, clothing accessory",things,data/images/things_max/bandanna.jpg,12,12
+banjo,musical instrument,things,data/images/things_max/banjo.jpg,16,16
+bank,container,things,data/images/things_max/bank.jpg,13,13
+banner,decoration,things,data/images/things_max/banner.jpg,13,13
+barbed_wire,#N/A,things,data/images/things_max/barbed_wire.jpg,17,17
+barbell,sports equipment,things,data/images/things_max/barbell.jpg,12,12
+barcode,#N/A,things,data/images/things_max/barcode.jpg,14,14
+bark,Noun,things,data/images/things_max/bark.jpg,22,22
+barnacle,animal,things,data/images/things_max/barnacle.jpg,12,12
+barrel,container,things,data/images/things_max/barrel.jpg,19,19
+barrette,Noun,things,data/images/things_max/barrette.jpg,12,12
+baseball,sports equipment,things,data/images/things_max/baseball.jpg,18,18
+baseball_bat,"weapon, sports equipment",things,data/images/things_max/baseball_bat.jpg,12,12
+baseball_glove,sports equipment,things,data/images/things_max/baseball_glove.jpg,19,19
+basil,"plant, food",things,data/images/things_max/basil.jpg,14,14
+basket,container,things,data/images/things_max/basket.jpg,12,12
+basketball,sports equipment,things,data/images/things_max/basketball.jpg,13,13
+basketball_hoop,sports equipment,things,data/images/things_max/basketball_hoop.jpg,12,12
+bassinet,furniture,things,data/images/things_max/bassinet.jpg,16,16
+bassoon,musical instrument,things,data/images/things_max/bassoon.jpg,19,19
+bat1,animal,things,data/images/things_max/bat1.jpg,18,18
+bat2,"weapon, sports equipment",things,data/images/things_max/bat2.jpg,15,15
+bathmat,Noun,things,data/images/things_max/bathmat.jpg,13,13
+bathrobe,clothing,things,data/images/things_max/bathrobe.jpg,21,21
+bathtub,container,things,data/images/things_max/bathtub.jpg,24,24
+baton1,Noun,things,data/images/things_max/baton1.jpg,16,16
+baton2,weapon,things,data/images/things_max/baton2.jpg,13,13
+baton3,sports equipment,things,data/images/things_max/baton3.jpg,17,17
+baton4,sports equipment,things,data/images/things_max/baton4.jpg,18,18
+batter,food,things,data/images/things_max/batter.jpg,12,12
+battery,Noun,things,data/images/things_max/battery.jpg,13,13
+bazooka,weapon,things,data/images/things_max/bazooka.jpg,13,13
+beachball,"toy, sports equipment",things,data/images/things_max/beachball.jpg,19,19
+bead,decoration,things,data/images/things_max/bead.jpg,14,14
+beaker,container,things,data/images/things_max/beaker.jpg,16,16
+bean,food,things,data/images/things_max/bean.jpg,13,13
+beanbag,furniture,things,data/images/things_max/beanbag.jpg,16,16
+beanie,clothing,things,data/images/things_max/beanie.jpg,18,18
+bear,animal,things,data/images/things_max/bear.jpg,21,21
+beard,body part,things,data/images/things_max/beard.jpg,16,16
+beaver,animal,things,data/images/things_max/beaver.jpg,17,17
+bed,furniture,things,data/images/things_max/bed.jpg,22,22
+bedpan,"medical equipment, container",things,data/images/things_max/bedpan.jpg,13,13
+bedpost,furniture,things,data/images/things_max/bedpost.jpg,15,15
+bee,"animal, insect",things,data/images/things_max/bee.jpg,27,27
+beehive,Noun,things,data/images/things_max/beehive.jpg,13,13
+beer,drink,things,data/images/things_max/beer.jpg,16,16
+beet,"food, vegetable",things,data/images/things_max/beet.jpg,15,15
+beetle,"animal, insect",things,data/images/things_max/beetle.jpg,15,15
+bell,musical instrument,things,data/images/things_max/bell.jpg,17,17
+bell_pepper,"food, vegetable",things,data/images/things_max/bell_pepper.jpg,14,14
+belt,"clothing, clothing accessory",things,data/images/things_max/belt.jpg,14,14
+belt_buckle,clothing accessory,things,data/images/things_max/belt_buckle.jpg,17,17
+bench,furniture,things,data/images/things_max/bench.jpg,16,16
+berry,"food, fruit",things,data/images/things_max/berry.jpg,12,12
+bib,Noun,things,data/images/things_max/bib.jpg,15,15
+bike,vehicle,things,data/images/things_max/bike.jpg,23,23
+bikini,clothing,things,data/images/things_max/bikini.jpg,12,12
+bin,container,things,data/images/things_max/bin.jpg,14,14
+binder,office supply,things,data/images/things_max/binder.jpg,24,24
+binoculars,Noun,things,data/images/things_max/binoculars.jpg,12,12
+bird,"animal, bird",things,data/images/things_max/bird.jpg,23,23
+birdbath,"home decor, container",things,data/images/things_max/birdbath.jpg,15,15
+birdcage,"home decor, container",things,data/images/things_max/birdcage.jpg,12,12
+birdhouse,home decor,things,data/images/things_max/birdhouse.jpg,12,12
+birthday_cake,"food, dessert",things,data/images/things_max/birthday_cake.jpg,18,18
+biscuit,food,things,data/images/things_max/biscuit.jpg,12,12
+bison,animal,things,data/images/things_max/bison.jpg,13,13
+blackberry,"food, fruit",things,data/images/things_max/blackberry.jpg,12,12
+blanket,Noun,things,data/images/things_max/blanket.jpg,12,12
+blazer,clothing,things,data/images/things_max/blazer.jpg,15,15
+blender,"electronic device, kitchen appliance",things,data/images/things_max/blender.jpg,14,14
+blimp,vehicle,things,data/images/things_max/blimp.jpg,12,12
+blind,Adjective,things,data/images/things_max/blind.jpg,26,26
+blinder,Adjective,things,data/images/things_max/blinder.jpg,13,13
+blindfold,Noun,things,data/images/things_max/blindfold.jpg,18,18
+block,Noun,things,data/images/things_max/block.jpg,15,15
+blouse,clothing,things,data/images/things_max/blouse.jpg,16,16
+blower,"electronic device, tool",things,data/images/things_max/blower.jpg,16,16
+blowfish,animal,things,data/images/things_max/blowfish.jpg,16,16
+blowgun,weapon,things,data/images/things_max/blowgun.jpg,13,13
+blowtorch,"weapon, tool",things,data/images/things_max/blowtorch.jpg,14,14
+blueberry,"food, fruit",things,data/images/things_max/blueberry.jpg,12,12
+boa,"clothing, clothing accessory",things,data/images/things_max/boa.jpg,15,15
+boar,animal,things,data/images/things_max/boar.jpg,12,12
+board,Noun,things,data/images/things_max/board.jpg,16,16
+board_game,#N/A,things,data/images/things_max/board_game.jpg,22,22
+boat,vehicle,things,data/images/things_max/boat.jpg,15,15
+bobsled,sports equipment,things,data/images/things_max/bobsled.jpg,18,18
+bok_choy,"plant, food, vegetable",things,data/images/things_max/bok_choy.jpg,17,17
+bolo_tie,"clothing, clothing accessory",things,data/images/things_max/bolo_tie.jpg,12,12
+bologna,food,things,data/images/things_max/bologna.jpg,12,12
+bolt,Noun,things,data/images/things_max/bolt.jpg,15,15
+bomb,weapon,things,data/images/things_max/bomb.jpg,15,15
+bone,body part,things,data/images/things_max/bone.jpg,15,15
+bongo,musical instrument,things,data/images/things_max/bongo.jpg,18,18
+bonnet,"clothing, clothing accessory",things,data/images/things_max/bonnet.jpg,12,12
+bonsai,"home decor, plant",things,data/images/things_max/bonsai.jpg,12,12
+book,Noun,things,data/images/things_max/book.jpg,13,13
+bookmark,Noun,things,data/images/things_max/bookmark.jpg,17,17
+bookshelf,furniture,things,data/images/things_max/bookshelf.jpg,12,12
+boomerang,"weapon, toy",things,data/images/things_max/boomerang.jpg,12,12
+boot,clothing,things,data/images/things_max/boot.jpg,16,16
+bottle,container,things,data/images/things_max/bottle.jpg,12,12
+bottle_opener,"kitchen tool, tool",things,data/images/things_max/bottle_opener.jpg,15,15
+boulder,Name,things,data/images/things_max/boulder.jpg,22,22
+bouquet,decoration,things,data/images/things_max/bouquet.jpg,14,14
+bow1,"clothing, clothing accessory",things,data/images/things_max/bow1.jpg,19,19
+bow2,weapon,things,data/images/things_max/bow2.jpg,12,12
+bow3,decoration,things,data/images/things_max/bow3.jpg,12,12
+bowl,container,things,data/images/things_max/bowl.jpg,12,12
+bowler_hat,clothing,things,data/images/things_max/bowler_hat.jpg,13,13
+bowling_ball,sports equipment,things,data/images/things_max/bowling_ball.jpg,18,18
+bowtie,"clothing, clothing accessory",things,data/images/things_max/bowtie.jpg,14,14
+box,container,things,data/images/things_max/box.jpg,12,12
+boxer_shorts,clothing,things,data/images/things_max/boxer_shorts.jpg,13,13
+boxing_gloves,sports equipment,things,data/images/things_max/boxing_gloves.jpg,15,15
+boy,Noun,things,data/images/things_max/boy.jpg,13,13
+bra,clothing,things,data/images/things_max/bra.jpg,14,14
+brace,medical equipment,things,data/images/things_max/brace.jpg,16,16
+bracelet1,"clothing, clothing accessory",things,data/images/things_max/bracelet1.jpg,18,18
+bracelet2,clothing accessory,things,data/images/things_max/bracelet2.jpg,17,17
+bracket,Noun,things,data/images/things_max/bracket.jpg,15,15
+braid,Noun,things,data/images/things_max/braid.jpg,12,12
+brake,part of car,things,data/images/things_max/brake.jpg,12,12
+branch,Noun,things,data/images/things_max/branch.jpg,14,14
+brass_knuckles,weapon,things,data/images/things_max/brass_knuckles.jpg,14,14
+bread,food,things,data/images/things_max/bread.jpg,22,22
+breadbox,container,things,data/images/things_max/breadbox.jpg,14,14
+breadstick,food,things,data/images/things_max/breadstick.jpg,16,16
+breakfast,food,things,data/images/things_max/breakfast.jpg,13,13
+breathalyzer,Noun,things,data/images/things_max/breathalyzer.jpg,12,12
+brick,Noun,things,data/images/things_max/brick.jpg,14,14
+briefcase,container,things,data/images/things_max/briefcase.jpg,13,13
+broccoli,"plant, food, vegetable",things,data/images/things_max/broccoli.jpg,14,14
+brooch,clothing accessory,things,data/images/things_max/brooch.jpg,12,12
+broom,tool,things,data/images/things_max/broom.jpg,12,12
+brownie,"food, dessert",things,data/images/things_max/brownie.jpg,18,18
+brush,tool,things,data/images/things_max/brush.jpg,13,13
+brussels_sprouts,"food, vegetable",things,data/images/things_max/brussels_sprouts.jpg,12,12
+bubble,Noun,things,data/images/things_max/bubble.jpg,12,12
+bubble_wrap,#N/A,things,data/images/things_max/bubble_wrap.jpg,12,12
+bucket,container,things,data/images/things_max/bucket.jpg,12,12
+buckle,clothing accessory,things,data/images/things_max/buckle.jpg,14,14
+buffet,food,things,data/images/things_max/buffet.jpg,14,14
+bug,"animal, insect",things,data/images/things_max/bug.jpg,17,17
+buggy,vehicle,things,data/images/things_max/buggy.jpg,12,12
+bull,animal,things,data/images/things_max/bull.jpg,12,12
+bulldozer,vehicle,things,data/images/things_max/bulldozer.jpg,22,22
+bullet,weapon,things,data/images/things_max/bullet.jpg,13,13
+bulletin_board,#N/A,things,data/images/things_max/bulletin_board.jpg,12,12
+bulletproof_vest,clothing,things,data/images/things_max/bulletproof_vest.jpg,12,12
+bumper,part of car,things,data/images/things_max/bumper.jpg,12,12
+bun,food,things,data/images/things_max/bun.jpg,12,12
+bungee,"tool, sports equipment",things,data/images/things_max/bungee.jpg,12,12
+bunkbed,furniture,things,data/images/things_max/bunkbed.jpg,15,15
+buoy,Noun,things,data/images/things_max/buoy.jpg,12,12
+burner,kitchen appliance,things,data/images/things_max/burner.jpg,12,12
+burrito,food,things,data/images/things_max/burrito.jpg,12,12
+bus,vehicle,things,data/images/things_max/bus.jpg,12,12
+bush,plant,things,data/images/things_max/bush.jpg,12,12
+butter,food,things,data/images/things_max/butter.jpg,16,16
+butterfly,"animal, insect",things,data/images/things_max/butterfly.jpg,16,16
+button1,clothing accessory,things,data/images/things_max/button1.jpg,19,19
+button2,Noun,things,data/images/things_max/button2.jpg,12,12
+cabbage,"plant, food, vegetable",things,data/images/things_max/cabbage.jpg,13,13
+cabinet,"furniture, container",things,data/images/things_max/cabinet.jpg,14,14
+cable,Noun,things,data/images/things_max/cable.jpg,12,12
+cactus,plant,things,data/images/things_max/cactus.jpg,12,12
+cage,container,things,data/images/things_max/cage.jpg,12,12
+cake,"food, dessert",things,data/images/things_max/cake.jpg,15,15
+cake_mix,"food, dessert",things,data/images/things_max/cake_mix.jpg,12,12
+calamari,food,things,data/images/things_max/calamari.jpg,14,14
+calculator,Noun,things,data/images/things_max/calculator.jpg,14,14
+calf1,animal,things,data/images/things_max/calf1.jpg,16,16
+calf2,body part,things,data/images/things_max/calf2.jpg,14,14
+calzone,food,things,data/images/things_max/calzone.jpg,12,12
+camcorder,electronic device,things,data/images/things_max/camcorder.jpg,12,12
+camel,animal,things,data/images/things_max/camel.jpg,13,13
+camera_lens,#N/A,things,data/images/things_max/camera_lens.jpg,14,14
+camera1,electronic device,things,data/images/things_max/camera1.jpg,12,12
+camera2,electronic device,things,data/images/things_max/camera2.jpg,12,12
+camper,vehicle,things,data/images/things_max/camper.jpg,12,12
+can,container,things,data/images/things_max/can.jpg,12,12
+can_opener,"kitchen tool, tool",things,data/images/things_max/can_opener.jpg,12,12
+candelabra,home decor,things,data/images/things_max/candelabra.jpg,17,17
+candle,home decor,things,data/images/things_max/candle.jpg,12,12
+candlestick,home decor,things,data/images/things_max/candlestick.jpg,14,14
+candy,food,things,data/images/things_max/candy.jpg,13,13
+candy_bar,food,things,data/images/things_max/candy_bar.jpg,12,12
+candy_cane,food,things,data/images/things_max/candy_cane.jpg,12,12
+cane,medical equipment,things,data/images/things_max/cane.jpg,12,12
+canister,container,things,data/images/things_max/canister.jpg,15,15
+cannon,weapon,things,data/images/things_max/cannon.jpg,12,12
+cannonball,weapon,things,data/images/things_max/cannonball.jpg,16,16
+canoe,vehicle,things,data/images/things_max/canoe.jpg,21,21
+cantaloupe,"food, fruit",things,data/images/things_max/cantaloupe.jpg,13,13
+canvas,Noun,things,data/images/things_max/canvas.jpg,16,16
+cap,Noun,things,data/images/things_max/cap.jpg,14,14
+cape,clothing,things,data/images/things_max/cape.jpg,15,15
+car,vehicle,things,data/images/things_max/car.jpg,12,12
+car_door,part of car,things,data/images/things_max/car_door.jpg,12,12
+car_seat,part of car,things,data/images/things_max/car_seat.jpg,13,13
+caramel,"food, dessert",things,data/images/things_max/caramel.jpg,13,13
+card,Noun,things,data/images/things_max/card.jpg,15,15
+cardboard,Adjective,things,data/images/things_max/cardboard.jpg,13,13
+cardigan,clothing,things,data/images/things_max/cardigan.jpg,14,14
+cardinal,"animal, bird",things,data/images/things_max/cardinal.jpg,15,15
+carousel,Noun,things,data/images/things_max/carousel.jpg,12,12
+carriage,vehicle,things,data/images/things_max/carriage.jpg,16,16
+carrot,"food, vegetable",things,data/images/things_max/carrot.jpg,12,12
+cart,vehicle,things,data/images/things_max/cart.jpg,12,12
+cash_machine,electronic device,things,data/images/things_max/cash_machine.jpg,12,12
+cash_register,container,things,data/images/things_max/cash_register.jpg,12,12
+cashew,food,things,data/images/things_max/cashew.jpg,15,15
+casserole,food,things,data/images/things_max/casserole.jpg,12,12
+cassette,container,things,data/images/things_max/cassette.jpg,12,12
+cat,animal,things,data/images/things_max/cat.jpg,12,12
+catapult,weapon,things,data/images/things_max/catapult.jpg,12,12
+caterpillar,"animal, insect",things,data/images/things_max/caterpillar.jpg,21,21
+catfish,"animal, food",things,data/images/things_max/catfish.jpg,12,12
+cauliflower,"food, vegetable",things,data/images/things_max/cauliflower.jpg,16,16
+caviar,food,things,data/images/things_max/caviar.jpg,13,13
+cd_player,electronic device,things,data/images/things_max/cd_player.jpg,12,12
+celery,"food, vegetable",things,data/images/things_max/celery.jpg,12,12
+cello,musical instrument,things,data/images/things_max/cello.jpg,14,14
+cellphone,electronic device,things,data/images/things_max/cellphone.jpg,16,16
+cement_mixer,#N/A,things,data/images/things_max/cement_mixer.jpg,12,12
+centerpiece,home decor,things,data/images/things_max/centerpiece.jpg,13,13
+centrifuge,electronic device,things,data/images/things_max/centrifuge.jpg,12,12
+cereal,food,things,data/images/things_max/cereal.jpg,12,12
+chain,tool,things,data/images/things_max/chain.jpg,16,16
+chainsaw,"electronic device, weapon, tool",things,data/images/things_max/chainsaw.jpg,16,16
+chair,furniture,things,data/images/things_max/chair.jpg,12,12
+chalice,container,things,data/images/things_max/chalice.jpg,16,16
+chalk,Noun,things,data/images/things_max/chalk.jpg,13,13
+chalkboard,Noun,things,data/images/things_max/chalkboard.jpg,12,12
+champagne,drink,things,data/images/things_max/champagne.jpg,18,18
+chandelier,home decor,things,data/images/things_max/chandelier.jpg,12,12
+chaps,clothing,things,data/images/things_max/chaps.jpg,19,19
+charcoal,Noun,things,data/images/things_max/charcoal.jpg,12,12
+charger,Noun,things,data/images/things_max/charger.jpg,14,14
+chariot,vehicle,things,data/images/things_max/chariot.jpg,14,14
+checkbook,Noun,things,data/images/things_max/checkbook.jpg,12,12
+checkers,Noun,things,data/images/things_max/checkers.jpg,12,12
+cheese,"food, dessert",things,data/images/things_max/cheese.jpg,15,15
+cheeseburger,food,things,data/images/things_max/cheeseburger.jpg,12,12
+cheesecake,"food, dessert",things,data/images/things_max/cheesecake.jpg,15,15
+cheetah,animal,things,data/images/things_max/cheetah.jpg,13,13
+cherry,"food, fruit",things,data/images/things_max/cherry.jpg,12,12
+chess_piece,#N/A,things,data/images/things_max/chess_piece.jpg,13,13
+chessboard,Noun,things,data/images/things_max/chessboard.jpg,12,12
+chest1,body part,things,data/images/things_max/chest1.jpg,14,14
+chest2,"furniture, container",things,data/images/things_max/chest2.jpg,12,12
+chick,"animal, bird",things,data/images/things_max/chick.jpg,12,12
+chicken_wire,#N/A,things,data/images/things_max/chicken_wire.jpg,14,14
+chicken1,food,things,data/images/things_max/chicken1.jpg,12,12
+chicken2,animal,things,data/images/things_max/chicken2.jpg,12,12
+chickpea,"food, vegetable",things,data/images/things_max/chickpea.jpg,15,15
+chihuahua,animal,things,data/images/things_max/chihuahua.jpg,12,12
+chili,food,things,data/images/things_max/chili.jpg,14,14
+chime,musical instrument,things,data/images/things_max/chime.jpg,12,12
+chimney,Noun,things,data/images/things_max/chimney.jpg,12,12
+chin,body part,things,data/images/things_max/chin.jpg,12,12
+chinaware,Noun,things,data/images/things_max/chinaware.jpg,15,15
+chinchilla,animal,things,data/images/things_max/chinchilla.jpg,15,15
+chip,Noun,things,data/images/things_max/chip.jpg,12,12
+chipmunk,animal,things,data/images/things_max/chipmunk.jpg,16,16
+chips,food,things,data/images/things_max/chips.jpg,12,12
+chisel,tool,things,data/images/things_max/chisel.jpg,16,16
+chive,"plant, food, vegetable",things,data/images/things_max/chive.jpg,12,12
+chocolate,"food, dessert",things,data/images/things_max/chocolate.jpg,14,14
+chopsticks,tool,things,data/images/things_max/chopsticks.jpg,12,12
+christmas_card,#N/A,things,data/images/things_max/christmas_card.jpg,15,15
+christmas_tree,home decor,things,data/images/things_max/christmas_tree.jpg,12,12
+chute,Noun,things,data/images/things_max/chute.jpg,13,13
+cigar,Noun,things,data/images/things_max/cigar.jpg,25,25
+cigarette,Noun,things,data/images/things_max/cigarette.jpg,17,17
+cigarette_butt,#N/A,things,data/images/things_max/cigarette_butt.jpg,14,14
+cigarette_holder,#N/A,things,data/images/things_max/cigarette_holder.jpg,20,20
+cilantro,"plant, food, vegetable",things,data/images/things_max/cilantro.jpg,13,13
+cinnamon,food,things,data/images/things_max/cinnamon.jpg,12,12
+clam,"animal, food",things,data/images/things_max/clam.jpg,16,16
+clarinet,musical instrument,things,data/images/things_max/clarinet.jpg,13,13
+clasp,Noun,things,data/images/things_max/clasp.jpg,13,13
+clay,Noun,things,data/images/things_max/clay.jpg,12,12
+cleat,sports equipment,things,data/images/things_max/cleat.jpg,22,22
+cleaver,"weapon, kitchen tool, tool",things,data/images/things_max/cleaver.jpg,13,13
+clipboard,office supply,things,data/images/things_max/clipboard.jpg,15,15
+clipper1,tool,things,data/images/things_max/clipper1.jpg,13,13
+clipper2,tool,things,data/images/things_max/clipper2.jpg,12,12
+cloak,clothing,things,data/images/things_max/cloak.jpg,14,14
+clock,Noun,things,data/images/things_max/clock.jpg,12,12
+closet,"furniture, container",things,data/images/things_max/closet.jpg,13,13
+clothes,clothing,things,data/images/things_max/clothes.jpg,13,13
+clothesline,Noun,things,data/images/things_max/clothesline.jpg,12,12
+clothespin,Noun,things,data/images/things_max/clothespin.jpg,12,12
+cloud,Noun,things,data/images/things_max/cloud.jpg,12,12
+clove,food,things,data/images/things_max/clove.jpg,12,12
+clover,plant,things,data/images/things_max/clover.jpg,18,18
+coal,Noun,things,data/images/things_max/coal.jpg,12,12
+coaster,home decor,things,data/images/things_max/coaster.jpg,18,18
+coat,clothing,things,data/images/things_max/coat.jpg,12,12
+coat_rack,furniture,things,data/images/things_max/coat_rack.jpg,15,15
+cobra,animal,things,data/images/things_max/cobra.jpg,13,13
+cockatoo,"animal, bird",things,data/images/things_max/cockatoo.jpg,13,13
+cockroach,"animal, insect",things,data/images/things_max/cockroach.jpg,12,12
+cocktail,drink,things,data/images/things_max/cocktail.jpg,12,12
+coconut,"food, fruit",things,data/images/things_max/coconut.jpg,20,20
+cocoon,Noun,things,data/images/things_max/cocoon.jpg,12,12
+coffee,drink,things,data/images/things_max/coffee.jpg,15,15
+coffee_bean,food,things,data/images/things_max/coffee_bean.jpg,12,12
+coffee_filter,#N/A,things,data/images/things_max/coffee_filter.jpg,12,12
+coffee_pot,container,things,data/images/things_max/coffee_pot.jpg,14,14
+coffee_table,furniture,things,data/images/things_max/coffee_table.jpg,14,14
+coffeemaker,"electronic device, kitchen appliance",things,data/images/things_max/coffeemaker.jpg,14,14
+coffin,container,things,data/images/things_max/coffin.jpg,13,13
+coil,tool,things,data/images/things_max/coil.jpg,12,12
+coin,Noun,things,data/images/things_max/coin.jpg,15,15
+coleslaw,food,things,data/images/things_max/coleslaw.jpg,15,15
+collar,Noun,things,data/images/things_max/collar.jpg,16,16
+column,Noun,things,data/images/things_max/column.jpg,14,14
+comb,Verb,things,data/images/things_max/comb.jpg,12,12
+combination_lock,#N/A,things,data/images/things_max/combination_lock.jpg,12,12
+comic_book,#N/A,things,data/images/things_max/comic_book.jpg,15,15
+compass,Noun,things,data/images/things_max/compass.jpg,12,12
+compost,Noun,things,data/images/things_max/compost.jpg,16,16
+computer,electronic device,things,data/images/things_max/computer.jpg,12,12
+computer_screen,electronic device,things,data/images/things_max/computer_screen.jpg,16,16
+confetti,Noun,things,data/images/things_max/confetti.jpg,12,12
+contact_lens,#N/A,things,data/images/things_max/contact_lens.jpg,16,16
+container,container,things,data/images/things_max/container.jpg,13,13
+cooker,"electronic device, container, kitchen appliance",things,data/images/things_max/cooker.jpg,16,16
+cookie,"food, dessert",things,data/images/things_max/cookie.jpg,15,15
+cookie_cutter,kitchen utensil,things,data/images/things_max/cookie_cutter.jpg,13,13
+cookie_sheet,kitchen utensil,things,data/images/things_max/cookie_sheet.jpg,14,14
+cooler,Noun,things,data/images/things_max/cooler.jpg,13,13
+coop,container,things,data/images/things_max/coop.jpg,13,13
+copier,electronic device,things,data/images/things_max/copier.jpg,15,15
+coral,animal,things,data/images/things_max/coral.jpg,13,13
+cord,Noun,things,data/images/things_max/cord.jpg,15,15
+cordon_bleu,food,things,data/images/things_max/cordon_bleu.jpg,12,12
+cork,Noun,things,data/images/things_max/cork.jpg,14,14
+corkboard,office supply,things,data/images/things_max/corkboard.jpg,15,15
+corkscrew,"kitchen tool, tool",things,data/images/things_max/corkscrew.jpg,12,12
+corn,"plant, food, vegetable",things,data/images/things_max/corn.jpg,17,17
+cornbread,food,things,data/images/things_max/cornbread.jpg,14,14
+cornhusk,#N/A,things,data/images/things_max/cornhusk.jpg,15,15
+cornmeal,food,things,data/images/things_max/cornmeal.jpg,14,14
+cornucopia,home decor,things,data/images/things_max/cornucopia.jpg,13,13
+corsage,clothing accessory,things,data/images/things_max/corsage.jpg,15,15
+corset,clothing,things,data/images/things_max/corset.jpg,18,18
+costume,clothing,things,data/images/things_max/costume.jpg,14,14
+cot,furniture,things,data/images/things_max/cot.jpg,17,17
+cotton_candy,food,things,data/images/things_max/cotton_candy.jpg,13,13
+couch,furniture,things,data/images/things_max/couch.jpg,22,22
+cougar,animal,things,data/images/things_max/cougar.jpg,20,20
+counter,furniture,things,data/images/things_max/counter.jpg,17,17
+coverall,clothing,things,data/images/things_max/coverall.jpg,14,14
+cow,animal,things,data/images/things_max/cow.jpg,16,16
+coyote,animal,things,data/images/things_max/coyote.jpg,20,20
+crab,"animal, food",things,data/images/things_max/crab.jpg,17,17
+cracker,food,things,data/images/things_max/cracker.jpg,15,15
+cranberry,"food, fruit",things,data/images/things_max/cranberry.jpg,14,14
+crane,Name,things,data/images/things_max/crane.jpg,18,18
+crank,tool,things,data/images/things_max/crank.jpg,16,16
+crate,container,things,data/images/things_max/crate.jpg,17,17
+crayfish,"animal, food",things,data/images/things_max/crayfish.jpg,15,15
+crayon,toy,things,data/images/things_max/crayon.jpg,17,17
+cream,Noun,things,data/images/things_max/cream.jpg,12,12
+cream_cheese,food,things,data/images/things_max/cream_cheese.jpg,12,12
+credit_card,#N/A,things,data/images/things_max/credit_card.jpg,12,12
+creme_brulee,"food, dessert",things,data/images/things_max/creme_brulee.jpg,19,19
+crepe,"food, dessert",things,data/images/things_max/crepe.jpg,19,19
+crib,furniture,things,data/images/things_max/crib.jpg,17,17
+croissant,food,things,data/images/things_max/croissant.jpg,14,14
+cross,Verb,things,data/images/things_max/cross.jpg,18,18
+crossbow,weapon,things,data/images/things_max/crossbow.jpg,12,12
+crouton,food,things,data/images/things_max/crouton.jpg,12,12
+crow,"animal, bird",things,data/images/things_max/crow.jpg,21,21
+crowbar,"weapon, tool",things,data/images/things_max/crowbar.jpg,12,12
+crown,clothing,things,data/images/things_max/crown.jpg,12,12
+crucifix,decoration,things,data/images/things_max/crucifix.jpg,12,12
+cruise_ship,vehicle,things,data/images/things_max/cruise_ship.jpg,12,12
+crumb,food,things,data/images/things_max/crumb.jpg,12,12
+crutch,medical equipment,things,data/images/things_max/crutch.jpg,14,14
+crystal_ball,home decor,things,data/images/things_max/crystal_ball.jpg,12,12
+crystal1,Noun,things,data/images/things_max/crystal1.jpg,12,12
+crystal2,Noun,things,data/images/things_max/crystal2.jpg,20,20
+cuckoo_clock,home decor,things,data/images/things_max/cuckoo_clock.jpg,21,21
+cucumber,"food, vegetable",things,data/images/things_max/cucumber.jpg,16,16
+cufflink,clothing accessory,things,data/images/things_max/cufflink.jpg,18,18
+cummerbund,"clothing, clothing accessory",things,data/images/things_max/cummerbund.jpg,17,17
+cup,container,things,data/images/things_max/cup.jpg,15,15
+cupcake,"food, dessert",things,data/images/things_max/cupcake.jpg,17,17
+curb,Noun,things,data/images/things_max/curb.jpg,14,14
+curling_iron,"electronic device, tool",things,data/images/things_max/curling_iron.jpg,14,14
+curry,food,things,data/images/things_max/curry.jpg,22,22
+curtain,home decor,things,data/images/things_max/curtain.jpg,12,12
+cushion,Noun,things,data/images/things_max/cushion.jpg,12,12
+cutting_board,kitchen tool,things,data/images/things_max/cutting_board.jpg,12,12
+cymbal,musical instrument,things,data/images/things_max/cymbal.jpg,16,16
+dagger,weapon,things,data/images/things_max/dagger.jpg,14,14
+daisy,plant,things,data/images/things_max/daisy.jpg,12,12
+dalmatian,animal,things,data/images/things_max/dalmatian.jpg,12,12
+dandelion,plant,things,data/images/things_max/dandelion.jpg,15,15
+dart,"weapon, sports equipment",things,data/images/things_max/dart.jpg,12,12
+dartboard,sports equipment,things,data/images/things_max/dartboard.jpg,12,12
+dashboard,part of car,things,data/images/things_max/dashboard.jpg,13,13
+deer,animal,things,data/images/things_max/deer.jpg,14,14
+defibrillator,"electronic device, medical equipment",things,data/images/things_max/defibrillator.jpg,14,14
+denture,Noun,things,data/images/things_max/denture.jpg,14,14
+deodorant,Noun,things,data/images/things_max/deodorant.jpg,12,12
+desk,furniture,things,data/images/things_max/desk.jpg,14,14
+dessert,"food, dessert",things,data/images/things_max/dessert.jpg,22,22
+detonator,Noun,things,data/images/things_max/detonator.jpg,12,12
+dial,Verb,things,data/images/things_max/dial.jpg,12,12
+diamond,decoration,things,data/images/things_max/diamond.jpg,16,16
+diaper,clothing,things,data/images/things_max/diaper.jpg,12,12
+dice,Noun,things,data/images/things_max/dice.jpg,15,15
+dip,food,things,data/images/things_max/dip.jpg,14,14
+dirt_bike,vehicle,things,data/images/things_max/dirt_bike.jpg,12,12
+dish,container,things,data/images/things_max/dish.jpg,21,21
+dishrag,Noun,things,data/images/things_max/dishrag.jpg,12,12
+dishwasher,"electronic device, kitchen appliance",things,data/images/things_max/dishwasher.jpg,13,13
+dishwashing_liquid,#N/A,things,data/images/things_max/dishwashing_liquid.jpg,13,13
+diskette,Noun,things,data/images/things_max/diskette.jpg,12,12
+diving_board,#N/A,things,data/images/things_max/diving_board.jpg,13,13
+dog,animal,things,data/images/things_max/dog.jpg,12,12
+dogfood,food,things,data/images/things_max/dogfood.jpg,13,13
+doghouse,container,things,data/images/things_max/doghouse.jpg,13,13
+doily,home decor,things,data/images/things_max/doily.jpg,17,17
+doll,toy,things,data/images/things_max/doll.jpg,15,15
+dollhouse,toy,things,data/images/things_max/dollhouse.jpg,14,14
+dolly,Name,things,data/images/things_max/dolly.jpg,13,13
+dolphin,animal,things,data/images/things_max/dolphin.jpg,14,14
+domino,Noun,things,data/images/things_max/domino.jpg,18,18
+donkey,animal,things,data/images/things_max/donkey.jpg,17,17
+donut,"food, dessert",things,data/images/things_max/donut.jpg,16,16
+door,Noun,things,data/images/things_max/door.jpg,14,14
+doorbell,Noun,things,data/images/things_max/doorbell.jpg,14,14
+doorhandle,#N/A,things,data/images/things_max/doorhandle.jpg,13,13
+doorknob,Noun,things,data/images/things_max/doorknob.jpg,20,20
+doorknocker,home decor,things,data/images/things_max/doorknocker.jpg,28,28
+doormat,Noun,things,data/images/things_max/doormat.jpg,16,16
+doorstop,Noun,things,data/images/things_max/doorstop.jpg,15,15
+dough,food,things,data/images/things_max/dough.jpg,22,22
+dragonfly,"animal, insect",things,data/images/things_max/dragonfly.jpg,16,16
+drain,Noun,things,data/images/things_max/drain.jpg,17,17
+drawer,container,things,data/images/things_max/drawer.jpg,13,13
+dreidel,toy,things,data/images/things_max/dreidel.jpg,13,13
+dress,clothing,things,data/images/things_max/dress.jpg,13,13
+dresser,"furniture, container",things,data/images/things_max/dresser.jpg,19,19
+drill,"electronic device, tool",things,data/images/things_max/drill.jpg,14,14
+drink,drink,things,data/images/things_max/drink.jpg,15,15
+drum,musical instrument,things,data/images/things_max/drum.jpg,15,15
+drumstick,Noun,things,data/images/things_max/drumstick.jpg,12,12
+dryer,electronic device,things,data/images/things_max/dryer.jpg,12,12
+duck,"animal, bird",things,data/images/things_max/duck.jpg,13,13
+duckling,"animal, bird",things,data/images/things_max/duckling.jpg,25,25
+duct,Noun,things,data/images/things_max/duct.jpg,13,13
+duct_tape,#N/A,things,data/images/things_max/duct_tape.jpg,12,12
+duffel_bag,container,things,data/images/things_max/duffel_bag.jpg,13,13
+dumbbell,sports equipment,things,data/images/things_max/dumbbell.jpg,17,17
+dumbwaiter,Noun,things,data/images/things_max/dumbwaiter.jpg,17,17
+dumpling,food,things,data/images/things_max/dumpling.jpg,13,13
+dumpster,container,things,data/images/things_max/dumpster.jpg,14,14
+duster,tool,things,data/images/things_max/duster.jpg,12,12
+dustpan,"container, tool",things,data/images/things_max/dustpan.jpg,13,13
+dynamite,weapon,things,data/images/things_max/dynamite.jpg,13,13
+eagle,"animal, bird",things,data/images/things_max/eagle.jpg,21,21
+ear,body part,things,data/images/things_max/ear.jpg,12,12
+earplug,Noun,things,data/images/things_max/earplug.jpg,13,13
+earring,clothing accessory,things,data/images/things_max/earring.jpg,16,16
+earwig,"animal, insect",things,data/images/things_max/earwig.jpg,14,14
+easel,Noun,things,data/images/things_max/easel.jpg,16,16
+easter_egg,food,things,data/images/things_max/easter_egg.jpg,15,15
+eclair,"food, dessert",things,data/images/things_max/eclair.jpg,14,14
+eel,"animal, food",things,data/images/things_max/eel.jpg,12,12
+egg,food,things,data/images/things_max/egg.jpg,15,15
+egg_roll,food,things,data/images/things_max/egg_roll.jpg,12,12
+eggbeater,"kitchen tool, tool",things,data/images/things_max/eggbeater.jpg,17,17
+eggnog,drink,things,data/images/things_max/eggnog.jpg,12,12
+eggplant,"food, vegetable",things,data/images/things_max/eggplant.jpg,12,12
+eggshell,Noun,things,data/images/things_max/eggshell.jpg,14,14
+elbow,body part,things,data/images/things_max/elbow.jpg,14,14
+electric_chair,electronic device,things,data/images/things_max/electric_chair.jpg,12,12
+elephant,animal,things,data/images/things_max/elephant.jpg,12,12
+emerald,Noun,things,data/images/things_max/emerald.jpg,12,12
+enchilada,food,things,data/images/things_max/enchilada.jpg,16,16
+engine,part of car,things,data/images/things_max/engine.jpg,12,12
+envelope,office supply,things,data/images/things_max/envelope.jpg,12,12
+eraser,office supply,things,data/images/things_max/eraser.jpg,12,12
+espresso,drink,things,data/images/things_max/espresso.jpg,12,12
+exerciser,sports equipment,things,data/images/things_max/exerciser.jpg,12,12
+exhaust_pipe,part of car,things,data/images/things_max/exhaust_pipe.jpg,16,16
+extinguisher,Noun,things,data/images/things_max/extinguisher.jpg,16,16
+eye,body part,things,data/images/things_max/eye.jpg,21,21
+eye_patch,"medical equipment, clothing, clothing accessory",things,data/images/things_max/eye_patch.jpg,12,12
+eyedropper,medical equipment,things,data/images/things_max/eyedropper.jpg,12,12
+eyeliner,Noun,things,data/images/things_max/eyeliner.jpg,12,12
+eyepiece,Noun,things,data/images/things_max/eyepiece.jpg,12,12
+face,body part,things,data/images/things_max/face.jpg,12,12
+face_mask,sports equipment,things,data/images/things_max/face_mask.jpg,12,12
+fan,electronic device,things,data/images/things_max/fan.jpg,14,14
+fast_food,food,things,data/images/things_max/fast_food.jpg,12,12
+faucet,Noun,things,data/images/things_max/faucet.jpg,12,12
+feather,Noun,things,data/images/things_max/feather.jpg,16,16
+fence,Noun,things,data/images/things_max/fence.jpg,24,24
+fencepost,#N/A,things,data/images/things_max/fencepost.jpg,14,14
+fern,plant,things,data/images/things_max/fern.jpg,12,12
+ferret,animal,things,data/images/things_max/ferret.jpg,13,13
+ferris_wheel,#N/A,things,data/images/things_max/ferris_wheel.jpg,22,22
+ferry,vehicle,things,data/images/things_max/ferry.jpg,12,12
+fig,"food, fruit",things,data/images/things_max/fig.jpg,12,12
+figurine,home decor,things,data/images/things_max/figurine.jpg,12,12
+file1,tool,things,data/images/things_max/file1.jpg,12,12
+file2,office supply,things,data/images/things_max/file2.jpg,12,12
+filing_cabinet,"furniture, container",things,data/images/things_max/filing_cabinet.jpg,12,12
+film,Noun,things,data/images/things_max/film.jpg,12,12
+filter,part of car,things,data/images/things_max/filter.jpg,15,15
+finger,body part,things,data/images/things_max/finger.jpg,12,12
+fingerprint,Noun,things,data/images/things_max/fingerprint.jpg,13,13
+fire,Noun,things,data/images/things_max/fire.jpg,12,12
+fire_alarm,#N/A,things,data/images/things_max/fire_alarm.jpg,21,21
+fire_hydrant,#N/A,things,data/images/things_max/fire_hydrant.jpg,14,14
+fire_pit,#N/A,things,data/images/things_max/fire_pit.jpg,14,14
+firecracker,Noun,things,data/images/things_max/firecracker.jpg,15,15
+fireplace,home decor,things,data/images/things_max/fireplace.jpg,19,19
+firetruck,vehicle,things,data/images/things_max/firetruck.jpg,12,12
+firewood,Noun,things,data/images/things_max/firewood.jpg,12,12
+fireworks,Noun,things,data/images/things_max/fireworks.jpg,22,22
+first-aid_kit,medical equipment,things,data/images/things_max/first-aid_kit.jpg,12,12
+fish,"animal, food",things,data/images/things_max/fish.jpg,13,13
+fishbowl,container,things,data/images/things_max/fishbowl.jpg,17,17
+fishhook,Noun,things,data/images/things_max/fishhook.jpg,12,12
+fishing_pole,#N/A,things,data/images/things_max/fishing_pole.jpg,12,12
+fishnet_stockings,clothing,things,data/images/things_max/fishnet_stockings.jpg,15,15
+flag,decoration,things,data/images/things_max/flag.jpg,14,14
+flagpole,Noun,things,data/images/things_max/flagpole.jpg,14,14
+flamethrower,weapon,things,data/images/things_max/flamethrower.jpg,12,12
+flamingo,"animal, bird",things,data/images/things_max/flamingo.jpg,22,22
+flan,"food, dessert",things,data/images/things_max/flan.jpg,12,12
+flashbulb,Noun,things,data/images/things_max/flashbulb.jpg,12,12
+flashlight,Noun,things,data/images/things_max/flashlight.jpg,12,12
+flask,container,things,data/images/things_max/flask.jpg,14,14
+flatiron,Noun,things,data/images/things_max/flatiron.jpg,12,12
+flip_flop,clothing,things,data/images/things_max/flip_flop.jpg,12,12
+flipper,sports equipment,things,data/images/things_max/flipper.jpg,12,12
+float,Verb,things,data/images/things_max/float.jpg,12,12
+floss,Verb,things,data/images/things_max/floss.jpg,13,13
+flour,food,things,data/images/things_max/flour.jpg,12,12
+flower,plant,things,data/images/things_max/flower.jpg,19,19
+flute,musical instrument,things,data/images/things_max/flute.jpg,15,15
+fly,"animal, insect",things,data/images/things_max/fly.jpg,17,17
+flypaper,Noun,things,data/images/things_max/flypaper.jpg,13,13
+flyswatter,tool,things,data/images/things_max/flyswatter.jpg,12,12
+foam,Noun,things,data/images/things_max/foam.jpg,12,12
+folder,office supply,things,data/images/things_max/folder.jpg,19,19
+fondue,food,things,data/images/things_max/fondue.jpg,15,15
+food_processor,"electronic device, kitchen appliance",things,data/images/things_max/food_processor.jpg,14,14
+foot,body part,things,data/images/things_max/foot.jpg,14,14
+football,sports equipment,things,data/images/things_max/football.jpg,12,12
+football_helmet,sports equipment,things,data/images/things_max/football_helmet.jpg,16,16
+footbath,container,things,data/images/things_max/footbath.jpg,12,12
+footprint,Noun,things,data/images/things_max/footprint.jpg,15,15
+footrest,furniture,things,data/images/things_max/footrest.jpg,12,12
+fork,tool,things,data/images/things_max/fork.jpg,12,12
+forklift,vehicle,things,data/images/things_max/forklift.jpg,12,12
+fossil,Noun,things,data/images/things_max/fossil.jpg,12,12
+fountain_pen,"office supply, tool",things,data/images/things_max/fountain_pen.jpg,15,15
+fox,animal,things,data/images/things_max/fox.jpg,16,16
+frame,home decor,things,data/images/things_max/frame.jpg,12,12
+freezer,"electronic device, kitchen appliance",things,data/images/things_max/freezer.jpg,12,12
+french_fries,food,things,data/images/things_max/french_fries.jpg,12,12
+french_horn,musical instrument,things,data/images/things_max/french_horn.jpg,12,12
+frisbee,"toy, sports equipment",things,data/images/things_max/frisbee.jpg,12,12
+frog,animal,things,data/images/things_max/frog.jpg,15,15
+fruit,"food, fruit",things,data/images/things_max/fruit.jpg,12,12
+fruitcake,"food, dessert",things,data/images/things_max/fruitcake.jpg,12,12
+fudge,"food, dessert",things,data/images/things_max/fudge.jpg,14,14
+fungus,Noun,things,data/images/things_max/fungus.jpg,12,12
+funnel,"kitchen tool, tool",things,data/images/things_max/funnel.jpg,12,12
+fur_coat,clothing,things,data/images/things_max/fur_coat.jpg,12,12
+furnace,Noun,things,data/images/things_max/furnace.jpg,12,12
+fuse,Noun,things,data/images/things_max/fuse.jpg,12,12
+gallows,Noun,things,data/images/things_max/gallows.jpg,12,12
+game,Noun,things,data/images/things_max/game.jpg,12,12
+garbage,container,things,data/images/things_max/garbage.jpg,12,12
+garbage_truck,vehicle,things,data/images/things_max/garbage_truck.jpg,15,15
+gargoyle,decoration,things,data/images/things_max/gargoyle.jpg,17,17
+garlic,"food, vegetable",things,data/images/things_max/garlic.jpg,12,12
+garter,clothing,things,data/images/things_max/garter.jpg,12,12
+gas_mask,#N/A,things,data/images/things_max/gas_mask.jpg,12,12
+gasket,part of car,things,data/images/things_max/gasket.jpg,12,12
+gate,Noun,things,data/images/things_max/gate.jpg,12,12
+gauge,Noun,things,data/images/things_max/gauge.jpg,12,12
+gauze,medical equipment,things,data/images/things_max/gauze.jpg,12,12
+gavel,tool,things,data/images/things_max/gavel.jpg,12,12
+gazelle,animal,things,data/images/things_max/gazelle.jpg,14,14
+gear,Noun,things,data/images/things_max/gear.jpg,12,12
+gearshift,part of car,things,data/images/things_max/gearshift.jpg,12,12
+gel,Noun,things,data/images/things_max/gel.jpg,14,14
+gem,Noun,things,data/images/things_max/gem.jpg,12,12
+generator,electronic device,things,data/images/things_max/generator.jpg,12,12
+gift,Noun,things,data/images/things_max/gift.jpg,12,12
+ginger,food,things,data/images/things_max/ginger.jpg,12,12
+gingerbread_man,food,things,data/images/things_max/gingerbread_man.jpg,12,12
+giraffe,animal,things,data/images/things_max/giraffe.jpg,24,24
+girl,Noun,things,data/images/things_max/girl.jpg,13,13
+glass,container,things,data/images/things_max/glass.jpg,12,12
+glasses,clothing accessory,things,data/images/things_max/glasses.jpg,17,17
+globe,home decor,things,data/images/things_max/globe.jpg,12,12
+glove,"clothing, clothing accessory",things,data/images/things_max/glove.jpg,16,16
+glue,office supply,things,data/images/things_max/glue.jpg,12,12
+go-kart,vehicle,things,data/images/things_max/go-kart.jpg,12,12
+goalpost,sports equipment,things,data/images/things_max/goalpost.jpg,13,13
+goat,"animal, food",things,data/images/things_max/goat.jpg,12,12
+goblet,container,things,data/images/things_max/goblet.jpg,14,14
+goggles,sports equipment,things,data/images/things_max/goggles.jpg,13,13
+gold,Noun,things,data/images/things_max/gold.jpg,18,18
+goldfish,animal,things,data/images/things_max/goldfish.jpg,12,12
+golf_cart,vehicle,things,data/images/things_max/golf_cart.jpg,12,12
+golf_club,sports equipment,things,data/images/things_max/golf_club.jpg,12,12
+gondola,vehicle,things,data/images/things_max/gondola.jpg,12,12
+gong,musical instrument,things,data/images/things_max/gong.jpg,12,12
+goose,"animal, bird, food",things,data/images/things_max/goose.jpg,16,16
+gopher,animal,things,data/images/things_max/gopher.jpg,16,16
+gorilla,"animal, food",things,data/images/things_max/gorilla.jpg,21,21
+gourd,"home decor, vegetable",things,data/images/things_max/gourd.jpg,17,17
+graffiti,decoration,things,data/images/things_max/graffiti.jpg,19,19
+grain,food,things,data/images/things_max/grain.jpg,12,12
+gramophone,Noun,things,data/images/things_max/gramophone.jpg,17,17
+granite,Noun,things,data/images/things_max/granite.jpg,14,14
+granola,food,things,data/images/things_max/granola.jpg,17,17
+grape,"food, fruit",things,data/images/things_max/grape.jpg,20,20
+grapefruit,"food, fruit",things,data/images/things_max/grapefruit.jpg,18,18
+grapevine,plant,things,data/images/things_max/grapevine.jpg,13,13
+grass,plant,things,data/images/things_max/grass.jpg,15,15
+grasshopper,"animal, insect",things,data/images/things_max/grasshopper.jpg,20,20
+grate,Noun,things,data/images/things_max/grate.jpg,17,17
+grater,"kitchen tool, tool",things,data/images/things_max/grater.jpg,12,12
+gravel,Noun,things,data/images/things_max/gravel.jpg,12,12
+gravestone,Noun,things,data/images/things_max/gravestone.jpg,12,12
+gravy,food,things,data/images/things_max/gravy.jpg,19,19
+green_beans,"food, vegetable",things,data/images/things_max/green_beans.jpg,12,12
+grenade,weapon,things,data/images/things_max/grenade.jpg,12,12
+grill,Noun,things,data/images/things_max/grill.jpg,12,12
+grille,part of car,things,data/images/things_max/grille.jpg,12,12
+grinder,"kitchen tool, tool",things,data/images/things_max/grinder.jpg,13,13
+grits,food,things,data/images/things_max/grits.jpg,12,12
+groundhog,animal,things,data/images/things_max/groundhog.jpg,12,12
+guacamole,food,things,data/images/things_max/guacamole.jpg,25,25
+guardrail,Noun,things,data/images/things_max/guardrail.jpg,18,18
+guillotine,Noun,things,data/images/things_max/guillotine.jpg,14,14
+guinea_pig,animal,things,data/images/things_max/guinea_pig.jpg,14,14
+guitar,musical instrument,things,data/images/things_max/guitar.jpg,17,17
+gum,food,things,data/images/things_max/gum.jpg,12,12
+gumball,food,things,data/images/things_max/gumball.jpg,12,12
+gumdrop,food,things,data/images/things_max/gumdrop.jpg,13,13
+gun,weapon,things,data/images/things_max/gun.jpg,12,12
+gurney,medical equipment,things,data/images/things_max/gurney.jpg,26,26
+gutter,Noun,things,data/images/things_max/gutter.jpg,14,14
+gyro,food,things,data/images/things_max/gyro.jpg,12,12
+gyroscope,toy,things,data/images/things_max/gyroscope.jpg,12,12
+hail,Verb,things,data/images/things_max/hail.jpg,12,12
+hair,body part,things,data/images/things_max/hair.jpg,12,12
+hairbrush,Noun,things,data/images/things_max/hairbrush.jpg,15,15
+hairdryer,electronic device,things,data/images/things_max/hairdryer.jpg,15,15
+hairnet,Noun,things,data/images/things_max/hairnet.jpg,14,14
+hairpin,Noun,things,data/images/things_max/hairpin.jpg,15,15
+hairspray,Noun,things,data/images/things_max/hairspray.jpg,12,12
+ham,food,things,data/images/things_max/ham.jpg,12,12
+hamburger,food,things,data/images/things_max/hamburger.jpg,12,12
+hammer,"weapon, tool",things,data/images/things_max/hammer.jpg,12,12
+hammock,furniture,things,data/images/things_max/hammock.jpg,12,12
+hamster,animal,things,data/images/things_max/hamster.jpg,14,14
+hand,body part,things,data/images/things_max/hand.jpg,14,14
+handbrake,part of car,things,data/images/things_max/handbrake.jpg,12,12
+handcuff,Verb,things,data/images/things_max/handcuff.jpg,12,12
+handkerchief,clothing accessory,things,data/images/things_max/handkerchief.jpg,14,14
+handle,Verb,things,data/images/things_max/handle.jpg,13,13
+handlebar,Noun,things,data/images/things_max/handlebar.jpg,12,12
+handprint,Noun,things,data/images/things_max/handprint.jpg,12,12
+hanger,Noun,things,data/images/things_max/hanger.jpg,14,14
+hard_disk,#N/A,things,data/images/things_max/hard_disk.jpg,14,14
+harmonica,musical instrument,things,data/images/things_max/harmonica.jpg,19,19
+harness,Noun,things,data/images/things_max/harness.jpg,13,13
+harp,musical instrument,things,data/images/things_max/harp.jpg,12,12
+hash,food,things,data/images/things_max/hash.jpg,13,13
+hat,"clothing, clothing accessory",things,data/images/things_max/hat.jpg,17,17
+hatbox,container,things,data/images/things_max/hatbox.jpg,12,12
+hatchet,tool,things,data/images/things_max/hatchet.jpg,20,20
+hawk,"animal, bird",things,data/images/things_max/hawk.jpg,17,17
+hay,food,things,data/images/things_max/hay.jpg,13,13
+headband,"clothing, clothing accessory",things,data/images/things_max/headband.jpg,15,15
+headdress,"clothing, clothing accessory",things,data/images/things_max/headdress.jpg,15,15
+headlamp,#N/A,things,data/images/things_max/headlamp.jpg,16,16
+headlight,part of car,things,data/images/things_max/headlight.jpg,13,13
+headphones,Noun,things,data/images/things_max/headphones.jpg,13,13
+headrest,part of car,things,data/images/things_max/headrest.jpg,12,12
+headscarf,clothing,things,data/images/things_max/headscarf.jpg,12,12
+headset,Noun,things,data/images/things_max/headset.jpg,13,13
+hearing_aid,medical equipment,things,data/images/things_max/hearing_aid.jpg,14,14
+hearse,vehicle,things,data/images/things_max/hearse.jpg,12,12
+heater,Noun,things,data/images/things_max/heater.jpg,14,14
+hedge,plant,things,data/images/things_max/hedge.jpg,13,13
+hedgehog,animal,things,data/images/things_max/hedgehog.jpg,15,15
+helicopter,vehicle,things,data/images/things_max/helicopter.jpg,25,25
+helmet,sports equipment,things,data/images/things_max/helmet.jpg,12,12
+highchair,furniture,things,data/images/things_max/highchair.jpg,12,12
+highlighter,office supply,things,data/images/things_max/highlighter.jpg,12,12
+hinge,Noun,things,data/images/things_max/hinge.jpg,12,12
+hip,body part,things,data/images/things_max/hip.jpg,12,12
+hippopotamus,animal,things,data/images/things_max/hippopotamus.jpg,18,18
+hobbyhorse,toy,things,data/images/things_max/hobbyhorse.jpg,13,13
+hockey_stick,sports equipment,things,data/images/things_max/hockey_stick.jpg,12,12
+hoe,tool,things,data/images/things_max/hoe.jpg,13,13
+hole,Noun,things,data/images/things_max/hole.jpg,13,13
+holster,Noun,things,data/images/things_max/holster.jpg,14,14
+home_plate,sports equipment,things,data/images/things_max/home_plate.jpg,13,13
+honey,food,things,data/images/things_max/honey.jpg,15,15
+honeycomb,Noun,things,data/images/things_max/honeycomb.jpg,13,13
+honeypot,container,things,data/images/things_max/honeypot.jpg,19,19
+hood,clothing,things,data/images/things_max/hood.jpg,12,12
+hoodie,clothing,things,data/images/things_max/hoodie.jpg,15,15
+hook1,Noun,things,data/images/things_max/hook1.jpg,16,16
+hook2,tool,things,data/images/things_max/hook2.jpg,12,12
+hookah,Noun,things,data/images/things_max/hookah.jpg,15,15
+hopscotch,Noun,things,data/images/things_max/hopscotch.jpg,12,12
+horn,musical instrument,things,data/images/things_max/horn.jpg,12,12
+horse,animal,things,data/images/things_max/horse.jpg,17,17
+horseshoe,Noun,things,data/images/things_max/horseshoe.jpg,14,14
+hose,tool,things,data/images/things_max/hose.jpg,12,12
+hot_chocolate,drink,things,data/images/things_max/hot_chocolate.jpg,13,13
+hot_tub,container,things,data/images/things_max/hot_tub.jpg,14,14
+hot-air_balloon,vehicle,things,data/images/things_max/hot-air_balloon.jpg,22,22
+hot-water_bottle,container,things,data/images/things_max/hot-water_bottle.jpg,12,12
+hotdog,food,things,data/images/things_max/hotdog.jpg,12,12
+hotplate,"electronic device, kitchen appliance",things,data/images/things_max/hotplate.jpg,12,12
+hourglass,home decor,things,data/images/things_max/hourglass.jpg,14,14
+hovercraft,vehicle,things,data/images/things_max/hovercraft.jpg,13,13
+hubcap,part of car,things,data/images/things_max/hubcap.jpg,18,18
+hula_hoop,toy,things,data/images/things_max/hula_hoop.jpg,16,16
+hummingbird,"animal, bird",things,data/images/things_max/hummingbird.jpg,12,12
+hummus,food,things,data/images/things_max/hummus.jpg,17,17
+humvee,vehicle,things,data/images/things_max/humvee.jpg,16,16
+hydrant,Noun,things,data/images/things_max/hydrant.jpg,13,13
+hyena,animal,things,data/images/things_max/hyena.jpg,16,16
+ice,"food, dessert",things,data/images/things_max/ice.jpg,14,14
+ice_cream,"food, dessert",things,data/images/things_max/ice_cream.jpg,12,12
+ice_cube,"food, dessert",things,data/images/things_max/ice_cube.jpg,14,14
+ice_pack,medical equipment,things,data/images/things_max/ice_pack.jpg,12,12
+ice-cream_cone,"food, dessert",things,data/images/things_max/ice-cream_cone.jpg,15,15
+icemaker,"electronic device, kitchen appliance",things,data/images/things_max/icemaker.jpg,12,12
+icepick,"weapon, kitchen tool, tool",things,data/images/things_max/icepick.jpg,13,13
+iceskate,sports equipment,things,data/images/things_max/iceskate.jpg,14,14
+icicle,Noun,things,data/images/things_max/icicle.jpg,12,12
+iguana,animal,things,data/images/things_max/iguana.jpg,26,26
+incense,Noun,things,data/images/things_max/incense.jpg,12,12
+incubator,electronic device,things,data/images/things_max/incubator.jpg,12,12
+inhaler,medical equipment,things,data/images/things_max/inhaler.jpg,12,12
+ink,office supply,things,data/images/things_max/ink.jpg,13,13
+inkwell,container,things,data/images/things_max/inkwell.jpg,14,14
+insole,clothing accessory,things,data/images/things_max/insole.jpg,13,13
+iron,electronic device,things,data/images/things_max/iron.jpg,17,17
+ironing_board,#N/A,things,data/images/things_max/ironing_board.jpg,15,15
+ivy,plant,things,data/images/things_max/ivy.jpg,13,13
+jack,tool,things,data/images/things_max/jack.jpg,12,12
+jacket,clothing,things,data/images/things_max/jacket.jpg,16,16
+jackhammer,"electronic device, tool",things,data/images/things_max/jackhammer.jpg,13,13
+jalapeno,"food, vegetable",things,data/images/things_max/jalapeno.jpg,15,15
+jam,food,things,data/images/things_max/jam.jpg,15,15
+jar,container,things,data/images/things_max/jar.jpg,14,14
+javelin,sports equipment,things,data/images/things_max/javelin.jpg,12,12
+jeans,clothing,things,data/images/things_max/jeans.jpg,17,17
+jeep,vehicle,things,data/images/things_max/jeep.jpg,15,15
+jelly_bean,food,things,data/images/things_max/jelly_bean.jpg,13,13
+jellyfish,animal,things,data/images/things_max/jellyfish.jpg,15,15
+jersey,clothing,things,data/images/things_max/jersey.jpg,15,15
+jet,vehicle,things,data/images/things_max/jet.jpg,15,15
+jetski,vehicle,things,data/images/things_max/jetski.jpg,14,14
+jewel,decoration,things,data/images/things_max/jewel.jpg,21,21
+jewelry,decoration,things,data/images/things_max/jewelry.jpg,15,15
+jigsaw_puzzle,#N/A,things,data/images/things_max/jigsaw_puzzle.jpg,14,14
+joystick,electronic device,things,data/images/things_max/joystick.jpg,15,15
+jug,container,things,data/images/things_max/jug.jpg,13,13
+juice,drink,things,data/images/things_max/juice.jpg,13,13
+juicer1,kitchen tool,things,data/images/things_max/juicer1.jpg,12,12
+juicer2,"electronic device, kitchen appliance",things,data/images/things_max/juicer2.jpg,13,13
+jukebox,electronic device,things,data/images/things_max/jukebox.jpg,13,13
+jump_rope,sports equipment,things,data/images/things_max/jump_rope.jpg,14,14
+jumpsuit,clothing,things,data/images/things_max/jumpsuit.jpg,13,13
+kale,"plant, food, vegetable",things,data/images/things_max/kale.jpg,15,15
+kaleidoscope,toy,things,data/images/things_max/kaleidoscope.jpg,12,12
+kangaroo,animal,things,data/images/things_max/kangaroo.jpg,15,15
+kayak,vehicle,things,data/images/things_max/kayak.jpg,13,13
+kazoo,musical instrument,things,data/images/things_max/kazoo.jpg,19,19
+kebab,food,things,data/images/things_max/kebab.jpg,12,12
+keg,container,things,data/images/things_max/keg.jpg,18,18
+ketchup,food,things,data/images/things_max/ketchup.jpg,16,16
+kettle,"container, kitchen tool",things,data/images/things_max/kettle.jpg,15,15
+key,Noun,things,data/images/things_max/key.jpg,19,19
+keyboard,musical instrument,things,data/images/things_max/keyboard.jpg,15,15
+keyhole,Noun,things,data/images/things_max/keyhole.jpg,14,14
+kilt,clothing,things,data/images/things_max/kilt.jpg,18,18
+kimono,clothing,things,data/images/things_max/kimono.jpg,17,17
+kite,toy,things,data/images/things_max/kite.jpg,14,14
+kitten,animal,things,data/images/things_max/kitten.jpg,12,12
+kiwi,"food, fruit",things,data/images/things_max/kiwi.jpg,12,12
+knee,body part,things,data/images/things_max/knee.jpg,13,13
+kneepad,sports equipment,things,data/images/things_max/kneepad.jpg,16,16
+knife,"weapon, kitchen tool, tool",things,data/images/things_max/knife.jpg,15,15
+knitting,Noun,things,data/images/things_max/knitting.jpg,12,12
+knitting_needle,#N/A,things,data/images/things_max/knitting_needle.jpg,18,18
+knob,Noun,things,data/images/things_max/knob.jpg,18,18
+knot,Noun,things,data/images/things_max/knot.jpg,12,12
+koala,animal,things,data/images/things_max/koala.jpg,13,13
+lab_coat,clothing,things,data/images/things_max/lab_coat.jpg,15,15
+ladder,tool,things,data/images/things_max/ladder.jpg,15,15
+ladle,"kitchen tool, tool",things,data/images/things_max/ladle.jpg,13,13
+ladybug,"animal, insect",things,data/images/things_max/ladybug.jpg,13,13
+lamb,"animal, food",things,data/images/things_max/lamb.jpg,16,16
+lamb_chop,food,things,data/images/things_max/lamb_chop.jpg,18,18
+lamp,"electronic device, home decor",things,data/images/things_max/lamp.jpg,13,13
+lamppost,Noun,things,data/images/things_max/lamppost.jpg,17,17
+lampshade,home decor,things,data/images/things_max/lampshade.jpg,12,12
+landmine,weapon,things,data/images/things_max/landmine.jpg,12,12
+lantern,Noun,things,data/images/things_max/lantern.jpg,14,14
+lanyard,clothing accessory,things,data/images/things_max/lanyard.jpg,13,13
+laptop,electronic device,things,data/images/things_max/laptop.jpg,15,15
+lasagna,food,things,data/images/things_max/lasagna.jpg,15,15
+laser_pointer,#N/A,things,data/images/things_max/laser_pointer.jpg,12,12
+latch,Noun,things,data/images/things_max/latch.jpg,16,16
+latte,drink,things,data/images/things_max/latte.jpg,12,12
+laundry_basket,container,things,data/images/things_max/laundry_basket.jpg,12,12
+lava,Noun,things,data/images/things_max/lava.jpg,12,12
+lavender,plant,things,data/images/things_max/lavender.jpg,12,12
+lawnmower,tool,things,data/images/things_max/lawnmower.jpg,16,16
+leaf,Noun,things,data/images/things_max/leaf.jpg,14,14
+leash,Noun,things,data/images/things_max/leash.jpg,12,12
+lectern,furniture,things,data/images/things_max/lectern.jpg,12,12
+leech,animal,things,data/images/things_max/leech.jpg,13,13
+leek,"plant, food, vegetable",things,data/images/things_max/leek.jpg,16,16
+leg,body part,things,data/images/things_max/leg.jpg,16,16
+leggings,clothing,things,data/images/things_max/leggings.jpg,12,12
+lego,toy,things,data/images/things_max/lego.jpg,13,13
+lemon,"food, fruit",things,data/images/things_max/lemon.jpg,12,12
+lemonade,drink,things,data/images/things_max/lemonade.jpg,16,16
+lens,Noun,things,data/images/things_max/lens.jpg,12,12
+leopard,animal,things,data/images/things_max/leopard.jpg,13,13
+leotard,clothing,things,data/images/things_max/leotard.jpg,13,13
+letter_opener,tool,things,data/images/things_max/letter_opener.jpg,12,12
+lettuce,"plant, food, vegetable",things,data/images/things_max/lettuce.jpg,12,12
+license_plate,part of car,things,data/images/things_max/license_plate.jpg,12,12
+licorice,food,things,data/images/things_max/licorice.jpg,13,13
+lid,Noun,things,data/images/things_max/lid.jpg,12,12
+life_jacket,clothing,things,data/images/things_max/life_jacket.jpg,12,12
+lifesaver,Noun,things,data/images/things_max/lifesaver.jpg,13,13
+light_switch,#N/A,things,data/images/things_max/light_switch.jpg,17,17
+lightbulb,Noun,things,data/images/things_max/lightbulb.jpg,15,15
+lighter,tool,things,data/images/things_max/lighter.jpg,15,15
+lightning_bug,"animal, insect",things,data/images/things_max/lightning_bug.jpg,12,12
+lime,"food, fruit",things,data/images/things_max/lime.jpg,14,14
+limousine,vehicle,things,data/images/things_max/limousine.jpg,15,15
+lingerie,clothing,things,data/images/things_max/lingerie.jpg,12,12
+lion,animal,things,data/images/things_max/lion.jpg,25,25
+lip_balm,#N/A,things,data/images/things_max/lip_balm.jpg,12,12
+lip_gloss,#N/A,things,data/images/things_max/lip_gloss.jpg,12,12
+lipstick,Noun,things,data/images/things_max/lipstick.jpg,12,12
+lizard,animal,things,data/images/things_max/lizard.jpg,12,12
+llama,animal,things,data/images/things_max/llama.jpg,13,13
+lobster,"animal, food",things,data/images/things_max/lobster.jpg,12,12
+lock,Verb,things,data/images/things_max/lock.jpg,12,12
+locker,container,things,data/images/things_max/locker.jpg,14,14
+locket,container,things,data/images/things_max/locket.jpg,12,12
+log,Noun,things,data/images/things_max/log.jpg,12,12
+loincloth,clothing,things,data/images/things_max/loincloth.jpg,12,12
+lollipop,food,things,data/images/things_max/lollipop.jpg,12,12
+loom,Noun,things,data/images/things_max/loom.jpg,16,16
+loveseat,furniture,things,data/images/things_max/loveseat.jpg,16,16
+luggage,container,things,data/images/things_max/luggage.jpg,12,12
+lumber,Noun,things,data/images/things_max/lumber.jpg,12,12
+lunchbox,container,things,data/images/things_max/lunchbox.jpg,13,13
+macadamia,food,things,data/images/things_max/macadamia.jpg,13,13
+macaroni,food,things,data/images/things_max/macaroni.jpg,15,15
+machete,weapon,things,data/images/things_max/machete.jpg,12,12
+machine_gun,weapon,things,data/images/things_max/machine_gun.jpg,13,13
+maggot,animal,things,data/images/things_max/maggot.jpg,12,12
+magnet,tool,things,data/images/things_max/magnet.jpg,12,12
+magnifier,tool,things,data/images/things_max/magnifier.jpg,12,12
+magnifying_glass,tool,things,data/images/things_max/magnifying_glass.jpg,12,12
+mail,Noun,things,data/images/things_max/mail.jpg,12,12
+mailbox,container,things,data/images/things_max/mailbox.jpg,20,20
+makeup,Noun,things,data/images/things_max/makeup.jpg,16,16
+mallet,tool,things,data/images/things_max/mallet.jpg,16,16
+man,Noun,things,data/images/things_max/man.jpg,12,12
+manatee,animal,things,data/images/things_max/manatee.jpg,12,12
+mandolin,musical instrument,things,data/images/things_max/mandolin.jpg,12,12
+mango,"food, fruit",things,data/images/things_max/mango.jpg,19,19
+manhole,Noun,things,data/images/things_max/manhole.jpg,20,20
+mannequin,Noun,things,data/images/things_max/mannequin.jpg,12,12
+mantle,Noun,things,data/images/things_max/mantle.jpg,14,14
+map,Noun,things,data/images/things_max/map.jpg,14,14
+maple_syrup,food,things,data/images/things_max/maple_syrup.jpg,12,12
+marble,toy,things,data/images/things_max/marble.jpg,13,13
+margarita,drink,things,data/images/things_max/margarita.jpg,17,17
+marijuana,plant,things,data/images/things_max/marijuana.jpg,14,14
+marker,tool,things,data/images/things_max/marker.jpg,13,13
+marmalade,food,things,data/images/things_max/marmalade.jpg,12,12
+marshmallow,food,things,data/images/things_max/marshmallow.jpg,13,13
+mascara,Noun,things,data/images/things_max/mascara.jpg,14,14
+mashed_potato,food,things,data/images/things_max/mashed_potato.jpg,16,16
+mask,clothing,things,data/images/things_max/mask.jpg,15,15
+mast,Noun,things,data/images/things_max/mast.jpg,14,14
+mat,Noun,things,data/images/things_max/mat.jpg,14,14
+match,tool,things,data/images/things_max/match.jpg,13,13
+matchbox,container,things,data/images/things_max/matchbox.jpg,12,12
+mattress,furniture,things,data/images/things_max/mattress.jpg,14,14
+measuring_cup,"container, kitchen tool",things,data/images/things_max/measuring_cup.jpg,12,12
+meat,food,things,data/images/things_max/meat.jpg,13,13
+meat_grinder,#N/A,things,data/images/things_max/meat_grinder.jpg,12,12
+meatball,food,things,data/images/things_max/meatball.jpg,16,16
+meatloaf,food,things,data/images/things_max/meatloaf.jpg,12,12
+medal,Noun,things,data/images/things_max/medal.jpg,14,14
+meerkat,animal,things,data/images/things_max/meerkat.jpg,13,13
+megaphone,Noun,things,data/images/things_max/megaphone.jpg,12,12
+melon,"food, fruit",things,data/images/things_max/melon.jpg,15,15
+memory_stick,#N/A,things,data/images/things_max/memory_stick.jpg,16,16
+metal_detector,"electronic device, tool",things,data/images/things_max/metal_detector.jpg,12,12
+metronome,Noun,things,data/images/things_max/metronome.jpg,13,13
+microphone,electronic device,things,data/images/things_max/microphone.jpg,15,15
+microscope,Noun,things,data/images/things_max/microscope.jpg,14,14
+microwave,"electronic device, kitchen appliance",things,data/images/things_max/microwave.jpg,12,12
+milk,drink,things,data/images/things_max/milk.jpg,21,21
+milkshake,"drink, dessert",things,data/images/things_max/milkshake.jpg,19,19
+minivan,vehicle,things,data/images/things_max/minivan.jpg,19,19
+mint,"plant, food",things,data/images/things_max/mint.jpg,13,13
+mirror,home decor,things,data/images/things_max/mirror.jpg,12,12
+missile,weapon,things,data/images/things_max/missile.jpg,17,17
+mistletoe,Noun,things,data/images/things_max/mistletoe.jpg,17,17
+mitten,"clothing, clothing accessory",things,data/images/things_max/mitten.jpg,12,12
+mixer,"electronic device, kitchen appliance",things,data/images/things_max/mixer.jpg,12,12
+moccasin,clothing,things,data/images/things_max/moccasin.jpg,13,13
+modem,electronic device,things,data/images/things_max/modem.jpg,12,12
+mold1,container,things,data/images/things_max/mold1.jpg,13,13
+mold2,Noun,things,data/images/things_max/mold2.jpg,14,14
+mole,animal,things,data/images/things_max/mole.jpg,15,15
+money,Noun,things,data/images/things_max/money.jpg,16,16
+mongoose,animal,things,data/images/things_max/mongoose.jpg,12,12
+monkey,animal,things,data/images/things_max/monkey.jpg,19,19
+moose,animal,things,data/images/things_max/moose.jpg,12,12
+mop,tool,things,data/images/things_max/mop.jpg,13,13
+mosquito,"animal, insect",things,data/images/things_max/mosquito.jpg,19,19
+mosquito_net,#N/A,things,data/images/things_max/mosquito_net.jpg,13,13
+moss,plant,things,data/images/things_max/moss.jpg,12,12
+moth,"animal, insect",things,data/images/things_max/moth.jpg,14,14
+motherboard,Noun,things,data/images/things_max/motherboard.jpg,18,18
+motorcycle,vehicle,things,data/images/things_max/motorcycle.jpg,15,15
+mouse1,animal,things,data/images/things_max/mouse1.jpg,17,17
+mouse2,electronic device,things,data/images/things_max/mouse2.jpg,18,18
+mousepad,#N/A,things,data/images/things_max/mousepad.jpg,12,12
+mousetrap,Noun,things,data/images/things_max/mousetrap.jpg,18,18
+mousse,"food, dessert",things,data/images/things_max/mousse.jpg,12,12
+mouth,body part,things,data/images/things_max/mouth.jpg,12,12
+mouthpiece,sports equipment,things,data/images/things_max/mouthpiece.jpg,14,14
+mud,Noun,things,data/images/things_max/mud.jpg,13,13
+muff,"clothing, clothing accessory",things,data/images/things_max/muff.jpg,12,12
+muffin,"food, dessert",things,data/images/things_max/muffin.jpg,13,13
+mug,container,things,data/images/things_max/mug.jpg,14,14
+mulberry,"food, fruit",things,data/images/things_max/mulberry.jpg,15,15
+mulch,Noun,things,data/images/things_max/mulch.jpg,12,12
+mullet,Noun,things,data/images/things_max/mullet.jpg,12,12
+mushroom,food,things,data/images/things_max/mushroom.jpg,13,13
+music_box,"electronic device, toy",things,data/images/things_max/music_box.jpg,14,14
+mussel,"animal, food",things,data/images/things_max/mussel.jpg,14,14
+mustache,body part,things,data/images/things_max/mustache.jpg,13,13
+mustard,food,things,data/images/things_max/mustard.jpg,12,12
+nacho,food,things,data/images/things_max/nacho.jpg,14,14
+nail,Verb,things,data/images/things_max/nail.jpg,13,13
+nail_clippers,tool,things,data/images/things_max/nail_clippers.jpg,13,13
+nail_file,tool,things,data/images/things_max/nail_file.jpg,15,15
+nail_polish,#N/A,things,data/images/things_max/nail_polish.jpg,14,14
+napkin,Noun,things,data/images/things_max/napkin.jpg,13,13
+napkin_ring,#N/A,things,data/images/things_max/napkin_ring.jpg,16,16
+navel,body part,things,data/images/things_max/navel.jpg,12,12
+neck,body part,things,data/images/things_max/neck.jpg,12,12
+necklace,decoration,things,data/images/things_max/necklace.jpg,15,15
+needle,tool,things,data/images/things_max/needle.jpg,12,12
+nest,Noun,things,data/images/things_max/nest.jpg,13,13
+net,Noun,things,data/images/things_max/net.jpg,13,13
+nightshirt,clothing,things,data/images/things_max/nightshirt.jpg,13,13
+nightstand,"furniture, container",things,data/images/things_max/nightstand.jpg,14,14
+noisemaker,toy,things,data/images/things_max/noisemaker.jpg,12,12
+noodle,food,things,data/images/things_max/noodle.jpg,13,13
+noose,Noun,things,data/images/things_max/noose.jpg,14,14
+nose,body part,things,data/images/things_max/nose.jpg,13,13
+notebook,office supply,things,data/images/things_max/notebook.jpg,13,13
+notepad,office supply,things,data/images/things_max/notepad.jpg,12,12
+nut,food,things,data/images/things_max/nut.jpg,12,12
+nutcracker,"kitchen tool, tool",things,data/images/things_max/nutcracker.jpg,12,12
+oar,sports equipment,things,data/images/things_max/oar.jpg,13,13
+oatmeal,food,things,data/images/things_max/oatmeal.jpg,16,16
+octopus,"animal, food",things,data/images/things_max/octopus.jpg,12,12
+odometer,part of car,things,data/images/things_max/odometer.jpg,16,16
+oil,Noun,things,data/images/things_max/oil.jpg,17,17
+oilcan,container,things,data/images/things_max/oilcan.jpg,12,12
+okra,"food, vegetable",things,data/images/things_max/okra.jpg,15,15
+olive,food,things,data/images/things_max/olive.jpg,12,12
+omelet,food,things,data/images/things_max/omelet.jpg,18,18
+onion,"food, vegetable",things,data/images/things_max/onion.jpg,15,15
+orange,"food, fruit",things,data/images/things_max/orange.jpg,13,13
+orange_rind,#N/A,things,data/images/things_max/orange_rind.jpg,16,16
+orangutan,animal,things,data/images/things_max/orangutan.jpg,18,18
+orchid,plant,things,data/images/things_max/orchid.jpg,17,17
+organ,musical instrument,things,data/images/things_max/organ.jpg,12,12
+origami,Noun,things,data/images/things_max/origami.jpg,17,17
+ostrich,"animal, bird",things,data/images/things_max/ostrich.jpg,19,19
+otter,animal,things,data/images/things_max/otter.jpg,14,14
+ottoman,furniture,things,data/images/things_max/ottoman.jpg,15,15
+outfit,clothing,things,data/images/things_max/outfit.jpg,12,12
+outlet,Noun,things,data/images/things_max/outlet.jpg,12,12
+oven,kitchen appliance,things,data/images/things_max/oven.jpg,15,15
+overalls,clothing,things,data/images/things_max/overalls.jpg,12,12
+owl,"animal, bird",things,data/images/things_max/owl.jpg,27,27
+oyster,"animal, food",things,data/images/things_max/oyster.jpg,13,13
+pacifier,Noun,things,data/images/things_max/pacifier.jpg,14,14
+paddle,sports equipment,things,data/images/things_max/paddle.jpg,14,14
+padlock,Noun,things,data/images/things_max/padlock.jpg,14,14
+paint,Verb,things,data/images/things_max/paint.jpg,13,13
+paintbrush,tool,things,data/images/things_max/paintbrush.jpg,13,13
+painting,Noun,things,data/images/things_max/painting.jpg,12,12
+pajamas,clothing,things,data/images/things_max/pajamas.jpg,13,13
+palette,Noun,things,data/images/things_max/palette.jpg,12,12
+pallet,Noun,things,data/images/things_max/pallet.jpg,15,15
+palm_tree,plant,things,data/images/things_max/palm_tree.jpg,12,12
+pan,container,things,data/images/things_max/pan.jpg,17,17
+pancake,food,things,data/images/things_max/pancake.jpg,12,12
+panda,animal,things,data/images/things_max/panda.jpg,18,18
+panther,animal,things,data/images/things_max/panther.jpg,14,14
+panties,clothing,things,data/images/things_max/panties.jpg,12,12
+pants,clothing,things,data/images/things_max/pants.jpg,13,13
+pantsuit,clothing,things,data/images/things_max/pantsuit.jpg,12,12
+pantyhose,clothing,things,data/images/things_max/pantyhose.jpg,14,14
+papaya,"food, fruit",things,data/images/things_max/papaya.jpg,12,12
+paper,office supply,things,data/images/things_max/paper.jpg,14,14
+paper_bag,container,things,data/images/things_max/paper_bag.jpg,14,14
+paper_plate,#N/A,things,data/images/things_max/paper_plate.jpg,12,12
+paper_towel,#N/A,things,data/images/things_max/paper_towel.jpg,14,14
+paperclip,office supply,things,data/images/things_max/paperclip.jpg,13,13
+paperweight,office supply,things,data/images/things_max/paperweight.jpg,12,12
+parachute,Noun,things,data/images/things_max/parachute.jpg,13,13
+parfait,"food, dessert",things,data/images/things_max/parfait.jpg,21,21
+parking_meter,#N/A,things,data/images/things_max/parking_meter.jpg,22,22
+parrot,"animal, bird",things,data/images/things_max/parrot.jpg,28,28
+parsley,"plant, food, vegetable",things,data/images/things_max/parsley.jpg,13,13
+pasta,food,things,data/images/things_max/pasta.jpg,12,12
+pastry,"food, dessert",things,data/images/things_max/pastry.jpg,13,13
+patch,clothing accessory,things,data/images/things_max/patch.jpg,14,14
+patty,food,things,data/images/things_max/patty.jpg,13,13
+payphone,Noun,things,data/images/things_max/payphone.jpg,17,17
+pea,"food, vegetable",things,data/images/things_max/pea.jpg,14,14
+peach,"food, fruit",things,data/images/things_max/peach.jpg,14,14
+peacock,"animal, bird",things,data/images/things_max/peacock.jpg,12,12
+peanut,food,things,data/images/things_max/peanut.jpg,14,14
+peanut_butter,food,things,data/images/things_max/peanut_butter.jpg,13,13
+pear,"food, fruit",things,data/images/things_max/pear.jpg,13,13
+pearl,decoration,things,data/images/things_max/pearl.jpg,13,13
+pecan,food,things,data/images/things_max/pecan.jpg,12,12
+pedal,part of car,things,data/images/things_max/pedal.jpg,14,14
+pedometer,Noun,things,data/images/things_max/pedometer.jpg,12,12
+peeler,"kitchen tool, tool",things,data/images/things_max/peeler.jpg,13,13
+peg,Name,things,data/images/things_max/peg.jpg,14,14
+pelican,"animal, bird",things,data/images/things_max/pelican.jpg,13,13
+pen,"office supply, tool",things,data/images/things_max/pen.jpg,12,12
+pencil,"office supply, tool",things,data/images/things_max/pencil.jpg,12,12
+pencil_sharpener,"office supply, tool",things,data/images/things_max/pencil_sharpener.jpg,12,12
+pendulum,Noun,things,data/images/things_max/pendulum.jpg,13,13
+penguin,"animal, bird",things,data/images/things_max/penguin.jpg,24,24
+penholder,office supply,things,data/images/things_max/penholder.jpg,13,13
+penlight,"medical equipment, tool",things,data/images/things_max/penlight.jpg,13,13
+pennant,Noun,things,data/images/things_max/pennant.jpg,12,12
+pepper_mill,kitchen tool,things,data/images/things_max/pepper_mill.jpg,14,14
+pepper1,food,things,data/images/things_max/pepper1.jpg,15,15
+pepper2,"food, vegetable",things,data/images/things_max/pepper2.jpg,22,22
+peppermint,food,things,data/images/things_max/peppermint.jpg,12,12
+pepperoni,food,things,data/images/things_max/pepperoni.jpg,12,12
+perfume,Noun,things,data/images/things_max/perfume.jpg,12,12
+periscope,Noun,things,data/images/things_max/periscope.jpg,13,13
+pesto,food,things,data/images/things_max/pesto.jpg,17,17
+pet_food,food,things,data/images/things_max/pet_food.jpg,13,13
+petal,Noun,things,data/images/things_max/petal.jpg,12,12
+petri_dish,container,things,data/images/things_max/petri_dish.jpg,13,13
+pheasant,"animal, bird",things,data/images/things_max/pheasant.jpg,21,21
+phone,Noun,things,data/images/things_max/phone.jpg,13,13
+phone_booth,#N/A,things,data/images/things_max/phone_booth.jpg,14,14
+photo_booth,#N/A,things,data/images/things_max/photo_booth.jpg,15,15
+photograph,Noun,things,data/images/things_max/photograph.jpg,12,12
+piano,musical instrument,things,data/images/things_max/piano.jpg,13,13
+pickax,"weapon, tool",things,data/images/things_max/pickax.jpg,12,12
+pickle,food,things,data/images/things_max/pickle.jpg,16,16
+pie,"food, dessert",things,data/images/things_max/pie.jpg,19,19
+piecrust,food,things,data/images/things_max/piecrust.jpg,15,15
+pig,"animal, food",things,data/images/things_max/pig.jpg,12,12
+pigeon,"animal, bird",things,data/images/things_max/pigeon.jpg,12,12
+piggy_bank,container,things,data/images/things_max/piggy_bank.jpg,17,17
+piglet,animal,things,data/images/things_max/piglet.jpg,12,12
+pill,Noun,things,data/images/things_max/pill.jpg,12,12
+pillbox,"medical equipment, container",things,data/images/things_max/pillbox.jpg,15,15
+pillow,home decor,things,data/images/things_max/pillow.jpg,13,13
+pin,tool,things,data/images/things_max/pin.jpg,17,17
+pinball,electronic device,things,data/images/things_max/pinball.jpg,16,16
+pincushion,Noun,things,data/images/things_max/pincushion.jpg,12,12
+pine_needle,#N/A,things,data/images/things_max/pine_needle.jpg,15,15
+pine_tree,plant,things,data/images/things_max/pine_tree.jpg,15,15
+pineapple,"food, fruit",things,data/images/things_max/pineapple.jpg,12,12
+pinecone,home decor,things,data/images/things_max/pinecone.jpg,12,12
+ping-pong_table,sports equipment,things,data/images/things_max/ping-pong_table.jpg,13,13
+pinwheel,"home decor, toy",things,data/images/things_max/pinwheel.jpg,12,12
+pipe1,Noun,things,data/images/things_max/pipe1.jpg,14,14
+pipe2,Noun,things,data/images/things_max/pipe2.jpg,13,13
+pistachio,food,things,data/images/things_max/pistachio.jpg,12,12
+pita,food,things,data/images/things_max/pita.jpg,12,12
+pitcher,container,things,data/images/things_max/pitcher.jpg,15,15
+pitchfork,"weapon, tool",things,data/images/things_max/pitchfork.jpg,16,16
+pizza,food,things,data/images/things_max/pizza.jpg,15,15
+place_mat,home decor,things,data/images/things_max/place_mat.jpg,12,12
+plant,plant,things,data/images/things_max/plant.jpg,12,12
+plaster_cast,medical equipment,things,data/images/things_max/plaster_cast.jpg,13,13
+plastic_film,#N/A,things,data/images/things_max/plastic_film.jpg,13,13
+plate,Noun,things,data/images/things_max/plate.jpg,13,13
+platypus,animal,things,data/images/things_max/platypus.jpg,13,13
+playing_card,#N/A,things,data/images/things_max/playing_card.jpg,12,12
+playpen,Noun,things,data/images/things_max/playpen.jpg,14,14
+pliers,tool,things,data/images/things_max/pliers.jpg,15,15
+plug,Noun,things,data/images/things_max/plug.jpg,13,13
+plum,"food, fruit",things,data/images/things_max/plum.jpg,13,13
+plunger,tool,things,data/images/things_max/plunger.jpg,13,13
+pocket,container,things,data/images/things_max/pocket.jpg,16,16
+pocket_watch,#N/A,things,data/images/things_max/pocket_watch.jpg,16,16
+pocketknife,"weapon, tool",things,data/images/things_max/pocketknife.jpg,14,14
+pogo_stick,toy,things,data/images/things_max/pogo_stick.jpg,14,14
+poinsettia,plant,things,data/images/things_max/poinsettia.jpg,14,14
+poker,tool,things,data/images/things_max/poker.jpg,12,12
+polar_bear,animal,things,data/images/things_max/polar_bear.jpg,24,24
+polaroid,#N/A,things,data/images/things_max/polaroid.jpg,13,13
+pole,Noun,things,data/images/things_max/pole.jpg,13,13
+police_car,vehicle,things,data/images/things_max/police_car.jpg,30,30
+polisher,tool,things,data/images/things_max/polisher.jpg,14,14
+polo_shirt,clothing,things,data/images/things_max/polo_shirt.jpg,15,15
+polygraph,electronic device,things,data/images/things_max/polygraph.jpg,15,15
+pom-pom,decoration,things,data/images/things_max/pom-pom.jpg,12,12
+pomegranate,"food, fruit",things,data/images/things_max/pomegranate.jpg,12,12
+pony,animal,things,data/images/things_max/pony.jpg,13,13
+poodle,animal,things,data/images/things_max/poodle.jpg,20,20
+pool_table,furniture,things,data/images/things_max/pool_table.jpg,13,13
+popcorn,food,things,data/images/things_max/popcorn.jpg,15,15
+poppy,"plant, food",things,data/images/things_max/poppy.jpg,15,15
+popsicle,"food, dessert",things,data/images/things_max/popsicle.jpg,12,12
+porcupine,animal,things,data/images/things_max/porcupine.jpg,12,12
+porthole,Noun,things,data/images/things_max/porthole.jpg,13,13
+possum,animal,things,data/images/things_max/possum.jpg,12,12
+poster,home decor,things,data/images/things_max/poster.jpg,12,12
+pot,container,things,data/images/things_max/pot.jpg,16,16
+potato,"food, vegetable",things,data/images/things_max/potato.jpg,14,14
+potholder,#N/A,things,data/images/things_max/potholder.jpg,14,14
+pothole,Noun,things,data/images/things_max/pothole.jpg,14,14
+potpie,food,things,data/images/things_max/potpie.jpg,17,17
+potpourri,home decor,things,data/images/things_max/potpourri.jpg,13,13
+powder,Noun,things,data/images/things_max/powder.jpg,13,13
+power_line,#N/A,things,data/images/things_max/power_line.jpg,12,12
+praying_mantis,"animal, insect",things,data/images/things_max/praying_mantis.jpg,21,21
+pretzel,food,things,data/images/things_max/pretzel.jpg,13,13
+printer,electronic device,things,data/images/things_max/printer.jpg,13,13
+prism,Name,things,data/images/things_max/prism.jpg,12,12
+projector,electronic device,things,data/images/things_max/projector.jpg,15,15
+propeller,Noun,things,data/images/things_max/propeller.jpg,14,14
+prune,"food, fruit",things,data/images/things_max/prune.jpg,13,13
+puck,sports equipment,things,data/images/things_max/puck.jpg,12,12
+pudding,"food, dessert",things,data/images/things_max/pudding.jpg,12,12
+puddle,Noun,things,data/images/things_max/puddle.jpg,14,14
+puffin,"animal, bird",things,data/images/things_max/puffin.jpg,33,33
+pug,animal,things,data/images/things_max/pug.jpg,24,24
+pulley,tool,things,data/images/things_max/pulley.jpg,14,14
+pulpit,Noun,things,data/images/things_max/pulpit.jpg,15,15
+pump,Noun,things,data/images/things_max/pump.jpg,13,13
+pumpkin,"food, vegetable",things,data/images/things_max/pumpkin.jpg,21,21
+punch1,drink,things,data/images/things_max/punch1.jpg,14,14
+punch2,"office supply, tool",things,data/images/things_max/punch2.jpg,14,14
+punching_bag,sports equipment,things,data/images/things_max/punching_bag.jpg,12,12
+puppet,toy,things,data/images/things_max/puppet.jpg,14,14
+puppy,animal,things,data/images/things_max/puppy.jpg,14,14
+purse,"container, clothing accessory",things,data/images/things_max/purse.jpg,12,12
+quad,vehicle,things,data/images/things_max/quad.jpg,12,12
+quesadilla,food,things,data/images/things_max/quesadilla.jpg,24,24
+quiche,food,things,data/images/things_max/quiche.jpg,19,19
+quill,tool,things,data/images/things_max/quill.jpg,15,15
+quilt,Noun,things,data/images/things_max/quilt.jpg,13,13
+rabbit,"animal, food",things,data/images/things_max/rabbit.jpg,14,14
+raccoon,animal,things,data/images/things_max/raccoon.jpg,14,14
+racehorse,animal,things,data/images/things_max/racehorse.jpg,12,12
+rack1,furniture,things,data/images/things_max/rack1.jpg,13,13
+rack2,furniture,things,data/images/things_max/rack2.jpg,13,13
+racket,sports equipment,things,data/images/things_max/racket.jpg,14,14
+radar,Noun,things,data/images/things_max/radar.jpg,12,12
+radiator,Noun,things,data/images/things_max/radiator.jpg,13,13
+radio,electronic device,things,data/images/things_max/radio.jpg,15,15
+radish,"food, vegetable",things,data/images/things_max/radish.jpg,15,15
+raft,vehicle,things,data/images/things_max/raft.jpg,13,13
+rag,Noun,things,data/images/things_max/rag.jpg,12,12
+railing,Noun,things,data/images/things_max/railing.jpg,13,13
+rain_gauge,#N/A,things,data/images/things_max/rain_gauge.jpg,12,12
+raincoat,clothing,things,data/images/things_max/raincoat.jpg,13,13
+raisin,"food, fruit",things,data/images/things_max/raisin.jpg,14,14
+rake,tool,things,data/images/things_max/rake.jpg,14,14
+ram,animal,things,data/images/things_max/ram.jpg,14,14
+ramp,Noun,things,data/images/things_max/ramp.jpg,12,12
+raspberry,"food, fruit",things,data/images/things_max/raspberry.jpg,12,12
+rat,animal,things,data/images/things_max/rat.jpg,12,12
+ratchet,tool,things,data/images/things_max/ratchet.jpg,13,13
+rattle,toy,things,data/images/things_max/rattle.jpg,12,12
+rattlesnake,animal,things,data/images/things_max/rattlesnake.jpg,15,15
+ravioli,food,things,data/images/things_max/ravioli.jpg,17,17
+razor,tool,things,data/images/things_max/razor.jpg,12,12
+razor_blade,weapon,things,data/images/things_max/razor_blade.jpg,13,13
+ready_meal,food,things,data/images/things_max/ready_meal.jpg,12,12
+rearview_mirror,part of car,things,data/images/things_max/rearview_mirror.jpg,12,12
+recliner,furniture,things,data/images/things_max/recliner.jpg,12,12
+record,Noun,things,data/images/things_max/record.jpg,12,12
+record_player,electronic device,things,data/images/things_max/record_player.jpg,28,28
+recorder,musical instrument,things,data/images/things_max/recorder.jpg,17,17
+red_carpet,#N/A,things,data/images/things_max/red_carpet.jpg,14,14
+reel,Noun,things,data/images/things_max/reel.jpg,15,15
+refrigerator,"electronic device, kitchen appliance",things,data/images/things_max/refrigerator.jpg,12,12
+reindeer,animal,things,data/images/things_max/reindeer.jpg,20,20
+remote_control,electronic device,things,data/images/things_max/remote_control.jpg,13,13
+retainer,Noun,things,data/images/things_max/retainer.jpg,12,12
+revolver,weapon,things,data/images/things_max/revolver.jpg,12,12
+revolving_door,#N/A,things,data/images/things_max/revolving_door.jpg,20,20
+rhinoceros,animal,things,data/images/things_max/rhinoceros.jpg,12,12
+rhubarb,"food, vegetable",things,data/images/things_max/rhubarb.jpg,13,13
+ribbon,Noun,things,data/images/things_max/ribbon.jpg,15,15
+rice,food,things,data/images/things_max/rice.jpg,12,12
+rickshaw,vehicle,things,data/images/things_max/rickshaw.jpg,14,14
+rifle,weapon,things,data/images/things_max/rifle.jpg,12,12
+rim,part of car,things,data/images/things_max/rim.jpg,13,13
+ring,decoration,things,data/images/things_max/ring.jpg,12,12
+riser,Noun,things,data/images/things_max/riser.jpg,14,14
+road_sign,#N/A,things,data/images/things_max/road_sign.jpg,16,16
+roadsweeper,vehicle,things,data/images/things_max/roadsweeper.jpg,13,13
+robe,clothing,things,data/images/things_max/robe.jpg,12,12
+robot,toy,things,data/images/things_max/robot.jpg,15,15
+rock,Noun,things,data/images/things_max/rock.jpg,13,13
+rocket,vehicle,things,data/images/things_max/rocket.jpg,16,16
+rocking_chair,furniture,things,data/images/things_max/rocking_chair.jpg,13,13
+rocking_horse,toy,things,data/images/things_max/rocking_horse.jpg,13,13
+roll,food,things,data/images/things_max/roll.jpg,12,12
+roller,Noun,things,data/images/things_max/roller.jpg,13,13
+roller_coaster,#N/A,things,data/images/things_max/roller_coaster.jpg,17,17
+rollerblade,sports equipment,things,data/images/things_max/rollerblade.jpg,13,13
+rollerskate,sports equipment,things,data/images/things_max/rollerskate.jpg,13,13
+rolling_pin,"kitchen tool, tool",things,data/images/things_max/rolling_pin.jpg,12,12
+roof_rack,part of car,things,data/images/things_max/roof_rack.jpg,12,12
+rooster,"animal, bird",things,data/images/things_max/rooster.jpg,14,14
+root,Noun,things,data/images/things_max/root.jpg,13,13
+rope,tool,things,data/images/things_max/rope.jpg,16,16
+rosary,Noun,things,data/images/things_max/rosary.jpg,12,12
+rose,plant,things,data/images/things_max/rose.jpg,17,17
+roulette_wheel,#N/A,things,data/images/things_max/roulette_wheel.jpg,16,16
+router,electronic device,things,data/images/things_max/router.jpg,14,14
+rubber_band,office supply,things,data/images/things_max/rubber_band.jpg,12,12
+ruby,decoration,things,data/images/things_max/ruby.jpg,15,15
+rudder,Noun,things,data/images/things_max/rudder.jpg,13,13
+rug,home decor,things,data/images/things_max/rug.jpg,14,14
+ruler,tool,things,data/images/things_max/ruler.jpg,13,13
+rust,Noun,things,data/images/things_max/rust.jpg,13,13
+saddle,sports equipment,things,data/images/things_max/saddle.jpg,13,13
+safety_pin,#N/A,things,data/images/things_max/safety_pin.jpg,12,12
+saffron,food,things,data/images/things_max/saffron.jpg,14,14
+sail,Verb,things,data/images/things_max/sail.jpg,12,12
+sailboat,vehicle,things,data/images/things_max/sailboat.jpg,15,15
+salad,food,things,data/images/things_max/salad.jpg,17,17
+salami,food,things,data/images/things_max/salami.jpg,14,14
+saltshaker,container,things,data/images/things_max/saltshaker.jpg,16,16
+sand,Noun,things,data/images/things_max/sand.jpg,21,21
+sandal,clothing,things,data/images/things_max/sandal.jpg,15,15
+sandbag,container,things,data/images/things_max/sandbag.jpg,14,14
+sandbox,toy,things,data/images/things_max/sandbox.jpg,14,14
+sandcastle,Noun,things,data/images/things_max/sandcastle.jpg,12,12
+sandpaper,tool,things,data/images/things_max/sandpaper.jpg,12,12
+sandwich,food,things,data/images/things_max/sandwich.jpg,15,15
+sarcophagus,container,things,data/images/things_max/sarcophagus.jpg,12,12
+sardine,"animal, food",things,data/images/things_max/sardine.jpg,12,12
+satellite,Noun,things,data/images/things_max/satellite.jpg,12,12
+satellite_dish,#N/A,things,data/images/things_max/satellite_dish.jpg,12,12
+sauce,food,things,data/images/things_max/sauce.jpg,12,12
+saucer,Noun,things,data/images/things_max/saucer.jpg,12,12
+sauerkraut,food,things,data/images/things_max/sauerkraut.jpg,13,13
+sausage,food,things,data/images/things_max/sausage.jpg,16,16
+saw,tool,things,data/images/things_max/saw.jpg,13,13
+sawhorse,tool,things,data/images/things_max/sawhorse.jpg,12,12
+saxophone,musical instrument,things,data/images/things_max/saxophone.jpg,12,12
+scaffold,Noun,things,data/images/things_max/scaffold.jpg,13,13
+scaffolding,Noun,things,data/images/things_max/scaffolding.jpg,12,12
+scale,Noun,things,data/images/things_max/scale.jpg,12,12
+scallion,"food, vegetable",things,data/images/things_max/scallion.jpg,15,15
+scallop,"animal, food",things,data/images/things_max/scallop.jpg,15,15
+scalpel,"medical equipment, weapon, tool",things,data/images/things_max/scalpel.jpg,13,13
+scanner,electronic device,things,data/images/things_max/scanner.jpg,12,12
+scarecrow,home decor,things,data/images/things_max/scarecrow.jpg,12,12
+scarf,"clothing, clothing accessory",things,data/images/things_max/scarf.jpg,16,16
+school_bus,vehicle,things,data/images/things_max/school_bus.jpg,13,13
+scissors,"office supply, weapon, tool",things,data/images/things_max/scissors.jpg,14,14
+scone,food,things,data/images/things_max/scone.jpg,14,14
+scoop,"kitchen tool, tool",things,data/images/things_max/scoop.jpg,12,12
+scooter,"toy, vehicle",things,data/images/things_max/scooter.jpg,16,16
+scoreboard,sports equipment,things,data/images/things_max/scoreboard.jpg,13,13
+scorpion,animal,things,data/images/things_max/scorpion.jpg,13,13
+scrabble,Noun,things,data/images/things_max/scrabble.jpg,12,12
+scrambled_egg,food,things,data/images/things_max/scrambled_egg.jpg,12,12
+scraper,tool,things,data/images/things_max/scraper.jpg,12,12
+screen1,electronic device,things,data/images/things_max/screen1.jpg,14,14
+screen2,Noun,things,data/images/things_max/screen2.jpg,14,14
+screw,tool,things,data/images/things_max/screw.jpg,14,14
+screwdriver,tool,things,data/images/things_max/screwdriver.jpg,15,15
+scuba,sports equipment,things,data/images/things_max/scuba.jpg,13,13
+sea_urchin,animal,things,data/images/things_max/sea_urchin.jpg,27,27
+seafood,food,things,data/images/things_max/seafood.jpg,13,13
+seagull,"animal, bird",things,data/images/things_max/seagull.jpg,12,12
+seahorse,animal,things,data/images/things_max/seahorse.jpg,15,15
+seal,animal,things,data/images/things_max/seal.jpg,14,14
+seaplane,vehicle,things,data/images/things_max/seaplane.jpg,14,14
+seatbelt,part of car,things,data/images/things_max/seatbelt.jpg,13,13
+seaweed,"plant, food",things,data/images/things_max/seaweed.jpg,12,12
+seed,fruit,things,data/images/things_max/seed.jpg,14,14
+seesaw,toy,things,data/images/things_max/seesaw.jpg,13,13
+seismograph,Noun,things,data/images/things_max/seismograph.jpg,12,12
+sequin,decoration,things,data/images/things_max/sequin.jpg,13,13
+sewage,Noun,things,data/images/things_max/sewage.jpg,13,13
+sewing_kit,#N/A,things,data/images/things_max/sewing_kit.jpg,15,15
+sewing_machine,electronic device,things,data/images/things_max/sewing_machine.jpg,12,12
+shaker,container,things,data/images/things_max/shaker.jpg,12,12
+shark,animal,things,data/images/things_max/shark.jpg,17,17
+shaving_cream,#N/A,things,data/images/things_max/shaving_cream.jpg,12,12
+shawl,"clothing, clothing accessory",things,data/images/things_max/shawl.jpg,13,13
+shears,tool,things,data/images/things_max/shears.jpg,15,15
+sheath,Noun,things,data/images/things_max/sheath.jpg,12,12
+sheep,animal,things,data/images/things_max/sheep.jpg,12,12
+sheet,Noun,things,data/images/things_max/sheet.jpg,13,13
+shelf,furniture,things,data/images/things_max/shelf.jpg,12,12
+shell1,Noun,things,data/images/things_max/shell1.jpg,14,14
+shell2,Noun,things,data/images/things_max/shell2.jpg,16,16
+shell3,Noun,things,data/images/things_max/shell3.jpg,12,12
+shield,Noun,things,data/images/things_max/shield.jpg,12,12
+ship,vehicle,things,data/images/things_max/ship.jpg,13,13
+shirt,clothing,things,data/images/things_max/shirt.jpg,12,12
+shoe,clothing,things,data/images/things_max/shoe.jpg,18,18
+shoe_polish,#N/A,things,data/images/things_max/shoe_polish.jpg,12,12
+shoehorn,tool,things,data/images/things_max/shoehorn.jpg,12,12
+shoelace,Noun,things,data/images/things_max/shoelace.jpg,13,13
+shopping_basket,container,things,data/images/things_max/shopping_basket.jpg,12,12
+shopping_cart,container,things,data/images/things_max/shopping_cart.jpg,16,16
+shortbread,"food, dessert",things,data/images/things_max/shortbread.jpg,14,14
+shorts,clothing,things,data/images/things_max/shorts.jpg,14,14
+shoulder,body part,things,data/images/things_max/shoulder.jpg,12,12
+shovel,tool,things,data/images/things_max/shovel.jpg,12,12
+shower,Noun,things,data/images/things_max/shower.jpg,13,13
+shower_cap,clothing,things,data/images/things_max/shower_cap.jpg,12,12
+shower_curtain,#N/A,things,data/images/things_max/shower_curtain.jpg,19,19
+showerhead,Noun,things,data/images/things_max/showerhead.jpg,16,16
+shredder,electronic device,things,data/images/things_max/shredder.jpg,14,14
+shrimp,"animal, food",things,data/images/things_max/shrimp.jpg,12,12
+shuffleboard,Noun,things,data/images/things_max/shuffleboard.jpg,16,16
+shutter,Noun,things,data/images/things_max/shutter.jpg,15,15
+sickle,tool,things,data/images/things_max/sickle.jpg,13,13
+sidecar,Noun,things,data/images/things_max/sidecar.jpg,20,20
+sifter,kitchen tool,things,data/images/things_max/sifter.jpg,13,13
+silicone,Noun,things,data/images/things_max/silicone.jpg,13,13
+silverware,Noun,things,data/images/things_max/silverware.jpg,13,13
+sim_card,#N/A,things,data/images/things_max/sim_card.jpg,13,13
+sink,Noun,things,data/images/things_max/sink.jpg,15,15
+siren,Noun,things,data/images/things_max/siren.jpg,13,13
+skateboard,"toy, vehicle, sports equipment",things,data/images/things_max/skateboard.jpg,14,14
+skeleton,body part,things,data/images/things_max/skeleton.jpg,16,16
+skewer,kitchen tool,things,data/images/things_max/skewer.jpg,12,12
+ski,sports equipment,things,data/images/things_max/ski.jpg,13,13
+ski_boots,"sports equipment, clothing",things,data/images/things_max/ski_boots.jpg,13,13
+ski_lift,#N/A,things,data/images/things_max/ski_lift.jpg,16,16
+ski_pole,sports equipment,things,data/images/things_max/ski_pole.jpg,12,12
+skin,body part,things,data/images/things_max/skin.jpg,13,13
+skirt,clothing,things,data/images/things_max/skirt.jpg,15,15
+skull,body part,things,data/images/things_max/skull.jpg,13,13
+skunk,animal,things,data/images/things_max/skunk.jpg,14,14
+sled,"vehicle, sports equipment",things,data/images/things_max/sled.jpg,12,12
+sledgehammer,tool,things,data/images/things_max/sledgehammer.jpg,13,13
+sleeping_bag,container,things,data/images/things_max/sleeping_bag.jpg,12,12
+slicer,"electronic device, kitchen appliance",things,data/images/things_max/slicer.jpg,14,14
+slide,toy,things,data/images/things_max/slide.jpg,16,16
+slime,toy,things,data/images/things_max/slime.jpg,12,12
+sling,medical equipment,things,data/images/things_max/sling.jpg,12,12
+slingshot,"weapon, toy",things,data/images/things_max/slingshot.jpg,12,12
+slipper,clothing,things,data/images/things_max/slipper.jpg,12,12
+slot,Noun,things,data/images/things_max/slot.jpg,13,13
+slot_machine,electronic device,things,data/images/things_max/slot_machine.jpg,15,15
+sloth,animal,things,data/images/things_max/sloth.jpg,12,12
+slug,animal,things,data/images/things_max/slug.jpg,14,14
+smoke_alarm,electronic device,things,data/images/things_max/smoke_alarm.jpg,12,12
+smoothie,drink,things,data/images/things_max/smoothie.jpg,14,14
+snack,food,things,data/images/things_max/snack.jpg,14,14
+snail,animal,things,data/images/things_max/snail.jpg,19,19
+snake,animal,things,data/images/things_max/snake.jpg,16,16
+snorkel,sports equipment,things,data/images/things_max/snorkel.jpg,14,14
+snow,Noun,things,data/images/things_max/snow.jpg,12,12
+snowball,toy,things,data/images/things_max/snowball.jpg,12,12
+snowboard,sports equipment,things,data/images/things_max/snowboard.jpg,12,12
+snowman,Noun,things,data/images/things_max/snowman.jpg,12,12
+snowmobile,vehicle,things,data/images/things_max/snowmobile.jpg,12,12
+snowplow,vehicle,things,data/images/things_max/snowplow.jpg,12,12
+snowshoe,"sports equipment, clothing",things,data/images/things_max/snowshoe.jpg,13,13
+snowsuit,clothing,things,data/images/things_max/snowsuit.jpg,12,12
+soap,Noun,things,data/images/things_max/soap.jpg,12,12
+soccer_ball,sports equipment,things,data/images/things_max/soccer_ball.jpg,13,13
+sock,clothing,things,data/images/things_max/sock.jpg,13,13
+soda,drink,things,data/images/things_max/soda.jpg,12,12
+soda_fountain,#N/A,things,data/images/things_max/soda_fountain.jpg,13,13
+sofa_bed,furniture,things,data/images/things_max/sofa_bed.jpg,13,13
+solar_panel,#N/A,things,data/images/things_max/solar_panel.jpg,13,13
+soldering_iron,tool,things,data/images/things_max/soldering_iron.jpg,14,14
+sombrero,"clothing, clothing accessory",things,data/images/things_max/sombrero.jpg,12,12
+sonogram,Noun,things,data/images/things_max/sonogram.jpg,13,13
+sorbet,"food, dessert",things,data/images/things_max/sorbet.jpg,12,12
+souffle,"food, dessert",things,data/images/things_max/souffle.jpg,18,18
+soup,food,things,data/images/things_max/soup.jpg,12,12
+soy_sauce,food,things,data/images/things_max/soy_sauce.jpg,13,13
+space_shuttle,vehicle,things,data/images/things_max/space_shuttle.jpg,13,13
+spacesuit,clothing,things,data/images/things_max/spacesuit.jpg,12,12
+spaghetti,food,things,data/images/things_max/spaghetti.jpg,14,14
+spam,food,things,data/images/things_max/spam.jpg,12,12
+spareribs,food,things,data/images/things_max/spareribs.jpg,13,13
+spark_plug,part of car,things,data/images/things_max/spark_plug.jpg,12,12
+sparkler,Noun,things,data/images/things_max/sparkler.jpg,15,15
+spatula,"kitchen tool, tool",things,data/images/things_max/spatula.jpg,13,13
+speaker,Noun,things,data/images/things_max/speaker.jpg,19,19
+spear,weapon,things,data/images/things_max/spear.jpg,12,12
+speedboat,vehicle,things,data/images/things_max/speedboat.jpg,12,12
+speedometer,part of car,things,data/images/things_max/speedometer.jpg,12,12
+spider,animal,things,data/images/things_max/spider.jpg,12,12
+spider_web,#N/A,things,data/images/things_max/spider_web.jpg,15,15
+spinach,"plant, food, vegetable",things,data/images/things_max/spinach.jpg,13,13
+splinter,Noun,things,data/images/things_max/splinter.jpg,12,12
+sponge,Noun,things,data/images/things_max/sponge.jpg,14,14
+spool,Noun,things,data/images/things_max/spool.jpg,14,14
+spoon,"kitchen tool, tool",things,data/images/things_max/spoon.jpg,13,13
+spout,Verb,things,data/images/things_max/spout.jpg,14,14
+spring_roll,food,things,data/images/things_max/spring_roll.jpg,16,16
+springboard,sports equipment,things,data/images/things_max/springboard.jpg,13,13
+sprinkler,Noun,things,data/images/things_max/sprinkler.jpg,15,15
+sprouts,"food, vegetable",things,data/images/things_max/sprouts.jpg,12,12
+spur,Noun,things,data/images/things_max/spur.jpg,13,13
+squash,"food, vegetable",things,data/images/things_max/squash.jpg,13,13
+squeegee,tool,things,data/images/things_max/squeegee.jpg,12,12
+squid,"animal, food",things,data/images/things_max/squid.jpg,13,13
+squirrel,animal,things,data/images/things_max/squirrel.jpg,14,14
+squirt_gun,toy,things,data/images/things_max/squirt_gun.jpg,15,15
+stained_glass,home decor,things,data/images/things_max/stained_glass.jpg,12,12
+stair,Noun,things,data/images/things_max/stair.jpg,17,17
+stake,Noun,things,data/images/things_max/stake.jpg,13,13
+stalagmite,Noun,things,data/images/things_max/stalagmite.jpg,15,15
+stamp1,Noun,things,data/images/things_max/stamp1.jpg,13,13
+stamp2,tool,things,data/images/things_max/stamp2.jpg,12,12
+staple,office supply,things,data/images/things_max/staple.jpg,12,12
+staple_gun,tool,things,data/images/things_max/staple_gun.jpg,12,12
+stapler,office supply,things,data/images/things_max/stapler.jpg,12,12
+star_fruit,"food, fruit",things,data/images/things_max/star_fruit.jpg,13,13
+starfish,animal,things,data/images/things_max/starfish.jpg,15,15
+station_wagon,vehicle,things,data/images/things_max/station_wagon.jpg,13,13
+statue,home decor,things,data/images/things_max/statue.jpg,17,17
+steak,food,things,data/images/things_max/steak.jpg,15,15
+steamroller,vehicle,things,data/images/things_max/steamroller.jpg,13,13
+steering_wheel,part of car,things,data/images/things_max/steering_wheel.jpg,15,15
+stem,Noun,things,data/images/things_max/stem.jpg,12,12
+step_stool,furniture,things,data/images/things_max/step_stool.jpg,12,12
+stereo,electronic device,things,data/images/things_max/stereo.jpg,13,13
+stethoscope,medical equipment,things,data/images/things_max/stethoscope.jpg,12,12
+stew,food,things,data/images/things_max/stew.jpg,18,18
+stick,Verb,things,data/images/things_max/stick.jpg,13,13
+sticker,Noun,things,data/images/things_max/sticker.jpg,13,13
+stiletto,clothing,things,data/images/things_max/stiletto.jpg,15,15
+stilt,toy,things,data/images/things_max/stilt.jpg,14,14
+stingray,animal,things,data/images/things_max/stingray.jpg,13,13
+stir_fry,food,things,data/images/things_max/stir_fry.jpg,20,20
+stirrup,Noun,things,data/images/things_max/stirrup.jpg,12,12
+stockings,clothing,things,data/images/things_max/stockings.jpg,12,12
+stomach,body part,things,data/images/things_max/stomach.jpg,12,12
+stool,furniture,things,data/images/things_max/stool.jpg,12,12
+stopwatch,sports equipment,things,data/images/things_max/stopwatch.jpg,13,13
+stove1,kitchen appliance,things,data/images/things_max/stove1.jpg,13,13
+stove2,kitchen appliance,things,data/images/things_max/stove2.jpg,13,13
+straightjacket,clothing,things,data/images/things_max/straightjacket.jpg,12,12
+strainer,kitchen tool,things,data/images/things_max/strainer.jpg,14,14
+strap,Noun,things,data/images/things_max/strap.jpg,17,17
+straw1,Noun,things,data/images/things_max/straw1.jpg,13,13
+straw2,Noun,things,data/images/things_max/straw2.jpg,17,17
+strawberry,"food, fruit",things,data/images/things_max/strawberry.jpg,15,15
+streetlight,Noun,things,data/images/things_max/streetlight.jpg,16,16
+stretcher,medical equipment,things,data/images/things_max/stretcher.jpg,12,12
+string_cheese,food,things,data/images/things_max/string_cheese.jpg,13,13
+stroller,vehicle,things,data/images/things_max/stroller.jpg,16,16
+stuffing,food,things,data/images/things_max/stuffing.jpg,12,12
+stump,Noun,things,data/images/things_max/stump.jpg,14,14
+submarine,vehicle,things,data/images/things_max/submarine.jpg,14,14
+subway,vehicle,things,data/images/things_max/subway.jpg,13,13
+sugar_cube,food,things,data/images/things_max/sugar_cube.jpg,12,12
+suit,clothing,things,data/images/things_max/suit.jpg,15,15
+suitcase,container,things,data/images/things_max/suitcase.jpg,14,14
+sundae,"food, dessert",things,data/images/things_max/sundae.jpg,13,13
+sundial,Noun,things,data/images/things_max/sundial.jpg,14,14
+sunflower,plant,things,data/images/things_max/sunflower.jpg,18,18
+sunglasses,Noun,things,data/images/things_max/sunglasses.jpg,15,15
+sunroof,part of car,things,data/images/things_max/sunroof.jpg,12,12
+surfboard,sports equipment,things,data/images/things_max/surfboard.jpg,16,16
+sushi,food,things,data/images/things_max/sushi.jpg,18,18
+suspenders,"clothing, clothing accessory",things,data/images/things_max/suspenders.jpg,15,15
+swab,medical equipment,things,data/images/things_max/swab.jpg,16,16
+swan,"animal, bird",things,data/images/things_max/swan.jpg,14,14
+sweater,clothing,things,data/images/things_max/sweater.jpg,20,20
+sweatsuit,clothing,things,data/images/things_max/sweatsuit.jpg,12,12
+sweeper,tool,things,data/images/things_max/sweeper.jpg,14,14
+sweet_potato,"food, vegetable",things,data/images/things_max/sweet_potato.jpg,12,12
+swimming_pool,container,things,data/images/things_max/swimming_pool.jpg,20,20
+swimsuit,clothing,things,data/images/things_max/swimsuit.jpg,12,12
+swing,toy,things,data/images/things_max/swing.jpg,13,13
+swing_set,#N/A,things,data/images/things_max/swing_set.jpg,15,15
+switch,Verb,things,data/images/things_max/switch.jpg,14,14
+swizzle_stick,#N/A,things,data/images/things_max/swizzle_stick.jpg,13,13
+sword,weapon,things,data/images/things_max/sword.jpg,14,14
+swordfish,"animal, food",things,data/images/things_max/swordfish.jpg,12,12
+syringe,"medical equipment, container",things,data/images/things_max/syringe.jpg,14,14
+syrup,food,things,data/images/things_max/syrup.jpg,12,12
+t-shirt,clothing,things,data/images/things_max/t-shirt.jpg,15,15
+tab,Noun,things,data/images/things_max/tab.jpg,14,14
+table,furniture,things,data/images/things_max/table.jpg,12,12
+tablecloth,Noun,things,data/images/things_max/tablecloth.jpg,12,12
+tablet,electronic device,things,data/images/things_max/tablet.jpg,13,13
+tack,office supply,things,data/images/things_max/tack.jpg,13,13
+tackle,Verb,things,data/images/things_max/tackle.jpg,13,13
+taco,food,things,data/images/things_max/taco.jpg,13,13
+tadpole,animal,things,data/images/things_max/tadpole.jpg,12,12
+taffy,food,things,data/images/things_max/taffy.jpg,13,13
+tag,Noun,things,data/images/things_max/tag.jpg,13,13
+taillight,part of car,things,data/images/things_max/taillight.jpg,16,16
+tamale,food,things,data/images/things_max/tamale.jpg,16,16
+tambourine,musical instrument,things,data/images/things_max/tambourine.jpg,14,14
+tank1,weapon,things,data/images/things_max/tank1.jpg,17,17
+tank2,container,things,data/images/things_max/tank2.jpg,12,12
+tape,office supply,things,data/images/things_max/tape.jpg,13,13
+tape_measure,tool,things,data/images/things_max/tape_measure.jpg,14,14
+tape_recorder,electronic device,things,data/images/things_max/tape_recorder.jpg,12,12
+tapestry,home decor,things,data/images/things_max/tapestry.jpg,15,15
+tarantula,animal,things,data/images/things_max/tarantula.jpg,16,16
+target,sports equipment,things,data/images/things_max/target.jpg,14,14
+tarp,Noun,things,data/images/things_max/tarp.jpg,13,13
+tattoo,decoration,things,data/images/things_max/tattoo.jpg,19,19
+taxi,vehicle,things,data/images/things_max/taxi.jpg,17,17
+tea,drink,things,data/images/things_max/tea.jpg,15,15
+teabag,container,things,data/images/things_max/teabag.jpg,14,14
+teacup,container,things,data/images/things_max/teacup.jpg,13,13
+teapot,container,things,data/images/things_max/teapot.jpg,13,13
+teddy_bear,toy,things,data/images/things_max/teddy_bear.jpg,12,12
+tee,sports equipment,things,data/images/things_max/tee.jpg,12,12
+teepee,Noun,things,data/images/things_max/teepee.jpg,12,12
+telegraph,Noun,things,data/images/things_max/telegraph.jpg,13,13
+telephone_pole,#N/A,things,data/images/things_max/telephone_pole.jpg,12,12
+telescope,Noun,things,data/images/things_max/telescope.jpg,13,13
+television,electronic device,things,data/images/things_max/television.jpg,14,14
+tennis_ball,sports equipment,things,data/images/things_max/tennis_ball.jpg,17,17
+tent,container,things,data/images/things_max/tent.jpg,16,16
+terrarium,"home decor, container",things,data/images/things_max/terrarium.jpg,13,13
+test_tube,container,things,data/images/things_max/test_tube.jpg,17,17
+thermometer,Noun,things,data/images/things_max/thermometer.jpg,12,12
+thermos,container,things,data/images/things_max/thermos.jpg,17,17
+thermostat,Noun,things,data/images/things_max/thermostat.jpg,16,16
+thimble,container,things,data/images/things_max/thimble.jpg,12,12
+thorn,body part,things,data/images/things_max/thorn.jpg,17,17
+thread,Noun,things,data/images/things_max/thread.jpg,12,12
+throne,furniture,things,data/images/things_max/throne.jpg,3,3

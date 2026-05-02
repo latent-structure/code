@@ -1,0 +1,40 @@
+{
+  "lancaster": {
+    "directory": "data/anchors/lancaster",
+    "files": [],
+    "present": false
+  },
+  "simlex": {
+    "archive": "SimLex-999.zip",
+    "normalized_file": "data/anchors/simlex999/SimLex-999.txt",
+    "present": true
+  },
+  "things": {
+    "concept_rows": 1854,
+    "image_members": 26107,
+    "images_zip": "THINGS-database/osfstorage/images_THINGS.zip",
+    "metadata_tsv": "THINGS-database/osfstorage/02_object-level/_concepts-metadata_things.tsv",
+    "normalized_dir": "data/concepts/things",
+    "present": true,
+    "wordnet_id_csv": "THINGS-database/osfstorage/02_object-level/ids-words_single-tables/wordnet-id.csv"
+  },
+  "things_behavior": {
+    "matrix": "THINGS-behavior/osfstorage/data/spose_similarity.mat",
+    "ordering": "THINGS-behavior/osfstorage/variables/unique_id.txt",
+    "ordering_count": 1854,
+    "present": true
+  },
+  "thingsplus": {
+    "image_dirs": 0,
+    "images_dir": "THINGS-database/osfstorage/object_images_CC0",
+    "images_zip": "THINGS-database/osfstorage/images_THINGSplus-CC0.zip",
+    "present": true,
+    "trialwise_dir": "THINGS-database/osfstorage/02_object-level/trial-wise_tables",
+    "trialwise_tables": 3
+  },
+  "wordnet": {
+    "archive": "WordNet-3.0.tar.gz",
+    "normalized_dir": "data/lexical/wordnet",
+    "present": true
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "coarse_level_leader": "M_prompt_plus_matched_image",
+  "conditions": {
+    "coarse_category": {
+      "M_blank_image": {
+        "first_half_mean_rsa": 0.05810428159736653,
+        "last_half_mean_rsa": 0.03668153999216618,
+        "mean_rsa": 0.04682915443673476
+      },
+      "M_degraded_image": {
+        "first_half_mean_rsa": 0.08340206402427543,
+        "last_half_mean_rsa": 0.07340625642203948,
+        "mean_rsa": 0.07814111265467756
+      },
+      "M_matched_image": {
+        "first_half_mean_rsa": 0.08849912561558329,
+        "last_half_mean_rsa": 0.07936091442764306,
+        "mean_rsa": 0.0836895407798253
+      },
+      "M_mismatched_image": {
+        "first_half_mean_rsa": 0.06123986588402329,
+        "last_half_mean_rsa": 0.040794582141662164,
+        "mean_rsa": 0.05047919023014901
+      },
+      "M_prompt_plus_matched_image": {
+        "first_half_mean_rsa": 0.11107767802048547,
+        "last_half_mean_rsa": 0.07607483665314248,
+        "mean_rsa": 0.09265512993241021
+      },
+      "M_text_only": {
+        "first_half_mean_rsa": 0.0552568243071411,
+        "last_half_mean_rsa": 0.028937826042607757,
+        "mean_rsa": 0.04140471995738671
+      },
+      "T_neutral": {
+        "first_half_mean_rsa": 0.06604809467351791,
+        "last_half_mean_rsa": 0.06222390179084355,
+        "mean_rsa": 0.06402352197092562
+      },
+      "T_prompt_primary": {
+        "first_half_mean_rsa": 0.09109507211767895,
+        "last_half_mean_rsa": 0.07714239345964885,
+        "mean_rsa": 0.08370835988695713
+      }
+    },
+    "subtype": {
+      "M_blank_image": {
+        "first_half_mean_rsa": 0.03431070886299755,
+        "last_half_mean_rsa": 0.026798701808257597,
+        "mean_rsa": 0.0303570209394502
+      },
+      "M_degraded_image": {
+        "first_half_mean_rsa": 0.051766876826955195,
+        "last_half_mean_rsa": 0.05580778288200292,
+        "mean_rsa": 0.05389366948750663
+      },
+      "M_matched_image": {
+        "first_half_mean_rsa": 0.05704678082201754,
+        "last_half_mean_rsa": 0.05999004688978007,
+        "mean_rsa": 0.05859586822610308
+      },
+      "M_mismatched_image": {
+        "first_half_mean_rsa": 0.043769726456939564,
+        "last_half_mean_rsa": 0.03888178037132793,
+        "mean_rsa": 0.04119712325398608
+      },
+      "M_prompt_plus_matched_image": {
+        "first_half_mean_rsa": 0.07108931702285305,
+        "last_half_mean_rsa": 0.06140164435458071,
+        "mean_rsa": 0.06599054193428867
+      },
+      "M_text_only": {
+        "first_half_mean_rsa": 0.0364055552280371,
+        "last_half_mean_rsa": 0.0215810634026615,
+        "mean_rsa": 0.028603191109418363
+      },
+      "T_neutral": {
+        "first_half_mean_rsa": 0.03183648731727304,
+        "last_half_mean_rsa": 0.03684125323405602,
+        "mean_rsa": 0.03448606927321697
+      },
+      "T_prompt_primary": {
+        "first_half_mean_rsa": 0.047902408502705246,
+        "last_half_mean_rsa": 0.04359940922259056,
+        "mean_rsa": 0.045624350060291585
+      }
+    }
+  },
+  "cross_over_anchor": "M_prompt_plus_matched_image__vs__M_prompt_plus_matched_image",
+  "cross_over_present": false,
+  "subtype_level_leader": "M_prompt_plus_matched_image"
+}

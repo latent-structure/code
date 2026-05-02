@@ -1,0 +1,39 @@
+{
+  "control_concepts": [
+    "marble",
+    "emerald",
+    "amber",
+    "gold",
+    "ruby",
+    "sandpaper",
+    "moss"
+  ],
+  "images_per_concept_target": 5,
+  "reversal_concepts": [
+    "foam",
+    "perfume",
+    "coral",
+    "bark",
+    "bell",
+    "chime",
+    "coffee",
+    "fireworks"
+  ],
+  "selected_concepts": [
+    "foam",
+    "perfume",
+    "coral",
+    "bark",
+    "bell",
+    "chime",
+    "coffee",
+    "fireworks",
+    "marble",
+    "emerald",
+    "amber",
+    "gold",
+    "ruby",
+    "sandpaper",
+    "moss"
+  ]
+}

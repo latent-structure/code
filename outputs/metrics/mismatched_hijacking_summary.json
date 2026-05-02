@@ -1,0 +1,31 @@
+{
+  "margin": 0.01,
+  "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+  "modes": {
+    "all": {
+      "ambiguous_rate": 0.0010787486515641855,
+      "image_hijack_rate": 0.0005393743257820927,
+      "mean_source_minus_target_distance": 0.1399236837444182,
+      "median_source_minus_target_distance": 0.14057177305221558,
+      "num_pairs": 1854,
+      "text_retention_rate": 0.9983818770226537
+    },
+    "cross_subtype": {
+      "ambiguous_rate": 0.0,
+      "image_hijack_rate": 0.0,
+      "mean_source_minus_target_distance": 0.14695581944886407,
+      "median_source_minus_target_distance": 0.14776623249053955,
+      "num_pairs": 927,
+      "text_retention_rate": 1.0
+    },
+    "within_subtype": {
+      "ambiguous_rate": 0.002157497303128371,
+      "image_hijack_rate": 0.0010787486515641855,
+      "mean_source_minus_target_distance": 0.13289154803997233,
+      "median_source_minus_target_distance": 0.13354277610778809,
+      "num_pairs": 927,
+      "text_retention_rate": 0.9967637540453075
+    }
+  },
+  "num_pairs": 1854
+}

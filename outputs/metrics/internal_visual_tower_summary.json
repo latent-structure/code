@@ -1,0 +1,29 @@
+{
+  "anchor_name": "Qwen_internal_visual_tower",
+  "best_condition": "M_matched_image",
+  "blank_minus_matched": -0.07183777765390853,
+  "degraded_minus_matched": -0.0011803855141871433,
+  "embedding_metadata_source": [
+    "qwen",
+    "mistral",
+    "llama"
+  ],
+  "matched_minus_prompt": 0.06382864440933797,
+  "matched_minus_text_only": 0.07713896263863437,
+  "mismatched_minus_matched": -0.08371655464751716,
+  "num_concepts": 1854,
+  "prompt_plus_image_minus_matched": -0.0020550542158718488,
+  "scores": {
+    "M_blank_image": 0.13595491507744534,
+    "M_degraded_image": 0.20661230721716672,
+    "M_matched_image": 0.20779269273135387,
+    "M_mismatched_image": 0.1240761380838367,
+    "M_prompt_plus_matched_image": 0.20573763851548202,
+    "M_text_only": 0.1306537300927195,
+    "T_neutral": 0.15750210861591576,
+    "T_prompt_primary": 0.1439640483220159
+  },
+  "skipped_conditions": {},
+  "vision_model_id": "Qwen/Qwen3-VL-8B-Instruct",
+  "vision_source": "pooler_output"
+}

@@ -1,0 +1,93 @@
+{
+  "families": {
+    "llama": {
+      "contrasts": {
+        "CLIP_ViT_L_14:matched_minus_blank": -0.01825577857143236,
+        "CLIP_ViT_L_14:matched_minus_mismatched": -0.007130059968133054,
+        "CLIP_ViT_L_14:matched_minus_prompt": -0.03430493866745342,
+        "CLIP_ViT_L_14:prompt_image_minus_matched": 0.016537342463634044,
+        "DINOv2:matched_minus_blank": 0.02546992904972302,
+        "DINOv2:matched_minus_mismatched": 0.03391862302353503,
+        "DINOv2:matched_minus_prompt": 0.00631173938572982,
+        "DINOv2:prompt_image_minus_matched": -0.002736031395549385,
+        "SigLIP2:matched_minus_blank": 0.03461584285207592,
+        "SigLIP2:matched_minus_mismatched": 0.07740615048309017,
+        "SigLIP2:matched_minus_prompt": 0.010843323049309461,
+        "SigLIP2:prompt_image_minus_matched": 0.017953747462607833,
+        "THINGS:matched_minus_blank": 0.05001353360414493,
+        "THINGS:matched_minus_mismatched": 0.06000074056601512,
+        "THINGS:matched_minus_prompt": 0.0033487852901765702,
+        "THINGS:prompt_image_minus_matched": -0.010080650642579875,
+        "controlled_THINGS:matched_minus_blank": 0.044718682017159506,
+        "controlled_THINGS:matched_minus_mismatched": 0.05568175478455195,
+        "controlled_THINGS:matched_minus_prompt": 0.004100222379501667,
+        "controlled_THINGS:prompt_image_minus_matched": -0.007347922571457666,
+        "lancaster_perceptual:matched_minus_blank": 0.03520635498099148,
+        "lancaster_perceptual:matched_minus_mismatched": 0.04382289052787483,
+        "lancaster_perceptual:matched_minus_prompt": -0.001093679905769307,
+        "lancaster_perceptual:prompt_image_minus_matched": -0.003779729831258849
+      },
+      "status": "ok"
+    },
+    "mistral": {
+      "contrasts": {
+        "CLIP_ViT_L_14:matched_minus_blank": 0.09579763856679938,
+        "CLIP_ViT_L_14:matched_minus_mismatched": 0.06465047808139918,
+        "CLIP_ViT_L_14:matched_minus_prompt": 0.07649035255000639,
+        "CLIP_ViT_L_14:prompt_image_minus_matched": 0.0010630987756565513,
+        "DINOv2:matched_minus_blank": 0.06674946660115709,
+        "DINOv2:matched_minus_mismatched": 0.05545366746572991,
+        "DINOv2:matched_minus_prompt": 0.0562627667113034,
+        "DINOv2:prompt_image_minus_matched": -0.0009175801672078876,
+        "SigLIP2:matched_minus_blank": 0.12106830140633268,
+        "SigLIP2:matched_minus_mismatched": 0.11127979863973839,
+        "SigLIP2:matched_minus_prompt": 0.08211419258511599,
+        "SigLIP2:prompt_image_minus_matched": -0.009215322959960637,
+        "THINGS:matched_minus_blank": 0.14972726204934816,
+        "THINGS:matched_minus_mismatched": 0.1194714955786533,
+        "THINGS:matched_minus_prompt": 0.11382278656451841,
+        "THINGS:prompt_image_minus_matched": 0.0025667030907026156,
+        "controlled_THINGS:matched_minus_blank": 0.13936814048162735,
+        "controlled_THINGS:matched_minus_mismatched": 0.11510647791968076,
+        "controlled_THINGS:matched_minus_prompt": 0.108390084218495,
+        "controlled_THINGS:prompt_image_minus_matched": 0.001176640315412314,
+        "lancaster_perceptual:matched_minus_blank": 0.10029283314859225,
+        "lancaster_perceptual:matched_minus_mismatched": 0.07029079043340214,
+        "lancaster_perceptual:matched_minus_prompt": 0.06214134715675726,
+        "lancaster_perceptual:prompt_image_minus_matched": 0.05006827845647252
+      },
+      "status": "ok"
+    },
+    "qwen": {
+      "contrasts": {
+        "CLIP_ViT_L_14:matched_minus_blank": 0.05271882473102235,
+        "CLIP_ViT_L_14:matched_minus_mismatched": 0.03240068138187027,
+        "CLIP_ViT_L_14:matched_minus_prompt": 0.08218277968850939,
+        "CLIP_ViT_L_14:prompt_image_minus_matched": 0.006423505988650879,
+        "DINOv2:matched_minus_blank": 0.048512307193004235,
+        "DINOv2:matched_minus_mismatched": 0.0415518378564244,
+        "DINOv2:matched_minus_prompt": 0.04025072903044504,
+        "DINOv2:prompt_image_minus_matched": 0.003091444384140052,
+        "SigLIP2:matched_minus_blank": 0.07175664653731628,
+        "SigLIP2:matched_minus_mismatched": 0.07686115772909763,
+        "SigLIP2:matched_minus_prompt": 0.05106591013868009,
+        "SigLIP2:prompt_image_minus_matched": -0.0058258915641303255,
+        "THINGS:matched_minus_blank": 0.10142368178865574,
+        "THINGS:matched_minus_mismatched": 0.07585215908796997,
+        "THINGS:matched_minus_prompt": 0.08097454038811902,
+        "THINGS:prompt_image_minus_matched": 0.005478081112578692,
+        "controlled_THINGS:matched_minus_blank": 0.09489495334085371,
+        "controlled_THINGS:matched_minus_mismatched": 0.07117066256400775,
+        "controlled_THINGS:matched_minus_prompt": 0.07842408242756416,
+        "controlled_THINGS:prompt_image_minus_matched": 0.004707723691317833,
+        "lancaster_perceptual:matched_minus_blank": 0.09684857455129797,
+        "lancaster_perceptual:matched_minus_mismatched": 0.06280954830587951,
+        "lancaster_perceptual:matched_minus_prompt": 0.11004450993607087,
+        "lancaster_perceptual:prompt_image_minus_matched": 0.024678775684067705
+      },
+      "status": "ok"
+    }
+  },
+  "num_concepts": 1854,
+  "num_lancaster_concepts": 1519
+}

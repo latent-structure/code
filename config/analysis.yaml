@@ -1,0 +1,69 @@
+project:
+  name: prompting_is_not_grounding
+  root: .
+
+runtime:
+  default_precision: bf16
+  fallback_precision: fp16
+  debug_precision: fp32
+  hf_cache_dir: .cache/hf
+  pilot_python: python
+
+execution:
+  default_concept_subset: data/concepts/things_max_1854_concepts.csv
+  sensory_backbone_text_model: Qwen/Qwen3.5-9B
+  sensory_backbone_multimodal_model: Qwen/Qwen3-VL-8B-Instruct
+  primary_anchor_model: google/siglip2-so400m-patch16-384
+  primary_prompt_condition: T_prompt_primary
+  text_neutral_condition: T_neutral
+  text_paraphrase_conditions: [T_prompt_para_1, T_prompt_para_2]
+  multimodal_conditions: [M_text_only, M_prompt_only, M_matched_image, M_prompt_plus_matched_image, M_degraded_image, M_mismatched_image, M_blank_image]
+  blank_image_path: data/images/controls/blank_gray.png
+  anchor_layer_band: mid_to_late
+  abstract_human_anchor_optional: true
+  core_backbone_required: true
+
+budgets:
+  sensory_candidates_initial: 1854
+  sensory_retained_target: 1854
+  abstract_candidates_initial: 0
+  abstract_retained_target: 0
+  bootstrap_resamples: 1000
+
+domain_targets:
+  appearance_color: 15
+  texture_material: 15
+  sound_linked: 15
+  smell_taste_proxy: 15
+
+image_policy:
+  matched_dir: ./data/images/sensory
+  degraded_dir: ./data/images/sensory/degraded
+  allowed_extensions: [".png", ".jpg", ".jpeg", ".webp"]
+  prototype_images_per_concept: 3
+  downsample_linear_fraction: 0.25
+  grayscale: true
+  gaussian_blur_radius: 2
+
+analysis:
+  ci_level: 0.95
+  mid_to_late_fraction: 0.5
+  baseline_grounded_fraction_gate: 0.8
+  baseline_contiguous_layers_gate: 3
+  require_full_ready_sensory: false
+  cross_family_families:
+    - family_name: qwen
+      family_role: baseline
+      mode: existing_main
+      text_model: Qwen/Qwen3.5-9B
+      multimodal_model: Qwen/Qwen3-VL-8B-Instruct
+    - family_name: mistral
+      family_role: replication
+      mode: extract
+      text_model: mistralai/Mistral-Small-24B-Instruct-2501
+      multimodal_model: mistralai/Mistral-Small-3.1-24B-Instruct-2503
+    - family_name: llama
+      family_role: replication
+      mode: extract
+      text_model: meta-llama/Llama-3.1-8B-Instruct
+      multimodal_model: meta-llama/Llama-3.2-11B-Vision-Instruct
