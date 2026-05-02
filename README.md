@@ -105,17 +105,3 @@ the reproduction path.
 | imSitu | Event concept generalization |
 
 See `DATA_AVAILABILITY.md` for download instructions and licensing.
-
-## Citation
-
-If you use this repository or build on these results, please cite the manuscript:
-
-```bibtex
-@article{,
-  title   = {Prompting Is Not Grounding: The Geometry of Concept Space
-             in Vision-Language Models},
-  author  = {},
-  year    = {2026},
-  note    = {Submitted to NeurIPS 2026}
-}
-```
